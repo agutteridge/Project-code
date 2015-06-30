@@ -49,15 +49,14 @@ def unique_addresses(author_list):
 def remove_email(string):
     return re.sub('[\s]+[\S]+[@][\w.-]+', '', string)
 
-# returns list of authors, with list of Affiliation addresses
-def 
-
+###############################
 # other ways to structure data!
 # institution with all authors (out of scope?)
 # paper AND author AND year
 # slider for year range then markers appear for author according to search query?
 # could be topic (e.g. where/who was writing about DIPG in the last year?)
 # could be person (where did papers by Alice Gutteridge originate from in 2014?)
+###############################
 
 # main method
 # calls BioPython functions esearch and efetch
