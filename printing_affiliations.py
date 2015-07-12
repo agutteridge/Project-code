@@ -36,31 +36,29 @@ def unique_addresses(author_list):
             individual_addresses = place['Affiliation'].split(';')
             for f in individual_addresses:
                 # exclude all non-alphanumeric chars
-                alphanumeric = re.sub('[\W]', '', f) 
-                if alphanumeric not in alphanumeric_addresses:
+                alphanumeric = re.sub('[\W]', '', f)
+                if alphanumeric != '' and alphanumeric not in alphanumeric_addresses:
                     formatted_address = _format_address(f)
                     result.add(formatted_address)
                     alphanumeric_addresses.add(alphanumeric)
     return result
 
-# some addresses contain emails, these are removed
-# before used for Google Places API
+# Email addresses are removed to improve success of geocoding using Google Places API
 def _remove_email(address):
     # regex for removing nonwhitespace@[alphanum-.]+
     result = re.sub('[\S]+[@][\w.-]+', '', address)
-    word_list =  ['email', 'address', 'electronic']
-    insensitive_hippo = re.compile(re.escape('hippo'), re.IGNORECASE)
-    for w in word_list:
-        result = result.replace(w, '')
-    # make sure comma is also deleted otherwise last thing will be just crap
+    reg = re.compile('(email|address|electronic)', re.IGNORECASE)
+    result = reg.sub('', result)
+    # TODO: make sure comma is also deleted otherwise last thing will be just crap
     return result
 
-# removes first address lines for addresses over 4 parts long (comma separated)
+# Removes first address lines for addresses over 4 parts long (comma separated)
 def _format_address(address):
-    address_lines = address.split(',')
-    if len(address_lines) > 4:
-        address_lines = address_lines[-4:] # last 4 elements of the list
-    result = _remove_email(','.join(address_lines))
+    without_email = _remove_email(address)
+    address_lines = without_email.split(',')
+    if len(address_lines) > 2:
+        address_lines = address_lines[-2:] # last 2 elements of the list
+    result = (','.join(address_lines))
     return result
 
 ###############################

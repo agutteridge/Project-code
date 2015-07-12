@@ -2,7 +2,6 @@ from flask import Flask, render_template, request
 import urllib, sys, json, printing_affiliations, config
 
 app = Flask(__name__, template_folder=".")
-# api_key = sys.argv[1]
 
 def get_location(address):
     query_string = {'query': address}
@@ -17,16 +16,20 @@ def get_query():
 @app.route("/")
 def mapview():
     query = 'glioblastoma stem cells'
+    # TODO: don't just pop an address!
     random_address = printing_affiliations.get_addresses(query).pop()
-    # print(random_address)
-    # # getting location
-    # places_bytes = get_location(random_address)
-    # places_str = places_bytes.decode('UTF-8')
-    # # print(places_str)
-    # places_dict = json.loads(places_str)
+    print(random_address)
+    places_bytes = get_location(random_address)
+    places_str = places_bytes.decode('UTF-8')
+    places_dict = json.loads(places_str)
 
-    # return render_template('maps_eg.html', places=places_dict)
-    return random_address
+    if (places_dict['results']): 
+        print(places_dict['results'])
+        return render_template('maps_eg.html', places=places_dict)
+    else:
+        # london as default
+        return render_template('maps_eg.html', 
+            places={"results" : [{"geometry" : {"location" : {"lat" : 51.508742, "lng" : -0.120850}}}]})
 
 if __name__ == "__main__":
     app.run(debug=True)

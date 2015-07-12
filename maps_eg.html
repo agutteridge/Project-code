@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-            {{"decoupled-map"|googlemap_js(37.4419, -122.1419, markers=[(37.4419, -122.1419)])}}
-            {{mymap.js}}
-    </head>
-    <body>
-        <h1>Flask Google Maps Example</h1>
-        {{mymap.html}}
-    </body>
+<html>
+  <head>
+    <style type="text/css">
+      html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+    </style>
+    <script src="http://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var lat_result = {{places.results[0].geometry.location.lat}};
+      var lng_result = {{places.results[0].geometry.location.lng}};
+
+      function initialize() {
+        var mapOptions = {
+          center: { lat: lat_result, lng: lng_result},
+          zoom: 2
+        };
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+          mapOptions);
+        new google.maps.Marker({position: {lat: lat_result, lng: lng_result}, 
+          map: map});
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+  <form>
+  <input type="button" onclick="promptMessage()" value="give science plx" />
+  </form>
+<div id="map-canvas"></div>
+  </body>
 </html>
