@@ -27,8 +27,7 @@ def fetch_details(id_list):
 # addresses with minor punctuation differences
 def unique_addresses(author_list):
     alphanumeric_addresses = set() # addresses with alphanumeric chars only
-    result = set()
-    print(author_list[0])
+    result = list()
 
     for author in author_list:
         for place in author['AffiliationInfo']:
@@ -40,8 +39,10 @@ def unique_addresses(author_list):
                 # exclude all non-alphanumeric chars, upper case
                 alphanumeric = re.sub('[\W]', '', formatted_address).upper()
                 if alphanumeric != '' and alphanumeric not in alphanumeric_addresses:
-                    result.add(formatted_address)
+                    result.append(formatted_address)
+                    print("New address: " + formatted_address)
                     alphanumeric_addresses.add(alphanumeric)
+    print("List of unique addresses: " + str(result))
     return result
 
 # Email addresses are removed to improve success of geocoding using Google Places API
@@ -77,19 +78,27 @@ def get_addresses(query):
     id_list = results['IdList']
     webenv = results['WebEnv'] # ID for session
     query_key = results['QueryKey'] # ID for query within session
-    result_set = set()
+    result_list = []
 
-    if not id_list: # if no results are returned
+    if not id_list: # if no papers are found
         print("no results!")
     else:
         papers = fetch_details(id_list)
-        # creates tuples of papers with 1-indexed ints
-        for i, paper in enumerate(papers, start=1):
+        print(str(len(papers)) + " papers found.")
+        for paper in papers:
             author_list = paper['MedlineCitation']['Article']['AuthorList']
-            result_set = result_set.union(unique_addresses(author_list))
+            result_list = result_list + (unique_addresses(author_list))
 
-    return result_set        
+    print("list of addresses per paper: " + str(result_list))
+    return result_list
 
+
+# write function to make python dict (and therefore JSON) 
+# leaner, easier to understand?
+# def reorganise(dict):
+
+
+# testing..
 if __name__ == "__main__":
     print(get_addresses('glioblastoma stem cells'))
 

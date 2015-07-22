@@ -8,14 +8,19 @@ def get_location(address):
     return result.read()
 
 def get_data(query):
-	# instead of pop..?
-	random_address = citations.get_addresses(query).pop()
-    places_bytes = get_location(random_address)
-    places_str = places_bytes.decode('UTF-8')
-    places_dict = json.loads(places_str)
+    addresses = citations.get_addresses(query)
 
+    successful_address = 'none'
+    for i in range(0, len(addresses)):
+        if addresses[i]:
+            successful_address = addresses[i]
+            break
+
+    print("address to be geocoded: " + successful_address)
+    places_bytes = get_location(successful_address)
+    places_str = places_bytes.decode('UTF-8')
     # parse into long and lat only
-    return places_dict
+    return places_str
 
 # write a function for returning all useful data, parsed nicely as JSON
 # relevant fields:
