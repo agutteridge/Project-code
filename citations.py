@@ -1,10 +1,10 @@
-import re, config, json
+import re, config, json, datetime
 from Bio import Entrez
 from pprint import pprint
 
 Entrez.email = config.email
 
-# storing sample file as a string
+# loading JSON file
 eFetch_sample_JSON = ''
 with open('eFetch_sample.json') as data_file:    
     eFetch_sample_JSON = json.load(data_file)
@@ -36,15 +36,27 @@ def fetch_details(id_list):
 # I want to start logging how many papers are found, how many unique addresses,
 # how many hits on google places, how many hits on MetaMap
 def log():
+    return 'no logging yet'
 
+# Creates a batch ID for .txt files to be used as input for MetaMap
+def create_batch_id():
+    # removes last 4 digits so ms is 2 s.f.
+    return datetime.datetime.now().strftime("%Y%m%d_%H%M%S%f")[:-4] 
 
 def first_abstract(results):
-    file 
+    batch_id = create_batch_id()
+    batch = open(batch_id + '.txt', 'a+') # default: unbuffered
+    for i in range(0, len(results)):
+        ASCII_title = results[i]['MedlineCitation']['Article']['ArticleTitle'].encode('ascii', 
+            errors='ignore').decode('UTF-8')
+        ASCII_abstract = results[i]['MedlineCitation']['Article']['Abstract']['AbstractText'][0].encode('ascii', 
+            errors='ignore').decode('UTF-8')
+        batch.write('UI  - ' + batch_id + str(i) + '\n' + 
+            'TI  - ' + ASCII_title + '\n' +
+            'AB  - ' + ASCII_abstract + 
+            '\n\n')
 
-    for r in results:
-
-
-    print(results[0]['MedlineCitation']['Article']['Abstract']['AbstractText'][0])
+    print('done!')
 
 # returns a set of strings, each with a different address
 # the set of strings with alphanumeric chars only prevents duplication of
