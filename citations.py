@@ -1,6 +1,17 @@
-import re
+import re, config, json
 from Bio import Entrez
-Entrez.email = 'alicegutteridge@gmail.com'
+from pprint import pprint
+
+Entrez.email = config.email
+
+# storing sample file as a string
+eFetch_sample_JSON = ''
+with open('eFetch_sample.json') as data_file:    
+    eFetch_sample_JSON = json.load(data_file)
+
+fetch_results = []
+webenv = ''
+query_key = ''
 
 def search(query):
     handle = Entrez.esearch(db='pubmed', 
@@ -16,11 +27,24 @@ def fetch_details(id_list):
 	ids = ','.join(id_list)
 	handle = Entrez.efetch(db='pubmed',
 	                       retmode='xml',
-	                       id=ids
-                           #webenv and query cause NameError?
-                           )
+	                       id=ids,
+                           webenv=webenv,
+                           query_key=query_key)
 	results = Entrez.read(handle)
 	return results	
+
+# I want to start logging how many papers are found, how many unique addresses,
+# how many hits on google places, how many hits on MetaMap
+def log():
+
+
+def first_abstract(results):
+    file 
+
+    for r in results:
+
+
+    print(results[0]['MedlineCitation']['Article']['Abstract']['AbstractText'][0])
 
 # returns a set of strings, each with a different address
 # the set of strings with alphanumeric chars only prevents duplication of
@@ -72,24 +96,37 @@ def _format_address(address):
 # could be person (where did papers by Alice Gutteridge originate from in 2014?)
 ###############################
 
-# calls BioPython functions esearch and efetch
-def get_addresses(query):
-    results = search(query)
-    id_list = results['IdList']
-    webenv = results['WebEnv'] # ID for session
-    query_key = results['QueryKey'] # ID for query within session
-    result_list = []
+# separate function that can be called 
+def _start_search(query):
+    search_results = search(query)
+    id_list = search_results['IdList']
+    webenv = search_results['WebEnv'] # ID for session
+    query_key = search_results['QueryKey'] # ID for query within session
 
     if not id_list: # if no papers are found
         print("no results!")
+        return []
     else:
         papers = fetch_details(id_list)
-        print(str(len(papers)) + " papers found.")
+        # make results global for testing purposes
+        # fetch_results = papers
+        return papers
+
+# calls BioPython functions esearch and efetch
+def get_addresses(query):
+    papers = _start_search(query)
+    result_list = []
+
+    if not papers: # if no papers are found
+        # prompt ask for another query
+        print("no results!")
+    else:
+        print("number of papers: " + str(len(papers)))
         for paper in papers:
             author_list = paper['MedlineCitation']['Article']['AuthorList']
             result_list = result_list + (unique_addresses(author_list))
 
-    print("list of addresses per paper: " + str(result_list))
+        first_abstract(result_list)
     return result_list
 
 
@@ -100,5 +137,5 @@ def get_addresses(query):
 
 # testing..
 if __name__ == "__main__":
-    print(get_addresses('glioblastoma stem cells'))
-
+    # _start_search('her2 digital pcr breast cancer')
+    first_abstract(eFetch_sample_JSON)
