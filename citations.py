@@ -1,6 +1,5 @@
-import re, config, json, datetime
+import re, config, json
 from Bio import Entrez
-from pprint import pprint
 
 Entrez.email = config.email
 
@@ -24,27 +23,22 @@ def search(query):
     return results
 
 def fetch_details(id_list):
-	ids = ','.join(id_list)
-	handle = Entrez.efetch(db='pubmed',
-	                       retmode='xml',
-	                       id=ids,
+    ids = ','.join(id_list)
+    handle = Entrez.efetch(db='pubmed',
+                           retmode='xml',
+                           id=ids,
                            webenv=webenv,
                            query_key=query_key)
-	results = Entrez.read(handle)
-	return results	
+    results = Entrez.read(handle)
+    return results  
 
 # I want to start logging how many papers are found, how many unique addresses,
 # how many hits on google places, how many hits on MetaMap
 def log():
     return 'no logging yet'
 
-# Creates a batch ID for .txt files to be used as input for MetaMap
-def create_batch_id():
-    # removes last 4 digits so ms is 2 s.f.
-    return datetime.datetime.now().strftime("%Y%m%d_%H%M%S%f")[:-4] 
-
-def call_MTI(results):
-    metamap.main(results)    
+def call_metamap(results):
+    metamap.run(results)    
 
 # returns a set of strings, each with a different address
 # the set of strings with alphanumeric chars only prevents duplication of
@@ -137,5 +131,4 @@ def get_addresses(query):
 
 # testing..
 if __name__ == "__main__":
-    # _start_search('her2 digital pcr breast cancer')
-    first_abstract(eFetch_sample_JSON)
+    print("nothing set up")
