@@ -3,11 +3,6 @@ from Bio import Entrez
 
 Entrez.email = config.email
 
-# loading JSON file
-eFetch_sample_JSON = ''
-with open('eFetch_sample.json') as data_file:    
-    eFetch_sample_JSON = json.load(data_file)
-
 fetch_results = []
 webenv = ''
 query_key = ''
@@ -36,9 +31,6 @@ def fetch_details(id_list):
 # how many hits on google places, how many hits on MetaMap
 def log():
     return 'no logging yet'
-
-def call_metamap(results):
-    metamap.run(results)    
 
 # returns a set of strings, each with a different address
 # the set of strings with alphanumeric chars only prevents duplication of
@@ -101,26 +93,31 @@ def _start_search(query):
         print("no results!")
         return []
     else:
-        papers = fetch_details(id_list)
-        # make results global for testing purposes
-        # fetch_results = papers
-        return papers
+        fetch_results = fetch_details(id_list)
+        return fetch_results
+
+# run MetaMap
+def call_metamap(query):
+
+    if not fetch_results:
+        _start_search(query)
+    
+    if fetch_results:
+        metamap.run(fetch_results)
 
 # calls BioPython functions esearch and efetch
 def get_addresses(query):
-    papers = _start_search(query)
+    if not fetch_results:
+        fetch_results = _start_search(query)
+
     result_list = []
 
-    if not papers: # if no papers are found
-        # prompt ask for another query
-        print("no results!")
-    else:
-        print("number of papers: " + str(len(papers)))
-        for paper in papers:
+    if fetch_results:
+        print("number of papers: " + str(len(fetch_results)))
+        for paper in fetch_results:
             author_list = paper['MedlineCitation']['Article']['AuthorList']
             result_list = result_list + (unique_addresses(author_list))
 
-        first_abstract(result_list)
     return result_list
 
 
