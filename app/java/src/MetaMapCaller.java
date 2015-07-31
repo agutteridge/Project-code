@@ -34,25 +34,33 @@ import org.json.simple.JSONValue;
 public class MetaMapCaller {
 
 	public static void main(String[] args) throws InterruptedException {
-		GenericObject myGenericObj = new GenericObject();
+		// username must be args[1], password must be args[2]
+		String username = args[1];
+		String password = args[2];
+		System.out.println(username + ", " + password);
 
-		// filename must be args[0], valid email address must be args[1]
-		myGenericObj.setFileField("UpLoad_File", args[0]);
-		myGenericObj.setField("Email_Address", args[1]);
+		GenericObject myGenericObj = new GenericObject(username, password);
+
+		// filename must be args[0], valid email address must be args[3]
+		myGenericObj.setFileField("UpLoad_File", "sample.txt");
+		myGenericObj.setField("Email_Address", args[3]);
 		myGenericObj.setField("Batch_Command", "MTI -opt1L_DCMS -E");
 		myGenericObj.setField("BatchNotes", "SKR Web API test");
 		myGenericObj.setField("SilentEmail", true);
 
 		try {
 			String results = myGenericObj.handleSubmission();
-
-			String[] resultArray = results.split("\n");
-			LinkedList<String> list = new LinkedList<String>(Arrays.asList(resultArray));
-			StringWriter out = new StringWriter();
-			// using JSON.simple library 
-			JSONValue.writeJSONString(list, out);
-			String jsonText = out.toString();
-			System.out.print(jsonText);
+			// String[] resultArray = results.split("\n");
+			// // System.out.println(resultArray);
+			// LinkedList<String> list = new LinkedList<String>(Arrays.asList(resultArray));
+			// StringWriter out = new StringWriter();
+			// // using JSON.simple library 
+			// JSONValue.writeJSONString(list, out);
+			// String jsonText = out.toString();
+			// for (String r : resultArray) {
+			System.out.println(results);
+			// }
+			System.out.println("END");
 
 		} catch (RuntimeException ex) {
 			System.err.println("");
@@ -64,9 +72,6 @@ public class MetaMapCaller {
 			System.err.println("");
 			System.err.println("Trace:");
 			ex.printStackTrace();
-		} catch (IOException io) {
-			System.err.println("An exception was thrown whilst writing JSON.");
-			System.err.println("The input is incompatible with the JSONValue.writeJSONString operation.");
 		}
 	}
 }

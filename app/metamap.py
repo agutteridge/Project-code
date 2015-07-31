@@ -11,7 +11,7 @@ def create_batch_id():
 def run(results):
     batch_id = create_batch_id()
     filename = batch_id + '.txt'
-    batch = open(filename, 'a+') # default: unbuffered
+    batch = open(os.path.join('./java/src', filename), 'a+') # default: unbuffered
     for i in range(0, len(results)):
         ASCII_title = results[i]['MedlineCitation']['Article']['ArticleTitle'].encode('ascii', 
             errors='ignore').decode('UTF-8')
@@ -41,11 +41,13 @@ def run(results):
                   '.:' +
                   config.json_simple_path,
                   'MetaMapCaller',
-                  '../../' + filename, 
-                  config.email]
+                  filename, 
+                  config.un, # username for MetaMap
+                  config.pwd,
+                  config.email] # password for MetaMap
 
     if done:
-        p = subprocess.Popen(popen_args, cwd='./java/bin/', stdout=subprocess.PIPE, stdin=subprocess.PIPE)
+        p = subprocess.Popen(popen_args, cwd='./java/bin/', stdout=subprocess.PIPE)
         # time.sleep(1)
         # print(config.email)
         # # time.sleep(10)
@@ -58,10 +60,15 @@ def run(results):
 
         # p.stdin.write('\t' + config.email + '\n')
         # p.communicate('\t' + config.pwd + '\n')
-        lines_iterator = iter(p.stdout.readline, b"") #sentinel?!
+        terms_list = list()
+
+        terms_output = p.stdout.readline()
         
-        for line in lines_iterator:
-            print(line)        
+        while terms_output is not 'END\n':
+            if terms_output is not '':
+                print(terms_output)
+                terms_list.extend(terms_output)
+                terms_output = p.stdout.readline()
 
         # for line in enumerate(lines_iterator):
         #     print('line number is: ' + str(line[0]))
