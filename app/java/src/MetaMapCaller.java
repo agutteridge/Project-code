@@ -25,11 +25,6 @@
 
 import gov.nih.nlm.nls.skr.*;
 import java.io.*;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Scanner;
-import org.json.simple.JSONValue;
 
 public class MetaMapCaller {
 
@@ -37,12 +32,10 @@ public class MetaMapCaller {
 		// username must be args[1], password must be args[2]
 		String username = args[1];
 		String password = args[2];
-		System.out.println(username + ", " + password);
-
 		GenericObject myGenericObj = new GenericObject(username, password);
 
-		// filename must be args[0], valid email address must be args[3]
-		myGenericObj.setFileField("UpLoad_File", "sample.txt");
+		// filename path must be args[0], valid email address must be args[3]
+		myGenericObj.setFileField("UpLoad_File", args[0]);
 		myGenericObj.setField("Email_Address", args[3]);
 		myGenericObj.setField("Batch_Command", "MTI -opt1L_DCMS -E");
 		myGenericObj.setField("BatchNotes", "SKR Web API test");
@@ -50,18 +43,8 @@ public class MetaMapCaller {
 
 		try {
 			String results = myGenericObj.handleSubmission();
-			// String[] resultArray = results.split("\n");
-			// // System.out.println(resultArray);
-			// LinkedList<String> list = new LinkedList<String>(Arrays.asList(resultArray));
-			// StringWriter out = new StringWriter();
-			// // using JSON.simple library 
-			// JSONValue.writeJSONString(list, out);
-			// String jsonText = out.toString();
-			// for (String r : resultArray) {
 			System.out.println(results);
-			// }
 			System.out.println("END");
-
 		} catch (RuntimeException ex) {
 			System.err.println("");
 			System.err.print("An ERROR has occurred while processing your");

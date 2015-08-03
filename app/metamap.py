@@ -11,7 +11,7 @@ def create_batch_id():
 def run(results):
     batch_id = create_batch_id()
     filename = batch_id + '.txt'
-    batch = open(os.path.join('./java/src', filename), 'a+') # default: unbuffered
+    batch = open(os.path.join('./static', filename), 'a+') # default: unbuffered
     for i in range(0, len(results)):
         ASCII_title = results[i]['MedlineCitation']['Article']['ArticleTitle'].encode('ascii', 
             errors='ignore').decode('UTF-8')
@@ -41,45 +41,26 @@ def run(results):
                   '.:' +
                   config.json_simple_path,
                   'MetaMapCaller',
-                  filename, 
+                  '../../static/' + filename, 
                   config.un, # username for MetaMap
                   config.pwd,
                   config.email] # password for MetaMap
 
     if done:
         p = subprocess.Popen(popen_args, cwd='./java/bin/', stdout=subprocess.PIPE)
-        # time.sleep(1)
-        # print(config.email)
-        # # time.sleep(10)
-        # print('oh hey password')
-        # print('ohheypasswrod')
-        # p.stdin.write(bytes(config.email + '\n', 'UTF-8'))
-        # p.communicate(input=bytes(config.pwd + '\n', 'UTF-8'))
-        # p.communicate(input=bytes(config.email + '\n', 'UTF-8'))
-        # p.stdin.write(bytes(config.email + '\n', 'UTF-8'))
 
-        # p.stdin.write('\t' + config.email + '\n')
-        # p.communicate('\t' + config.pwd + '\n')
         terms_list = list()
 
-        terms_output = p.stdout.readline()
-        
-        while terms_output is not 'END\n':
-            if terms_output is not '':
-                print(terms_output)
-                terms_list.extend(terms_output)
-                terms_output = p.stdout.readline()
+        while 1:
+            term = p.stdout.readline()
+            if not term and p.returncode is not None:
+                break
+            terms_list.append(term.decode('UTF-8'))
+            p.poll()
+        print("done %d" % p.returncode)
 
-        # for line in enumerate(lines_iterator):
-        #     print('line number is: ' + str(line[0]))
-        #     if line[0] is 0:
-        #         p.stdin.write(config.email)
-        #         p.communicate
-        #     elif line[0] is 1:
-        #         p.stdin.write(config.pwd)
-        #     else:
-        #         # MetaMap data
-        #         print(line[1])
+        for t in terms_list:
+            print(t)
 
 # testing..
 if __name__ == "__main__":
