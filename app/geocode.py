@@ -1,4 +1,8 @@
-import urllib, sys, json, config, citations
+import urllib
+import sys
+import json
+import app.config
+import app.citations
 
 def get_location(address):
     query_string = {'query': address}

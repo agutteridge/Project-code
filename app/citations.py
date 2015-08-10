@@ -1,4 +1,6 @@
-import re, config, json
+import re
+import json
+import config
 from Bio import Entrez
 
 Entrez.email = config.email

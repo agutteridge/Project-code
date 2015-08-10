@@ -1,25 +1,37 @@
-import unittest, mock, os
-import citations, metamap 
+import unittest
+import os
+import unittest.mock
+import json
+from unittest.mock import patch
 
-def fake_metamap_run():
-    with open(os.path.join('/resources', 'loremipsum_for_metamap.txt', 
-            'rb')) as datafile:
-        return json.load(datafile)
+from app.metamap import MetaMap
+from app import citations
+
+def fake_input():
+    obj = []
+    with open(os.path.join('./tests/resources', 'eFetch_sample.json'), 'r') as datafile:
+        obj = json.load(datafile)
+        datafile.close()
+    return obj
+
+def fake_output():
+    file_txt = open(os.path.join('./tests/resources', 'metamap_output.txt'), 'r')
+    output = file_txt.read()
+    file_txt.close()
+    return output
 
 class TestMetaMap(unittest.TestCase):
     def setUp(self):
-        self.patcher = patch('metamap.run', fake_urlopen)
+        self.patcher = patch('app.metamap.write_file', fake_output())
         self.patcher.start()
-        self.
+        self.mm = MetaMap()
 
     def tearDown(self):
         self.patcher.stop()
 
     def test_run(self):
-        response = metamap.run(user)
-        self.assertIn('name', response)
-        self.assertEqual(response['name'], 'Test User')
-
+        response = self.mm.run(fake_input())
+        self.assertIn('23036330', response)
 
 class TestCitations(unittest.TestCase):
 
@@ -43,7 +55,7 @@ class TestCitations(unittest.TestCase):
                                                      {'AffiliationInfo' : [{'Affiliation' : 'some LOCATION'}]},
                                                      {'AffiliationInfo' : [{'Affiliation' : 'some !!location'}]},
                                                      {'AffiliationInfo' : [{'Affiliation' : '  some lo cat  io n'}]}]), 
-            {'some location', 'another location'})
+            ['some location', 'another location'])
 
     # @mock.patch('citations.search')
     # def test_start_search(self, mock_search):
