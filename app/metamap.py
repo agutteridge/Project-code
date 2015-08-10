@@ -5,6 +5,7 @@ import subprocess
 import datetime
 import os
 import time
+import re
 from app import config
 import app.citations
 
@@ -13,9 +14,26 @@ def create_batch_id():
     # removes last 4 digits so ms is 2 s.f.
     return datetime.datetime.now().strftime("%Y%m%d_%H%M%S%f")[:-4] 
 
+# Formats MetaMap results into a list of dicts, each with a PubMed ID and a list of concepts
+# for that paper
 def format_results(results):
+    all_concepts = []
     for r in results:
-        print(r)
+        concept = r.split('|')
+        PMID = concept[0]
+        PMID_non_digits = re.sub('[\d]', '', PMID)
+        rest = concept[1:]
+
+        #################################################################
+        # TO DO: currently appends dicts together and doesn't nest 
+        #################################################################
+        # filtering out empty strings and those with non-digits
+        if len(PMID_non_digits) is 0 and len(PMID) is not 0:
+            if not all_concepts or all_concepts[0]['PMID'] is not PMID:
+                all_concepts = [{'PMID': PMID, 'concepts': []}] + all_concepts # prepend
+
+            all_concepts[0]['concepts'].extend(rest)
+    return all_concepts
 
 def write_file(filename, results):
     batch = open(os.path.join('app/static', filename), 'a+') # default: unbuffered
@@ -40,7 +58,7 @@ class MetaMap():
 
         mp = config.metamap_path
 
-        # shell args for running MetaMapCaller.jar
+        # shell args for running MetaMapCaller.class
         popen_args = ['java',
                       '-cp',
                       mp + '/classes:' +
@@ -62,7 +80,7 @@ class MetaMap():
 
         p = subprocess.Popen(popen_args, cwd='app/java/bin/', stdout=subprocess.PIPE)
 
-        terms_list = list()
+        terms_list = []
 
         while 1:
             term = p.stdout.readline()
@@ -72,11 +90,4 @@ class MetaMap():
             p.poll()
         print("done %d" % p.returncode)
 
-        format_results(terms_list)
-
-# # # testing..
-# if __name__ == "__main__":
-#     with open(os.path.join('./tests/resources', 'eFetch_sample.json'), 
-#             'r') as datafile:
-#         mm = MetaMap()
-#         mm.run(json.load(datafile))
+        print(format_results(terms_list))
