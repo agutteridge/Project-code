@@ -5,7 +5,9 @@ from app.metamap import MetaMap
 
 # # testing..
 if __name__ == "__main__":
-    with open(os.path.join('./tests/resources', 'eFetch_sample.json'), 
-            'r') as datafile:
-        mm = MetaMap()
-        mm.run(json.load(datafile))
+	txt = []
+	with open(os.path.join('./tests/resources', 'metamap_output.txt'), 'r') as datafile:
+		txt = datafile.read()
+# mm = MetaMap()
+	txt = txt.split('\n')
+	print(app.metamap.format_results(txt))

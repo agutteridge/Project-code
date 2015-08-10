@@ -14,8 +14,8 @@ def create_batch_id():
     # removes last 4 digits so ms is 2 s.f.
     return datetime.datetime.now().strftime("%Y%m%d_%H%M%S%f")[:-4] 
 
-# Formats MetaMap results into a list of dicts, each with a PubMed ID and a list of concepts
-# for that paper
+# Formats MetaMap results into a list of dicts, each with a PubMed ID and a list of 
+# lists of concepts for that paper
 def format_results(results):
     all_concepts = []
     for r in results:
@@ -24,15 +24,11 @@ def format_results(results):
         PMID_non_digits = re.sub('[\d]', '', PMID)
         rest = concept[1:]
 
-        #################################################################
-        # TO DO: currently appends dicts together and doesn't nest 
-        #################################################################
         # filtering out empty strings and those with non-digits
         if len(PMID_non_digits) is 0 and len(PMID) is not 0:
-            if not all_concepts or all_concepts[0]['PMID'] is not PMID:
+            if not all_concepts or all_concepts[0]['PMID'] != PMID:
                 all_concepts = [{'PMID': PMID, 'concepts': []}] + all_concepts # prepend
-
-            all_concepts[0]['concepts'].extend(rest)
+            all_concepts[0]['concepts'].append(rest)
     return all_concepts
 
 def write_file(filename, results):
