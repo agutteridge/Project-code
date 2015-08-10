@@ -5,8 +5,8 @@ import subprocess
 import datetime
 import os
 import time
-import config
-import citations
+from app import config
+import app.citations
 
 # Creates a batch ID for .txt files to be used as input for MetaMap
 def create_batch_id():
@@ -74,9 +74,9 @@ class MetaMap():
 
         format_results(terms_list)
 
-# # testing..
-if __name__ == "__main__":
-    with open(os.path.join('./tests/resources', 'eFetch_sample.json'), 
-            'r') as datafile:
-        mm = MetaMap()
-        mm.run(json.load(datafile))
+# # # testing..
+# if __name__ == "__main__":
+#     with open(os.path.join('./tests/resources', 'eFetch_sample.json'), 
+#             'r') as datafile:
+#         mm = MetaMap()
+#         mm.run(json.load(datafile))
