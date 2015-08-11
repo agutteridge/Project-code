@@ -1,8 +1,10 @@
 import unittest
+from unittest import mock
 import os
 import json
 
 from app import metamap
+from app.metamap import MetaMap
 from app import citations
 
 def fake_json():
@@ -29,6 +31,18 @@ class TestMetaMap(unittest.TestCase):
         self.maxDiff = None # able to see all differences during testing
         self.assertEqual(test_txt, assert_txt)
         os.remove(os.path.join('./app/static', 'metamap_input.txt'))
+
+    def test_format_results(self):
+        self.assertEqual(metamap.format_results(
+                ["23036330|Humans|C0086418|1000|CT|Breast Cancer;CT Treecode Lookup: C17.800.090 (Breast Cancer);CT Text Lookup: human||MM;RC"]),
+            [{'PMID': '23036330',
+              'concepts': [['Humans',
+                           'C0086418',
+                           '1000',
+                           'CT',
+                           'Breast Cancer;CT Treecode Lookup: C17.800.090 (Breast Cancer);CT Text Lookup: human',
+                           '',
+                           'MM;RC']]}])
 
 class TestCitations(unittest.TestCase):
 

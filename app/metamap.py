@@ -1,6 +1,5 @@
 # The Java .jar that calls the Medical Text Indexer is invoked from this file
 
-import json
 import subprocess
 import datetime
 import os
@@ -32,6 +31,7 @@ def format_results(results):
             all_concepts[0]['concepts'].append(rest) # adds concept to list of concepts for that paper
     return all_concepts
 
+# creates a text file for MetaMap to use as a source
 def write_file(filename, results):
     batch = open(os.path.join('app/static', filename), 'w') # default: unbuffered
     for i in range(0, len(results)):
@@ -65,9 +65,7 @@ class MetaMap():
                       mp + '/lib/httpcore-nio-4.1.jar:' +
                       mp + '/lib/httpclient-4.1.1.jar:' +
                       mp + '/lib/httpcore-4.1.jar:' +
-                      mp + '/lib/httpmime-4.1.1.jar:' +
-                      '.:' +
-                      config.json_simple_path,
+                      mp + '/lib/httpmime-4.1.1.jar:.',
                       'MetaMapCaller',
                       '../../static/' + filename, 
                       config.un, # username for MetaMap
@@ -86,5 +84,7 @@ class MetaMap():
             terms_list.append(term.decode('UTF-8'))
             p.poll()
         print("done %d" % p.returncode)
+
+        # p.terminate()
 
         print(format_results(terms_list))
