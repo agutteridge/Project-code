@@ -6,7 +6,8 @@ import datetime
 import os
 import time
 import re
-from app import config
+
+import config
 import app.citations
 
 # Creates a batch ID for .txt files to be used as input for MetaMap
@@ -28,11 +29,11 @@ def format_results(results):
         if len(PMID_non_digits) is 0 and len(PMID) is not 0:
             if not all_concepts or all_concepts[0]['PMID'] != PMID:
                 all_concepts = [{'PMID': PMID, 'concepts': []}] + all_concepts # prepend
-            all_concepts[0]['concepts'].append(rest)
+            all_concepts[0]['concepts'].append(rest) # adds concept to list of concepts for that paper
     return all_concepts
 
 def write_file(filename, results):
-    batch = open(os.path.join('app/static', filename), 'a+') # default: unbuffered
+    batch = open(os.path.join('app/static', filename), 'w') # default: unbuffered
     for i in range(0, len(results)):
         ASCII_title = results[i]['MedlineCitation']['Article']['ArticleTitle'].encode('ascii', 
             errors='ignore').decode('UTF-8')

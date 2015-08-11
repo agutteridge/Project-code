@@ -1,37 +1,34 @@
 import unittest
 import os
-import unittest.mock
 import json
-from unittest.mock import patch
 
-from app.metamap import MetaMap
+from app import metamap
 from app import citations
 
-def fake_input():
-    obj = []
+def fake_json():
     with open(os.path.join('./tests/resources', 'eFetch_sample.json'), 'r') as datafile:
         obj = json.load(datafile)
         datafile.close()
-    return obj
+        return obj
 
-def fake_output():
-    file_txt = open(os.path.join('./tests/resources', 'metamap_output.txt'), 'r')
-    output = file_txt.read()
-    file_txt.close()
-    return output
+def load_read_close(path, filename):
+    with open(os.path.join(path, filename), 'r') as datafile:
+        txt = datafile.read()
+        datafile.close()
+        return txt
 
 class TestMetaMap(unittest.TestCase):
-    def setUp(self):
-        self.patcher = patch('app.metamap.write_file', fake_output())
-        self.patcher.start()
-        self.mm = MetaMap()
 
-    def tearDown(self):
-        self.patcher.stop()
+    def test_write_file(self):
+        flag = metamap.write_file('metamap_input.txt', fake_json())
+        self.assertTrue(flag)
+        
+        test_txt = load_read_close('./app/static', 'metamap_input.txt')
+        assert_txt = load_read_close('./tests/resources', 'metamap_input.txt')
 
-    def test_run(self):
-        response = self.mm.run(fake_input())
-        self.assertIn('23036330', response)
+        self.maxDiff = None # able to see all differences during testing
+        self.assertEqual(test_txt, assert_txt)
+        os.remove(os.path.join('./app/static', 'metamap_input.txt'))
 
 class TestCitations(unittest.TestCase):
 
@@ -56,10 +53,6 @@ class TestCitations(unittest.TestCase):
                                                      {'AffiliationInfo' : [{'Affiliation' : 'some !!location'}]},
                                                      {'AffiliationInfo' : [{'Affiliation' : '  some lo cat  io n'}]}]), 
             ['some location', 'another location'])
-
-    # @mock.patch('citations.search')
-    # def test_start_search(self, mock_search):
-    #     mock_search.start_search('any query').assert
 
 if __name__ == '__main__':
     unittest.main()

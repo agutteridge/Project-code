@@ -1,7 +1,9 @@
 import re
 import json
-from app import config
+
 from Bio import Entrez
+
+import config
 
 Entrez.email = config.email
 

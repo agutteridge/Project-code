@@ -8,6 +8,5 @@ if __name__ == "__main__":
 	txt = []
 	with open(os.path.join('./tests/resources', 'metamap_output.txt'), 'r') as datafile:
 		txt = datafile.read()
-# mm = MetaMap()
 	txt = txt.split('\n')
 	print(app.metamap.format_results(txt))
