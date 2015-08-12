@@ -16,6 +16,7 @@ if __name__ == "__main__":
     #     mm = MetaMap()
     #     mm.run(json.load(datafile))
     #     datafile.close()
+
     test_txt = load_read_close('./tests/resources', 'metamap_output.txt').split('\n')
     paper_terms = app.metamap.format_results(test_txt)
     app.umls.run_with_data(paper_terms)
