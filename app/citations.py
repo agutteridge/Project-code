@@ -6,8 +6,6 @@ from Bio import Entrez
 import config
 
 Entrez.email = config.email
-
-fetch_results = []
 webenv = ''
 query_key = ''
 
@@ -111,14 +109,13 @@ def call_metamap(query):
 
 # calls BioPython functions esearch and efetch
 def get_addresses(query):
-    if not fetch_results:
-        fetch_results = _start_search(query)
+    papers = _start_search(query)
 
     result_list = []
 
-    if fetch_results:
-        print("number of papers: " + str(len(fetch_results)))
-        for paper in fetch_results:
+    if papers:
+        print("number of papers: " + str(len(papers)))
+        for paper in papers:
             author_list = paper['MedlineCitation']['Article']['AuthorList']
             result_list = result_list + (unique_addresses(author_list))
 

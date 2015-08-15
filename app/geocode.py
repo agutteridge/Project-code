@@ -1,8 +1,9 @@
 import urllib
 import sys
 import json
-import app.config
-import app.citations
+
+import config
+from app import citations
 
 def get_location(address):
     query_string = {'query': address}
@@ -14,17 +15,13 @@ def get_location(address):
 def get_data(query):
     addresses = citations.get_addresses(query)
 
-    successful_address = 'none'
-    for i in range(0, len(addresses)):
-        if addresses[i]:
-            successful_address = addresses[i]
-            break
-
-    print("address to be geocoded: " + successful_address)
-    places_bytes = get_location(successful_address)
-    places_str = places_bytes.decode('UTF-8')
+    points = []
+    for a in addresses:
+        places_bytes = get_location(a)
+        places_str = places_bytes.decode('UTF-8')
+        points.append(json.loads(places_str))
     # parse into long and lat only
-    return places_str
+    return json.dumps(points)
 
 # write a function for returning all useful data, parsed nicely as JSON
 # relevant fields:

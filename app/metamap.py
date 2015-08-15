@@ -35,6 +35,7 @@ def format_results(results):
 def write_file(filename, results):
     batch = open(os.path.join('app/static', filename), 'w') # default: unbuffered
     for i in range(0, len(results)):
+        # exclude ASCII characters to avoid MetaMap errors
         ASCII_title = results[i]['MedlineCitation']['Article']['ArticleTitle'].encode('ascii', 
             errors='ignore').decode('UTF-8')
         ASCII_abstract = results[i]['MedlineCitation']['Article']['Abstract']['AbstractText'][0].encode('ascii', 
