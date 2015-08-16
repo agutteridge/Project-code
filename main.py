@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, jsonify
+from flask.ext.mongoengine import MongoEngine
 import os
 import json
 
@@ -6,6 +7,14 @@ from app import geocode
 import app.metamap
 import app.umls
 from app.metamap import MetaMap
+import config
+
+app = Flask(__name__, template_folder="./app/templates")
+
+app.config['MONGODB_SETTINGS'] = {'DB': 'cached_results'}
+app.config['SECRET_KEY'] = config.secret
+
+db = MongoEngine(app)
 
 def load_read_close(path, filename):
     with open(os.path.join(path, filename), 'r') as datafile:
@@ -26,7 +35,6 @@ def load_read_close(path, filename):
 #     for r in results:
 #     	print(r)
 
-app = Flask(__name__, template_folder="./app/templates")
 
 def get_query():
     return request.form['text']    
