@@ -1,21 +1,30 @@
-from flask import Flask, render_template, request, jsonify
-from flask.ext.mongoengine import MongoEngine
 import os
 import json
 
-from app import geocode
-import app.metamap
-import app.umls
-from app.metamap import MetaMap
-import config
+import pymongo
+from flask import Flask, render_template, request, jsonify
+from pymongo import MongoClient
+# from bson.objectid import ObjectId
 
+import app.geocode, app.metamap, app.umls
+import config
+from app.metamap import MetaMap
+
+# Flask setup
 app = Flask(__name__, template_folder="./app/templates")
 
-app.config['MONGODB_SETTINGS'] = {'DB': 'cached_results'}
-app.config['SECRET_KEY'] = config.secret
+# MongoDB setup
+client = MongoClient()
+db = client.cached_results
+pubmeddata = db.pubmeddata
 
-db = MongoEngine(app)
+# indexed by Pubmed ID in descending order
+# db.pubmeddata.create_index([('MedlineCitation.PMID', pymongo.DESCENDING)])
 
+# indexed by place ID in ascending order
+# db.placeids.create_index(('placeID', pymongo.ASCENDING))
+
+# module level functions
 def load_read_close(path, filename):
     with open(os.path.join(path, filename), 'r') as datafile:
         txt = datafile.read()
@@ -46,5 +55,17 @@ def mapview():
     return render_template('maps_eg.html', places=places)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # app.run(debug=True)
+    with open(os.path.join('./tests/resources', 'eFetch_sample.json'), 'r') as datafile:
+        results = json.load(datafile)
+        print('JSON loaded')
+        pubmeddata.insert(results[0])
+        print('document inserted')
+        cursor = db.pubmeddata.find_one( {'MedlineCitation.PMID': '00000000'} )
+        if cursor:
+            print('inserted and found woooo')
+            print(cursor['MedlineCitation']['Article']['ArticleTitle'])
+        else:
+            print('booooo')
+        datafile.close()
 

@@ -3,6 +3,7 @@ import json
 
 from Bio import Entrez
 
+from main import db
 import config
 
 Entrez.email = config.email
@@ -85,6 +86,7 @@ def _format_address(address):
 ###############################
 
 # separate function that can be called 
+# THREAD THIS SO METAMAP CAN BE CALLED WHILST ADDRESSES ARE BEING FORMATTED ETC !!!!!!!!!!!!!!!!!!!!!!!!!!
 def _start_search(query):
     search_results = search(query)
     id_list = search_results['IdList']
@@ -95,16 +97,24 @@ def _start_search(query):
         print("no results!")
         return []
     else:
+        new_ids = []
+        cached_docs = []
+
+        for i in id_list:
+            cursor = db.pubmeddata.find( {'MedlineCitation.PMID': '%s'} ) % (i)
+            if not cursor:
+                new_ids.append(i)
+            else:
+                cached_docs.append(cursor)
+
         fetch_results = fetch_details(id_list)
         return fetch_results
 
 # run MetaMap
 def call_metamap(query):
 
-    if not fetch_results:
         _start_search(query)
     
-    if fetch_results:
         metamap.run(fetch_results)
 
 # calls BioPython functions esearch and efetch
