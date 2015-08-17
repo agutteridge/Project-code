@@ -1,23 +1,6 @@
 /**
  * Adapated from examples provided by NCBI
- * Example program for submitting a new Generic Batch with Validation job
- * request to the Scheduler to run. You will be prompted for your username and
- * password and if they are alright, the job is submitted to the Scheduler and
- * the results are returned in the String "results" below.
  *
- * This example shows how to setup a basic Generic Batch with Validation job
- * with a small file (sample.txt) with ASCII MEDLINE formatted citations as
- * input data. You must set the Email_Address variable and use the UpLoad_File
- * to specify the data to be processed.  This example also shows the user
- * setting the SilentEmail option which tells the Scheduler to NOT send email
- * upon completing the job.
- *
- * This example is set to run the MTI (Medical Text Indexer) program using
- * the -opt1L_DCMS and -E options. You can also setup any environment variables
- * that will be needed by the program by setting the Batch_Env field.
- * The "-E" option is required for all of the various SKR tools (MetaMap,
- * SemRep, and MTI), so please make sure to add the option to your command!
- * 
  * // original @author  Jim Mork
  * @author Alice Gutteridge
  * // original @version 1.0, September 18, 2006
