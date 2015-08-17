@@ -47,45 +47,46 @@ def write_file(filename, results):
     batch.close()
     return True
 
-class MetaMap():
+def pipe_in(results, connection):
+  connection.send(run(results))
 
-    def run(self, results):
-        batch_id = create_batch_id()
-        filename = batch_id + '.txt'
-        write_file(filename, results)
+def run(results):
+    batch_id = create_batch_id()
+    filename = batch_id + '.txt'
+    write_file(filename, results)
 
-        mp = config.metamap_path
+    mp = config.metamap_path
 
-        # shell args for running MetaMapCaller.class
-        popen_args = ['java',
-                      '-cp',
-                      mp + '/classes:' +
-                      mp + '/lib/skrAPI.jar:' +
-                      mp + '/lib/commons-logging-1.1.1.jar:' +
-                      mp + '/lib/httpclient-cache-4.1.1.jar:' +
-                      mp + '/lib/httpcore-nio-4.1.jar:' +
-                      mp + '/lib/httpclient-4.1.1.jar:' +
-                      mp + '/lib/httpcore-4.1.jar:' +
-                      mp + '/lib/httpmime-4.1.1.jar:.',
-                      'MetaMapCaller',
-                      '../../static/' + filename, 
-                      config.un, # username for MetaMap
-                      config.pwd, # password for MetaMap
-                      config.email, # email for MetaMap
-                      '-y'] 
+    # shell args for running MetaMapCaller.class
+    popen_args = ['java',
+                  '-cp',
+                  mp + '/classes:' +
+                  mp + '/lib/skrAPI.jar:' +
+                  mp + '/lib/commons-logging-1.1.1.jar:' +
+                  mp + '/lib/httpclient-cache-4.1.1.jar:' +
+                  mp + '/lib/httpcore-nio-4.1.jar:' +
+                  mp + '/lib/httpclient-4.1.1.jar:' +
+                  mp + '/lib/httpcore-4.1.jar:' +
+                  mp + '/lib/httpmime-4.1.1.jar:.',
+                  'MetaMapCaller',
+                  '../../static/' + filename, 
+                  config.un, # username for MetaMap
+                  config.pwd, # password for MetaMap
+                  config.email, # email for MetaMap
+                  '-y'] 
 
-        p = subprocess.Popen(popen_args, cwd='app/java/bin/', stdout=subprocess.PIPE)
+    p = subprocess.Popen(popen_args, cwd='app/java/bin/', stdout=subprocess.PIPE)
 
-        terms_list = []
+    terms_list = []
 
-        while 1:
-            term = p.stdout.readline()
-            if not term and p.returncode is not None:
-                break
-            terms_list.append(term.decode('UTF-8'))
-            p.poll()
-        print("done %d" % p.returncode)
+    while 1:
+        term = p.stdout.readline()
+        if not term and p.returncode is not None:
+            break
+        terms_list.append(term.decode('UTF-8'))
+        p.poll()
+    print("done %d" % p.returncode)
 
-        # p.terminate()
+    # p.terminate()
 
-        print(format_results(terms_list))
+    print(format_results(terms_list))

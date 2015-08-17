@@ -63,7 +63,8 @@ def log():
 # could be person (where did papers by Alice Gutteridge originate from in 2014?)
 ###############################
 
-# Returns a list of strings. 
+# Returns two lists of strings: the first from the cache with all information,
+# and the second from PubMed. 
 # Each string is JSON-formatted, and contains data for one paper.
 def start_search(query):
     search_results = search(query)
@@ -93,4 +94,4 @@ def start_search(query):
         if new_ids:
             fetch_results = fetch_details(new_ids)
 
-        return cached_docs + fetch_results
+        return (cached_docs, fetch_results)
