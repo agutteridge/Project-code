@@ -49,6 +49,7 @@ def write_file(filename, results):
 
 def pipe_in(results, connection):
   connection.send(run(results))
+  connection.close()
 
 def run(results):
     batch_id = create_batch_id()
@@ -89,4 +90,4 @@ def run(results):
 
     # p.terminate()
 
-    print(format_results(terms_list))
+    return format_results(terms_list)

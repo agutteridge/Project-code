@@ -33,20 +33,6 @@ def fetch_details(id_list):
                            query_key=query_key)
     results = Entrez.read(handle)
 
-    # enter all results into the pubmeddata collection
-    insertmanyresult = db.pubmeddata.insert_many(results)
-
-    # error logging
-    if not insertmanyresult.acknowledged:
-        print('ERROR: not an acknowledged write operation.')
-
-    if len(insertmanyresult.inserted_ids) is not len(results):
-        print('ERROR: The following documents were not inserted:')
-        for r in results:
-            if r not in insertmanyresult.inserted_ids:
-                print(r)
-        print('not inserted.')
-
     return results  
 
 # I want to start logging how many papers are found, how many unique addresses,
