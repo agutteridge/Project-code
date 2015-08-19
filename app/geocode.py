@@ -18,13 +18,21 @@ def request(url):
     )
 
 # Uses Google Places Web API to retrieve longitude and latitude corresponding to a place ID.
-# Returns a python dict
+# Returns a python dict with the place name and coordinates
 def get_latlong(placeid):
     url = ('https://maps.googleapis.com/maps/api/place/details/json?' +
             'placeid=' + placeid
             '&key=' + config.maps_key)
 
-    return request(url)['result']['geometry']['location']
+    result = request(url)
+
+    # retain structure for continuity between data from cache and API
+    return {
+        'name': result['result']['name'],
+        'geometry': {
+            'location': result['result']['geometry']['location']
+        }
+    }
 
 # Uses Google Places Web API to match the address string to a real-world location.
 # Returns a list 
@@ -89,6 +97,11 @@ def q_run(results, q):
     q.put(run(results))
     print('q_run in geocode done')
 
+def q_retrieve(docs, q):
+    print('q_retrieve start in geocode')
+    q.put(retrieve(docs))
+    print('q_retrieve in geocode done')
+
 def run(results):
     result_list = []
 
@@ -104,3 +117,20 @@ def run(results):
         result_list = {'PMID': pmid, 'places': address_list} + result_list
 
     return result_list
+
+    # Returns a list of dicts
+def retrieve(docs):
+    results = []
+
+    for d in docs:
+        doc_places = dict()
+        doc_places['PMID'] = d['MedlineCitation']['PMID']   
+        placeid_list = []
+        
+        for p in d['placeids']:
+            placeid_list.append(get_latlong(p))
+        
+        doc_places['results'] = placeid_list
+        results.append(doc_places)
+
+    return results
