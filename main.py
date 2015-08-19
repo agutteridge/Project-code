@@ -27,20 +27,24 @@ def load_read_close(path, filename):
 def get_query():
     return request.form['text']    
 
-def insert_into_db(docs):
-    # enter all results into the pubmeddata collection
-    insertmanyresult = db.pubmeddata.insert_many(docs)
+def find_element(alist, pmid):
+    for l in alist:
+        if l['PMID'] is pmid:
+            return l
+    raise AttributeError('The expected PubMed ID is not in the list.')
 
-    # error logging
-    if not insertmanyresult.acknowledged:
-        print('ERROR: not an acknowledged write operation.')
+# enter all results into the pubmeddata collection
+def insert_into_db(results, concepts, places):
+    for r in results:
+        pmid = r['MedlineCitation']['PMID']
+        r['concepts'] = find_element(concepts, pmid)
+        r['places'] = find_element(places, pmid)[]
+        insert_result = db.pubmeddata.insert_one(docs)
 
-    if len(insertmanyresult.inserted_ids) is not len(docs):
-        print('ERROR: The following documents were not inserted:')
-        for d in docs:
-            if d not in insertmanyresult.inserted_ids:
-                print(d)
-        print('not inserted.')
+        # error logging
+        if not insert_result.acknowledged:
+            print('ERROR: not an acknowledged write operation.\n' +
+                pmid + ' not inserted into db.')
 
 @app.route("/")
 def mapview():
@@ -48,31 +52,34 @@ def mapview():
 
 if __name__ == "__main__":
     # prevent circular references
-    from app.citations import start_search
+    from app import citations
     from app import metamap
 
     query = 'glioblastoma stem cells'
     # docs = documents from MongoDB
-    # results = PubMed data
-    (docs, results) = start_search(query)
+    # results = new PubMed data
+    (docs, results) = citations.start_search(query)
     
-    parent_conn_m, child_conn_m = Pipe()
-    # Multiprocessing
-    m = Process(target=metamap.pipe_in, args=(results, child_conn_m))
-    # g1 = Process(target=geocode.run, args=results)
+    # Multiprocessing using a queue
+    q = Queue()
+    m = Process(target=metamap.q_run, args=(results, q))
+    gr = Process(target=geocode.q_run, args=(results, q))
     # g2 = Process(target=geocode.get_placeids, args=docs)
     
     m.start()
-    # g1.start()
+    gr.start()
     # g2.start()
 
-    m_out = parent_conn_m.recv()
+    m_out = m.get()
+    gr_out = fr.get()
     m.join()
     # g1_out = parent_conn.recv()
     # g1.join()
     # g2_out = parent_conn.recv()
     # g2.join()
     print(m_out)
+
+    insert_into_db(results, m_out, gr_out)
 
     # app.run(debug=True)
 

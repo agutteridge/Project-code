@@ -6,28 +6,42 @@ import os
 import config
 from app import citations
 
-# Returns a set of strings, each with a different address.
-# The set of strings with alphanumeric chars prevents duplication of
-# addresses with minor punctuation differences
-def unique_addresses(author_list):
-    alphanumeric_addresses = set() # addresses with alphanumeric chars only
-    result = list()
+# URLopen, read, decode, and turn into python object
+def request(url):
+    return (
+        json.loads(
+            urllib.request
+            .urlopen(url)
+            .read()
+            .decode('UTF-8')
+        )
+    )
 
-    for author in author_list:
-        for place in author['AffiliationInfo']:
-            # splits multiple addresses in a single string into
-            # a list of individual addresses
-            individual_addresses = place['Affiliation'].split(';')
-            for f in individual_addresses:
-                formatted_address = _format_address(f)
-                # exclude all non-alphanumeric chars, upper case
-                alphanumeric = re.sub('[\W]', '', formatted_address).upper()
-                if alphanumeric != '' and alphanumeric not in alphanumeric_addresses:
-                    result.append(formatted_address)
-                    print("New address: " + formatted_address)
-                    alphanumeric_addresses.add(alphanumeric)
-    print("List of unique addresses: " + str(result))
-    return result
+# Uses Google Places Web API to retrieve longitude and latitude corresponding to a place ID.
+# Returns a python dict
+def get_latlong(placeid):
+    url = ('https://maps.googleapis.com/maps/api/place/details/json?' +
+            'placeid=' + placeid
+            '&key=' + config.maps_key)
+
+    return request(url)['result']['geometry']['location']
+
+# Uses Google Places Web API to match the address string to a real-world location.
+# Returns a list 
+def get_location(address):
+    query_string = {'query': address}
+    encoded_query = urllib.parse.urlencode(query_string)
+    url = ('https://maps.googleapis.com/maps/api/place/textsearch/json?' +
+            encoded_query +
+            '&key=' + config.maps_key +
+            '&types=' + 'university|hospital|establishment') # establishment is Google default
+
+    place_options = request(url)['results']
+
+    if place_options:
+        return place_options[0] # only return first result
+    else: 
+        return []
 
 # Email addresses are removed to improve success of geocoding using Google Places API
 def remove_email(address):
@@ -47,38 +61,46 @@ def format_address(address):
     result = (','.join(address_lines))
     return result
 
+# Returns a set of strings, each with a different address.
+# The set of strings with alphanumeric chars prevents duplication of
+# addresses with minor punctuation differences
+def unique_addresses(author_list):
+    alphanumeric_addresses = set() # addresses with alphanumeric chars only
+    result = list()
 
-# Uses Google Places Web API to match the address string to a real-world location.
-def get_location(address):
-    query_string = {'query': address}
-    encoded_query = urllib.parse.urlencode(query_string)
-    full_url = ('https://maps.googleapis.com/maps/api/place/textsearch/json?' +
-                encoded_query +
-                '&key=' + config.maps_key +
-                '&types=' + 'university|hospital|establishment') # establishment is Google default
+    for author in author_list:
+        for place in author['AffiliationInfo']:
+            # splits multiple addresses in a single string into
+            # a list of individual addresses
+            individual_addresses = place['Affiliation'].split(';')
+            for f in individual_addresses:
+                formatted_address = format_address(f)
+                # exclude all non-alphanumeric chars, upper case
+                alphanumeric = re.sub('[\W]', '', formatted_address).upper()
+                if alphanumeric != '' and alphanumeric not in alphanumeric_addresses:
+                    result.append(formatted_address)
+                    print("New address: " + formatted_address)
+                    alphanumeric_addresses.add(alphanumeric)
+    print("List of unique addresses: " + str(result))
+    return result
 
-    result = urllib.request.urlopen(full_url)
-    return result.read()
+def q_run(results, q):
+    print('q_run start in geocode')
+    q.put(run(results))
+    print('q_run in geocode done')
 
-# rename to run or something ???
-def get_addresses(papers):
+def run(results):
     result_list = []
 
-    for paper in papers:
+    for paper in results:
+        pmid = paper['MedlineCitation']['PMID']
         author_list = paper['MedlineCitation']['Article']['AuthorList']
-        result_list = result_list + (unique_addresses(author_list))
+        addresses = (unique_addresses(author_list))
+        address_list = []
+        
+        for address in addresses
+            address_list.append(get_location(address))
+
+        result_list = {'PMID': pmid, 'places': address_list} + result_list
 
     return result_list
-
-# can be replaced with tests/resources/geocode_output.json
-def get_data(query):
-    addresses = citations.get_addresses(query)
-
-    points = []
-    for a in addresses:
-        places_bytes = get_location(a)
-        places_str = places_bytes.decode('UTF-8')
-        points.append(json.loads(places_str))
-    # parse into long and lat only
-
-    return json.dumps(points)

@@ -47,9 +47,10 @@ def write_file(filename, results):
     batch.close()
     return True
 
-def pipe_in(results, connection):
-  connection.send(run(results))
-  connection.close()
+def q_run(results, q):
+  print('q_run start in metamap')
+  q.put(run(results))
+  print('q_run in metamap done')
 
 def run(results):
     batch_id = create_batch_id()
