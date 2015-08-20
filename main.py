@@ -6,6 +6,8 @@ import pymongo
 from flask import Flask, render_template, request, jsonify
 from pymongo import MongoClient
 
+from app import metamap, geocode, umls
+
 # Flask setup
 app = Flask(__name__, template_folder="./app/templates")
 
@@ -45,6 +47,8 @@ def insert_into_db(results, concepts, places):
         if not insert_result.acknowledged:
             print('ERROR: not an acknowledged write operation.\n' +
                 pmid + ' not inserted into db.')
+        else: 
+            print(insert_result.inserted_id + ' inserted')
 
 @app.route("/")
 def mapview():
@@ -52,7 +56,7 @@ def mapview():
 
 if __name__ == "__main__":
     # prevent circular references
-    from app import citations, metamap, geocode
+    from app import citations
 
     query = 'glioblastoma stem cells'
     # docs = documents from MongoDB
@@ -62,36 +66,29 @@ if __name__ == "__main__":
     # Multiprocessing using a queue
     q = Queue()
     m = Process(target=metamap.q_run, args=(results, q))
-    gr = Process(target=geocode.q_run, args=(results, q))
-    # g2 = Process(target=geocode.get_placeids, args=docs)
+    g1 = Process(target=geocode.q_run, args=(results, q))
+    g2 = Process(target=geocode.q_retrieve, args=(docs, q))
     
     m.start()
-    gr.start()
-    # g2.start()
+    g1.start()
+    g2.start()
 
-    m_out = m.get()
-    gr_out = gr.get()
-    m.join()
-    gr.join()
-    # g1_out = parent_conn.recv()
-    # g1.join()
-    # g2_out = parent_conn.recv()
-    # g2.join()
-    print(m_out)
+    # block until item is available, so Process u can start
+    m_out = q.get(block=True)
+
+    # Retrieve UMLS hierarchy for both cached terms and terms from Metamap
+    u = Process(target=umls.q_run, args=(docs + m_out, q))
+    
+    u.start()
+
+    g1_out = q.get()
+    g2_out = q.get()
+    u_out = q.get()
+
+    print(u_out)
+    print(g1_out)
+    print(g2_out)
 
     insert_into_db(results, m_out, gr_out)
 
     # app.run(debug=True)
-
-# # testing..
-#     # with open(os.path.join('./tests/resources', 'eFetch_sample.json'), 'r') as datafile:
-#     #     mm = MetaMap()
-#     #     mm.run(json.load(datafile))
-#     #     datafile.close()
-
-#     test_txt = load_read_close('./tests/resources', 'metamap_output.txt').split('\n')
-#     paper_terms = app.metamap.format_results(test_txt)
-#     results = app.umls.run_with_data(paper_terms)
-#     for r in results:
-#     	print(r)
-

@@ -7,7 +7,6 @@ import time
 import re
 
 import config
-import app.citations
 
 # Creates a batch ID for .txt files to be used as input for MetaMap
 def create_batch_id():
@@ -29,6 +28,7 @@ def format_results(results):
             if not all_concepts or all_concepts[0]['PMID'] != PMID:
                 all_concepts = [{'PMID': PMID, 'concepts': []}] + all_concepts # prepend
             all_concepts[0]['concepts'].append(rest) # adds concept to list of concepts for that paper
+    print(all_concepts)
     return all_concepts
 
 # creates a text file for MetaMap to use as a source
@@ -88,7 +88,5 @@ def run(results):
         terms_list.append(term.decode('UTF-8'))
         p.poll()
     print("done %d" % p.returncode)
-
-    # p.terminate()
 
     return format_results(terms_list)

@@ -3,12 +3,15 @@ import json
 
 import config
 
-def run_with_data(paper_terms):
+def q_run(terms, q):
+  q.put(run(terms))
+
+def run(terms):
     cui_list = []
-    for p in paper_terms:
+    for p in terms:
         concepts = p['concepts']
         for c in concepts:
-            cui_list.append(c[1])
+            cui_list.append(c)
 
     # Connect to the database
     connection = pymysql.connect(host='localhost',
@@ -18,7 +21,6 @@ def run_with_data(paper_terms):
                                  charset='utf8mb4',
                                  cursorclass=pymysql.cursors.DictCursor)
 
-    # result = '' # JSON..?
     try:
         with connection.cursor() as cursor:
 
@@ -48,11 +50,4 @@ def run_with_data(paper_terms):
     finally:
         connection.close()
 
-    # how to pair CUIs with paper and name?
-    for r in result:
-        for p in paper_terms:
-            concepts = p['concepts']
-            for c in concepts:
-                if r['CUI'] == c[1]:
-                    r.setdefault('PMID', []).append(p['PMID'])
     return results

@@ -5,7 +5,6 @@ import os
 import re
 
 import config
-from app import citations
 
 # URLopen, read, decode, and turn into python object
 def request(url):
@@ -88,9 +87,7 @@ def unique_addresses(author_list):
                 alphanumeric = re.sub('[\W]', '', formatted_address).upper()
                 if alphanumeric != '' and alphanumeric not in alphanumeric_addresses:
                     result.append(formatted_address)
-                    print("New address: " + formatted_address)
                     alphanumeric_addresses.add(alphanumeric)
-    print("List of unique addresses: " + str(result))
     return result
 
 def q_run(results, q):
