@@ -67,21 +67,45 @@ class TestGeocode(unittest.TestCase):
                                                    {'AffiliationInfo' : [{'Affiliation' : '  some lo cat  io n'}]}]), 
             ['some location', 'another location'])
 
-    @patch('app.geocode.get_location')
-    def test_run(self, mock_get_location):
-        # patch get location
-        mock_get_location.return_value = fake_json('get_location_output.json')
-        
+    @patch('app.geocode.request')
+    def test_run(self, mock_request):
+        # patch geocode.request with example available from API docs
+        mock_request.return_value = fake_json('places_search_output.json')
+        # get_location_output.json contains the first element of the results list
+        place_result = fake_json('get_location_output.json')
+
         expected = [
             {'PMID': '00000000',
-             'places': fake_json('get_location_output.json')},
+             'places': [place_result]},
             {'PMID': '00000001',
-             'places': fake_json('get_location_output.json')}             
+             'places': [place_result]}
         ]
 
         observed = geocode.run(fake_json('eFetch_sample.json'))
         self.maxDiff = None
-        assert observed == expected
+        self.assertEqual(observed, expected)
+
+    @patch('app.geocode.request')
+    def test_retrieve(self, mock_request):
+        # patch geocode.request with example available from API docs
+        mock_request.return_value = fake_json('places_details_output.json')
+
+        expected = [{
+            'PMID': "00000000",
+            'results': [{
+                'name': 'Google Sydney',
+                'geometry': {
+                    'location': {
+                        "lat": -33.8669710,
+                        "lng": 151.1958750
+                    }
+                }
+            }]
+        }]
+
+        observed = geocode.retrieve(fake_json('cache_example.json'))
+        self.maxDiff = None
+        self.assertEqual(observed, expected)
 
 # class TestCitations(unittest.TestCase):
 
