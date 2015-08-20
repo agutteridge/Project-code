@@ -3,15 +3,17 @@ import json
 
 import config
 
-def q_run(terms, q):
-  q.put(run(terms))
-
-def run(terms):
+def run(docs, results):
     cui_list = []
-    for p in terms:
+    for p in docs:
         concepts = p['concepts']
         for c in concepts:
             cui_list.append(c)
+
+    for r in results:
+        concepts = r['concepts']
+        for c in concepts:
+            cui_list.append(c[1])
 
     # Connect to the database
     connection = pymysql.connect(host='localhost',

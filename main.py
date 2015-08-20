@@ -65,30 +65,27 @@ if __name__ == "__main__":
     
     # Multiprocessing using a queue
     q = Queue()
-    m = Process(target=metamap.q_run, args=(results, q))
-    g1 = Process(target=geocode.q_run, args=(results, q))
-    g2 = Process(target=geocode.q_retrieve, args=(docs, q))
+    # m = Process(target=metamap.q_run, args=(results, q))
+    # g1 = Process(target=geocode.q_run, args=(results, q))
+    # g2 = Process(target=geocode.q_retrieve, args=(docs, q))
     
-    m.start()
-    g1.start()
-    g2.start()
+    # m.start()
+    # g1.start()
+    # g2.start()
 
     # block until item is available, so Process u can start
-    m_out = q.get(block=True)
-
+    # m_out = q.get(block=True)
+    m_out = metamap.run(results)
     # Retrieve UMLS hierarchy for both cached terms and terms from Metamap
-    u = Process(target=umls.q_run, args=(docs + m_out, q))
+    combined = docs + m_out
+    print(umls.run(docs, m_out))
     
-    u.start()
+    # g1_out = q.get()
+    # g2_out = q.get()
+    
+    # print(g1_out)
+    # print(g2_out)
 
-    g1_out = q.get()
-    g2_out = q.get()
-    u_out = q.get()
-
-    print(u_out)
-    print(g1_out)
-    print(g2_out)
-
-    insert_into_db(results, m_out, gr_out)
+    # insert_into_db(results, m_out, gr_out)
 
     # app.run(debug=True)
