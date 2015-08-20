@@ -1,6 +1,6 @@
 import os
 import json
-from multiprocessing import Process, Pipe
+from multiprocessing import Process, Queue
 
 import pymongo
 from flask import Flask, render_template, request, jsonify
@@ -38,7 +38,7 @@ def insert_into_db(results, concepts, places):
     for r in results:
         pmid = r['MedlineCitation']['PMID']
         r['concepts'] = find_element(concepts, pmid)
-        r['places'] = find_element(places, pmid)[]
+        r['placeids'] = find_element(places, pmid)
         insert_result = db.pubmeddata.insert_one(docs)
 
         # error logging
@@ -52,8 +52,7 @@ def mapview():
 
 if __name__ == "__main__":
     # prevent circular references
-    from app import citations
-    from app import metamap
+    from app import citations, metamap, geocode
 
     query = 'glioblastoma stem cells'
     # docs = documents from MongoDB
@@ -71,8 +70,9 @@ if __name__ == "__main__":
     # g2.start()
 
     m_out = m.get()
-    gr_out = fr.get()
+    gr_out = gr.get()
     m.join()
+    gr.join()
     # g1_out = parent_conn.recv()
     # g1.join()
     # g2_out = parent_conn.recv()

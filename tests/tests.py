@@ -2,13 +2,12 @@ import unittest
 from unittest import mock
 import os
 import json
+from unittest.mock import patch
 
-from app import metamap
-from app.metamap import MetaMap
-from app import citations
+from app import metamap, geocode, citations
 
-def fake_json():
-    with open(os.path.join('./tests/resources', 'eFetch_sample.json'), 'r') as datafile:
+def fake_json(filename):
+    with open(os.path.join('./tests/resources', filename), 'r') as datafile:
         obj = json.load(datafile)
         datafile.close()
         return obj
@@ -22,7 +21,7 @@ def load_read_close(path, filename):
 class TestMetaMap(unittest.TestCase):
 
     def test_write_file(self):
-        flag = metamap.write_file('metamap_input.txt', fake_json())
+        flag = metamap.write_file('metamap_input.txt', fake_json('eFetch_sample.json'))
         self.assertTrue(flag)
         
         test_txt = load_read_close('./app/static', 'metamap_input.txt')
@@ -44,10 +43,10 @@ class TestMetaMap(unittest.TestCase):
                            '',
                            'MM;RC']]}])
 
-class TestCitations(unittest.TestCase):
+class TestGeocode(unittest.TestCase):
 
     def test_remove_email(self):
-        self.assertEqual(citations._remove_email(
+        self.assertEqual(geocode.remove_email(
             'hello address eMail Electronic hel++lo@123-bbk.ac.uk more text'), 
             'hello     more text')
 
@@ -62,11 +61,29 @@ class TestCitations(unittest.TestCase):
     #   self.assertEqual(citations._format_address('this, is, a, test, string'), ' is, a, test, string')
 
     def test_unique_addresses(self): 
-        self.assertEqual(citations.unique_addresses([{'AffiliationInfo' : [{'Affiliation' : 'some location;another location'}]},
-                                                     {'AffiliationInfo' : [{'Affiliation' : 'some LOCATION'}]},
-                                                     {'AffiliationInfo' : [{'Affiliation' : 'some !!location'}]},
-                                                     {'AffiliationInfo' : [{'Affiliation' : '  some lo cat  io n'}]}]), 
+        self.assertEqual(geocode.unique_addresses([{'AffiliationInfo' : [{'Affiliation' : 'some location;another location'}]},
+                                                   {'AffiliationInfo' : [{'Affiliation' : 'some LOCATION'}]},
+                                                   {'AffiliationInfo' : [{'Affiliation' : 'some !!location'}]},
+                                                   {'AffiliationInfo' : [{'Affiliation' : '  some lo cat  io n'}]}]), 
             ['some location', 'another location'])
+
+    @patch('app.geocode.get_location')
+    def test_run(self, mock_get_location):
+        # patch get location
+        mock_get_location.return_value = fake_json('get_location_output.json')
+        
+        expected = [
+            {'PMID': '00000000',
+             'places': fake_json('get_location_output.json')},
+            {'PMID': '00000001',
+             'places': fake_json('get_location_output.json')}             
+        ]
+
+        observed = geocode.run(fake_json('eFetch_sample.json'))
+        self.maxDiff = None
+        assert observed == expected
+
+# class TestCitations(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()

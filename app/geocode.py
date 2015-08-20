@@ -2,6 +2,7 @@ import urllib
 import sys
 import json
 import os
+import re
 
 import config
 from app import citations
@@ -21,7 +22,7 @@ def request(url):
 # Returns a python dict with the place name and coordinates
 def get_latlong(placeid):
     url = ('https://maps.googleapis.com/maps/api/place/details/json?' +
-            'placeid=' + placeid
+            'placeid=' + placeid +
             '&key=' + config.maps_key)
 
     result = request(url)
@@ -39,10 +40,10 @@ def get_latlong(placeid):
 def get_location(address):
     query_string = {'query': address}
     encoded_query = urllib.parse.urlencode(query_string)
-    url = ('https://maps.googleapis.com/maps/api/place/textsearch/json?' +
-            encoded_query +
-            '&key=' + config.maps_key +
-            '&types=' + 'university|hospital|establishment') # establishment is Google default
+    url = ('https://maps.googleapis.com/maps/api/place/textsearch/json?' + 
+        encoded_query +
+        '&key=' + config.maps_key + 
+        '&types=university|hospital|establishment') # establishment is Google default
 
     place_options = request(url)['results']
 
@@ -62,7 +63,7 @@ def remove_email(address):
 
 # Removes first address lines for addresses over ???????? parts long (comma separated)
 def format_address(address):
-    without_email = _remove_email(address)
+    without_email = remove_email(address)
     address_lines = without_email.split(',')
     if len(address_lines) > 2:
         address_lines = address_lines[-2:] # last 2 elements of the list
@@ -111,10 +112,10 @@ def run(results):
         addresses = (unique_addresses(author_list))
         address_list = []
         
-        for address in addresses
+        for address in addresses:
             address_list.append(get_location(address))
 
-        result_list = {'PMID': pmid, 'places': address_list} + result_list
+        result_list.append({'PMID': pmid, 'places': address_list})
 
     return result_list
 
