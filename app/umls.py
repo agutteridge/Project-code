@@ -1,35 +1,64 @@
 import pymysql.cursors
 import json
+import os
 
 import config
 
 def format_results(pmids_names, results):
-    result_dict = dict()
+    dict0 = dict()
+    # level 0: all data
+    dict0['name'] = 'flare'
+    dict0['children'] = []
 
     for r in results:
-        c_cui = r['CHILD_CUI']
+        # level 1: Semantic Types
         st_key = r['S_TYPE']
+
+        found = False
+        for c in dict0['children']:
+            if c['name'] == st_key:
+                # No need to add Semantic type
+                found = True
+                
+        if not found:
+            dict1 = dict()
+            dict1['children'] = []
+            dict0['children'].append(dict1)
+            dict1['name'] = st_key
+
+        # level 2: Parent names
         par_key = r['PARENT_STR']
 
-        # creating hierarchical structure
-        result_dict[st_key] = dict()
-        result_dict[st_key][par_key] = dict()
-        
-        # PMID and child name corresponding to child CUI in pmids_names
-        data = dict()
-        data['PMIDs'] = pmids_names[c_cui]['PMIDs']
+        found = False
+        for c in dict1['children']:
+            if c['name'] == par_key:
+                # No need to add Parent name                
+                found = True
+
+        if not found:
+            dict2 = dict()
+            dict2['children'] = []
+            dict1['children'].append(dict2)
+            dict2['name'] = par_key
+
+        # level 3: Child names
+        c_cui = r['CHILD_CUI']
         c_key = pmids_names[c_cui]['child_name']
+        pmids = pmids_names[c_cui]['PMIDs']
 
-        result_dict[st_key][par_key][c_key] = data
-
-    return result_dict
+        dict3 = dict()
+        dict3['PMIDs'] = pmids
+        dict2['children'].append(dict3)
+        dict3['name'] = c_key
+        
+    return dict0
 
 # Arg is a list of CUIs to retrieve information for
-def execute_sql(cui_list):
+def execute_sql(cui_list, connection):
     try:
         with connection.cursor() as cursor:
 
-            sql = """SELECT T2.`CHILD_CUI`, T2.`S_TYPE`, T2.`PARENT_CUI`, C2.`STR` AS PARENT_STR
+            sql = """SELECT DISTINCT T2.`CHILD_CUI`, T2.`S_TYPE`, T2.`PARENT_CUI`, C2.`STR` AS PARENT_STR
                       FROM `MRCONSO` AS C2
                       INNER JOIN (SELECT DISTINCT T1.`CHILD_CUI`, T1.`PARENT_CUI`, MAX(R1.`RANK`) AS MAXRANK, T1.`S_TYPE`
                                   FROM `MRCONSO` AS C1
@@ -66,16 +95,17 @@ def organise(input_data):
 
         for c in concepts:
             cui_list.add(c[1]) # add CUI to set
-            data = {
-                'child_name': c[0],
-                'PMIDs': [
-                    pmid
-                ]
-            }
+
             # only append PMID as child name should be the same
             if c[1] in pmids_names:
                 pmids_names[c[1]]['PMIDs'].append(pmid)
             else:
+                data = {
+                    'child_name': c[0],
+                    'PMIDs': [
+                        pmid
+                    ]
+                }
                 pmids_names[c[1]] = data
 
     return(pmids_names, list(cui_list))    
@@ -91,8 +121,10 @@ def run(input_data):
                                  charset='utf8mb4',
                                  cursorclass=pymysql.cursors.DictCursor)
 
-    output = execute_sql(cui_list)
+    output = execute_sql(cui_list, connection)
 
-    format_results(pmids_names, output)
+    with open(os.path.join('./tests/resources', 'umls_db_output.json'), 'w') as datafile:
+            datafile.write(json.dumps(output))
 
-    return output
+    with open(os.path.join('./tests/resources', 'umls_output.json'), 'w') as datafile:
+        datafile.write(json.dumps(format_results(pmids_names, output)))

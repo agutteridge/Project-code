@@ -124,15 +124,19 @@ class TestUmls(unittest.TestCase):
             }])
 
         expected = {
-            'Species': {
-                'Homo Sapiens': {
-                    'imaginaryconcept': {
+            'name': 'flare',
+            'children': [{
+                'name': 'Species',
+                'children': [{
+                    'name': 'Homo Sapiens',
+                    'children': [{
+                        'name': 'imaginaryconcept', 
                         'PMIDs': [
                             '00000000'
                         ]
-                    }
-                }
-            }
+                    }]
+                }]
+            }]
         }
 
         self.maxDiff = None

@@ -14,10 +14,7 @@ app = Flask(__name__, template_folder="./app/templates")
 # MongoDB setup
 client = MongoClient()
 db = client.cached_results
-
-# if not db.pubmeddata.list_indexes():
-    # indexed by Pubmed ID in descending order
-    # db.pubmeddata.create_index([('MedlineCitation.PMID', pymongo.DESCENDING)])
+pubmeddata = db['pubmeddata']
 
 def load_read_close(path, filename):
     with open(os.path.join(path, filename), 'r') as datafile:
@@ -64,7 +61,7 @@ if __name__ == "__main__":
     (docs, results) = citations.start_search(query)
     
     # Multiprocessing using a queue
-    q = Queue()
+    # q = Queue()
     # m = Process(target=metamap.q_run, args=(results, q))
     # g1 = Process(target=geocode.q_run, args=(results, q))
     # g2 = Process(target=geocode.q_retrieve, args=(docs, q))
@@ -74,11 +71,12 @@ if __name__ == "__main__":
     # g2.start()
 
     # block until item is available, so Process u can start
-    # m_out = q.get(block=True)
-    m_out = metamap.run(results)
+    # m_out = metamap.run(results)
+    m_out = metamap.format_results(load_read_close('./tests/resources', 'metamap_output.txt').split('\n'))
+    print(umls.run(m_out))
     # Retrieve UMLS hierarchy for both cached terms and terms from Metamap
-    combined = docs + m_out
-    print(umls.run(combined))
+    # combined = docs + m_out
+    # print(umls.run(combined))
     
     # g1_out = q.get()
     # g2_out = q.get()

@@ -25,7 +25,7 @@ def format_results(results):
 
         # filtering out empty strings and those with non-digits
         if len(PMID_non_digits) is 0 and len(PMID) is not 0:
-            if not all_concepts or all_concepts[0]['PMID'] != PMID:
+            if not all_concepts or all_concepts[0]['MedlineCitation']['PMID'] != PMID:
                 # keeping structure
                 all_concepts = [
                     {
@@ -37,7 +37,6 @@ def format_results(results):
                     }
                 ] + all_concepts # prepend
             all_concepts[0]['concepts'].append(rest) # adds concept to list of concepts for that paper
-    print(all_concepts)
     return all_concepts
 
 # creates a text file for MetaMap to use as a source
@@ -86,16 +85,23 @@ def run(results):
                   config.email, # email for MetaMap
                   '-y'] 
 
+    print('before popen')
     p = subprocess.Popen(popen_args, cwd='app/java/bin/', stdout=subprocess.PIPE)
+    print('after popen')
 
     terms_list = []
 
     while 1:
+        print('in while loop')
+        print(p.stdout.readline())
         term = p.stdout.readline()
+        print(term)
         if not term and p.returncode is not None:
             break
         terms_list.append(term.decode('UTF-8'))
         p.poll()
     print("done %d" % p.returncode)
+
+    p.terminate()
 
     return format_results(terms_list)
