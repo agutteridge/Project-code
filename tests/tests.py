@@ -4,7 +4,7 @@ import os
 import json
 from unittest.mock import patch
 
-from app import metamap, geocode, citations
+from app import metamap, geocode, citations, umls
 
 def fake_json(filename):
     with open(os.path.join('./tests/resources', filename), 'r') as datafile:
@@ -33,15 +33,18 @@ class TestMetaMap(unittest.TestCase):
 
     def test_format_results(self):
         self.assertEqual(metamap.format_results(
-                ["23036330|Humans|C0086418|1000|CT|Breast Cancer;CT Treecode Lookup: C17.800.090 (Breast Cancer);CT Text Lookup: human||MM;RC"]),
-            [{'PMID': '23036330',
-              'concepts': [['Humans',
-                           'C0086418',
-                           '1000',
-                           'CT',
-                           'Breast Cancer;CT Treecode Lookup: C17.800.090 (Breast Cancer);CT Text Lookup: human',
-                           '',
-                           'MM;RC']]}])
+            ["23036330|Humans|C0086418|1000|CT|Breast Cancer;CT Treecode Lookup: C17.800.090 (Breast Cancer);CT Text Lookup: human||MM;RC"]),
+            [{
+                'MedlineCitation': {
+                    'PMID': '23036330'
+                },
+                'concepts': [['Humans',
+                   'C0086418',
+                   '1000',
+                   'CT',
+                   'Breast Cancer;CT Treecode Lookup: C17.800.090 (Breast Cancer);CT Text Lookup: human',
+                   '',
+                   'MM;RC']]}])
 
 class TestGeocode(unittest.TestCase):
 
@@ -105,6 +108,49 @@ class TestGeocode(unittest.TestCase):
 
         observed = geocode.retrieve(fake_json('cache_example.json'))
         self.maxDiff = None
+        self.assertEqual(observed, expected)
+
+class TestUmls(unittest.TestCase):
+    def test_format_results(self):
+        pmids_names = umls.organise(fake_json('cache_example.json'))[0]
+
+        observed = umls.format_results(
+            pmids_names,
+            [{
+                'CHILD_CUI': 'C0086418',
+                'S_TYPE': 'Species', 
+                'PARENT_CUI': 'C0086417', 
+                'PARENT_STR': 'Homo Sapiens'
+            }])
+
+        expected = {
+            'Species': {
+                'Homo Sapiens': {
+                    'imaginaryconcept': {
+                        'PMIDs': [
+                            '00000000'
+                        ]
+                    }
+                }
+            }
+        }
+
+        self.maxDiff = None
+        self.assertEqual(observed, expected)
+
+    def test_organise(self):
+        observed = umls.organise(fake_json('cache_example.json'))
+        expected = (
+            {
+            'C0086418': 
+                {
+                    'child_name': 'imaginaryconcept',
+                    'PMIDs': [
+                        '00000000'
+                    ]
+                }
+            },
+            ['C0086418'])
         self.assertEqual(observed, expected)
 
 # class TestCitations(unittest.TestCase):

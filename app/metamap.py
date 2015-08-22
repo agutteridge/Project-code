@@ -26,7 +26,16 @@ def format_results(results):
         # filtering out empty strings and those with non-digits
         if len(PMID_non_digits) is 0 and len(PMID) is not 0:
             if not all_concepts or all_concepts[0]['PMID'] != PMID:
-                all_concepts = [{'PMID': PMID, 'concepts': []}] + all_concepts # prepend
+                # keeping structure
+                all_concepts = [
+                    {
+                    'MedlineCitation': 
+                        {
+                        'PMID': PMID
+                        }, 
+                    'concepts': []
+                    }
+                ] + all_concepts # prepend
             all_concepts[0]['concepts'].append(rest) # adds concept to list of concepts for that paper
     print(all_concepts)
     return all_concepts

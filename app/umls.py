@@ -3,26 +3,29 @@ import json
 
 import config
 
-def run(docs, results):
-    cui_list = []
-    for p in docs:
-        concepts = p['concepts']
-        for c in concepts:
-            cui_list.append(c)
+def format_results(pmids_names, results):
+    result_dict = dict()
 
     for r in results:
-        concepts = r['concepts']
-        for c in concepts:
-            cui_list.append(c[1])
+        c_cui = r['CHILD_CUI']
+        st_key = r['S_TYPE']
+        par_key = r['PARENT_STR']
 
-    # Connect to the database
-    connection = pymysql.connect(host='localhost',
-                                 user=config.db_un,
-                                 password=config.db_pwd,
-                                 db='umls',
-                                 charset='utf8mb4',
-                                 cursorclass=pymysql.cursors.DictCursor)
+        # creating hierarchical structure
+        result_dict[st_key] = dict()
+        result_dict[st_key][par_key] = dict()
+        
+        # PMID and child name corresponding to child CUI in pmids_names
+        data = dict()
+        data['PMIDs'] = pmids_names[c_cui]['PMIDs']
+        c_key = pmids_names[c_cui]['child_name']
 
+        result_dict[st_key][par_key][c_key] = data
+
+    return result_dict
+
+# Arg is a list of CUIs to retrieve information for
+def execute_sql(cui_list):
     try:
         with connection.cursor() as cursor:
 
@@ -47,9 +50,49 @@ def run(docs, results):
                       ORDER BY CHILD_CUI ASC"""
 
             cursor.execute(sql, (cui_list, 'inverse_isa', 'PAR', 'RB', 'PF', 'Y', 'PF', 'Y'))
-            results = cursor.fetchall() #parent IDs
+            return cursor.fetchall() 
 
     finally:
         connection.close()
 
-    return results
+# organise data for input to SQL query, as well as for matching results to PMIDs
+def organise(input_data):
+    pmids_names = dict()
+    cui_list = set()
+
+    for i in input_data:
+        pmid = i['MedlineCitation']['PMID']
+        concepts = i['concepts']
+
+        for c in concepts:
+            cui_list.add(c[1]) # add CUI to set
+            data = {
+                'child_name': c[0],
+                'PMIDs': [
+                    pmid
+                ]
+            }
+            # only append PMID as child name should be the same
+            if c[1] in pmids_names:
+                pmids_names[c[1]]['PMIDs'].append(pmid)
+            else:
+                pmids_names[c[1]] = data
+
+    return(pmids_names, list(cui_list))    
+
+def run(input_data):
+    (pmids_names, cui_list) = organise(input_data)
+
+    # Connect to the database
+    connection = pymysql.connect(host='localhost',
+                                 user=config.db_un,
+                                 password=config.db_pwd,
+                                 db='umls',
+                                 charset='utf8mb4',
+                                 cursorclass=pymysql.cursors.DictCursor)
+
+    output = execute_sql(cui_list)
+
+    format_results(pmids_names, output)
+
+    return output

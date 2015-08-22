@@ -78,7 +78,7 @@ if __name__ == "__main__":
     m_out = metamap.run(results)
     # Retrieve UMLS hierarchy for both cached terms and terms from Metamap
     combined = docs + m_out
-    print(umls.run(docs, m_out))
+    print(umls.run(combined))
     
     # g1_out = q.get()
     # g2_out = q.get()
