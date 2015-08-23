@@ -28,7 +28,6 @@ def format_results(pmids_names, results):
 
         # level 2: Parent names
         par_key = r['PARENT_STR']
-        print(par_key)
 
         found = False
         for c in dict1['children']:

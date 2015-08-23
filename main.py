@@ -9,7 +9,7 @@ from pymongo import MongoClient
 from app import metamap, geocode, umls
 
 # Flask setup
-app = Flask(__name__, template_folder="./app/templates")
+app = Flask(__name__, template_folder='./app/templates')
 
 # MongoDB setup
 client = MongoClient()
@@ -49,16 +49,24 @@ def insert_into_db(results, concepts, places):
 
 @app.route("/")
 def mapview():
-    return render_template('maps_eg.html', places=places)
+    # return render_template('maps_eg.html', places=places)
+    return render_template('d3_eg.html')
+
+@app.route("/data")
+def return_data():
+    with open(os.path.join('./app/static', 'flare.json'), 'r') as datafile:
+        obj = json.load(datafile)
+        datafile.close()
+        return json.dumps(obj)
 
 if __name__ == "__main__":
     # prevent circular references
     from app import citations
 
-    query = 'glioblastoma stem cells'
+    # query = 'glioblastoma stem cells'
     # docs = documents from MongoDB
     # results = new PubMed data
-    (docs, results) = citations.start_search(query)
+    # (docs, results) = citations.start_search(query)
     
     # Multiprocessing using a queue
     # q = Queue()
@@ -72,8 +80,8 @@ if __name__ == "__main__":
 
     # block until item is available, so Process u can start
     # m_out = metamap.run(results)
-    m_out = metamap.format_results(load_read_close('./tests/resources', 'metamap_output.txt').split('\n'))
-    print(umls.run(m_out))
+    # m_out = metamap.format_results(load_read_close('./tests/resources', 'metamap_output.txt').split('\n'))
+    # print(umls.run(m_out))
     # Retrieve UMLS hierarchy for both cached terms and terms from Metamap
     # combined = docs + m_out
     # print(umls.run(combined))
@@ -86,4 +94,4 @@ if __name__ == "__main__":
 
     # insert_into_db(results, m_out, gr_out)
 
-    # app.run(debug=True)
+    app.run(debug=True)
