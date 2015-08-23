@@ -47,12 +47,29 @@ def write_file(filename, results):
         # exclude ASCII characters to avoid MetaMap errors
         ASCII_title = results[i]['MedlineCitation']['Article']['ArticleTitle'].encode('ascii', 
             errors='ignore').decode('UTF-8')
-        ASCII_abstract = results[i]['MedlineCitation']['Article']['Abstract']['AbstractText'][0].encode('ascii', 
-            errors='ignore').decode('UTF-8')
+        ASCII_abstract = ''
+
+        # not all papers have abstracts
+        if 'Abstract' in results[i]['MedlineCitation']['Article']:
+            ASCII_abstract = results[i]['MedlineCitation']['Article']['Abstract']['AbstractText'][0].encode('ascii', 
+                errors='ignore').decode('UTF-8')
+
+        # Appending author keywords to abstract
+        if 'KeywordList' in results[i]['MedlineCitation']:
+            for kw in results[i]['MedlineCitation']['KeywordList']:
+                for k in kw:
+                    ASCII_abstract = ASCII_abstract + ' ' + str(k)
+
+        # Appending MeSH keywords to abstract
+        if 'MeshHeadingList' in results[i]['MedlineCitation']:
+            for mh in results[i]['MedlineCitation']['MeshHeadingList']:
+                ASCII_abstract = ASCII_abstract + ' ' + mh['DescriptorName']
+
         batch.write('UI  - ' + results[i]['MedlineCitation']['PMID'] + '\n' + 
             'TI  - ' + ASCII_title + '\n' +
             'AB  - ' + ASCII_abstract + 
             '\n\n')
+
     batch.close()
     return True
 
@@ -96,5 +113,8 @@ def run(results):
         terms_list.append(term.decode('UTF-8'))
         p.poll()
     print("done %d" % p.returncode)
+
+    # Delete input file from app/static
+    os.remove(os.path.join('./app/static', filename))
 
     return format_results(terms_list)

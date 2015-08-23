@@ -125,5 +125,4 @@ def run(input_data):
 
     results = format_json(pmids_names, output)
 
-    with open(os.path.join('./app/static', 'umls_output.json'), 'w') as datafile:
-        datafile.write(json.dumps(results))
+    return json.dumps(results)

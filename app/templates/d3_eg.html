@@ -31,8 +31,29 @@
 
 </style>
 <body>
+
+<!-- <form method="POST">
+<input type="text" name="search_term" value="Enter your search term here?">
+<input type="submit" value="Submit">
+</form> 
+ -->
+
+<div>
+  <input id="text_field" type="text" name="search_term" value="Enter your search term here?">
+  <div id="btn_search">SEARCH</div>
+</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 <script type="text/javascript">
+
+var text_field = document.getElementById('text_field');
+var btn_search = document.getElementById('btn_search');
+
+btn_search.onclick = function(){
+  console.log(text_field.value);
+  d3.json("/data?search_term=" + text_field.value, d3_callback);
+};
+
 
 var margin = 20,
     diameter = 960;
@@ -59,7 +80,8 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
-d3.json("/data", function(error, root) {
+function d3_callback(error, root) {
+  console.log('in d3_callback')
   if (error) throw error;
 
   var focus = root,
@@ -111,7 +133,7 @@ d3.json("/data", function(error, root) {
     node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
     circle.attr("r", function(d) { return d.r * k; });
   }
-});
+}
 
 d3.select(self.frameElement).style("height", diameter + "px");
 

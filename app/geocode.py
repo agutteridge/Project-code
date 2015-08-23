@@ -41,15 +41,23 @@ def get_location(address):
     encoded_query = urllib.parse.urlencode(query_string)
     url = ('https://maps.googleapis.com/maps/api/place/textsearch/json?' + 
         encoded_query +
-        '&key=' + config.maps_key + 
-        '&types=university|hospital|establishment') # establishment is Google default
+        '&key=' + config.maps_key) # establishment is Google default
 
     place_options = request(url)['results']
 
-    if place_options:
-        return place_options[0] # only return first result
-    else: 
-        return dict()
+    result = dict()
+
+    #logging
+    with open(os.path.join('./app/static', 'log.txt'), 'a') as datafile:
+        datafile.write('Input address: ' + address + '\n')
+        if place_options:
+            datafile.write('Output address: ' +  place_options[0]['name'] + '\n')
+            result = place_options[0] # only return first result
+        else:
+            datafile.write('Output address: NONE\n')
+        datafile.close()
+
+    return result
 
 # Email addresses are removed to improve success of geocoding using Google Places API
 def remove_email(address):
@@ -60,13 +68,23 @@ def remove_email(address):
     # TODO: make sure comma is also deleted otherwise last thing will be just crap
     return result
 
+# Removes lines from address that refer to a department
+def remove_dept(address):
+    address_lines = address.split(',')
+    results = []
+    for a in address_lines:
+        temp_a = a.upper()
+        if 'DEPT' not in temp_a or 'DEPARTMENT' not in temp_a:
+            results.append(a)
+    return results
+
 # Removes first address lines for addresses over ???????? parts long (comma separated)
 def format_address(address):
     without_email = remove_email(address)
-    address_lines = without_email.split(',')
-    if len(address_lines) > 2:
-        address_lines = address_lines[-2:] # last 2 elements of the list
-    result = (','.join(address_lines))
+    without_department = remove_dept(without_email)
+    if len(without_department) > 3:
+        without_department = without_department[0:3]
+    result = (','.join(without_department))
     return result
 
 # Returns a set of strings, each with a different address.
@@ -131,14 +149,12 @@ def retrieve(docs):
     results = []
 
     for d in docs:
-        doc_places = dict()
-        doc_places['PMID'] = d['MedlineCitation']['PMID']   
-        placeid_list = []
+        pmid = d['MedlineCitation']['PMID']   
+        places = []
         
         for p in d['placeids']:
-            placeid_list.append(get_latlong(p))
+            places.append(get_latlong(p))
         
-        doc_places['results'] = placeid_list
-        results.append(doc_places)
+        results.append({'PMID': pmid, 'places': places})
 
     return results

@@ -46,7 +46,7 @@ def start_search(query):
 
     if not id_list: # if no papers are found
         print("no results!")
-        return []
+        return ([], [])
     else:
         new_ids = []
         cached_docs = []

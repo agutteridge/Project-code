@@ -48,15 +48,13 @@ class TestGeocode(unittest.TestCase):
             'hello address eMail Electronic hel++lo@123-bbk.ac.uk more text'), 
             'hello     more text')
 
-    # tests work but I keep changing how many lines to keep
+    def test_format_address(self):
+      self.assertEqual(geocode.format_address(
+          'Department of Pharmacology, Faculty of Medical Sciences, Lagos State University College of Medicine, 1-5 Oba Akinjobi Way, G.R.A., Ikeja, Lagos State, Nigeria.'),
+          'Department of Pharmacology, Faculty of Medical Sciences, Lagos State University College of Medicine')
 
-    # def test_format_address(self):
-    #   self.assertEqual(citations._format_address(
-    #       'Department of Pharmacology, Faculty of Medical Sciences, Lagos State University College of Medicine, 1-5 Oba Akinjobi Way, G.R.A., Ikeja, Lagos State, Nigeria.'),
-    #       ' G.R.A., Ikeja, Lagos State, Nigeria.')
-
-    # def test_format_address_dummy(self):
-    #   self.assertEqual(citations._format_address('this, is, a, test, string'), ' is, a, test, string')
+    def test_format_address_dummy(self):
+      self.assertEqual(geocode.format_address('this, is, a, test, string'), 'this, is, a')
 
     def test_unique_addresses(self): 
         self.assertEqual(geocode.unique_addresses([{'AffiliationInfo' : [{'Affiliation' : 'some location;another location'}]},
@@ -94,7 +92,7 @@ class TestGeocode(unittest.TestCase):
 
         expected = [{
             'PMID': "00000000",
-            'results': [{
+            'places': [{
                 'name': 'Google Sydney',
                 'geometry': {
                     'location': {
