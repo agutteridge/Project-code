@@ -28,6 +28,7 @@ def format_results(pmids_names, results):
 
         # level 2: Parent names
         par_key = r['PARENT_STR']
+        print(par_key)
 
         found = False
         for c in dict1['children']:
@@ -58,27 +59,22 @@ def execute_sql(cui_list, connection):
     try:
         with connection.cursor() as cursor:
 
-            sql = """SELECT DISTINCT T2.`CHILD_CUI`, T2.`S_TYPE`, T2.`PARENT_CUI`, C2.`STR` AS PARENT_STR
-                      FROM `MRCONSO` AS C2
-                      INNER JOIN (SELECT DISTINCT T1.`CHILD_CUI`, T1.`PARENT_CUI`, MAX(R1.`RANK`) AS MAXRANK, T1.`S_TYPE`
-                                  FROM `MRCONSO` AS C1
-                                  INNER JOIN `MRRANK` AS R1 ON (C1.`SAB` = R1.`SAB` AND C1.`TTY` = R1.`TTY`)
-                                  INNER JOIN (SELECT DISTINCT M1.`CUI1` AS CHILD_CUI, M1.`CUI2` AS PARENT_CUI, S.`STY` AS S_TYPE
-                                              FROM `MRREL` AS M1
-                                              INNER JOIN `MRSTY` AS S ON S.`CUI` = M1.`CUI1`
-                                              WHERE M1.`CUI1` IN %s
-                                              AND (M1.`RELA`=%s
-                                                   OR M1.`REL`=%s
-                                                   OR M1.`REL`=%s)) AS T1 ON T1.`PARENT_CUI` = C1.`CUI` 
-                                  WHERE C1.`STT`=%s
-                                  AND C1.`ISPREF`=%s
-                                  GROUP BY C1.`CUI`) AS T2 ON T2.`PARENT_CUI` = C2.`CUI`
-                      INNER JOIN `MRRANK` AS R3 ON (R3.`RANK` = T2.`MAXRANK` AND C2.`SAB` = R3.`SAB` AND C2.`TTY` = R3.`TTY`)
-                      WHERE C2.`STT`=%s
-                      AND C2.`ISPREF`=%s
-                      ORDER BY CHILD_CUI ASC"""
+            sql = """SELECT * FROM (
+                        SELECT M0.`CUI1` AS CHILD_CUI, M0.`CUI2` AS PARENT_CUI, C0.`STR` AS PARENT_STR, S.`STY` AS S_TYPE
+                        FROM `MRCONSO` AS C0
+                        INNER JOIN `MRRANK` AS R0 ON (C0.`SAB` = R0.`SAB` AND C0.`TTY` = R0.`TTY`)
+                        INNER JOIN `MRREL` AS M0 on M0.`CUI2` = C0.`CUI`
+                        INNER JOIN `MRSTY` AS S on S.`CUI` = M0.`CUI1`
+                            WHERE M0.`CUI1` IN %s
+                            AND (M0.`RELA`=%s
+                            OR M0.`REL`=%s
+                            OR M0.`REL`=%s)
+                            AND C0.`STT`=%s
+                            AND C0.`ISPREF`=%s
+                        ORDER BY R0.`RANK` DESC, PARENT_CUI ASC) AS TT
+                        GROUP BY TT.`CHILD_CUI`"""
 
-            cursor.execute(sql, (cui_list, 'inverse_isa', 'PAR', 'RB', 'PF', 'Y', 'PF', 'Y'))
+            cursor.execute(sql, (cui_list, 'inverse_isa', 'PAR', 'RB', 'PF', 'Y'))
             return cursor.fetchall() 
 
     finally:
@@ -100,6 +96,10 @@ def organise(input_data):
             if c[1] in pmids_names:
                 pmids_names[c[1]]['PMIDs'].append(pmid)
             else:
+
+                # Some key terms have asterisks preceding the name (STR)
+                c[0] = c[0].replace('*', '') 
+
                 data = {
                     'child_name': c[0],
                     'PMIDs': [
@@ -108,7 +108,7 @@ def organise(input_data):
                 }
                 pmids_names[c[1]] = data
 
-    return(pmids_names, list(cui_list))    
+    return(pmids_names, list(cui_list))
 
 def run(input_data):
     (pmids_names, cui_list) = organise(input_data)
