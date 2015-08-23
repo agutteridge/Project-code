@@ -49,7 +49,7 @@ def get_location(address):
     if place_options:
         return place_options[0] # only return first result
     else: 
-        return []
+        return dict()
 
 # Email addresses are removed to improve success of geocoding using Google Places API
 def remove_email(address):
@@ -102,9 +102,10 @@ def q_retrieve(docs, q):
 
 def run(results):
     result_list = []
+    all_cache = []
 
     for paper in results:
-        pmid = paper['MedlineCitation']['PMID']
+        pmid = str(paper['MedlineCitation']['PMID'])
         author_list = paper['MedlineCitation']['Article']['AuthorList']
         addresses = (unique_addresses(author_list))
         address_list = []
@@ -114,7 +115,16 @@ def run(results):
 
         result_list.append({'PMID': pmid, 'places': address_list})
 
-    return result_list
+        placeids = []
+        
+        for a in address_list:
+            if a:
+                placeids.append(a['place_id'])
+
+        all_cache.append({'MedlineCitation': {'PMID': pmid},
+            'placeids': placeids})
+
+    return (result_list, all_cache)
 
     # Returns a list of dicts
 def retrieve(docs):

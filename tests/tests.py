@@ -39,12 +39,7 @@ class TestMetaMap(unittest.TestCase):
                     'PMID': '23036330'
                 },
                 'concepts': [['Humans',
-                   'C0086418',
-                   '1000',
-                   'CT',
-                   'Breast Cancer;CT Treecode Lookup: C17.800.090 (Breast Cancer);CT Text Lookup: human',
-                   '',
-                   'MM;RC']]}])
+                   'C0086418']]}])
 
 class TestGeocode(unittest.TestCase):
 
@@ -77,12 +72,16 @@ class TestGeocode(unittest.TestCase):
         # get_location_output.json contains the first element of the results list
         place_result = fake_json('get_location_output.json')
 
-        expected = [
+        expected = ([
             {'PMID': '00000000',
              'places': [place_result]},
             {'PMID': '00000001',
              'places': [place_result]}
-        ]
+        ],
+            [{'MedlineCitation': {'PMID': '00000000'},
+            'placeids': ['ChIJyWEHuEmuEmsRm9hTkapTCrk']},
+            {'MedlineCitation': {'PMID': '00000001'},
+            'placeids': ['ChIJyWEHuEmuEmsRm9hTkapTCrk']}])
 
         observed = geocode.run(fake_json('eFetch_sample.json'))
         self.maxDiff = None
@@ -114,7 +113,7 @@ class TestUmls(unittest.TestCase):
     def test_format_results(self):
         pmids_names = umls.organise(fake_json('cache_example.json'))[0]
 
-        observed = umls.format_results(
+        observed = umls.format_json(
             pmids_names,
             [{
                 'CHILD_CUI': 'C0086418',
@@ -133,7 +132,8 @@ class TestUmls(unittest.TestCase):
                         'name': 'imaginaryconcept', 
                         'PMIDs': [
                             '00000000'
-                        ]
+                        ],
+                        'size': 500
                     }]
                 }]
             }]

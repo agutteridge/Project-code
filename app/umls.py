@@ -4,7 +4,7 @@ import os
 
 import config
 
-def format_results(pmids_names, results):
+def format_json(pmids_names, results):
     dict0 = dict()
     # level 0: all data
     dict0['name'] = 'flare'
@@ -50,6 +50,7 @@ def format_results(pmids_names, results):
         dict3['PMIDs'] = pmids
         dict2['children'].append(dict3)
         dict3['name'] = c_key
+        dict3['size'] = 500
         
     return dict0
 
@@ -122,8 +123,7 @@ def run(input_data):
 
     output = execute_sql(cui_list, connection)
 
-    with open(os.path.join('./tests/resources', 'umls_db_output.json'), 'w') as datafile:
-            datafile.write(json.dumps(output))
+    results = format_json(pmids_names, output)
 
-    with open(os.path.join('./tests/resources', 'umls_output.json'), 'w') as datafile:
-        datafile.write(json.dumps(format_results(pmids_names, output)))
+    with open(os.path.join('./app/static', 'umls_output.json'), 'w') as datafile:
+        datafile.write(json.dumps(results))

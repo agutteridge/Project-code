@@ -35,20 +35,6 @@ def fetch_details(id_list):
 
     return results  
 
-# I want to start logging how many papers are found, how many unique addresses,
-# how many hits on google places, how many hits on MetaMap
-def log():
-    return 'no logging yet'
-
-###############################
-# other ways to structure data!
-# institution with all authors (out of scope?)
-# paper AND author AND year
-# slider for year range then markers appear for author according to search query?
-# could be topic (e.g. where/who was writing about DIPG in the last year?)
-# could be person (where did papers by Alice Gutteridge originate from in 2014?)
-###############################
-
 # Returns two lists of strings: the first from the cache with all information,
 # and the second from PubMed. 
 # Each string is JSON-formatted, and contains data for one paper.

@@ -26,26 +26,30 @@ def load_read_close(path, filename):
 def get_query():
     return request.form['text']    
 
-def find_element(alist, pmid):
-    for l in alist:
-        if l['PMID'] is pmid:
-            return l
+def find_element(results, pmid, placeids_or_concepts):
+    for l in results:
+        if l['MedlineCitation']['PMID'] == pmid:
+            return l[placeids_or_concepts]
     raise AttributeError('The expected PubMed ID is not in the list.')
 
 # enter all results into the pubmeddata collection
 def insert_into_db(results, concepts, places):
+    all_docs = []
+
     for r in results:
         pmid = r['MedlineCitation']['PMID']
-        r['concepts'] = find_element(concepts, pmid)
-        r['placeids'] = find_element(places, pmid)
-        insert_result = db.pubmeddata.insert_one(docs)
+        r['concepts'] = find_element(concepts, pmid, 'concepts')
+        r['placeids'] = find_element(places, pmid, 'placeids')
+        print(r)
+        all_docs.append(r)
 
-        # error logging
-        if not insert_result.acknowledged:
-            print('ERROR: not an acknowledged write operation.\n' +
-                pmid + ' not inserted into db.')
-        else: 
-            print(insert_result.inserted_id + ' inserted')
+    # batch all insertions
+    insert_result = db.pubmeddata.insert_many(all_docs)
+
+    if not insert_result.acknowledged:
+        print('ERROR: not an acknowledged write operation.')
+    else: 
+        print(str(len(insert_result.inserted_ids)) + ' inserted')
 
 @app.route("/")
 def mapview():
@@ -54,7 +58,7 @@ def mapview():
 
 @app.route("/data")
 def return_data():
-    with open(os.path.join('./app/static', 'flare.json'), 'r') as datafile:
+    with open(os.path.join('./app/static', 'umls_output.json'), 'r') as datafile:
         obj = json.load(datafile)
         datafile.close()
         return json.dumps(obj)
@@ -63,10 +67,10 @@ if __name__ == "__main__":
     # prevent circular references
     from app import citations
 
-    # query = 'glioblastoma stem cells'
+    query = 'glioblastoma stem cells'
     # docs = documents from MongoDB
     # results = new PubMed data
-    # (docs, results) = citations.start_search(query)
+    (docs, results) = citations.start_search(query)
     
     # Multiprocessing using a queue
     # q = Queue()
@@ -74,17 +78,20 @@ if __name__ == "__main__":
     # g1 = Process(target=geocode.q_run, args=(results, q))
     # g2 = Process(target=geocode.q_retrieve, args=(docs, q))
     
+    (front, back) = geocode.run(results)
+
     # m.start()
     # g1.start()
     # g2.start()
 
     # block until item is available, so Process u can start
-    # m_out = metamap.run(results)
+    m_out = metamap.run(results)
     # m_out = metamap.format_results(load_read_close('./tests/resources', 'metamap_output.txt').split('\n'))
-    # print(umls.run(m_out))
+    # umls.run(m_out))
+
     # Retrieve UMLS hierarchy for both cached terms and terms from Metamap
-    # combined = docs + m_out
-    # print(umls.run(combined))
+    combined = docs + m_out
+    umls.run(combined)
     
     # g1_out = q.get()
     # g2_out = q.get()
@@ -92,6 +99,9 @@ if __name__ == "__main__":
     # print(g1_out)
     # print(g2_out)
 
-    # insert_into_db(results, m_out, gr_out)
+    if len(m_out) > 0 or len(back) > 0:
+        insert_into_db(results, m_out, back)
+    else:
+        print('all cached baby')
 
     app.run(debug=True)
