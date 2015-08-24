@@ -38,6 +38,7 @@ def format_results(results):
                         }
                     ] + all_concepts # prepend
                 all_concepts[0]['concepts'].append(rest) # adds concept to list of concepts for that paper
+    print(type(all_concepts))
     return all_concepts
 
 # creates a text file for MetaMap to use as a source
@@ -58,12 +59,13 @@ def write_file(filename, results):
         if 'KeywordList' in results[i]['MedlineCitation']:
             for kw in results[i]['MedlineCitation']['KeywordList']:
                 for k in kw:
-                    ASCII_abstract = ASCII_abstract + ' ' + str(k)
+                    ASCII_abstract = ASCII_abstract + ' ' + str(k).encode('ascii', errors='ignore').decode('UTF-8')
 
         # Appending MeSH keywords to abstract
         if 'MeshHeadingList' in results[i]['MedlineCitation']:
             for mh in results[i]['MedlineCitation']['MeshHeadingList']:
-                ASCII_abstract = ASCII_abstract + ' ' + mh['DescriptorName']
+                ASCII_abstract = ASCII_abstract + ' ' + mh['DescriptorName'].encode('ascii', 
+                    errors='ignore').decode('UTF-8')
 
         batch.write('UI  - ' + results[i]['MedlineCitation']['PMID'] + '\n' + 
             'TI  - ' + ASCII_title + '\n' +
@@ -73,48 +75,48 @@ def write_file(filename, results):
     batch.close()
     return True
 
-def q_run(results, q):
-  print('q_run start in metamap')
-  q.put(run(results))
-  print('q_run in metamap done')
-
 def run(results):
-    batch_id = create_batch_id()
-    filename = batch_id + '.txt'
-    write_file(filename, results)
 
-    mp = config.metamap_path
+    if len(results) > 0:
+        batch_id = create_batch_id()
+        filename = batch_id + '.txt'
+        write_file(filename, results)
 
-    # shell args for running MetaMapCaller.class
-    popen_args = ['java',
-                  '-cp',
-                  mp + '/classes:' +
-                  mp + '/lib/skrAPI.jar:' +
-                  mp + '/lib/commons-logging-1.1.1.jar:' +
-                  mp + '/lib/httpclient-cache-4.1.1.jar:' +
-                  mp + '/lib/httpcore-nio-4.1.jar:' +
-                  mp + '/lib/httpclient-4.1.1.jar:' +
-                  mp + '/lib/httpcore-4.1.jar:' +
-                  mp + '/lib/httpmime-4.1.1.jar:.',
-                  'MetaMapCaller',
-                  '../../static/' + filename, 
-                  config.un, # username for MetaMap
-                  config.pwd, # password for MetaMap
-                  config.email, # email for MetaMap
-                  '-y'] 
-    p = subprocess.Popen(popen_args, cwd='app/java/bin/', stdout=subprocess.PIPE)
+        mp = config.metamap_path
 
-    terms_list = []
+        # shell args for running MetaMapCaller.class
+        popen_args = ['java',
+                      '-cp',
+                      mp + '/classes:' +
+                      mp + '/lib/skrAPI.jar:' +
+                      mp + '/lib/commons-logging-1.1.1.jar:' +
+                      mp + '/lib/httpclient-cache-4.1.1.jar:' +
+                      mp + '/lib/httpcore-nio-4.1.jar:' +
+                      mp + '/lib/httpclient-4.1.1.jar:' +
+                      mp + '/lib/httpcore-4.1.jar:' +
+                      mp + '/lib/httpmime-4.1.1.jar:.',
+                      'MetaMapCaller',
+                      '../../static/' + filename, 
+                      config.un, # username for MetaMap
+                      config.pwd, # password for MetaMap
+                      config.email, # email for MetaMap
+                      '-y'] 
+        p = subprocess.Popen(popen_args, cwd='app/java/bin/', stdout=subprocess.PIPE)
 
-    while 1:
-        term = p.stdout.readline()
-        if not term and p.returncode is not None:
-            break
-        terms_list.append(term.decode('UTF-8'))
-        p.poll()
-    print("done %d" % p.returncode)
+        terms_list = []
 
-    # Delete input file from app/static
-    os.remove(os.path.join('./app/static', filename))
+        while 1:
+            term = p.stdout.readline()
+            print(term)
+            if not term and p.returncode is not None:
+                break
+            terms_list.append(term.decode('UTF-8'))
+            p.poll()
+        print("done %d" % p.returncode)
 
-    return format_results(terms_list)
+        # Delete input file from app/static
+        os.remove(os.path.join('./app/static', filename))
+
+        return format_results(terms_list)
+    else:
+        return []

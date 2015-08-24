@@ -110,6 +110,9 @@ def organise(input_data):
 
     return(pmids_names, list(cui_list))
 
+def q_run(input_data, q):
+    q.put(run(input_data))
+
 def run(input_data):
     (pmids_names, cui_list) = organise(input_data)
 
@@ -125,4 +128,4 @@ def run(input_data):
 
     results = format_json(pmids_names, output)
 
-    return json.dumps(results)
+    return results

@@ -2,49 +2,45 @@
 
 <!DOCTYPE html>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="index.css"> 
-<style type="text/css">
-  html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
-</style>
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='index.css')}}"> 
+
 <body>
 
 <div>
   <input id="text_field" type="text" name="search_term" value="Enter your search term here?">
   <div id="btn_search">SEARCH</div>
-  <div id="loading">
+  <div style="display:none", id="loading">
     <img id="loading-image" src="{{url_for('static', filename='img/loading.gif')}}" alt="Loading..." />
   </div>  
 </div>
 
 <script src="https://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
-<script src="../d3/d3.min.js" type="text/javascript"></script>
+<script src="{{url_for('static', filename='d3/d3.v3.min.js')}}" type="text/javascript"></script>
 <script type="text/javascript">
-
+var map;
 // Start Google Maps script
+function initialize() {
+  var mapOptions = {
+    // centres on London
+    center: { lat: 51.508742, lng: -0.120850},
+    zoom: 2
+  };
+  
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+    mapOptions);
+}
 
-  function initialize() {
-    var mapOptions = {
-      // centres on London
-      center: { lat: 51.508742, lng: -0.120850},
-      zoom: 2
-    };
-    
-    map = new google.maps.Map(document.getElementById('map-canvas'),
-      mapOptions);
+function placeMarkers(data) {
+  var infowindow = new google.maps.InfoWindow();
+  // var places = {% autoescape false %}{{ places }}{% endautoescape %};
 
-    placeMarkers(map);
-  }
+  for (i = 0; i < data.length; i++) {
+    places = data[i].places
 
-  function placeMarkers(map) {
-    var infowindow = new google.maps.InfoWindow();
-    var places = {% autoescape false %}{{ places }}{% endautoescape %};
-    var results = places.results;
-
-    for (i = 0; i < results.length; i++) {  
-
+    for (n = 0; n < places.length; n++) {
       marker = new google.maps.Marker({
-        position: new google.maps.LatLng(results[i].geometry.location.lat, 
-          results[i].geometry.location.lng),
+        position: new google.maps.LatLng(places[n].geometry.location.lat, 
+          places[n].geometry.location.lng),
         map: map
       });
 
@@ -54,10 +50,8 @@
           infowindow.open(map, marker);
         }
       })(marker, i));
-    }
   }
-
-  google.maps.event.addDomListener(window, 'load', initialize);
+}
 
 // Start D3 script
 var text_field = document.getElementById('text_field');
@@ -71,7 +65,7 @@ btn_search.onclick = function(){
 
 
 var margin = 20,
-    diameter = 960;
+    diameter = 400;
 
 var color = d3.scale.linear()
     .domain([-1, 5])
@@ -81,13 +75,7 @@ var color = d3.scale.linear()
 var pack = d3.layout.pack()
     .padding(2)
     .size([diameter - margin, diameter - margin])
-    .value(function(d) { return d.size; })
-
-// calculateSize written by Alice
-
-function calculateSize() {
-  //do stuff
-}
+    .value(function(d) { return d.PMIDs.length * 500; })
 
 var svg = d3.select("body").append("svg")
     .attr("width", diameter)
@@ -95,9 +83,12 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
-function d3_callback(error, root) {
+function d3_callback(error, data) {
   console.log('in d3_callback')
   if (error) throw error;
+
+  var root = data.concepts;
+  placeMarkers(data.places)
 
   var focus = root,
       nodes = pack.nodes(root),
@@ -121,10 +112,11 @@ function d3_callback(error, root) {
   var node = svg.selectAll("circle,text");
 
   d3.select("body")
-      .style("background", color(-1))
+      //.style("background", color(-1))
       .on("click", function() { zoom(root); });
 
   zoomTo([root.x, root.y, root.r * 2 + margin]);
+  document.getElementById("loading").style.display = "none";
 
   function zoom(d) {
     var focus0 = focus; focus = d;
@@ -151,7 +143,8 @@ function d3_callback(error, root) {
 }
 
 d3.select(self.frameElement).style("height", diameter + "px");
+google.maps.event.addDomListener(window, 'load', initialize);
 
 </script>
-<div id="map-canvas" style="width: 500px; height: 400px;"></div>
+<div id="map-canvas"></div>
 </html>

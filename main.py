@@ -2,6 +2,7 @@ import os
 import json
 from multiprocessing import Process, Queue
 import datetime
+import time
 
 import pymongo
 from flask import Flask, render_template, request, jsonify
@@ -10,14 +11,13 @@ from pymongo import MongoClient
 from app import metamap, geocode, umls
 
 # Flask setup
-app = Flask(__name__, template_folder='./app/templates')
+app = Flask(__name__, template_folder='./app/templates',
+                      static_folder='./app/static')
 
 # MongoDB setup
 client = MongoClient()
 db = client.cached_results
 pubmeddata = db['pubmeddata']
-
-json_for_d3 = json.dumps(dict())
 
 def load_read_close(path, filename):
     with open(os.path.join(path, filename), 'r') as datafile:
@@ -66,7 +66,8 @@ def insert_into_db(results, concepts, places):
 
 @app.route("/")
 def index():
-    return render_template('d3_eg.html')
+    # get another route through which JSON can be sent woooooooooo (maybe same structure for both D3 and GMaps??)
+    return render_template('index.html')
 
 @app.route("/data")
 def return_data():
@@ -76,8 +77,8 @@ def return_data():
 def search_for(query):
     #logging
     with open(os.path.join('./app/static', 'log.txt'), 'a') as datafile:
-        time = datetime.datetime.today()
-        datafile.write('BEGIN ' + str(time) + '\n')
+        now = datetime.datetime.today()
+        datafile.write('BEGIN ' + str(now) + '\n')
         datafile.write('Search term: ' + query + '\n')
         datafile.close()
 
@@ -92,39 +93,20 @@ def search_for(query):
         datafile.write(str(len(results)) + ' documents fetched from PubMed.\n')
         datafile.close()
 
-    # Multiprocessing using a queue
-    # q = Queue()
-    # m = Process(target=metamap.q_run, args=(results, q))
-    # g1 = Process(target=geocode.q_run, args=(results, q))
-    # g2 = Process(target=geocode.q_retrieve, args=(docs, q))
-    
-    (front, back) = geocode.run(results)
-    g_out = geocode.retrieve(docs)
-
-    # m.start()
-    # g1.start()
-    # g2.start()
-
-    # block until item is available, so Process u can start
     m_out = metamap.run(results)
-    # m_out = metamap.format_results(load_read_close('./tests/resources', 'metamap_output.txt').split('\n'))
-    # umls.run(m_out))
-
-    # Retrieve UMLS hierarchy for both cached terms and terms from Metamap
     combined = docs + m_out
+    concepts = umls.run(combined)
 
-    # g1_out = q.get()
-    # g2_out = q.get()
-    
-    # print(g1_out)
-    # print(g2_out)
+    (front1, back) = geocode.run(results)
+    front2 = geocode.retrieve(docs)
+    places = front1 + front2
 
     if len(m_out) > 0 or len(back) > 0:
         insert_into_db(results, m_out, back)
     else:
         print('all cached baby')
 
-    return umls.run(combined)
+    return json.dumps({ 'concepts' : concepts, 'places' : places })
 
 
 if __name__ == "__main__":

@@ -108,16 +108,6 @@ def unique_addresses(author_list):
                     alphanumeric_addresses.add(alphanumeric)
     return result
 
-def q_run(results, q):
-    print('q_run start in geocode')
-    q.put(run(results))
-    print('q_run in geocode done')
-
-def q_retrieve(docs, q):
-    print('q_retrieve start in geocode')
-    q.put(retrieve(docs))
-    print('q_retrieve in geocode done')
-
 def run(results):
     result_list = []
     all_cache = []
@@ -131,6 +121,7 @@ def run(results):
         for address in addresses:
             address_list.append(get_location(address))
 
+        # return flat list of place, pubmed ID.
         result_list.append({'PMID': pmid, 'places': address_list})
 
         placeids = []
