@@ -160,7 +160,18 @@ class TestUmls(unittest.TestCase):
             ['C0086418'])
         self.assertEqual(observed, expected)
 
-# class TestCitations(unittest.TestCase):
+class TestCitations(unittest.TestCase):
+    def test_format_papers_et_al(self):
+        observed = citations.format_papers(fake_json('cache_example.json'))
+        expected = [{'PMID': '00000000',
+            'title': 'Example of a title',
+            'authors': 'Heredia et al.',
+            'date': '02/10/2012',
+            'journal': 'Methods'
+        }]
+
+        self.maxDiff = None
+        self.assertEqual(observed, expected)
 
 if __name__ == '__main__':
     unittest.main()

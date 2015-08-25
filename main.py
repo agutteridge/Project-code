@@ -85,8 +85,8 @@ def search_for(query):
     # prevent circular references
     from app import citations
 
-    (docs, results) = citations.start_search(query)
-    
+    (docs, results, all_results) = citations.start_search(query)
+
     #logging
     with open(os.path.join('./app/static', 'log.txt'), 'a') as datafile:
         datafile.write(str(len(docs)) + ' documents retrieved from database.\n')
@@ -106,7 +106,7 @@ def search_for(query):
     else:
         print('all docs retrieved from cache')
 
-    return json.dumps({ 'concepts' : concepts, 'places' : places })
+    return json.dumps({ 'concepts': concepts, 'places': places, 'papers': all_results })
 
 
 if __name__ == "__main__":
