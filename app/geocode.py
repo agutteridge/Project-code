@@ -22,7 +22,8 @@ def request(url):
 def get_latlong(placeid):
     url = ('https://maps.googleapis.com/maps/api/place/details/json?' +
             'placeid=' + placeid +
-            '&key=' + config.maps_key)
+            '&key=' + config.maps_key +
+            '&language=en')
 
     result = request(url)
 
@@ -39,9 +40,12 @@ def get_latlong(placeid):
 def get_location(address):
     query_string = {'query': address}
     encoded_query = urllib.parse.urlencode(query_string)
+    # establishment is Google default
     url = ('https://maps.googleapis.com/maps/api/place/textsearch/json?' + 
         encoded_query +
-        '&key=' + config.maps_key) # establishment is Google default
+        '&key=' + config.maps_key +
+        '&types=university|hospital|establishment' +
+        '&language=en') 
 
     place_options = request(url)['results']
 
@@ -74,8 +78,8 @@ def remove_dept(address):
     results = []
     for a in address_lines:
         temp_a = a.upper()
-        if 'DEPT' not in temp_a or 'DEPARTMENT' not in temp_a:
-            results.append(a)
+        if 'DEPT' not in temp_a and 'DEPARTMENT' not in temp_a:
+            results.append(a.strip()) # remove trailing whitespace
     return results
 
 # Removes first address lines for addresses over ???????? parts long (comma separated)
@@ -84,7 +88,7 @@ def format_address(address):
     without_department = remove_dept(without_email)
     if len(without_department) > 3:
         without_department = without_department[0:3]
-    result = (','.join(without_department))
+    result = (', '.join(without_department))
     return result
 
 # Returns a set of strings, each with a different address.
@@ -109,6 +113,7 @@ def unique_addresses(author_list):
     return result
 
 def run(results):
+    print('in geocode.run')
     result_list = []
     all_cache = []
 
@@ -116,36 +121,31 @@ def run(results):
         pmid = str(paper['MedlineCitation']['PMID'])
         author_list = paper['MedlineCitation']['Article']['AuthorList']
         addresses = (unique_addresses(author_list))
-        address_list = []
         
-        for address in addresses:
-            address_list.append(get_location(address))
-
-        # return flat list of place, pubmed ID.
-        result_list.append({'PMID': pmid, 'places': address_list})
-
         placeids = []
-        
-        for a in address_list:
-            if a:
-                placeids.append(a['place_id'])
+
+        for address in addresses:
+            place = get_location(address)
+            if place:
+                result_list.append( {'PMID': pmid, 'place': place } )
+                placeids.append(place['place_id'])
 
         all_cache.append({'MedlineCitation': {'PMID': pmid},
             'placeids': placeids})
 
+    print('returning from geocode.run')
     return (result_list, all_cache)
 
     # Returns a list of dicts
 def retrieve(docs):
+    print('in geocode.retrieve')
     results = []
 
     for d in docs:
         pmid = d['MedlineCitation']['PMID']   
-        places = []
         
         for p in d['placeids']:
-            places.append(get_latlong(p))
-        
-        results.append({'PMID': pmid, 'places': places})
+            results.append( {'PMID': pmid, 'place': get_latlong(p)} )
 
+    print('returning from geocode.retrieve')        
     return results

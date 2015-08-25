@@ -38,7 +38,6 @@ def format_results(results):
                         }
                     ] + all_concepts # prepend
                 all_concepts[0]['concepts'].append(rest) # adds concept to list of concepts for that paper
-    print(type(all_concepts))
     return all_concepts
 
 # creates a text file for MetaMap to use as a source
@@ -76,6 +75,7 @@ def write_file(filename, results):
     return True
 
 def run(results):
+    print('in metamap.run')
 
     if len(results) > 0:
         batch_id = create_batch_id()
@@ -107,7 +107,6 @@ def run(results):
 
         while 1:
             term = p.stdout.readline()
-            print(term)
             if not term and p.returncode is not None:
                 break
             terms_list.append(term.decode('UTF-8'))
@@ -117,6 +116,7 @@ def run(results):
         # Delete input file from app/static
         os.remove(os.path.join('./app/static', filename))
 
+        print('returning from metamap.run')
         return format_results(terms_list)
     else:
         return []

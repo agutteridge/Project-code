@@ -104,7 +104,7 @@ def search_for(query):
     if len(m_out) > 0 or len(back) > 0:
         insert_into_db(results, m_out, back)
     else:
-        print('all cached baby')
+        print('all docs retrieved from cache')
 
     return json.dumps({ 'concepts' : concepts, 'places' : places })
 

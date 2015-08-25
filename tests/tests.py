@@ -43,6 +43,11 @@ class TestMetaMap(unittest.TestCase):
 
 class TestGeocode(unittest.TestCase):
 
+    def test_remove_department(self):
+        self.assertEqual(['Seoul National University College of Medicine', 
+                          'Seoul National University Bundang Hospital'],
+            geocode.remove_dept('Department of Orthopaedic Surgery, Seoul National University College of Medicine, Seoul National University Bundang Hospital'))
+
     def test_remove_email(self):
         self.assertEqual(geocode.remove_email(
             'hello address eMail Electronic hel++lo@123-bbk.ac.uk more text'), 
@@ -51,7 +56,7 @@ class TestGeocode(unittest.TestCase):
     def test_format_address(self):
       self.assertEqual(geocode.format_address(
           'Department of Pharmacology, Faculty of Medical Sciences, Lagos State University College of Medicine, 1-5 Oba Akinjobi Way, G.R.A., Ikeja, Lagos State, Nigeria.'),
-          'Department of Pharmacology, Faculty of Medical Sciences, Lagos State University College of Medicine')
+          'Faculty of Medical Sciences, Lagos State University College of Medicine, 1-5 Oba Akinjobi Way')
 
     def test_format_address_dummy(self):
       self.assertEqual(geocode.format_address('this, is, a, test, string'), 'this, is, a')
@@ -72,9 +77,9 @@ class TestGeocode(unittest.TestCase):
 
         expected = ([
             {'PMID': '00000000',
-             'places': [place_result]},
+             'place': place_result},
             {'PMID': '00000001',
-             'places': [place_result]}
+             'place': place_result}
         ],
             [{'MedlineCitation': {'PMID': '00000000'},
             'placeids': ['ChIJyWEHuEmuEmsRm9hTkapTCrk']},
@@ -92,7 +97,7 @@ class TestGeocode(unittest.TestCase):
 
         expected = [{
             'PMID': "00000000",
-            'places': [{
+            'place': {
                 'name': 'Google Sydney',
                 'geometry': {
                     'location': {
@@ -100,7 +105,7 @@ class TestGeocode(unittest.TestCase):
                         "lng": 151.1958750
                     }
                 }
-            }]
+            }
         }]
 
         observed = geocode.retrieve(fake_json('cache_example.json'))
