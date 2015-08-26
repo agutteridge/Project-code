@@ -1,3 +1,4 @@
+import os
 import pymongo
 from pymongo import MongoClient
 
@@ -7,9 +8,9 @@ db = client.cached_results
 pubmeddata = db['pubmeddata']
 
 def find_element(placeids_or_concepts, pmid, string):
-    for l in results:
-        if l['PMID'] == pmid:
-            return l[string]
+    for pc in placeids_or_concepts:
+        if pc['PMID'] == pmid:
+            return pc[string]
     raise AttributeError('The expected PubMed ID is not in the list.')
 
 # enter all results into the pubmeddata collection
