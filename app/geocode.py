@@ -1,10 +1,9 @@
 import urllib
-import sys
 import json
 import os
 import re
 
-import config
+from app import config
 
 # URLopen, read, decode, and turn into python object
 def request(url):
@@ -115,7 +114,7 @@ def unique_addresses(author_list):
 def run(results):
     print('in geocode.run')
     result_list = []
-    all_cache = []
+    for_cache = []
 
     for paper in results:
         pmid = str(paper['MedlineCitation']['PMID'])
@@ -130,11 +129,14 @@ def run(results):
                 result_list.append( {'PMID': pmid, 'place': place } )
                 placeids.append(place['place_id'])
 
-        all_cache.append({'MedlineCitation': {'PMID': pmid},
+        for_cache.append({'PMID': pmid,
             'placeids': placeids})
 
     print('returning from geocode.run')
-    return (result_list, all_cache)
+    return {
+        'results': result_list,
+        'for_cache': for_cache
+    }
 
     # Returns a list of dicts
 def retrieve(docs):

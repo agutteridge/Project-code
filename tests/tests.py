@@ -34,12 +34,9 @@ class TestMetaMap(unittest.TestCase):
     def test_format_results(self):
         self.assertEqual(metamap.format_results(
             ["23036330|Humans|C0086418|1000|CT|Breast Cancer;CT Treecode Lookup: C17.800.090 (Breast Cancer);CT Text Lookup: human||MM;RC"]),
-            [{
-                'MedlineCitation': {
-                    'PMID': '23036330'
-                },
-                'concepts': [['Humans',
-                   'C0086418']]}])
+            [{'PMID': '23036330',
+            'concepts': [['Humans',
+                'C0086418']]}])
 
 class TestGeocode(unittest.TestCase):
 
@@ -75,16 +72,15 @@ class TestGeocode(unittest.TestCase):
         # get_location_output.json contains the first element of the results list
         place_result = fake_json('get_location_output.json')
 
-        expected = ([
-            {'PMID': '00000000',
-             'place': place_result},
-            {'PMID': '00000001',
-             'place': place_result}
-        ],
-            [{'MedlineCitation': {'PMID': '00000000'},
+        expected = {'results': [
+                {'PMID': '00000000',
+                 'place': place_result},
+                {'PMID': '00000001',
+                 'place': place_result}],
+            'for_cache': [{'PMID': '00000000',
             'placeids': ['ChIJyWEHuEmuEmsRm9hTkapTCrk']},
-            {'MedlineCitation': {'PMID': '00000001'},
-            'placeids': ['ChIJyWEHuEmuEmsRm9hTkapTCrk']}])
+            {'PMID': '00000001',
+            'placeids': ['ChIJyWEHuEmuEmsRm9hTkapTCrk']}]}
 
         observed = geocode.run(fake_json('eFetch_sample.json'))
         self.maxDiff = None
@@ -114,7 +110,7 @@ class TestGeocode(unittest.TestCase):
 
 class TestUmls(unittest.TestCase):
     def test_format_results(self):
-        pmids_names = umls.organise(fake_json('cache_example.json'))[0]
+        pmids_names = umls.organise(fake_json('cache_example.json'))['PMIDs']
 
         observed = umls.format_json(
             pmids_names,
@@ -147,17 +143,10 @@ class TestUmls(unittest.TestCase):
 
     def test_organise(self):
         observed = umls.organise(fake_json('cache_example.json'))
-        expected = (
-            {
-            'C0086418': 
-                {
-                    'child_name': 'imaginaryconcept',
-                    'PMIDs': [
-                        '00000000'
-                    ]
-                }
-            },
-            ['C0086418'])
+        expected = {'PMIDs': {'C0086418': 
+                {'child_name': 'imaginaryconcept',
+                'PMIDs': ['00000000']}},
+            'CUIs': ['C0086418']}
         self.assertEqual(observed, expected)
 
 class TestCitations(unittest.TestCase):
@@ -166,7 +155,10 @@ class TestCitations(unittest.TestCase):
         expected = [{'PMID': '00000000',
             'title': 'Example of a title',
             'authors': 'Heredia et al.',
-            'date': '02/10/2012',
+            'date': {
+                'Year': '2013',
+                'Month': 'Jan'
+            },
             'journal': 'Methods'
         }]
 

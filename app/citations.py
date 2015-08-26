@@ -1,11 +1,6 @@
-import re
-import json
-
 from Bio import Entrez
-import pymongo
 
-from main import db
-import config
+from app import cache, config
 
 # Entrez setup
 Entrez.email = config.email
@@ -21,6 +16,9 @@ def search(query):
                             term=query,
                             usehistory='y')
     results = Entrez.read(handle)
+    webenv = results['WebEnv'] # ID for session
+    query_key = results['QueryKey'] # ID for query within session
+
     return results
 
 # Retrieves citation data for each PubMed ID in a list
@@ -32,36 +30,53 @@ def fetch_details(id_list):
                            webenv=webenv,
                            query_key=query_key)
     results = Entrez.read(handle)
-
     return results  
+
+# Formatting according to # of authors
+def get_authors(authors):
+    author_list = []
+    if len(authors) > 5:
+        author_text = authors[0]['LastName'] + ' et al.'
+    else:
+        author_list = []
+
+        for a in authors:
+            # Can be a collective, not a person
+            if 'LastName' in a:
+                author_list.append(a['LastName'])
+            
+            if 'CollectiveName' in a:
+                author_list.append(a['CollectiveName'])
+
+        author_text = (', ').join(author_list[:-1])
+        author_text += ' & ' + author_list[-1]
+
+    return author_text
+
+# Returns either year of publishing or formatted date
+def get_date(journal):
+    # Dict containing year, month and day 
+    if 'PubDate' in journal:
+        return journal['PubDate']
+    elif 'MedlineDate' in journal:
+        return journal['MedlineDate']
 
 # Formatting paper information for frontend as JSON
 def format_papers(all_papers):
     results = []
 
     for p in all_papers:
-        # Formatting according to # of authors
-        author_text = ''
-        authors = p['MedlineCitation']['Article']['AuthorList']
+        author_text = get_authors(p['MedlineCitation']['Article']['AuthorList'])
+        date = get_date(p['MedlineCitation']['Article']['Journal']['JournalIssue'])
 
-        if len(authors) > 5:
-            author_text = authors[0]['LastName'] + ' et al.'
-        else:
-            author_list = []
-            for a in authors:
-                author_list.append(a['LastName'])
-
-            author_text = (', ').join(author_list[:-1])
-            author_text += ' & ' + author_list[-1]
-
-        results.append({'PMID': p['MedlineCitation']['PMID'],
+        result_dict = {'PMID': p['MedlineCitation']['PMID'],
             'title': p['MedlineCitation']['Article']['ArticleTitle'],
             'authors': author_text,
-            'date': (str(p['MedlineCitation']['Article']['ArticleDate'][0]['Day']) + '/' +
-                    str(p['MedlineCitation']['Article']['ArticleDate'][0]['Month']) + '/' +
-                    str(p['MedlineCitation']['Article']['ArticleDate'][0]['Year'])),
+            'date': date,
             'journal': p['MedlineCitation']['Article']['Journal']['ISOAbbreviation']
-        })
+        }
+
+        results.append(result_dict)
 
     return results
 
@@ -69,31 +84,22 @@ def format_papers(all_papers):
 # and the second from PubMed. 
 # Each string is JSON-formatted, and contains data for one paper.
 def start_search(query):
-    search_results = search(query)
-    id_list = search_results['IdList']
-    webenv = search_results['WebEnv'] # ID for session
-    query_key = search_results['QueryKey'] # ID for query within session
+    id_list = search(query)['IdList']
 
-    if not id_list: # if no papers are found
-        print("no results!")
-        return ([], [])
-    else:
-        new_ids = []
-        cached_docs = []
-
-        for i in id_list:
-            # search for PMID in pubmeddata mongoDB collection
-            cursor = db.pubmeddata.find_one( {'MedlineCitation.PMID': i} )
-
-            if not cursor: # if paper not already cached
-                new_ids.append(i)
-            else:
-                cached_docs.append(cursor)
-
+    if id_list:
+        papers = cache.retrieve(id_list)
         fetch_results = []
 
         # papers only need to be fetched if not in cache
-        if new_ids:
-            fetch_results = fetch_details(new_ids)
+        if papers['new']:
+            fetch_results = fetch_details(papers['new'])
 
-        return (cached_docs, fetch_results, format_papers(cached_docs + fetch_results))
+        formatted = format_papers(papers['old'] + fetch_results)
+
+        return {
+            'docs': papers['old'],
+            'results': fetch_results,
+            'formatted': formatted
+        }
+    else:
+        return []

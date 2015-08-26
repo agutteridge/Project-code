@@ -1,8 +1,6 @@
 import pymysql.cursors
-import json
-import os
 
-import config
+from app import config
 
 def format_json(pmids_names, results):
     dict0 = dict()
@@ -83,10 +81,14 @@ def execute_sql(cui_list, connection):
 # organise data for input to SQL query, as well as for matching results to PMIDs
 def organise(input_data):
     pmids_names = dict()
-    cui_list = set()
+    cui_list = set() # set ensures no duplicates
 
     for i in input_data:
-        pmid = i['MedlineCitation']['PMID']
+        if 'MedlineCitation' in i:
+            pmid = i['MedlineCitation']['PMID']
+        else:
+            pmid = i['PMID']
+
         concepts = i['concepts']
 
         for c in concepts:
@@ -100,19 +102,18 @@ def organise(input_data):
                 # Some key terms have asterisks preceding the name (STR)
                 c[0] = c[0].replace('*', '') 
 
-                data = {
-                    'child_name': c[0],
-                    'PMIDs': [
-                        pmid
-                    ]
-                }
+                data = {'child_name': c[0],
+                        'PMIDs': [pmid]}
                 pmids_names[c[1]] = data
 
-    return(pmids_names, list(cui_list))
+    return {
+        'PMIDs': pmids_names, 
+        'CUIs': list(cui_list)
+    }
 
 def run(input_data):
     print('in umls.run')
-    (pmids_names, cui_list) = organise(input_data)
+    organised = organise(input_data)
 
     # Connect to the database
     connection = pymysql.connect(host='localhost',
@@ -122,9 +123,9 @@ def run(input_data):
                                  charset='utf8mb4',
                                  cursorclass=pymysql.cursors.DictCursor)
 
-    output = execute_sql(cui_list, connection)
+    output = execute_sql(organised['CUIs'], connection)
 
-    results = format_json(pmids_names, output)
+    results = format_json(organised['PMIDs'], output)
 
     print('returning from umls.run')
     return results

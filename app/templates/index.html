@@ -2,12 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap core CSS -->
-    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
-    <!-- Bootstrap theme -->
-    <link href="{{ url_for('static', filename='css/bootstrap-theme.min.css') }}" rel="stylesheet">
     <!-- CSS for maps and D3 -->
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/index.css')}}"> 
   </head>
@@ -25,9 +19,6 @@
     </div>
     <br>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
     <!-- JavaScript for D3 and Google Maps -->
     <script src="https://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
     <script src="{{url_for('static', filename='d3/d3.v3.min.js')}}" type="text/javascript"></script>

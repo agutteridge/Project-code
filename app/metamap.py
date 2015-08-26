@@ -6,7 +6,7 @@ import os
 import time
 import re
 
-import config
+from app import config
 
 # Creates a batch ID for .txt files to be used as input for MetaMap
 def create_batch_id():
@@ -19,25 +19,21 @@ def format_results(results):
     all_concepts = []
     for r in results:
         concept = r.split('|')
+    
         if len(concept) > 1:
-            PMID = concept[0]
-            PMID_non_digits = re.sub('[\d]', '', PMID)
+            pmid = concept[0]
+            pmid_non_digits = re.sub('[\d]', '', pmid)
             rest = [concept[1], concept[2]]
 
             # filtering out empty strings and those with non-digits
-            if len(PMID_non_digits) is 0 and len(PMID) is not 0:
-                if not all_concepts or all_concepts[0]['MedlineCitation']['PMID'] != PMID:
-                    # keeping structure
-                    all_concepts = [
-                        {
-                        'MedlineCitation': 
-                            {
-                            'PMID': PMID
-                            }, 
-                        'concepts': []
-                        }
-                    ] + all_concepts # prepend
+            if len(pmid_non_digits) is 0 and len(pmid) is not 0:
+                if not all_concepts or all_concepts[0]['PMID'] != pmid:
+                    # keeping structure for umls.run
+                    all_concepts = [{'PMID': pmid,
+                        'concepts': []}] + all_concepts # prepend
+
                 all_concepts[0]['concepts'].append(rest) # adds concept to list of concepts for that paper
+    
     return all_concepts
 
 # creates a text file for MetaMap to use as a source
