@@ -18,8 +18,17 @@ def fake_json(filename):
 def format_address_0(address):
     return address
 
+def format_address_1(address):
+    return geocode.remove_email(address)
+
+def format_address_2(address):
+    without_email = geocode.remove_email(address)
+    without_department = geocode.remove_dept(without_email)
+    result = (', '.join(without_department))
+    return result
+
 def geocode_run(results):
-    with open(os.path.join('./tests/resources', 'format_address_0_results.txt'), 'a') as datafile:
+    with open(os.path.join('./tests/resources', 'format_address_2_results.txt'), 'a') as datafile:
         input_num = 0
         output_num = 0
 
@@ -43,8 +52,9 @@ def geocode_run(results):
                         for f in individual_addresses:
                             datafile.write('\t\tInput address: ' + f + '\n')
                             input_num += 1
-                            formatted_address = format_address_0(f) # change format_address
+                            formatted_address = format_address_2(f) # change format_address
                             place = geocode.get_location(formatted_address)
+                            datafile.write('\t\tFormatted address: ' + formatted_address + '\n')                            
         
                             if place:
                                 datafile.write('\t\tOutput address: ' + place['name'] + '\n')
@@ -78,5 +88,5 @@ def init():
     datafile.close()
 
 if __name__ == "__main__":
-    # geocode_run(fake_json('eFetch_random.json'))
-    print('no method chosen')
+    geocode_run(fake_json('eFetch_random.json'))
+    # print('no method chosen')

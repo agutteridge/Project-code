@@ -1,0 +1,1376 @@
+PMID: 25515145
+	Author: Benson
+PMID: 25185231
+	Author: Eddy
+		Input address: *Department of Biology, University of Washington, Seattle, WA 98195 sleddy@u.washington.edu.
+		Output address: NONE
+	Author: Brownell
+		Input address: School of Life Sciences, Arizona State University, Tempe, AZ 85287.
+		Output address: School Of Life Sciences : Arizona State University
+	Author: Wenderoth
+		Input address: *Department of Biology, University of Washington, Seattle, WA 98195.
+		Output address: University of Washington: Department of Biology
+PMID: 25316777
+	Author: Wright
+		Input address: Department of Genetics, Cell Biology and Development, College of Biological Sciences, University of Minnesota, St. Paul, Minnesota 55108.
+		Output address: NONE
+PMID: 24591504
+	Author: Hester
+		Input address: Department of Molecular and Cellular Biology, University of Arizona, Tucson, AZ 85721 Department of Teaching, Learning and Sociocultural Studies, University of Arizona, Tucson, AZ 85721.
+		Output address: NONE
+	Author: Buxner
+	Author: Elfring
+	Author: Nagy
+PMID: 24782329
+	Author: Seyfried
+		Input address: Department for Art and Knowledge Transfer, University of Applied Arts, Vienna, Austria.
+		Output address: NONE
+	Author: Pei
+	Author: Schmidt
+PMID: 25189506
+	Author: Surman
+		Input address: Leibniz Graduate School "History, Knowledge, Media in East Central Europe", Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association, Gisonenweg 5-7, 35037 Marburg, Germany. Electronic address: jan.surman@herder-institut.de.
+		Output address: NONE
+	Author: Stráner
+		Input address: Leibniz-Institut for European History, Alte Universitätsstraße 19, 55116 Mainz, Germany
+		Output address: NONE
+		Input address:  Pasts, Inc. Center for Historical Studies, Central European University, 1051 Budapest Nádor u. 9, Hungary.
+		Output address: NONE
+	Author: Haslinger
+		Input address: Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association, Gisonenweg 5-7, 35037 Marburg, Germany.
+		Output address: NONE
+PMID: 25404324
+	Author: Lynch
+		Input address: Department of Biology, Indiana University, Bloomington, IN 47405
+		Output address: Department of Biology
+		Input address:  milynch@indiana.edu ssazer@bcm.edu.
+		Output address: NONE
+	Author: Field
+		Input address: Division of Biological Chemistry and Drug Discovery, University of Dundee, Dundee DD1 5EH, United Kingdom
+		Output address: NONE
+		Input address: 
+		Output address: NONE
+	Author: Goodson
+		Input address: Department of Chemistry and Biochemistry, University of Notre Dame, Notre Dame, IN 46556
+		Output address: Department of Chemistry and Biochemistry
+		Input address: 
+		Output address: NONE
+	Author: Malik
+		Input address: Division of Basic Sciences and Howard Hughes Medical Institute, Fred Hutchinson Cancer Research Center, Seattle, WA 98195
+		Output address: NONE
+		Input address: 
+		Output address: NONE
+	Author: Pereira-Leal
+		Input address: Instituto Gulbenkian de Ciência, P-2781-901 Oeiras, Portugal
+		Output address: Instituto Gulbenkian de Ciência (IGC)
+		Input address: 
+		Output address: NONE
+	Author: Roos
+		Input address: Department of Biology, University of Pennsylvania, Philadelphia, PA 19143
+		Output address: Department of Biology
+		Input address: 
+		Output address: NONE
+	Author: Turkewitz
+		Input address: Department of Molecular Genetics and Cell Biology, University of Chicago, Chicago, IL 60637
+		Output address: Department of Molecular Genetics and Cell Biology
+		Input address:  and.
+		Output address: ａｎｄ
+	Author: Sazer
+		Input address: Verna and Marrs McLean Department of Biochemistry and Molecular Biology, Baylor College of Medicine, Houston, TX 77030 milynch@indiana.edu ssazer@bcm.edu.
+		Output address: NONE
+PMID: 25185232
+	Author: Basey
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309 john.basey@colorado.edu.
+		Output address: NONE
+	Author: Maines
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309.
+		Output address: Department of Ecology and Evolutionary Biology
+	Author: Francis
+		Input address: Department of Biological Sciences, California Polytechnic State University, San Luis Obispo, CA 93407.
+		Output address: Cal Poly Biological Sciences Ragged Point Research Station
+	Author: Melbourne
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309.
+		Output address: Department of Ecology and Evolutionary Biology
+PMID: 24736556
+	Author: Scannapieco
+		Input address: Department of Oral Biology, School of Dental Medicine, University at Buffalo, The State University of New York Foster Hall, Buffalo, NY 14214, USA.
+		Output address: NONE
+PMID: 25583953
+	Author: Wikswo
+		Input address: Vanderbilt Institute for Integrative Biosystems Research and Education, Departments of Biomedical Engineering, Molecular Physiology & Biophysics, and Physics & Astronomy, Vanderbilt University, Nashville, TN 37235, USA john.wikswo@vanderbilt.edu.
+		Output address: NONE
+	Author: Porter
+		Input address: Center for Theology and the Natural Sciences, Graduate Theological Union, Berkeley, CA 94709-1212, USA.
+		Output address: NONE
+PMID: 24006392
+	Author: Rissing
+		Input address: Department of Evolution, Ecology, and Organismal Biology, Ohio State University, Columbus, OH 43210, USA. rissing.2@osu.edu
+		Output address: The Ohio State University- Department of Evolution, Ecology, and Organismal Biology
+PMID: 25363806
+	Author: Kalluri
+		Input address: BioEnergy Science Center and Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA.
+		Output address: NONE
+	Author: Yin
+	Author: Yang
+	Author: Davison
+PMID: 25108565
+	Author: Wijdeven
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands.
+		Output address: NONE
+	Author: Neefjes
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands. Electronic address: J.Neefjes@nki.nl.
+		Output address: NONE
+	Author: Ovaa
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands. Electronic address: H.Ovaa@nki.nl.
+		Output address: NONE
+PMID: 24914161
+	Author: Denes
+		Input address: Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720, USA pdenes@lbl.gov.
+		Output address: NONE
+PMID: 24914145
+	Author: Altarelli
+		Input address: European XFEL GmbH, Albert Einstein Ring 19, 22761 Hamburg, Germany massimo.altarelli@xfel.eu.
+		Output address: NONE
+	Author: Mancuso
+		Input address: European XFEL GmbH, Albert Einstein Ring 19, 22761 Hamburg, Germany.
+		Output address: European XFEL
+PMID: 25963198
+	Author: Moczek
+		Input address: Department of Biology, Indiana University, 915 East 3rd Street, Bloomington, IN 47405, USA.
+		Output address: Department of Biology
+	Author: Sears
+		Input address: School of Integrative Biology and Institute for Genomic Biology, University of Illinois, 505 South Goodwin Avenue, Urbana, IL, 61801, USA.
+		Output address: NONE
+	Author: Stollewerk
+		Input address: School of Biological and Chemical Sciences, Queen Mary, University of London, Mile End Road, London, E1 4NS, UK.
+		Output address: School of Biological and Chemical Sciences
+	Author: Wittkopp
+		Input address: Department of Ecology and Evolutionary Biology, Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI, USA.
+		Output address: NONE
+	Author: Diggle
+		Input address: Department of Ecology and Evolutionary Biology, University of Connecticut, Storrs, CT, 06269, USA.
+		Output address: Department of Ecology and Evolutionary Biology
+	Author: Dworkin
+		Input address: Department of Biology, McMaster University, 1280 Main St. West Hamilton, Ontario, L8S 4K1, Canada.
+		Output address: University of Toronto- Department of Cell & Systems Biology
+	Author: Ledon-Rettig
+		Input address: Department of Biology, Indiana University, 915 East 3rd Street, Bloomington, IN 47405, USA.
+		Output address: Department of Biology
+	Author: Matus
+		Input address: Department of Biochemistry and Cell Biology, Stony Brook University, 412 Life Sciences Building, Stony Brook, NY, 11794-5215, USA.
+		Output address: NONE
+	Author: Roth
+		Input address: University of Cologne, Institute of Developmental Biology, Biocenter, Zülpicher Straße 47b, D-50674, Cologne, Germany.
+		Output address: NONE
+	Author: Abouheif
+		Input address: Department of Biology, McGill University, 1205 Avenue Docteur Penfield, Montréal Québec, H3A 1B1, Canada.
+		Output address: Department of Biology
+	Author: Brown
+		Input address: Departamento de Zoologia, Instituto Biociências, Universidade de São Paulo, Rua do Matão, Travessa 14, no. 101, 05508-090, São Paulo, Brazil.
+		Output address: NONE
+	Author: Chiu
+		Input address: Department of Biological Sciences, Kent State University, OH, USA.
+		Output address: Department of Biological Sciences
+	Author: Cohen
+		Input address: Biology Department, Romberg Tiburon Center for Environmental Studies, San Francisco State University, 3150 Paradise Drive, Tiburon, CA, 94920, USA.
+		Output address: NONE
+	Author: Tomaso
+		Input address: Department of MCD Biology, University of California, Santa Barbara, CA, USA.
+		Output address: NONE
+	Author: Gilbert
+		Input address: Department of Biology, Swarthmore College, Swarthmore, Pennsylvania 19081, USA and Biotechnology Institute, University of Helsinki, 00014, Helsinki, Finland.
+		Output address: NONE
+	Author: Hall
+		Input address: Department of Biology, Dalhousie University, Halifax, Nova Scotia, CA, B3H 4R2, USA.
+		Output address: NONE
+	Author: Love
+		Input address: Department of Philosophy, Minnesota Center for Philosophy of Science, University of Minnesota, USA.
+		Output address: NONE
+	Author: Lyons
+		Input address: Department of Biology, Duke University, Box 90338, Durham, NC, 27708, USA.
+		Output address: NONE
+	Author: Sanger
+		Input address: Department of Molecular Genetics and Microbiology, University of Florida, P.O. Box 103610, Gainesville, FL, 32610, USA.
+		Output address: Department of Molecular Genetics and Microbiology
+	Author: Smith
+		Input address: Marine Biological Laboratory, 7 MBL Street, Woods Hole, MA, 02543, USA.
+		Output address: Marine Biological Laboratory
+	Author: Specht
+		Input address: Plant and Microbial Biology, Department of Integrative Biology, University and Jepson Herbaria, University of California, Berkeley, CA, USA.
+		Output address: NONE
+	Author: Vallejo-Marin
+		Input address: Biological and Environmental Sciences, University of Stirling, FK9 4LA, Scotland, UK.
+		Output address: NONE
+	Author: Extavour
+		Input address: Department of Organismic and Evolutionary Biology, Department of Molecular and Cellular Biology, Harvard University, 16 Divinity Avenue, BioLabs 4103, Cambridge, MA, 02138, USA.
+		Output address: NONE
+PMID: 25521633
+	Author: Keen
+		Input address: Department of Biology, University of Miami, Coral Gables, FL, USA
+		Output address: Department of Biology
+		Input address:  Laboratory of Molecular Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.
+		Output address: NONE
+PMID: 25116370
+	Author: Bloch
+		Input address: StartingBloch Nimes France. Electronic address: jfbloch@startingbloch.com.
+		Output address: NONE
+	Author: Tardieu-Guigues
+		Input address: ERCIM UMR 5815 Faculty of Law and Political Sciences, Montpellier 1 University, France.
+		Output address: NONE
+PMID: 25468194
+	Author: Bunyavanich
+		Input address: Department of Genetics and Genomic Sciences and the Icahn Institute for Genomics and Multiscale Biology, New York, NY
+		Output address: NONE
+		Input address:  Division of Pediatric Allergy and Immunology, Department of Pediatrics, and the Mindich Child Health and Development Institute, Icahn School of Medicine at Mount Sinai, New York, NY. Electronic address: supinda@post.harvard.edu.
+		Output address: NONE
+	Author: Schadt
+		Input address: Department of Genetics and Genomic Sciences and the Icahn Institute for Genomics and Multiscale Biology, New York, NY.
+		Output address: NONE
+PMID: 25978987
+PMID: 25515145
+	Author: Benson
+PMID: 25185231
+	Author: Eddy
+		Input address: *Department of Biology, University of Washington, Seattle, WA 98195 sleddy@u.washington.edu.
+		Output address: NONE
+	Author: Brownell
+		Input address: School of Life Sciences, Arizona State University, Tempe, AZ 85287.
+		Output address: School Of Life Sciences : Arizona State University
+	Author: Wenderoth
+		Input address: *Department of Biology, University of Washington, Seattle, WA 98195.
+		Output address: University of Washington: Department of Biology
+PMID: 25316777
+	Author: Wright
+		Input address: Department of Genetics, Cell Biology and Development, College of Biological Sciences, University of Minnesota, St. Paul, Minnesota 55108.
+		Output address: NONE
+PMID: 24591504
+	Author: Hester
+		Input address: Department of Molecular and Cellular Biology, University of Arizona, Tucson, AZ 85721 Department of Teaching, Learning and Sociocultural Studies, University of Arizona, Tucson, AZ 85721.
+		Output address: NONE
+	Author: Buxner
+	Author: Elfring
+	Author: Nagy
+PMID: 24782329
+	Author: Seyfried
+		Input address: Department for Art and Knowledge Transfer, University of Applied Arts, Vienna, Austria.
+		Output address: NONE
+	Author: Pei
+	Author: Schmidt
+PMID: 25189506
+	Author: Surman
+		Input address: Leibniz Graduate School "History, Knowledge, Media in East Central Europe", Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association, Gisonenweg 5-7, 35037 Marburg, Germany. Electronic address: jan.surman@herder-institut.de.
+		Output address: NONE
+	Author: Stráner
+		Input address: Leibniz-Institut for European History, Alte Universitätsstraße 19, 55116 Mainz, Germany
+		Output address: NONE
+		Input address:  Pasts, Inc. Center for Historical Studies, Central European University, 1051 Budapest Nádor u. 9, Hungary.
+		Output address: NONE
+	Author: Haslinger
+		Input address: Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association, Gisonenweg 5-7, 35037 Marburg, Germany.
+		Output address: NONE
+PMID: 25404324
+	Author: Lynch
+		Input address: Department of Biology, Indiana University, Bloomington, IN 47405
+		Output address: Department of Biology
+		Input address:  milynch@indiana.edu ssazer@bcm.edu.
+		Output address: NONE
+	Author: Field
+		Input address: Division of Biological Chemistry and Drug Discovery, University of Dundee, Dundee DD1 5EH, United Kingdom
+		Output address: NONE
+		Input address: 
+		Output address: NONE
+	Author: Goodson
+		Input address: Department of Chemistry and Biochemistry, University of Notre Dame, Notre Dame, IN 46556
+		Output address: Department of Chemistry and Biochemistry
+		Input address: 
+		Output address: NONE
+	Author: Malik
+		Input address: Division of Basic Sciences and Howard Hughes Medical Institute, Fred Hutchinson Cancer Research Center, Seattle, WA 98195
+		Output address: NONE
+		Input address: 
+		Output address: NONE
+	Author: Pereira-Leal
+		Input address: Instituto Gulbenkian de Ciência, P-2781-901 Oeiras, Portugal
+		Output address: Instituto Gulbenkian de Ciência (IGC)
+		Input address: 
+		Output address: NONE
+	Author: Roos
+		Input address: Department of Biology, University of Pennsylvania, Philadelphia, PA 19143
+		Output address: Department of Biology
+		Input address: 
+		Output address: NONE
+	Author: Turkewitz
+		Input address: Department of Molecular Genetics and Cell Biology, University of Chicago, Chicago, IL 60637
+		Output address: Department of Molecular Genetics and Cell Biology
+		Input address:  and.
+		Output address: ａｎｄ
+	Author: Sazer
+		Input address: Verna and Marrs McLean Department of Biochemistry and Molecular Biology, Baylor College of Medicine, Houston, TX 77030 milynch@indiana.edu ssazer@bcm.edu.
+		Output address: NONE
+PMID: 25185232
+	Author: Basey
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309 john.basey@colorado.edu.
+		Output address: NONE
+	Author: Maines
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309.
+		Output address: Department of Ecology and Evolutionary Biology
+	Author: Francis
+		Input address: Department of Biological Sciences, California Polytechnic State University, San Luis Obispo, CA 93407.
+		Output address: Cal Poly Biological Sciences Ragged Point Research Station
+	Author: Melbourne
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309.
+		Output address: Department of Ecology and Evolutionary Biology
+PMID: 24736556
+	Author: Scannapieco
+		Input address: Department of Oral Biology, School of Dental Medicine, University at Buffalo, The State University of New York Foster Hall, Buffalo, NY 14214, USA.
+		Output address: NONE
+PMID: 25583953
+	Author: Wikswo
+		Input address: Vanderbilt Institute for Integrative Biosystems Research and Education, Departments of Biomedical Engineering, Molecular Physiology & Biophysics, and Physics & Astronomy, Vanderbilt University, Nashville, TN 37235, USA john.wikswo@vanderbilt.edu.
+		Output address: NONE
+	Author: Porter
+		Input address: Center for Theology and the Natural Sciences, Graduate Theological Union, Berkeley, CA 94709-1212, USA.
+		Output address: NONE
+PMID: 24006392
+	Author: Rissing
+		Input address: Department of Evolution, Ecology, and Organismal Biology, Ohio State University, Columbus, OH 43210, USA. rissing.2@osu.edu
+		Output address: The Ohio State University- Department of Evolution, Ecology, and Organismal Biology
+PMID: 25363806
+	Author: Kalluri
+		Input address: BioEnergy Science Center and Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA.
+		Output address: NONE
+	Author: Yin
+	Author: Yang
+	Author: Davison
+PMID: 25108565
+	Author: Wijdeven
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands.
+		Output address: NONE
+	Author: Neefjes
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands. Electronic address: J.Neefjes@nki.nl.
+		Output address: NONE
+	Author: Ovaa
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands. Electronic address: H.Ovaa@nki.nl.
+		Output address: NONE
+PMID: 24914161
+	Author: Denes
+		Input address: Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720, USA pdenes@lbl.gov.
+		Output address: NONE
+PMID: 24914145
+	Author: Altarelli
+		Input address: European XFEL GmbH, Albert Einstein Ring 19, 22761 Hamburg, Germany massimo.altarelli@xfel.eu.
+		Output address: NONE
+	Author: Mancuso
+		Input address: European XFEL GmbH, Albert Einstein Ring 19, 22761 Hamburg, Germany.
+		Output address: European XFEL
+PMID: 25963198
+	Author: Moczek
+		Input address: Department of Biology, Indiana University, 915 East 3rd Street, Bloomington, IN 47405, USA.
+		Output address: Department of Biology
+	Author: Sears
+		Input address: School of Integrative Biology and Institute for Genomic Biology, University of Illinois, 505 South Goodwin Avenue, Urbana, IL, 61801, USA.
+		Output address: NONE
+	Author: Stollewerk
+		Input address: School of Biological and Chemical Sciences, Queen Mary, University of London, Mile End Road, London, E1 4NS, UK.
+		Output address: School of Biological and Chemical Sciences
+	Author: Wittkopp
+		Input address: Department of Ecology and Evolutionary Biology, Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI, USA.
+		Output address: NONE
+	Author: Diggle
+		Input address: Department of Ecology and Evolutionary Biology, University of Connecticut, Storrs, CT, 06269, USA.
+		Output address: Department of Ecology and Evolutionary Biology
+	Author: Dworkin
+		Input address: Department of Biology, McMaster University, 1280 Main St. West Hamilton, Ontario, L8S 4K1, Canada.
+		Output address: University of Toronto- Department of Cell & Systems Biology
+	Author: Ledon-Rettig
+		Input address: Department of Biology, Indiana University, 915 East 3rd Street, Bloomington, IN 47405, USA.
+		Output address: Department of Biology
+	Author: Matus
+		Input address: Department of Biochemistry and Cell Biology, Stony Brook University, 412 Life Sciences Building, Stony Brook, NY, 11794-5215, USA.
+		Output address: NONE
+	Author: Roth
+		Input address: University of Cologne, Institute of Developmental Biology, Biocenter, Zülpicher Straße 47b, D-50674, Cologne, Germany.
+		Output address: NONE
+	Author: Abouheif
+		Input address: Department of Biology, McGill University, 1205 Avenue Docteur Penfield, Montréal Québec, H3A 1B1, Canada.
+		Output address: Department of Biology
+	Author: Brown
+		Input address: Departamento de Zoologia, Instituto Biociências, Universidade de São Paulo, Rua do Matão, Travessa 14, no. 101, 05508-090, São Paulo, Brazil.
+		Output address: NONE
+	Author: Chiu
+		Input address: Department of Biological Sciences, Kent State University, OH, USA.
+		Output address: Department of Biological Sciences
+	Author: Cohen
+		Input address: Biology Department, Romberg Tiburon Center for Environmental Studies, San Francisco State University, 3150 Paradise Drive, Tiburon, CA, 94920, USA.
+		Output address: NONE
+	Author: Tomaso
+		Input address: Department of MCD Biology, University of California, Santa Barbara, CA, USA.
+		Output address: NONE
+	Author: Gilbert
+		Input address: Department of Biology, Swarthmore College, Swarthmore, Pennsylvania 19081, USA and Biotechnology Institute, University of Helsinki, 00014, Helsinki, Finland.
+		Output address: NONE
+	Author: Hall
+		Input address: Department of Biology, Dalhousie University, Halifax, Nova Scotia, CA, B3H 4R2, USA.
+		Output address: NONE
+	Author: Love
+		Input address: Department of Philosophy, Minnesota Center for Philosophy of Science, University of Minnesota, USA.
+		Output address: NONE
+	Author: Lyons
+		Input address: Department of Biology, Duke University, Box 90338, Durham, NC, 27708, USA.
+		Output address: NONE
+	Author: Sanger
+		Input address: Department of Molecular Genetics and Microbiology, University of Florida, P.O. Box 103610, Gainesville, FL, 32610, USA.
+		Output address: Department of Molecular Genetics and Microbiology
+	Author: Smith
+		Input address: Marine Biological Laboratory, 7 MBL Street, Woods Hole, MA, 02543, USA.
+		Output address: Marine Biological Laboratory
+	Author: Specht
+		Input address: Plant and Microbial Biology, Department of Integrative Biology, University and Jepson Herbaria, University of California, Berkeley, CA, USA.
+		Output address: NONE
+	Author: Vallejo-Marin
+		Input address: Biological and Environmental Sciences, University of Stirling, FK9 4LA, Scotland, UK.
+		Output address: NONE
+	Author: Extavour
+		Input address: Department of Organismic and Evolutionary Biology, Department of Molecular and Cellular Biology, Harvard University, 16 Divinity Avenue, BioLabs 4103, Cambridge, MA, 02138, USA.
+		Output address: NONE
+PMID: 25521633
+	Author: Keen
+		Input address: Department of Biology, University of Miami, Coral Gables, FL, USA
+		Output address: Department of Biology
+		Input address:  Laboratory of Molecular Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.
+		Output address: NONE
+PMID: 25116370
+	Author: Bloch
+		Input address: StartingBloch Nimes France. Electronic address: jfbloch@startingbloch.com.
+		Output address: NONE
+	Author: Tardieu-Guigues
+		Input address: ERCIM UMR 5815 Faculty of Law and Political Sciences, Montpellier 1 University, France.
+		Output address: NONE
+PMID: 25468194
+	Author: Bunyavanich
+		Input address: Department of Genetics and Genomic Sciences and the Icahn Institute for Genomics and Multiscale Biology, New York, NY
+		Output address: NONE
+		Input address:  Division of Pediatric Allergy and Immunology, Department of Pediatrics, and the Mindich Child Health and Development Institute, Icahn School of Medicine at Mount Sinai, New York, NY. Electronic address: supinda@post.harvard.edu.
+		Output address: NONE
+	Author: Schadt
+		Input address: Department of Genetics and Genomic Sciences and the Icahn Institute for Genomics and Multiscale Biology, New York, NY.
+		Output address: NONE
+PMID: 25978987
+	NO AUTHORS LISTED.PMID: 25515145
+	Author: Benson
+PMID: 25185231
+	Author: Eddy
+		Input address: *Department of Biology, University of Washington, Seattle, WA 98195 sleddy@u.washington.edu.
+		Output address: NONE
+	Author: Brownell
+		Input address: School of Life Sciences, Arizona State University, Tempe, AZ 85287.
+		Output address: School Of Life Sciences : Arizona State University
+	Author: Wenderoth
+		Input address: *Department of Biology, University of Washington, Seattle, WA 98195.
+		Output address: University of Washington: Department of Biology
+PMID: 25316777
+	Author: Wright
+		Input address: Department of Genetics, Cell Biology and Development, College of Biological Sciences, University of Minnesota, St. Paul, Minnesota 55108.
+		Output address: NONE
+PMID: 24591504
+	Author: Hester
+		Input address: Department of Molecular and Cellular Biology, University of Arizona, Tucson, AZ 85721 Department of Teaching, Learning and Sociocultural Studies, University of Arizona, Tucson, AZ 85721.
+		Output address: NONE
+	Author: Buxner
+	Author: Elfring
+	Author: Nagy
+PMID: 24782329
+	Author: Seyfried
+		Input address: Department for Art and Knowledge Transfer, University of Applied Arts, Vienna, Austria.
+		Output address: NONE
+	Author: Pei
+	Author: Schmidt
+PMID: 25189506
+	Author: Surman
+		Input address: Leibniz Graduate School "History, Knowledge, Media in East Central Europe", Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association, Gisonenweg 5-7, 35037 Marburg, Germany. Electronic address: jan.surman@herder-institut.de.
+		Output address: NONE
+	Author: Stráner
+		Input address: Leibniz-Institut for European History, Alte Universitätsstraße 19, 55116 Mainz, Germany
+		Output address: NONE
+		Input address:  Pasts, Inc. Center for Historical Studies, Central European University, 1051 Budapest Nádor u. 9, Hungary.
+		Output address: NONE
+	Author: Haslinger
+		Input address: Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association, Gisonenweg 5-7, 35037 Marburg, Germany.
+		Output address: NONE
+PMID: 25404324
+	Author: Lynch
+		Input address: Department of Biology, Indiana University, Bloomington, IN 47405
+		Output address: Department of Biology
+		Input address:  milynch@indiana.edu ssazer@bcm.edu.
+		Output address: NONE
+	Author: Field
+		Input address: Division of Biological Chemistry and Drug Discovery, University of Dundee, Dundee DD1 5EH, United Kingdom
+		Output address: NONE
+		Input address: 
+		Output address: NONE
+	Author: Goodson
+		Input address: Department of Chemistry and Biochemistry, University of Notre Dame, Notre Dame, IN 46556
+		Output address: Department of Chemistry and Biochemistry
+		Input address: 
+		Output address: NONE
+	Author: Malik
+		Input address: Division of Basic Sciences and Howard Hughes Medical Institute, Fred Hutchinson Cancer Research Center, Seattle, WA 98195
+		Output address: NONE
+		Input address: 
+		Output address: NONE
+	Author: Pereira-Leal
+		Input address: Instituto Gulbenkian de Ciência, P-2781-901 Oeiras, Portugal
+		Output address: Instituto Gulbenkian de Ciência (IGC)
+		Input address: 
+		Output address: NONE
+	Author: Roos
+		Input address: Department of Biology, University of Pennsylvania, Philadelphia, PA 19143
+		Output address: Department of Biology
+		Input address: 
+		Output address: NONE
+	Author: Turkewitz
+		Input address: Department of Molecular Genetics and Cell Biology, University of Chicago, Chicago, IL 60637
+		Output address: Department of Molecular Genetics and Cell Biology
+		Input address:  and.
+		Output address: ａｎｄ
+	Author: Sazer
+		Input address: Verna and Marrs McLean Department of Biochemistry and Molecular Biology, Baylor College of Medicine, Houston, TX 77030 milynch@indiana.edu ssazer@bcm.edu.
+		Output address: NONE
+PMID: 25185232
+	Author: Basey
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309 john.basey@colorado.edu.
+		Output address: NONE
+	Author: Maines
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309.
+		Output address: Department of Ecology and Evolutionary Biology
+	Author: Francis
+		Input address: Department of Biological Sciences, California Polytechnic State University, San Luis Obispo, CA 93407.
+		Output address: Cal Poly Biological Sciences Ragged Point Research Station
+	Author: Melbourne
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309.
+		Output address: Department of Ecology and Evolutionary Biology
+PMID: 24736556
+	Author: Scannapieco
+		Input address: Department of Oral Biology, School of Dental Medicine, University at Buffalo, The State University of New York Foster Hall, Buffalo, NY 14214, USA.
+		Output address: NONE
+PMID: 25583953
+	Author: Wikswo
+		Input address: Vanderbilt Institute for Integrative Biosystems Research and Education, Departments of Biomedical Engineering, Molecular Physiology & Biophysics, and Physics & Astronomy, Vanderbilt University, Nashville, TN 37235, USA john.wikswo@vanderbilt.edu.
+		Output address: NONE
+	Author: Porter
+		Input address: Center for Theology and the Natural Sciences, Graduate Theological Union, Berkeley, CA 94709-1212, USA.
+		Output address: NONE
+PMID: 24006392
+	Author: Rissing
+		Input address: Department of Evolution, Ecology, and Organismal Biology, Ohio State University, Columbus, OH 43210, USA. rissing.2@osu.edu
+		Output address: The Ohio State University- Department of Evolution, Ecology, and Organismal Biology
+PMID: 25363806
+	Author: Kalluri
+		Input address: BioEnergy Science Center and Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA.
+		Output address: NONE
+	Author: Yin
+	Author: Yang
+	Author: Davison
+PMID: 25108565
+	Author: Wijdeven
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands.
+		Output address: NONE
+	Author: Neefjes
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands. Electronic address: J.Neefjes@nki.nl.
+		Output address: NONE
+	Author: Ovaa
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands. Electronic address: H.Ovaa@nki.nl.
+		Output address: NONE
+PMID: 24914161
+	Author: Denes
+		Input address: Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720, USA pdenes@lbl.gov.
+		Output address: NONE
+PMID: 24914145
+	Author: Altarelli
+		Input address: European XFEL GmbH, Albert Einstein Ring 19, 22761 Hamburg, Germany massimo.altarelli@xfel.eu.
+		Output address: NONE
+	Author: Mancuso
+		Input address: European XFEL GmbH, Albert Einstein Ring 19, 22761 Hamburg, Germany.
+		Output address: European XFEL
+PMID: 25963198
+	Author: Moczek
+		Input address: Department of Biology, Indiana University, 915 East 3rd Street, Bloomington, IN 47405, USA.
+		Output address: Department of Biology
+	Author: Sears
+		Input address: School of Integrative Biology and Institute for Genomic Biology, University of Illinois, 505 South Goodwin Avenue, Urbana, IL, 61801, USA.
+		Output address: NONE
+	Author: Stollewerk
+		Input address: School of Biological and Chemical Sciences, Queen Mary, University of London, Mile End Road, London, E1 4NS, UK.
+		Output address: School of Biological and Chemical Sciences
+	Author: Wittkopp
+		Input address: Department of Ecology and Evolutionary Biology, Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI, USA.
+		Output address: NONE
+	Author: Diggle
+		Input address: Department of Ecology and Evolutionary Biology, University of Connecticut, Storrs, CT, 06269, USA.
+		Output address: Department of Ecology and Evolutionary Biology
+	Author: Dworkin
+		Input address: Department of Biology, McMaster University, 1280 Main St. West Hamilton, Ontario, L8S 4K1, Canada.
+		Output address: University of Toronto- Department of Cell & Systems Biology
+	Author: Ledon-Rettig
+		Input address: Department of Biology, Indiana University, 915 East 3rd Street, Bloomington, IN 47405, USA.
+		Output address: Department of Biology
+	Author: Matus
+		Input address: Department of Biochemistry and Cell Biology, Stony Brook University, 412 Life Sciences Building, Stony Brook, NY, 11794-5215, USA.
+		Output address: NONE
+	Author: Roth
+		Input address: University of Cologne, Institute of Developmental Biology, Biocenter, Zülpicher Straße 47b, D-50674, Cologne, Germany.
+		Output address: NONE
+	Author: Abouheif
+		Input address: Department of Biology, McGill University, 1205 Avenue Docteur Penfield, Montréal Québec, H3A 1B1, Canada.
+		Output address: Department of Biology
+	Author: Brown
+		Input address: Departamento de Zoologia, Instituto Biociências, Universidade de São Paulo, Rua do Matão, Travessa 14, no. 101, 05508-090, São Paulo, Brazil.
+		Output address: NONE
+	Author: Chiu
+		Input address: Department of Biological Sciences, Kent State University, OH, USA.
+		Output address: Department of Biological Sciences
+	Author: Cohen
+		Input address: Biology Department, Romberg Tiburon Center for Environmental Studies, San Francisco State University, 3150 Paradise Drive, Tiburon, CA, 94920, USA.
+		Output address: NONE
+	Author: Tomaso
+		Input address: Department of MCD Biology, University of California, Santa Barbara, CA, USA.
+		Output address: NONE
+	Author: Gilbert
+		Input address: Department of Biology, Swarthmore College, Swarthmore, Pennsylvania 19081, USA and Biotechnology Institute, University of Helsinki, 00014, Helsinki, Finland.
+		Output address: NONE
+	Author: Hall
+		Input address: Department of Biology, Dalhousie University, Halifax, Nova Scotia, CA, B3H 4R2, USA.
+		Output address: NONE
+	Author: Love
+		Input address: Department of Philosophy, Minnesota Center for Philosophy of Science, University of Minnesota, USA.
+		Output address: NONE
+	Author: Lyons
+		Input address: Department of Biology, Duke University, Box 90338, Durham, NC, 27708, USA.
+		Output address: NONE
+	Author: Sanger
+		Input address: Department of Molecular Genetics and Microbiology, University of Florida, P.O. Box 103610, Gainesville, FL, 32610, USA.
+		Output address: Department of Molecular Genetics and Microbiology
+	Author: Smith
+		Input address: Marine Biological Laboratory, 7 MBL Street, Woods Hole, MA, 02543, USA.
+		Output address: Marine Biological Laboratory
+	Author: Specht
+		Input address: Plant and Microbial Biology, Department of Integrative Biology, University and Jepson Herbaria, University of California, Berkeley, CA, USA.
+		Output address: NONE
+	Author: Vallejo-Marin
+		Input address: Biological and Environmental Sciences, University of Stirling, FK9 4LA, Scotland, UK.
+		Output address: NONE
+	Author: Extavour
+		Input address: Department of Organismic and Evolutionary Biology, Department of Molecular and Cellular Biology, Harvard University, 16 Divinity Avenue, BioLabs 4103, Cambridge, MA, 02138, USA.
+		Output address: NONE
+PMID: 25521633
+	Author: Keen
+		Input address: Department of Biology, University of Miami, Coral Gables, FL, USA
+		Output address: Department of Biology
+		Input address:  Laboratory of Molecular Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.
+		Output address: NONE
+PMID: 25116370
+	Author: Bloch
+		Input address: StartingBloch Nimes France. Electronic address: jfbloch@startingbloch.com.
+		Output address: NONE
+	Author: Tardieu-Guigues
+		Input address: ERCIM UMR 5815 Faculty of Law and Political Sciences, Montpellier 1 University, France.
+		Output address: NONE
+PMID: 25468194
+	Author: Bunyavanich
+		Input address: Department of Genetics and Genomic Sciences and the Icahn Institute for Genomics and Multiscale Biology, New York, NY
+		Output address: NONE
+		Input address:  Division of Pediatric Allergy and Immunology, Department of Pediatrics, and the Mindich Child Health and Development Institute, Icahn School of Medicine at Mount Sinai, New York, NY. Electronic address: supinda@post.harvard.edu.
+		Output address: NONE
+	Author: Schadt
+		Input address: Department of Genetics and Genomic Sciences and the Icahn Institute for Genomics and Multiscale Biology, New York, NY.
+		Output address: NONE
+PMID: 25978987
+	NO AUTHORS LISTED.PMID: 25515145
+	Author: Benson
+PMID: 25185231
+	Author: Eddy
+		Input address: *Department of Biology, University of Washington, Seattle, WA 98195 sleddy@u.washington.edu.
+		Output address: NONE
+	Author: Brownell
+		Input address: School of Life Sciences, Arizona State University, Tempe, AZ 85287.
+		Output address: School Of Life Sciences : Arizona State University
+	Author: Wenderoth
+		Input address: *Department of Biology, University of Washington, Seattle, WA 98195.
+		Output address: University of Washington: Department of Biology
+PMID: 25316777
+	Author: Wright
+		Input address: Department of Genetics, Cell Biology and Development, College of Biological Sciences, University of Minnesota, St. Paul, Minnesota 55108.
+		Output address: NONE
+PMID: 24591504
+	Author: Hester
+		Input address: Department of Molecular and Cellular Biology, University of Arizona, Tucson, AZ 85721 Department of Teaching, Learning and Sociocultural Studies, University of Arizona, Tucson, AZ 85721.
+		Output address: NONE
+	Author: Buxner
+	Author: Elfring
+	Author: Nagy
+PMID: 24782329
+	Author: Seyfried
+		Input address: Department for Art and Knowledge Transfer, University of Applied Arts, Vienna, Austria.
+		Output address: NONE
+	Author: Pei
+	Author: Schmidt
+PMID: 25189506
+	Author: Surman
+		Input address: Leibniz Graduate School "History, Knowledge, Media in East Central Europe", Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association, Gisonenweg 5-7, 35037 Marburg, Germany. Electronic address: jan.surman@herder-institut.de.
+		Output address: NONE
+	Author: Stráner
+		Input address: Leibniz-Institut for European History, Alte Universitätsstraße 19, 55116 Mainz, Germany
+		Output address: NONE
+		Input address:  Pasts, Inc. Center for Historical Studies, Central European University, 1051 Budapest Nádor u. 9, Hungary.
+		Output address: NONE
+	Author: Haslinger
+		Input address: Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association, Gisonenweg 5-7, 35037 Marburg, Germany.
+		Output address: NONE
+PMID: 25404324
+	Author: Lynch
+		Input address: Department of Biology, Indiana University, Bloomington, IN 47405
+		Output address: Department of Biology
+		Input address:  milynch@indiana.edu ssazer@bcm.edu.
+		Output address: NONE
+	Author: Field
+		Input address: Division of Biological Chemistry and Drug Discovery, University of Dundee, Dundee DD1 5EH, United Kingdom
+		Output address: NONE
+		Input address: 
+		Output address: NONE
+	Author: Goodson
+		Input address: Department of Chemistry and Biochemistry, University of Notre Dame, Notre Dame, IN 46556
+		Output address: Department of Chemistry and Biochemistry
+		Input address: 
+		Output address: NONE
+	Author: Malik
+		Input address: Division of Basic Sciences and Howard Hughes Medical Institute, Fred Hutchinson Cancer Research Center, Seattle, WA 98195
+		Output address: NONE
+		Input address: 
+		Output address: NONE
+	Author: Pereira-Leal
+		Input address: Instituto Gulbenkian de Ciência, P-2781-901 Oeiras, Portugal
+		Output address: Instituto Gulbenkian de Ciência (IGC)
+		Input address: 
+		Output address: NONE
+	Author: Roos
+		Input address: Department of Biology, University of Pennsylvania, Philadelphia, PA 19143
+		Output address: Department of Biology
+		Input address: 
+		Output address: NONE
+	Author: Turkewitz
+		Input address: Department of Molecular Genetics and Cell Biology, University of Chicago, Chicago, IL 60637
+		Output address: Department of Molecular Genetics and Cell Biology
+		Input address:  and.
+		Output address: ａｎｄ
+	Author: Sazer
+		Input address: Verna and Marrs McLean Department of Biochemistry and Molecular Biology, Baylor College of Medicine, Houston, TX 77030 milynch@indiana.edu ssazer@bcm.edu.
+		Output address: NONE
+PMID: 25185232
+	Author: Basey
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309 john.basey@colorado.edu.
+		Output address: NONE
+	Author: Maines
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309.
+		Output address: Department of Ecology and Evolutionary Biology
+	Author: Francis
+		Input address: Department of Biological Sciences, California Polytechnic State University, San Luis Obispo, CA 93407.
+		Output address: Cal Poly Biological Sciences Ragged Point Research Station
+	Author: Melbourne
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309.
+		Output address: Department of Ecology and Evolutionary Biology
+PMID: 24736556
+	Author: Scannapieco
+		Input address: Department of Oral Biology, School of Dental Medicine, University at Buffalo, The State University of New York Foster Hall, Buffalo, NY 14214, USA.
+		Output address: NONE
+PMID: 25583953
+	Author: Wikswo
+		Input address: Vanderbilt Institute for Integrative Biosystems Research and Education, Departments of Biomedical Engineering, Molecular Physiology & Biophysics, and Physics & Astronomy, Vanderbilt University, Nashville, TN 37235, USA john.wikswo@vanderbilt.edu.
+		Output address: NONE
+	Author: Porter
+		Input address: Center for Theology and the Natural Sciences, Graduate Theological Union, Berkeley, CA 94709-1212, USA.
+		Output address: NONE
+PMID: 24006392
+	Author: Rissing
+		Input address: Department of Evolution, Ecology, and Organismal Biology, Ohio State University, Columbus, OH 43210, USA. rissing.2@osu.edu
+		Output address: The Ohio State University- Department of Evolution, Ecology, and Organismal Biology
+PMID: 25363806
+	Author: Kalluri
+		Input address: BioEnergy Science Center and Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA.
+		Output address: NONE
+	Author: Yin
+	Author: Yang
+	Author: Davison
+PMID: 25108565
+	Author: Wijdeven
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands.
+		Output address: NONE
+	Author: Neefjes
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands. Electronic address: J.Neefjes@nki.nl.
+		Output address: NONE
+	Author: Ovaa
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands. Electronic address: H.Ovaa@nki.nl.
+		Output address: NONE
+PMID: 24914161
+	Author: Denes
+		Input address: Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720, USA pdenes@lbl.gov.
+		Output address: NONE
+PMID: 24914145
+	Author: Altarelli
+		Input address: European XFEL GmbH, Albert Einstein Ring 19, 22761 Hamburg, Germany massimo.altarelli@xfel.eu.
+		Output address: NONE
+	Author: Mancuso
+		Input address: European XFEL GmbH, Albert Einstein Ring 19, 22761 Hamburg, Germany.
+		Output address: European XFEL
+PMID: 25963198
+	Author: Moczek
+		Input address: Department of Biology, Indiana University, 915 East 3rd Street, Bloomington, IN 47405, USA.
+		Output address: Department of Biology
+	Author: Sears
+		Input address: School of Integrative Biology and Institute for Genomic Biology, University of Illinois, 505 South Goodwin Avenue, Urbana, IL, 61801, USA.
+		Output address: NONE
+	Author: Stollewerk
+		Input address: School of Biological and Chemical Sciences, Queen Mary, University of London, Mile End Road, London, E1 4NS, UK.
+		Output address: School of Biological and Chemical Sciences
+	Author: Wittkopp
+		Input address: Department of Ecology and Evolutionary Biology, Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI, USA.
+		Output address: NONE
+	Author: Diggle
+		Input address: Department of Ecology and Evolutionary Biology, University of Connecticut, Storrs, CT, 06269, USA.
+		Output address: Department of Ecology and Evolutionary Biology
+	Author: Dworkin
+		Input address: Department of Biology, McMaster University, 1280 Main St. West Hamilton, Ontario, L8S 4K1, Canada.
+		Output address: University of Toronto- Department of Cell & Systems Biology
+	Author: Ledon-Rettig
+		Input address: Department of Biology, Indiana University, 915 East 3rd Street, Bloomington, IN 47405, USA.
+		Output address: Department of Biology
+	Author: Matus
+		Input address: Department of Biochemistry and Cell Biology, Stony Brook University, 412 Life Sciences Building, Stony Brook, NY, 11794-5215, USA.
+		Output address: NONE
+	Author: Roth
+		Input address: University of Cologne, Institute of Developmental Biology, Biocenter, Zülpicher Straße 47b, D-50674, Cologne, Germany.
+		Output address: NONE
+	Author: Abouheif
+		Input address: Department of Biology, McGill University, 1205 Avenue Docteur Penfield, Montréal Québec, H3A 1B1, Canada.
+		Output address: Department of Biology
+	Author: Brown
+		Input address: Departamento de Zoologia, Instituto Biociências, Universidade de São Paulo, Rua do Matão, Travessa 14, no. 101, 05508-090, São Paulo, Brazil.
+		Output address: NONE
+	Author: Chiu
+		Input address: Department of Biological Sciences, Kent State University, OH, USA.
+		Output address: Department of Biological Sciences
+	Author: Cohen
+		Input address: Biology Department, Romberg Tiburon Center for Environmental Studies, San Francisco State University, 3150 Paradise Drive, Tiburon, CA, 94920, USA.
+		Output address: NONE
+	Author: Tomaso
+		Input address: Department of MCD Biology, University of California, Santa Barbara, CA, USA.
+		Output address: NONE
+	Author: Gilbert
+		Input address: Department of Biology, Swarthmore College, Swarthmore, Pennsylvania 19081, USA and Biotechnology Institute, University of Helsinki, 00014, Helsinki, Finland.
+		Output address: NONE
+	Author: Hall
+		Input address: Department of Biology, Dalhousie University, Halifax, Nova Scotia, CA, B3H 4R2, USA.
+		Output address: NONE
+	Author: Love
+		Input address: Department of Philosophy, Minnesota Center for Philosophy of Science, University of Minnesota, USA.
+		Output address: NONE
+	Author: Lyons
+		Input address: Department of Biology, Duke University, Box 90338, Durham, NC, 27708, USA.
+		Output address: NONE
+	Author: Sanger
+		Input address: Department of Molecular Genetics and Microbiology, University of Florida, P.O. Box 103610, Gainesville, FL, 32610, USA.
+		Output address: Department of Molecular Genetics and Microbiology
+	Author: Smith
+		Input address: Marine Biological Laboratory, 7 MBL Street, Woods Hole, MA, 02543, USA.
+		Output address: Marine Biological Laboratory
+	Author: Specht
+		Input address: Plant and Microbial Biology, Department of Integrative Biology, University and Jepson Herbaria, University of California, Berkeley, CA, USA.
+		Output address: NONE
+	Author: Vallejo-Marin
+		Input address: Biological and Environmental Sciences, University of Stirling, FK9 4LA, Scotland, UK.
+		Output address: NONE
+	Author: Extavour
+		Input address: Department of Organismic and Evolutionary Biology, Department of Molecular and Cellular Biology, Harvard University, 16 Divinity Avenue, BioLabs 4103, Cambridge, MA, 02138, USA.
+		Output address: NONE
+PMID: 25521633
+	Author: Keen
+		Input address: Department of Biology, University of Miami, Coral Gables, FL, USA
+		Output address: Department of Biology
+		Input address:  Laboratory of Molecular Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.
+		Output address: NONE
+PMID: 25116370
+	Author: Bloch
+		Input address: StartingBloch Nimes France. Electronic address: jfbloch@startingbloch.com.
+		Output address: NONE
+	Author: Tardieu-Guigues
+		Input address: ERCIM UMR 5815 Faculty of Law and Political Sciences, Montpellier 1 University, France.
+		Output address: NONE
+PMID: 25468194
+	Author: Bunyavanich
+		Input address: Department of Genetics and Genomic Sciences and the Icahn Institute for Genomics and Multiscale Biology, New York, NY
+		Output address: NONE
+		Input address:  Division of Pediatric Allergy and Immunology, Department of Pediatrics, and the Mindich Child Health and Development Institute, Icahn School of Medicine at Mount Sinai, New York, NY. Electronic address: supinda@post.harvard.edu.
+		Output address: NONE
+	Author: Schadt
+		Input address: Department of Genetics and Genomic Sciences and the Icahn Institute for Genomics and Multiscale Biology, New York, NY.
+		Output address: NONE
+PMID: 25978987
+	NO AUTHORS LISTED.PMID: 25515145
+	Author: Benson
+PMID: 25185231
+	Author: Eddy
+		Input address: *Department of Biology, University of Washington, Seattle, WA 98195 sleddy@u.washington.edu.
+		Output address: NONE
+	Author: Brownell
+		Input address: School of Life Sciences, Arizona State University, Tempe, AZ 85287.
+		Output address: School Of Life Sciences : Arizona State University
+	Author: Wenderoth
+		Input address: *Department of Biology, University of Washington, Seattle, WA 98195.
+		Output address: University of Washington: Department of Biology
+PMID: 25316777
+	Author: Wright
+		Input address: Department of Genetics, Cell Biology and Development, College of Biological Sciences, University of Minnesota, St. Paul, Minnesota 55108.
+		Output address: NONE
+PMID: 24591504
+	Author: Hester
+		Input address: Department of Molecular and Cellular Biology, University of Arizona, Tucson, AZ 85721 Department of Teaching, Learning and Sociocultural Studies, University of Arizona, Tucson, AZ 85721.
+		Output address: NONE
+	Author: Buxner
+	Author: Elfring
+	Author: Nagy
+PMID: 24782329
+	Author: Seyfried
+		Input address: Department for Art and Knowledge Transfer, University of Applied Arts, Vienna, Austria.
+		Output address: NONE
+	Author: Pei
+	Author: Schmidt
+PMID: 25189506
+	Author: Surman
+		Input address: Leibniz Graduate School "History, Knowledge, Media in East Central Europe", Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association, Gisonenweg 5-7, 35037 Marburg, Germany. Electronic address: jan.surman@herder-institut.de.
+		Output address: NONE
+	Author: Stráner
+		Input address: Leibniz-Institut for European History, Alte Universitätsstraße 19, 55116 Mainz, Germany
+		Output address: NONE
+		Input address:  Pasts, Inc. Center for Historical Studies, Central European University, 1051 Budapest Nádor u. 9, Hungary.
+		Output address: NONE
+	Author: Haslinger
+		Input address: Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association, Gisonenweg 5-7, 35037 Marburg, Germany.
+		Output address: NONE
+PMID: 25404324
+	Author: Lynch
+		Input address: Department of Biology, Indiana University, Bloomington, IN 47405
+		Output address: Department of Biology
+		Input address:  milynch@indiana.edu ssazer@bcm.edu.
+		Output address: NONE
+	Author: Field
+		Input address: Division of Biological Chemistry and Drug Discovery, University of Dundee, Dundee DD1 5EH, United Kingdom
+		Output address: NONE
+		Input address: 
+		Output address: NONE
+	Author: Goodson
+		Input address: Department of Chemistry and Biochemistry, University of Notre Dame, Notre Dame, IN 46556
+		Output address: Department of Chemistry and Biochemistry
+		Input address: 
+		Output address: NONE
+	Author: Malik
+		Input address: Division of Basic Sciences and Howard Hughes Medical Institute, Fred Hutchinson Cancer Research Center, Seattle, WA 98195
+		Output address: NONE
+		Input address: 
+		Output address: NONE
+	Author: Pereira-Leal
+		Input address: Instituto Gulbenkian de Ciência, P-2781-901 Oeiras, Portugal
+		Output address: Instituto Gulbenkian de Ciência (IGC)
+		Input address: 
+		Output address: NONE
+	Author: Roos
+		Input address: Department of Biology, University of Pennsylvania, Philadelphia, PA 19143
+		Output address: Department of Biology
+		Input address: 
+		Output address: NONE
+	Author: Turkewitz
+		Input address: Department of Molecular Genetics and Cell Biology, University of Chicago, Chicago, IL 60637
+		Output address: Department of Molecular Genetics and Cell Biology
+		Input address:  and.
+		Output address: ａｎｄ
+	Author: Sazer
+		Input address: Verna and Marrs McLean Department of Biochemistry and Molecular Biology, Baylor College of Medicine, Houston, TX 77030 milynch@indiana.edu ssazer@bcm.edu.
+		Output address: NONE
+PMID: 25185232
+	Author: Basey
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309 john.basey@colorado.edu.
+		Output address: NONE
+	Author: Maines
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309.
+		Output address: Department of Ecology and Evolutionary Biology
+	Author: Francis
+		Input address: Department of Biological Sciences, California Polytechnic State University, San Luis Obispo, CA 93407.
+		Output address: Cal Poly Biological Sciences Ragged Point Research Station
+	Author: Melbourne
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309.
+		Output address: Department of Ecology and Evolutionary Biology
+PMID: 24736556
+	Author: Scannapieco
+		Input address: Department of Oral Biology, School of Dental Medicine, University at Buffalo, The State University of New York Foster Hall, Buffalo, NY 14214, USA.
+		Output address: NONE
+PMID: 25583953
+	Author: Wikswo
+		Input address: Vanderbilt Institute for Integrative Biosystems Research and Education, Departments of Biomedical Engineering, Molecular Physiology & Biophysics, and Physics & Astronomy, Vanderbilt University, Nashville, TN 37235, USA john.wikswo@vanderbilt.edu.
+		Output address: NONE
+	Author: Porter
+		Input address: Center for Theology and the Natural Sciences, Graduate Theological Union, Berkeley, CA 94709-1212, USA.
+		Output address: NONE
+PMID: 24006392
+	Author: Rissing
+		Input address: Department of Evolution, Ecology, and Organismal Biology, Ohio State University, Columbus, OH 43210, USA. rissing.2@osu.edu
+		Output address: The Ohio State University- Department of Evolution, Ecology, and Organismal Biology
+PMID: 25363806
+	Author: Kalluri
+		Input address: BioEnergy Science Center and Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA.
+		Output address: NONE
+	Author: Yin
+	Author: Yang
+	Author: Davison
+PMID: 25108565
+	Author: Wijdeven
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands.
+		Output address: NONE
+	Author: Neefjes
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands. Electronic address: J.Neefjes@nki.nl.
+		Output address: NONE
+	Author: Ovaa
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands. Electronic address: H.Ovaa@nki.nl.
+		Output address: NONE
+PMID: 24914161
+	Author: Denes
+		Input address: Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720, USA pdenes@lbl.gov.
+		Output address: NONE
+PMID: 24914145
+	Author: Altarelli
+		Input address: European XFEL GmbH, Albert Einstein Ring 19, 22761 Hamburg, Germany massimo.altarelli@xfel.eu.
+		Output address: NONE
+	Author: Mancuso
+		Input address: European XFEL GmbH, Albert Einstein Ring 19, 22761 Hamburg, Germany.
+		Output address: European XFEL
+PMID: 25963198
+	Author: Moczek
+		Input address: Department of Biology, Indiana University, 915 East 3rd Street, Bloomington, IN 47405, USA.
+		Output address: Department of Biology
+	Author: Sears
+		Input address: School of Integrative Biology and Institute for Genomic Biology, University of Illinois, 505 South Goodwin Avenue, Urbana, IL, 61801, USA.
+		Output address: NONE
+	Author: Stollewerk
+		Input address: School of Biological and Chemical Sciences, Queen Mary, University of London, Mile End Road, London, E1 4NS, UK.
+		Output address: School of Biological and Chemical Sciences
+	Author: Wittkopp
+		Input address: Department of Ecology and Evolutionary Biology, Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI, USA.
+		Output address: NONE
+	Author: Diggle
+		Input address: Department of Ecology and Evolutionary Biology, University of Connecticut, Storrs, CT, 06269, USA.
+		Output address: Department of Ecology and Evolutionary Biology
+	Author: Dworkin
+		Input address: Department of Biology, McMaster University, 1280 Main St. West Hamilton, Ontario, L8S 4K1, Canada.
+		Output address: University of Toronto- Department of Cell & Systems Biology
+	Author: Ledon-Rettig
+		Input address: Department of Biology, Indiana University, 915 East 3rd Street, Bloomington, IN 47405, USA.
+		Output address: Department of Biology
+	Author: Matus
+		Input address: Department of Biochemistry and Cell Biology, Stony Brook University, 412 Life Sciences Building, Stony Brook, NY, 11794-5215, USA.
+		Output address: NONE
+	Author: Roth
+		Input address: University of Cologne, Institute of Developmental Biology, Biocenter, Zülpicher Straße 47b, D-50674, Cologne, Germany.
+		Output address: NONE
+	Author: Abouheif
+		Input address: Department of Biology, McGill University, 1205 Avenue Docteur Penfield, Montréal Québec, H3A 1B1, Canada.
+		Output address: Department of Biology
+	Author: Brown
+		Input address: Departamento de Zoologia, Instituto Biociências, Universidade de São Paulo, Rua do Matão, Travessa 14, no. 101, 05508-090, São Paulo, Brazil.
+		Output address: NONE
+	Author: Chiu
+		Input address: Department of Biological Sciences, Kent State University, OH, USA.
+		Output address: Department of Biological Sciences
+	Author: Cohen
+		Input address: Biology Department, Romberg Tiburon Center for Environmental Studies, San Francisco State University, 3150 Paradise Drive, Tiburon, CA, 94920, USA.
+		Output address: NONE
+	Author: Tomaso
+		Input address: Department of MCD Biology, University of California, Santa Barbara, CA, USA.
+		Output address: NONE
+	Author: Gilbert
+		Input address: Department of Biology, Swarthmore College, Swarthmore, Pennsylvania 19081, USA and Biotechnology Institute, University of Helsinki, 00014, Helsinki, Finland.
+		Output address: NONE
+	Author: Hall
+		Input address: Department of Biology, Dalhousie University, Halifax, Nova Scotia, CA, B3H 4R2, USA.
+		Output address: NONE
+	Author: Love
+		Input address: Department of Philosophy, Minnesota Center for Philosophy of Science, University of Minnesota, USA.
+		Output address: NONE
+	Author: Lyons
+		Input address: Department of Biology, Duke University, Box 90338, Durham, NC, 27708, USA.
+		Output address: NONE
+	Author: Sanger
+		Input address: Department of Molecular Genetics and Microbiology, University of Florida, P.O. Box 103610, Gainesville, FL, 32610, USA.
+		Output address: Department of Molecular Genetics and Microbiology
+	Author: Smith
+		Input address: Marine Biological Laboratory, 7 MBL Street, Woods Hole, MA, 02543, USA.
+		Output address: Marine Biological Laboratory
+	Author: Specht
+		Input address: Plant and Microbial Biology, Department of Integrative Biology, University and Jepson Herbaria, University of California, Berkeley, CA, USA.
+		Output address: NONE
+	Author: Vallejo-Marin
+		Input address: Biological and Environmental Sciences, University of Stirling, FK9 4LA, Scotland, UK.
+		Output address: NONE
+	Author: Extavour
+		Input address: Department of Organismic and Evolutionary Biology, Department of Molecular and Cellular Biology, Harvard University, 16 Divinity Avenue, BioLabs 4103, Cambridge, MA, 02138, USA.
+		Output address: NONE
+PMID: 25521633
+	Author: Keen
+		Input address: Department of Biology, University of Miami, Coral Gables, FL, USA
+		Output address: Department of Biology
+		Input address:  Laboratory of Molecular Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.
+		Output address: NONE
+PMID: 25116370
+	Author: Bloch
+		Input address: StartingBloch Nimes France. Electronic address: jfbloch@startingbloch.com.
+		Output address: NONE
+	Author: Tardieu-Guigues
+		Input address: ERCIM UMR 5815 Faculty of Law and Political Sciences, Montpellier 1 University, France.
+		Output address: NONE
+PMID: 25468194
+	Author: Bunyavanich
+		Input address: Department of Genetics and Genomic Sciences and the Icahn Institute for Genomics and Multiscale Biology, New York, NY
+		Output address: NONE
+		Input address:  Division of Pediatric Allergy and Immunology, Department of Pediatrics, and the Mindich Child Health and Development Institute, Icahn School of Medicine at Mount Sinai, New York, NY. Electronic address: supinda@post.harvard.edu.
+		Output address: NONE
+	Author: Schadt
+		Input address: Department of Genetics and Genomic Sciences and the Icahn Institute for Genomics and Multiscale Biology, New York, NY.
+		Output address: NONE
+PMID: 25978987
+	NO AUTHORS LISTED.PMID: 25515145
+	Author: Benson
+PMID: 25185231
+	Author: Eddy
+		Input address: *Department of Biology, University of Washington, Seattle, WA 98195 sleddy@u.washington.edu.
+		Output address: NONE
+	Author: Brownell
+		Input address: School of Life Sciences, Arizona State University, Tempe, AZ 85287.
+		Output address: School Of Life Sciences : Arizona State University
+	Author: Wenderoth
+		Input address: *Department of Biology, University of Washington, Seattle, WA 98195.
+		Output address: University of Washington: Department of Biology
+PMID: 25316777
+	Author: Wright
+		Input address: Department of Genetics, Cell Biology and Development, College of Biological Sciences, University of Minnesota, St. Paul, Minnesota 55108.
+		Output address: NONE
+PMID: 24591504
+	Author: Hester
+		Input address: Department of Molecular and Cellular Biology, University of Arizona, Tucson, AZ 85721 Department of Teaching, Learning and Sociocultural Studies, University of Arizona, Tucson, AZ 85721.
+		Output address: NONE
+	Author: Buxner
+	Author: Elfring
+	Author: Nagy
+PMID: 24782329
+	Author: Seyfried
+		Input address: Department for Art and Knowledge Transfer, University of Applied Arts, Vienna, Austria.
+		Output address: NONE
+	Author: Pei
+	Author: Schmidt
+PMID: 25189506
+	Author: Surman
+		Input address: Leibniz Graduate School "History, Knowledge, Media in East Central Europe", Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association, Gisonenweg 5-7, 35037 Marburg, Germany. Electronic address: jan.surman@herder-institut.de.
+		Output address: NONE
+	Author: Stráner
+		Input address: Leibniz-Institut for European History, Alte Universitätsstraße 19, 55116 Mainz, Germany
+		Output address: NONE
+		Input address:  Pasts, Inc. Center for Historical Studies, Central European University, 1051 Budapest Nádor u. 9, Hungary.
+		Output address: NONE
+	Author: Haslinger
+		Input address: Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association, Gisonenweg 5-7, 35037 Marburg, Germany.
+		Output address: NONE
+PMID: 25404324
+	Author: Lynch
+		Input address: Department of Biology, Indiana University, Bloomington, IN 47405
+		Output address: Department of Biology
+		Input address:  milynch@indiana.edu ssazer@bcm.edu.
+		Output address: NONE
+	Author: Field
+		Input address: Division of Biological Chemistry and Drug Discovery, University of Dundee, Dundee DD1 5EH, United Kingdom
+		Output address: NONE
+		Input address: 
+		Output address: NONE
+	Author: Goodson
+		Input address: Department of Chemistry and Biochemistry, University of Notre Dame, Notre Dame, IN 46556
+		Output address: Department of Chemistry and Biochemistry
+		Input address: 
+		Output address: NONE
+	Author: Malik
+		Input address: Division of Basic Sciences and Howard Hughes Medical Institute, Fred Hutchinson Cancer Research Center, Seattle, WA 98195
+		Output address: NONE
+		Input address: 
+		Output address: NONE
+	Author: Pereira-Leal
+		Input address: Instituto Gulbenkian de Ciência, P-2781-901 Oeiras, Portugal
+		Output address: Instituto Gulbenkian de Ciência (IGC)
+		Input address: 
+		Output address: NONE
+	Author: Roos
+		Input address: Department of Biology, University of Pennsylvania, Philadelphia, PA 19143
+		Output address: Department of Biology
+		Input address: 
+		Output address: NONE
+	Author: Turkewitz
+		Input address: Department of Molecular Genetics and Cell Biology, University of Chicago, Chicago, IL 60637
+		Output address: Department of Molecular Genetics and Cell Biology
+		Input address:  and.
+		Output address: ａｎｄ
+	Author: Sazer
+		Input address: Verna and Marrs McLean Department of Biochemistry and Molecular Biology, Baylor College of Medicine, Houston, TX 77030 milynch@indiana.edu ssazer@bcm.edu.
+		Output address: NONE
+PMID: 25185232
+	Author: Basey
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309 john.basey@colorado.edu.
+		Output address: NONE
+	Author: Maines
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309.
+		Output address: Department of Ecology and Evolutionary Biology
+	Author: Francis
+		Input address: Department of Biological Sciences, California Polytechnic State University, San Luis Obispo, CA 93407.
+		Output address: Cal Poly Biological Sciences Ragged Point Research Station
+	Author: Melbourne
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309.
+		Output address: Department of Ecology and Evolutionary Biology
+PMID: 24736556
+	Author: Scannapieco
+		Input address: Department of Oral Biology, School of Dental Medicine, University at Buffalo, The State University of New York Foster Hall, Buffalo, NY 14214, USA.
+		Output address: NONE
+PMID: 25583953
+	Author: Wikswo
+		Input address: Vanderbilt Institute for Integrative Biosystems Research and Education, Departments of Biomedical Engineering, Molecular Physiology & Biophysics, and Physics & Astronomy, Vanderbilt University, Nashville, TN 37235, USA john.wikswo@vanderbilt.edu.
+		Output address: NONE
+	Author: Porter
+		Input address: Center for Theology and the Natural Sciences, Graduate Theological Union, Berkeley, CA 94709-1212, USA.
+		Output address: NONE
+PMID: 24006392
+	Author: Rissing
+		Input address: Department of Evolution, Ecology, and Organismal Biology, Ohio State University, Columbus, OH 43210, USA. rissing.2@osu.edu
+		Output address: The Ohio State University- Department of Evolution, Ecology, and Organismal Biology
+PMID: 25363806
+	Author: Kalluri
+		Input address: BioEnergy Science Center and Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA.
+		Output address: NONE
+	Author: Yin
+	Author: Yang
+	Author: Davison
+PMID: 25108565
+	Author: Wijdeven
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands.
+		Output address: NONE
+	Author: Neefjes
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands. Electronic address: J.Neefjes@nki.nl.
+		Output address: NONE
+	Author: Ovaa
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands. Electronic address: H.Ovaa@nki.nl.
+		Output address: NONE
+PMID: 24914161
+	Author: Denes
+		Input address: Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720, USA pdenes@lbl.gov.
+		Output address: NONE
+PMID: 24914145
+	Author: Altarelli
+		Input address: European XFEL GmbH, Albert Einstein Ring 19, 22761 Hamburg, Germany massimo.altarelli@xfel.eu.
+		Output address: NONE
+	Author: Mancuso
+		Input address: European XFEL GmbH, Albert Einstein Ring 19, 22761 Hamburg, Germany.
+		Output address: European XFEL
+PMID: 25963198
+	Author: Moczek
+		Input address: Department of Biology, Indiana University, 915 East 3rd Street, Bloomington, IN 47405, USA.
+		Output address: Department of Biology
+	Author: Sears
+		Input address: School of Integrative Biology and Institute for Genomic Biology, University of Illinois, 505 South Goodwin Avenue, Urbana, IL, 61801, USA.
+		Output address: NONE
+	Author: Stollewerk
+		Input address: School of Biological and Chemical Sciences, Queen Mary, University of London, Mile End Road, London, E1 4NS, UK.
+		Output address: School of Biological and Chemical Sciences
+	Author: Wittkopp
+		Input address: Department of Ecology and Evolutionary Biology, Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI, USA.
+		Output address: NONE
+	Author: Diggle
+		Input address: Department of Ecology and Evolutionary Biology, University of Connecticut, Storrs, CT, 06269, USA.
+		Output address: Department of Ecology and Evolutionary Biology
+	Author: Dworkin
+		Input address: Department of Biology, McMaster University, 1280 Main St. West Hamilton, Ontario, L8S 4K1, Canada.
+		Output address: University of Toronto- Department of Cell & Systems Biology
+	Author: Ledon-Rettig
+		Input address: Department of Biology, Indiana University, 915 East 3rd Street, Bloomington, IN 47405, USA.
+		Output address: Department of Biology
+	Author: Matus
+		Input address: Department of Biochemistry and Cell Biology, Stony Brook University, 412 Life Sciences Building, Stony Brook, NY, 11794-5215, USA.
+		Output address: NONE
+	Author: Roth
+		Input address: University of Cologne, Institute of Developmental Biology, Biocenter, Zülpicher Straße 47b, D-50674, Cologne, Germany.
+		Output address: NONE
+	Author: Abouheif
+		Input address: Department of Biology, McGill University, 1205 Avenue Docteur Penfield, Montréal Québec, H3A 1B1, Canada.
+		Output address: Department of Biology
+	Author: Brown
+		Input address: Departamento de Zoologia, Instituto Biociências, Universidade de São Paulo, Rua do Matão, Travessa 14, no. 101, 05508-090, São Paulo, Brazil.
+		Output address: NONE
+	Author: Chiu
+		Input address: Department of Biological Sciences, Kent State University, OH, USA.
+		Output address: Department of Biological Sciences
+	Author: Cohen
+		Input address: Biology Department, Romberg Tiburon Center for Environmental Studies, San Francisco State University, 3150 Paradise Drive, Tiburon, CA, 94920, USA.
+		Output address: NONE
+	Author: Tomaso
+		Input address: Department of MCD Biology, University of California, Santa Barbara, CA, USA.
+		Output address: NONE
+	Author: Gilbert
+		Input address: Department of Biology, Swarthmore College, Swarthmore, Pennsylvania 19081, USA and Biotechnology Institute, University of Helsinki, 00014, Helsinki, Finland.
+		Output address: NONE
+	Author: Hall
+		Input address: Department of Biology, Dalhousie University, Halifax, Nova Scotia, CA, B3H 4R2, USA.
+		Output address: NONE
+	Author: Love
+		Input address: Department of Philosophy, Minnesota Center for Philosophy of Science, University of Minnesota, USA.
+		Output address: NONE
+	Author: Lyons
+		Input address: Department of Biology, Duke University, Box 90338, Durham, NC, 27708, USA.
+		Output address: NONE
+	Author: Sanger
+		Input address: Department of Molecular Genetics and Microbiology, University of Florida, P.O. Box 103610, Gainesville, FL, 32610, USA.
+		Output address: Department of Molecular Genetics and Microbiology
+	Author: Smith
+		Input address: Marine Biological Laboratory, 7 MBL Street, Woods Hole, MA, 02543, USA.
+		Output address: Marine Biological Laboratory
+	Author: Specht
+		Input address: Plant and Microbial Biology, Department of Integrative Biology, University and Jepson Herbaria, University of California, Berkeley, CA, USA.
+		Output address: NONE
+	Author: Vallejo-Marin
+		Input address: Biological and Environmental Sciences, University of Stirling, FK9 4LA, Scotland, UK.
+		Output address: NONE
+	Author: Extavour
+		Input address: Department of Organismic and Evolutionary Biology, Department of Molecular and Cellular Biology, Harvard University, 16 Divinity Avenue, BioLabs 4103, Cambridge, MA, 02138, USA.
+		Output address: NONE
+PMID: 25521633
+	Author: Keen
+		Input address: Department of Biology, University of Miami, Coral Gables, FL, USA
+		Output address: Department of Biology
+		Input address:  Laboratory of Molecular Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.
+		Output address: NONE
+PMID: 25116370
+	Author: Bloch
+		Input address: StartingBloch Nimes France. Electronic address: jfbloch@startingbloch.com.
+		Output address: NONE
+	Author: Tardieu-Guigues
+		Input address: ERCIM UMR 5815 Faculty of Law and Political Sciences, Montpellier 1 University, France.
+		Output address: NONE
+PMID: 25468194
+	Author: Bunyavanich
+		Input address: Department of Genetics and Genomic Sciences and the Icahn Institute for Genomics and Multiscale Biology, New York, NY
+		Output address: NONE
+		Input address:  Division of Pediatric Allergy and Immunology, Department of Pediatrics, and the Mindich Child Health and Development Institute, Icahn School of Medicine at Mount Sinai, New York, NY. Electronic address: supinda@post.harvard.edu.
+		Output address: NONE
+	Author: Schadt
+		Input address: Department of Genetics and Genomic Sciences and the Icahn Institute for Genomics and Multiscale Biology, New York, NY.
+		Output address: NONE
+PMID: 25978987
+	NO AUTHORS LISTED.
+SUCCESS RATE: 32.857142857142854%

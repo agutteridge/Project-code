@@ -1,0 +1,105 @@
+23036330|Humans|C0086418|1000|CT|Breast Cancer;CT Treecode Lookup: C17.800.090 (Breast Cancer);CT Text Lookup: human||MM;RC
+23036330|In Situ Hybridization, Fluorescence|C0162789|296000|MH|RtM via: Fluorescent in Situ Hybridization;Forced Lookup:fluorescence in situ hybridization|AB|MM;RC
+23036330|ERBB2 protein, human|C1702024|3027823|NM|RtM via: epidermal growth factor receptor 2, human|AB|MM
+23036330|*Receptor, ErbB-2|C0069515|3027822|HM|RtM via: erbB-2 Receptor;RtM via: epidermal growth factor receptor 2, human|TI;AB|MM;RC
+23036330|*Breast Cancer|C0006142|459186|ET|Entry Term Replacement for "Breast Neoplasms";RtM via: Breast Carcinoma;RtM via: Malignant neoplasm of breast;RtM via: Mammary Neoplasms;RtM via: Mammary Neoplasms, Human|TI;AB|MM;RC
+23036330|Proto-Oncogenes|C0033713|182837|MH|RtM via: Proto-Oncogenes;Forced Dashed Lookup AB:proto-oncogenes|AB|MM
+23036330|Immunohistochemistry|C0021044|136916|MH|RtM via: Immunohistochemistry|AB|MM;RC
+23036330|Paraffin Embedding|C0085185|101930|MH|||RC
+23036330|Tumor Markers, Biological|C0041366|62555|MH|||RC
+23036330|Gene Amplification|C0017256|60556|MH|||RC
+23036330|Formalin|C0949307|52570|ET|Entry Term Replacement for "Formaldehyde";RtM via: Formalin|AB|MM;RC
+23036330|*PCR|C0032520|46839|ET|Entry Term Replacement for "Polymerase Chain Reaction";RtM via: Polymerase Chain Reaction|TI;AB|MM;RC
+23036330|Gene Dosage|C0178655|21860|MH|||RC
+23036330|Prognosis|C0033325|21450|MH|RtM via: prognostic|AB|MM;RC
+23036330|trastuzumab|C0728747|13564|NM|RtM via: Herceptin|AB|MM
+23036330|Antibodies, Monoclonal, Humanized|C2985546|13563|HM|RtM via: Herceptin|AB|MM;RC
+23036330|immunology|C1522005|1111|SH|D23.050.301.264.035.596 (Receptor, ErbB-2)|TI;AB|MM
+23036330|genetics|C0017399|1111|SH|G05.360.340.024.340.375.500.791 (Proto-Oncogenes)|AB|MM
+23637122|Humans|C0086418|0|CT|Breast Neoplasms;CT Treecode Lookup: C17.800.090 (Breast Neoplasms);Chromosomes, Human, Pair 17;CT Treecode Lookup: A11.284.187.520.300 (Chromosomes, Human, Pair 17);Chromosomes, Human, Pair 17;CT Treecode Lookup: G05.360.162.520.300 (Chromosomes, Human, Pair 17)||RC
+23637122|Receptor, ErbB-2|C0069515|256224|MH|||RC
+23637122|Gene Amplification|C0017256|124240|MH|||RC
+23637122|Breast Neoplasms|C1458155|51063|MH|||RC
+23637122|*PCR|C0032520|47940|ET|Entry Term Replacement for "Polymerase Chain Reaction";RtM via: Polymerase Chain Reaction|TI;AB|MM;RC
+23637122|Chromosomes, Human, Pair 17|C0008659|44835|MH|||RC
+23637122|In Situ Hybridization, Fluorescence|C0162789|44335|MH|||RC
+23637122|*DNA|C0012854|30489|MH|RtM via: DNA|TI;AB|MM;RC
+23637122|*Remission Induction|C0035052|16041|MH|RtM via: In complete remission|TI;AB|MM;RC
+23637122|immunology|C1522005|1111|SH|D23.050.301.264.035.596 (Receptor, ErbB-2)||MM
+23637122|genetics|C0017399|1111|SH|G05.355.315.250 (Gene Amplification)||MM
+25542038|Humans|C0086418|1000|CT|Breast Cancer;CT Treecode Lookup: C17.800.090 (Breast Cancer);CT Text Lookup: patient;CT Text Lookup: patients||MM;RC
+25542038|trastuzumab|C0728747|1027481|NM|RtM via: trastuzumab;Forced SCR Leaf Node Lookup:trastuzumab|TI;AB|MM
+25542038|PIK3CA protein, human|C1451005|349986|NM|RtM via: PIK3CA protein, human|AB|MM
+25542038|Phosphatidylinositol 3-Kinases|C2936824|349985|HM|RtM via: PIK3CA protein, human;Forced Lookup:pi3k|AB|MM;RC
+25542038|*Antibodies, Monoclonal, Humanized|C2985546|1027480|HM|RtM via: trastuzumab|TI;AB|MM;RC
+25542038|PTEN protein, human|C1430988|893146|NM|RtM via: PTEN protein, human|TI;AB|MM
+25542038|*PTEN Phosphohydrolase|C1530899|893145|HM|RtM via: PTEN protein, human|TI;AB|MM;RC
+25542038|*Breast Cancer|C0006142|595932|ET|Entry Term Replacement for "Breast Neoplasms";RtM via: HER2-positive carcinoma of breast;RtM via: Breast Carcinoma;RtM via: Malignant neoplasm of breast|TI;AB|MM;RC
+25542038|Receptor, ErbB-2|C0069515|322054|MH|||RC
+25542038|phosphatidylinositol-3,4-bisphosphate 4-phosphatase|C0063566|168431|NM|RtM via: inositol polyphosphate 4-phosphatase type II;RtM via: phosphatidylinositol-3,4-bisphosphate 4-phosphatase;Forced Dashed Lookup AB:inositol polyphosphate 4-phosphatase|TI;AB|MM
+25542038|*Phosphoric Monoester Hydrolases|C0031678|168430|HM|RtM via: inositol polyphosphate 4-phosphatase type II;RtM via: Phosphoric Monoester Hydrolases;RtM via: phosphatidylinositol-3,4-bisphosphate 4-phosphatase|TI;AB|MM
+25542038|Treatment, Neoadjuvant|C0600558|127762|ET|Entry Term Replacement for "Neoadjuvant Therapy";RtM via: Neoadjuvant Therapy|AB|MM;RC
+25542038|Proto-Oncogene Proteins c-akt|C0164786|68975|MH|||RC
+25542038|Antineoplastic Combined Chemotherapy Protocols|C0003393|49522|MH|||RC
+25542038|Antibodies, Monoclonal|C0003250|36880|MH|||RC
+25542038|Immunohistochemistry|C0021044|35163|MH|RtM via: Immunohistochemistry|AB|MM;RC
+25542038|Mutation|C0026882|30723|MH|RtM via: Mutation;Forced Non-Leaf Node Lookup:mutations|AB|MM;RC
+25542038|immunology|C1522005|1111|SH|D23.050.301.264.035.596 (Receptor, ErbB-2)||MM
+23358413|Humans|C0086418|1000|CT|Breast Carcinoma;CT Treecode Lookup: C17.800.090 (Breast Carcinoma);CT Text Lookup: human||MM;RC
+23358413|*Formalin|C0949307|504294|ET|Entry Term Replacement for "Formaldehyde";RtM via: Formalin;checkForceMH Boosted|TI|MM;RC
+23358413|*Paraffin|C0030415|451494|MH|Forced Leaf Node Lookup:paraffin;checkForceMH Boosted|TI|MM
+23358413|In Situ Hybridization, Fluorescence|C0162789|424162|MH|RtM via: Fluorescent in Situ Hybridization;Forced Lookup:fluorescence in situ hybridization|AB|MM;RC
+23358413|ERBB2 protein, human|C1702024|3416508|NM|RtM via: epidermal growth factor receptor 2, human|AB|MM
+23358413|*Receptor, ErbB-2|C0069515|3416507|HM|RtM via: erbB-2 Receptor;RtM via: epidermal growth factor receptor 2, human|TI;AB|MM;RC
+23358413|*Breast Carcinoma|C0006142|503535|ET|Entry Term Replacement for "Breast Neoplasms";RtM via: Breast Carcinoma;RtM via: Malignant neoplasm of breast;RtM via: invasive breast cancer|TI;AB|MM;RC
+23358413|Immunohistochemistry|C0021044|251685|MH|RtM via: Immunohistochemistry|AB|MM;RC
+23358413|Paraffin Embedding|C0085185|160010|MH|||RC
+23358413|Gene Amplification|C0017256|112001|MH|||RC
+23358413|Tumor Markers, Biological|C0041366|63475|MH|||RC
+23358413|*PCR|C0032520|62484|ET|Entry Term Replacement for "Polymerase Chain Reaction";RtM via: Polymerase Chain Reaction|TI;AB|MM;RC
+23358413|Gene Expression Regulation, Neoplastic|C0017268|31968|MH|||RC
+23358413|immunology|C1522005|1111|SH|D23.050.301.264.035.596 (Receptor, ErbB-2)|TI;AB|MM
+23358413|genetics|C0017399|1111|SH|G05.355.315.250 (Gene Amplification)||MM
+24386193|Humans|C0086418|0|CT|Chromosome 17;CT Treecode Lookup: A11.284.187.520.300 (Chromosome 17);Chromosome 17;CT Treecode Lookup: G05.360.162.520.300 (Chromosome 17);Breast Neoplasms;CT Treecode Lookup: C17.800.090 (Breast Neoplasms)||MM;RC
+24386193|Receptor, ErbB-2|C0069515|198932|MH|||RC
+24386193|*DNA, Neoplasm|C0012930|167217|MH|RtM via: DNA, Neoplasm|TI|MM;RC
+24386193|Chromosome 17|C0008659|95905|ET|Entry Term Replacement for "Chromosomes, Human, Pair 17";RtM via: Chromosomes, Human, Pair 17|AB|MM;RC
+24386193|Gene Amplification|C0017256|94867|MH|||RC
+24386193|In Situ Hybridization, Fluorescence|C0162789|44552|MH|||RC
+24386193|Immunohistochemistry|C0021044|43708|MH|||RC
+24386193|Tumor Markers, Biological|C0041366|43516|MH|||RC
+24386193|Breast Neoplasms|C1458155|35535|MH|||RC
+24386193|Neoplasm Staging|C0027646|32398|MH|||RC
+24386193|*PCR|C0032520|20271|ET|Entry Term Replacement for "Polymerase Chain Reaction";RtM via: Polymerase Chain Reaction|TI;AB|MM;RC
+24386193|*Remission Induction|C0035052|13095|MH|RtM via: In complete remission|TI;AB|MM;RC
+24386193|immunology|C1522005|1111|SH|D23.050.301.264.035.596 (Receptor, ErbB-2)||MM
+24386193|genetics|C0017399|1111|SH|G05.360.162.520.300.415.425 (Chromosome 17)|AB|MM
+22373922|Humans|C0086418|1000|CT|CT Text Lookup: patient||MM;RC
+22373922|*DNA Copy Number Variations|C2717925|178242|MH|RtM via: Copy Number Polymorphism;Forced Lookup:copy number variation|TI;AB|MM;RC
+22373922|*Microfluidics|C1257867|45255|MH|RtM via: Microfluidics;Forced Leaf Node Lookup:microfluidics|TI|MM
+22373922|*PCR|C0032520|120846|ET|Entry Term Replacement for "Polymerase Chain Reaction";RtM via: Polymerase Chain Reaction|TI;AB|MM;RC
+22373922|Gene Dosage|C0178655|38724|MH|||RC
+22373922|DNA|C0012854|9407|MH|RtM via: DNA|AB|MM;RC
+22373922|*Remission Induction|C0035052|2736|MH|RtM via: In complete remission|TI;AB|MM;RC
+22373922|genetics|C0017399|1111|SH|G05.365.795.297.500 (DNA Copy Number Variations)|TI;AB|MM
+15647832|Humans|C0086418|1000|CT|Breast Cancer;CT Treecode Lookup: C17.800.090 (Breast Cancer);CT Text Lookup: human||MM;RC
+15647832|Male|C0086582|1857|CT|CT Text Lookup: prostate||MM;RC
+15647832|Pilot Projects|C0031928|65578|MH|RtM via: Pilot Projects;Forced Lookup:pilot study|AB|MM
+15647832|*Breast|C0006141|297303|MH|RtM via: Breast;RtM via: Entire breast;RtM via: Breast tissue sample|TI;AB|MM;RC
+15647832|*Breast Cancer|C0006142|209253|ET|Entry Term Replacement for "Breast Neoplasms";RtM via: Breast Carcinoma;RtM via: Malignant neoplasm of breast|TI;AB|MM;RC
+15647832|*Oncogenes|C0029016|139620|MH|RtM via: Oncogenes|TI;AB|MM
+15647832|Oligonucleotide Array Sequence Analysis|C0600595|137967|MH|||RC
+15647832|Gene Expression Profiling|C0752248|120042|MH|||RC
+15647832|Gene Expression Regulation, Neoplastic|C0017268|71915|MH|||RC
+15647832|Expressed Sequence Tags|C0600510|69909|MH|||RC
+15647832|Actins|C0001271|65628|MH|RtM via: beta-Actin;RtM via: Actin, Cytoplasmic 1;Forced Dashed Lookup AB:beta-actin|AB|MM
+15647832|Genes, erbB-2|C0242957|56715|MH|RtM via: ERBB2 gene|AB|MM
+15647832|Genes, BRCA1|C0376571|46807|MH|RtM via: BRCA1 gene|AB|MM
+15647832|Databases, Genetic|C0872179|39903|MH|||RC
+15647832|Gene Expression|C0017262|26433|MH|RtM via: Gene Expression|AB|MM;RC
+15647832|Down-Regulation|C0013081|20118|MH|RtM via: Down-Regulation|AB|MM;RC
+15647832|Bio-Informatic|C1140694|17768|ET|Entry Term Replacement for "Computational Biology";RtM via: Bio-Informatics|AB|MM;RC
+15647832|Data Mining|C1328866|16069|MH|RtM via: Data Mining|AB|MM;RC
+15647832|genetics|C0017399|1111|SH|G05.360.340.024.340.375.500 (Oncogenes)|TI;AB|MM
+
+END

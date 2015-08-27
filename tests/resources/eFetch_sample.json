@@ -1,0 +1,602 @@
+[
+  {
+    "PubmedData": {
+      "PublicationStatus": "ppublish",
+      "ArticleIdList": [
+        "S1046-2023(12)00252-6",
+        "10.1016/j.ymeth.2012.09.012",
+        "00000000"
+      ],
+      "History": [
+        {
+          "Day": "2",
+          "Year": "2012",
+          "Month": "10"
+        },
+        {
+          "Hour": "6",
+          "Day": "6",
+          "Year": "2012",
+          "Month": "10",
+          "Minute": "0"
+        },
+        {
+          "Hour": "6",
+          "Day": "6",
+          "Year": "2012",
+          "Month": "10",
+          "Minute": "0"
+        },
+        {
+          "Hour": "6",
+          "Day": "19",
+          "Year": "2013",
+          "Month": "6",
+          "Minute": "0"
+        }
+      ]
+    },
+    "MedlineCitation": {
+      "OtherID": [],
+      "ChemicalList": [
+        {
+          "RegistryNumber": "0",
+          "NameOfSubstance": "Fixatives"
+        },
+        {
+          "RegistryNumber": "0",
+          "NameOfSubstance": "RNA, Messenger"
+        },
+        {
+          "RegistryNumber": "1HG84L3525",
+          "NameOfSubstance": "Formaldehyde"
+        },
+        {
+          "RegistryNumber": "EC 2.7.10.1",
+          "NameOfSubstance": "ERBB2 protein, human"
+        },
+        {
+          "RegistryNumber": "EC 2.7.10.1",
+          "NameOfSubstance": "Receptor, ErbB-2"
+        }
+      ],
+      "DateCreated": {
+        "Day": "14",
+        "Year": "2013",
+        "Month": "01"
+      },
+      "MedlineJournalInfo": {
+        "ISSNLinking": "1046-2023",
+        "MedlineTA": "Methods",
+        "NlmUniqueID": "9426302",
+        "Country": "United States"
+      },
+      "PMID": "00000000",
+      "KeywordList": [],
+      "Article": {
+        "Language": [
+          "eng"
+        ],
+        "Abstract": {
+          "CopyrightInformation": "Copyright © 2012 Elsevier Inc. All rights reserved.",
+          "AbstractText": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum nunc sit amet justo imperdiet, non dignissim nunc aliquet. Duis non eleifend lorem. Nam sed nulla ac diam tempor hendrerit et sit amet risus. Aenean et convallis tellus. Nam auctor blandit aliquet. Etiam tincidunt venenatis porta. Etiam id tempus risus. Etiam lobortis gravida posuere. Morbi ut sem interdum, luctus nibh vitae, bibendum leo. Curabitur varius vel lectus at laoreet. Praesent vitae scelerisque quam, fringilla vulputate orci. Vivamus aliquet, metus ut viverra congue, nisi ex facilisis mi, aliquam cursus nunc nunc viverra felis. Sed non accumsan libero. Morbi vehicula interdum mattis. Cras et blandit nisi."]
+        },
+        "PublicationTypeList": [
+          "Comparative Study",
+          "Journal Article"
+        ],
+        "Pagination": {
+          "MedlinePgn": "S20-3"
+        },
+        "AuthorList": [
+          {
+            "LastName": "Heredia",
+            "Identifier": [],
+            "Initials": "NJ",
+            "ForeName": "Nicholas J",
+            "AffiliationInfo": [
+              {
+                "Identifier": [],
+                "Affiliation": "Digital Biology Center, Bio-Rad Laboratories Inc., 7068 Koll Center Pkwy, Ste. 401, Pleasanton, CA 94566, USA."
+              }
+            ]
+          },
+          {
+            "LastName": "Belgrader",
+            "Identifier": [],
+            "Initials": "P",
+            "ForeName": "Phillip",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Wang",
+            "Identifier": [],
+            "Initials": "S",
+            "ForeName": "Shenglong",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Koehler",
+            "Identifier": [],
+            "Initials": "R",
+            "ForeName": "Ryan",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Regan",
+            "Identifier": [],
+            "Initials": "J",
+            "ForeName": "Jack",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Cosman",
+            "Identifier": [],
+            "Initials": "AM",
+            "ForeName": "Angela M",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Saxonov",
+            "Identifier": [],
+            "Initials": "S",
+            "ForeName": "Serge",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Hindson",
+            "Identifier": [],
+            "Initials": "B",
+            "ForeName": "Benjamin",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Tanner",
+            "Identifier": [],
+            "Initials": "SC",
+            "ForeName": "Stephanie C",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Brown",
+            "Identifier": [],
+            "Initials": "AS",
+            "ForeName": "Alexandra S",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Karlin-Neumann",
+            "Identifier": [],
+            "Initials": "G",
+            "ForeName": "George",
+            "AffiliationInfo": []
+          }
+        ],
+        "ArticleDate": [
+          {
+            "Day": "02",
+            "Year": "2012",
+            "Month": "10"
+          }
+        ],
+        "Journal": {
+          "JournalIssue": {
+            "Volume": "59",
+            "Issue": "1",
+            "PubDate": {
+              "Year": "2013",
+              "Month": "Jan"
+            }
+          },
+          "ISOAbbreviation": "Methods",
+          "ISSN": "1095-9130",
+          "Title": "Methods (San Diego, Calif.)"
+        },
+        "ELocationID": [
+          "10.1016/j.ymeth.2012.09.012",
+          "S1046-2023(12)00252-6"
+        ],
+        "ArticleTitle": "Example of a title"
+      },
+      "DateRevised": {
+        "Day": "20",
+        "Year": "2014",
+        "Month": "11"
+      },
+      "SpaceFlightMission": [],
+      "MeshHeadingList": [
+        {
+          "QualifierName": [
+            "metabolism"
+          ],
+          "DescriptorName": "Breast Neoplasms"
+        },
+        {
+          "QualifierName": [
+            "genetics"
+          ],
+          "DescriptorName": "Centromere"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Female"
+        },
+        {
+          "QualifierName": [
+            "chemistry"
+          ],
+          "DescriptorName": "Fixatives"
+        },
+        {
+          "QualifierName": [
+            "chemistry"
+          ],
+          "DescriptorName": "Formaldehyde"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Gene Dosage"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Gene Expression"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Humans"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Immunohistochemistry"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "In Situ Hybridization, Fluorescence"
+        },
+        {
+          "QualifierName": [
+            "standards"
+          ],
+          "DescriptorName": "Molecular Diagnostic Techniques"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Paraffin Embedding"
+        },
+        {
+          "QualifierName": [
+            "standards"
+          ],
+          "DescriptorName": "Polymerase Chain Reaction"
+        },
+        {
+          "QualifierName": [
+            "genetics",
+            "metabolism"
+          ],
+          "DescriptorName": "RNA, Messenger"
+        },
+        {
+          "QualifierName": [
+            "genetics",
+            "metabolism"
+          ],
+          "DescriptorName": "Receptor, ErbB-2"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Reference Standards"
+        }
+      ],
+      "DateCompleted": {
+        "Day": "18",
+        "Year": "2013",
+        "Month": "06"
+      },
+      "OtherAbstract": [],
+      "GeneralNote": [],
+      "CitationSubset": [
+        "IM"
+      ]
+    }
+  },
+  {
+    "PubmedData": {
+      "PublicationStatus": "ppublish",
+      "ArticleIdList": [
+        "1078-0432.CCR-12-3768",
+        "10.1158/1078-0432.CCR-12-3768",
+        "00000001"
+      ],
+      "History": [
+        {
+          "Day": "1",
+          "Year": "2013",
+          "Month": "5"
+        },
+        {
+          "Day": "23",
+          "Year": "2013",
+          "Month": "5"
+        },
+        {
+          "Hour": "6",
+          "Day": "3",
+          "Year": "2013",
+          "Month": "5",
+          "Minute": "0"
+        },
+        {
+          "Hour": "6",
+          "Day": "3",
+          "Year": "2013",
+          "Month": "5",
+          "Minute": "0"
+        },
+        {
+          "Hour": "6",
+          "Day": "14",
+          "Year": "2014",
+          "Month": "2",
+          "Minute": "0"
+        }
+      ]
+    },
+    "MedlineCitation": {
+      "OtherID": [],
+      "ChemicalList": [
+        {
+          "RegistryNumber": "0",
+          "NameOfSubstance": "DNA, Neoplasm"
+        },
+        {
+          "RegistryNumber": "0",
+          "NameOfSubstance": "EFTUD2 protein, human"
+        },
+        {
+          "RegistryNumber": "0",
+          "NameOfSubstance": "Peptide Elongation Factors"
+        },
+        {
+          "RegistryNumber": "0",
+          "NameOfSubstance": "Ribonucleoprotein, U5 Small Nuclear"
+        },
+        {
+          "RegistryNumber": "EC 2.7.10.1",
+          "NameOfSubstance": "ERBB2 protein, human"
+        },
+        {
+          "RegistryNumber": "EC 2.7.10.1",
+          "NameOfSubstance": "Receptor, ErbB-2"
+        }
+      ],
+      "DateCreated": {
+        "Day": "17",
+        "Year": "2013",
+        "Month": "06"
+      },
+      "MedlineJournalInfo": {
+        "ISSNLinking": "1078-0432",
+        "MedlineTA": "Clin Cancer Res",
+        "NlmUniqueID": "9502500",
+        "Country": "United States"
+      },
+      "PMID": "00000001",
+      "KeywordList": [],
+      "Article": {
+        "Language": [
+          "eng"
+        ],
+        "Abstract": {
+          "AbstractText": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis orci ultricies, blandit metus vitae, dapibus libero. Nunc enim ipsum, dictum id dui sit amet, imperdiet vestibulum felis. Duis dictum sem quis est convallis scelerisque. Quisque facilisis nunc ut est ullamcorper tristique. Morbi vel massa lobortis, ultrices sapien ut, molestie lacus. Nam a felis turpis. Cras commodo nibh a consequat efficitur. In hac habitasse platea dictumst. Mauris pellentesque odio sed bibendum suscipit. Sed id tellus dui."]
+        },
+        "PublicationTypeList": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "Pagination": {
+          "MedlinePgn": "3276-84"
+        },
+        "AuthorList": [
+          {
+            "LastName": "Gevensleben",
+            "Identifier": [],
+            "Initials": "H",
+            "ForeName": "Heidrun",
+            "AffiliationInfo": [
+              {
+                "Identifier": [],
+                "Affiliation": "The Breakthrough Breast Cancer Research Centre, Institute of Cancer Research, London, United Kingdom."
+              }
+            ]
+          },
+          {
+            "LastName": "Garcia-Murillas",
+            "Identifier": [],
+            "Initials": "I",
+            "ForeName": "Isaac",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Graeser",
+            "Identifier": [],
+            "Initials": "MK",
+            "ForeName": "Monika K",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Schiavon",
+            "Identifier": [],
+            "Initials": "G",
+            "ForeName": "Gaia",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Osin",
+            "Identifier": [],
+            "Initials": "P",
+            "ForeName": "Peter",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Parton",
+            "Identifier": [],
+            "Initials": "M",
+            "ForeName": "Marina",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Smith",
+            "Identifier": [],
+            "Initials": "IE",
+            "ForeName": "Ian E",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Ashworth",
+            "Identifier": [],
+            "Initials": "A",
+            "ForeName": "Alan",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Turner",
+            "Identifier": [],
+            "Initials": "NC",
+            "ForeName": "Nicholas C",
+            "AffiliationInfo": []
+          }
+        ],
+        "ArticleDate": [
+          {
+            "Day": "01",
+            "Year": "2013",
+            "Month": "05"
+          }
+        ],
+        "GrantList": [
+          {
+            "Country": "United Kingdom",
+            "Agency": "Cancer Research UK",
+            "GrantID": "CRUK_A10038"
+          }
+        ],
+        "Journal": {
+          "JournalIssue": {
+            "Volume": "19",
+            "Issue": "12",
+            "PubDate": {
+              "Day": "15",
+              "Year": "2013",
+              "Month": "Jun"
+            }
+          },
+          "ISOAbbreviation": "Clin. Cancer Res.",
+          "ISSN": "1078-0432",
+          "Title": "Clinical cancer research : an official journal of the American Association for Cancer Research"
+        },
+        "ELocationID": [
+          "10.1158/1078-0432.CCR-12-3768"
+        ],
+        "ArticleTitle": "Second title"
+      },
+      "DateRevised": {
+        "Day": "20",
+        "Year": "2014",
+        "Month": "11"
+      },
+      "SpaceFlightMission": [],
+      "MeshHeadingList": [
+        {
+          "QualifierName": [],
+          "DescriptorName": "Adult"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Aged"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Aged, 80 and over"
+        },
+        {
+          "QualifierName": [
+            "blood",
+            "genetics",
+            "pathology"
+          ],
+          "DescriptorName": "Breast Neoplasms"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Chromosomes, Human, Pair 17"
+        },
+        {
+          "QualifierName": [
+            "genetics"
+          ],
+          "DescriptorName": "DNA Copy Number Variations"
+        },
+        {
+          "QualifierName": [
+            "blood"
+          ],
+          "DescriptorName": "DNA, Neoplasm"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Female"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Humans"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Middle Aged"
+        },
+        {
+          "QualifierName": [
+            "genetics",
+            "pathology"
+          ],
+          "DescriptorName": "Neoplasm Metastasis"
+        },
+        {
+          "QualifierName": [
+            "blood",
+            "isolation & purification"
+          ],
+          "DescriptorName": "Peptide Elongation Factors"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Polymerase Chain Reaction"
+        },
+        {
+          "QualifierName": [
+            "blood",
+            "isolation & purification"
+          ],
+          "DescriptorName": "Receptor, ErbB-2"
+        },
+        {
+          "QualifierName": [],
+          "DescriptorName": "Ribonucleoprotein, U5 Small Nuclear"
+        }
+      ],
+      "DateCompleted": {
+        "Day": "13",
+        "Year": "2014",
+        "Month": "02"
+      },
+      "OtherAbstract": [],
+      "GeneralNote": [],
+      "CitationSubset": [
+        "IM"
+      ]
+    }
+  }
+]
