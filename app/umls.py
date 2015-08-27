@@ -1,7 +1,26 @@
 import pymysql.cursors
+from collections import defaultdict
 
 from app import config
 
+# Visualisation of concepts is crowded if many have their own hierarchy.
+# This function groups all concepts with unique semantic types, by changing
+# the S_TYPE to 'Individual concepts'. 
+def group_other(results):
+    dd = defaultdict(int)
+
+    for r in results:
+        dd[r['S_TYPE']] += 1
+
+    for r in results:
+        s_type = r['S_TYPE']
+
+        if dd[s_type] == 1:
+            r['S_TYPE'] = 'Individual concepts'
+
+    return results
+
+# Formatting Python dict for D3
 def format_json(pmids_names, results):
     dict0 = dict()
     # level 0: all data
@@ -17,6 +36,7 @@ def format_json(pmids_names, results):
             if c['name'] == st_key:
                 # No need to add Semantic type
                 found = True
+                dict1 = c
                 
         if not found:
             dict1 = dict()
@@ -32,6 +52,7 @@ def format_json(pmids_names, results):
             if c['name'] == par_key:
                 # No need to add Parent name                
                 found = True
+                dict2 = c
 
         if not found:
             dict2 = dict()
@@ -125,7 +146,7 @@ def run(input_data):
 
     output = execute_sql(organised['CUIs'], connection)
 
-    results = format_json(organised['PMIDs'], output)
+    results = format_json(organised['PMIDs'], group_other(output))
 
     print('returning from umls.run')
     return results

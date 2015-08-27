@@ -1,0 +1,3 @@
+[{"PARENT_CUI": "C0010298", "CHILD_CUI": "C0000941", "S_TYPE": "Governmental or Regulatory Activity", "PARENT_STR": "Credentialing"}, 
+{"PARENT_CUI": "C0001779", "CHILD_CUI": "C0001675", "S_TYPE": "Age Group", "PARENT_STR": "Age"}, 
+{"PARENT_CUI": "C0001792", "CHILD_CUI": "C0001795", "S_TYPE": "Age Group", "PARENT_STR": "Elderly (population group)"}]

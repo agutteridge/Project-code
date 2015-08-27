@@ -63,6 +63,9 @@ function initialize() {
 }
 
 function placeMarkers(data) {
+  // Removes old markers
+  clearMarkers();
+
   var marker
   var i
   var infowindow = new google.maps.InfoWindow();
@@ -75,6 +78,9 @@ function placeMarkers(data) {
       pmid: data[i].PMID
     });
 
+    // add marker to global array
+    markers.push(marker)
+
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
       return function() {
         infowindow.setContent(marker.pmid);
@@ -82,8 +88,19 @@ function placeMarkers(data) {
       }
     })(marker, i));
   }
+
+  var markerCluster = new MarkerClusterer(map, markers);
 }
-// global vars for divs
+
+function clearMarkers() {
+  for (var i = 0; i < markers.length; i++ ) {
+    markers[i].setMap(null);
+  }
+  markers.length = 0;
+}
+
+// global vars
+var markers = [];
 var map;
 var papers;
 var text_field = document.getElementById('text_field');
@@ -93,10 +110,10 @@ btn_search.onclick = function(){
   console.log(text_field.value);
   document.getElementById("loading").style.display = "block";
   d3.json("/data?search_term=" + text_field.value, d3_callback);
+  svg.selectAll("circle,text").remove();
 };
 
 //D3: mostly taken from http://bl.ocks.org/mbostock/7607535
-
 var margin = 20,
     diameter = 600;
 
@@ -106,13 +123,13 @@ var color = d3.scale.linear()
     .interpolate(d3.interpolateHcl);
 
 var pack = d3.layout.pack()
-    .padding(2)
+    .padding(5)
     .size([diameter - margin, diameter - margin])
     .value(function(d) { return d.PMIDs.length * 500; })
 
 var svg = d3.select("body").append("svg")
-    .style("width", diameter)
-    .style("height", diameter)
+    .attr("width", diameter)
+    .attr("height", diameter)
   .append("g")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 

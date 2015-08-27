@@ -18,18 +18,17 @@ def insert_into_db(results, concepts, places):
     all_docs = []
 
     for r in results:
-        if 'MedlineCitation' in r:
-            pmid = r['MedlineCitation']['PMID']
-            r['concepts'] = find_element(concepts, pmid, 'concepts')
-            r['placeids'] = find_element(places, pmid, 'placeids')
+        pmid = r['MedlineCitation']['PMID']
+        r['concepts'] = find_element(concepts, pmid, 'concepts')
+        r['placeids'] = find_element(places, pmid, 'placeids')
 
-            #logging
-            with open(os.path.join('./app/static', 'log.txt'), 'a') as datafile:
-                datafile.write(pmid + ': ' + str(len(r['concepts'])) + 
-                    ' concepts, ' + str(len(r['placeids'])) + ' place IDs.\n')
-                datafile.close()
+        #logging
+        with open(os.path.join('./app/static', 'log.txt'), 'a') as datafile:
+            datafile.write(pmid + ': ' + str(len(r['concepts'])) + 
+                ' concepts, ' + str(len(r['placeids'])) + ' place IDs.\n')
+            datafile.close()
 
-            all_docs.append(r)
+        all_docs.append(r)
 
     # batch all insertions
     insert_result = db.pubmeddata.insert_many(all_docs)

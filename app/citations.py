@@ -30,7 +30,14 @@ def fetch_details(id_list):
                            webenv=webenv,
                            query_key=query_key)
     results = Entrez.read(handle)
-    return results  
+    articles_with_authors = []
+
+    # Ony return results that are papers, with authors
+    for r in results:
+        if 'MedlineCitation' in r and 'AuthorList' in r['MedlineCitation']['Article']:
+            articles_with_authors.append(r)
+
+    return articles_with_authors
 
 # Formatting according to # of authors
 def get_authors(authors):
@@ -66,18 +73,17 @@ def format_papers(all_papers):
     results = []
 
     for p in all_papers:
-        if 'MedlineCitation' in p:
-            author_text = get_authors(p['MedlineCitation']['Article']['AuthorList'])
-            date = get_date(p['MedlineCitation']['Article']['Journal']['JournalIssue'])
+        author_text = get_authors(p['MedlineCitation']['Article']['AuthorList'])
+        date = get_date(p['MedlineCitation']['Article']['Journal']['JournalIssue'])
 
-            result_dict = {'PMID': p['MedlineCitation']['PMID'],
-                'title': p['MedlineCitation']['Article']['ArticleTitle'],
-                'authors': author_text,
-                'date': date,
-                'journal': p['MedlineCitation']['Article']['Journal']['ISOAbbreviation']
-            }
+        result_dict = {'PMID': p['MedlineCitation']['PMID'],
+            'title': p['MedlineCitation']['Article']['ArticleTitle'],
+            'authors': author_text,
+            'date': date,
+            'journal': p['MedlineCitation']['Article']['Journal']['ISOAbbreviation']
+        }
 
-            results.append(result_dict)
+        results.append(result_dict)
 
     return results
 

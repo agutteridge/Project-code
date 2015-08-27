@@ -117,21 +117,20 @@ def run(results):
     for_cache = []
 
     for paper in results:
-        if 'MedlineCitation' in paper:
-            pmid = str(paper['MedlineCitation']['PMID'])
-            author_list = paper['MedlineCitation']['Article']['AuthorList']
-            addresses = (unique_addresses(author_list))
-            
-            placeids = []
+        pmid = str(paper['MedlineCitation']['PMID'])
+        author_list = paper['MedlineCitation']['Article']['AuthorList']
+        addresses = (unique_addresses(author_list))
+        
+        placeids = []
 
-            for address in addresses:
-                place = get_location(address)
-                if place:
-                    result_list.append( {'PMID': pmid, 'place': place } )
-                    placeids.append(place['place_id'])
+        for address in addresses:
+            place = get_location(address)
+            if place:
+                result_list.append( {'PMID': pmid, 'place': place } )
+                placeids.append(place['place_id'])
 
-            for_cache.append({'PMID': pmid,
-                'placeids': placeids})
+        for_cache.append({'PMID': pmid,
+            'placeids': placeids})
 
     print('returning from geocode.run')
     return {

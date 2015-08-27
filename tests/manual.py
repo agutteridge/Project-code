@@ -56,31 +56,30 @@ def geocode_run(results):
             pmid = str(paper['MedlineCitation']['PMID'])
             datafile.write('\nPMID: ' + pmid + '\n')
 
-            if 'AuthorList' in paper['MedlineCitation']['Article']: 
-                author_list = paper['MedlineCitation']['Article']['AuthorList']
+            author_list = paper['MedlineCitation']['Article']['AuthorList']
 
-                for author in author_list:
-                    if 'LastName' in author:
-                        datafile.write('\tAuthor: ' + author['LastName'] + '\n')
+            for author in author_list:
+                if 'LastName' in author:
+                    datafile.write('\tAuthor: ' + author['LastName'] + '\n')
 
-                    if 'CollectiveName' in author:
-                        datafile.write('\tCollective: ' + author['CollectiveName'] + '\n')
+                if 'CollectiveName' in author:
+                    datafile.write('\tCollective: ' + author['CollectiveName'] + '\n')
 
-                    for place in author['AffiliationInfo']:
-                        individual_addresses = place['Affiliation'].split(';')
+                for place in author['AffiliationInfo']:
+                    individual_addresses = place['Affiliation'].split(';')
 
-                        for f in individual_addresses:
-                            datafile.write('\t\tInput address: ' + f + '\n')
-                            input_num += 1
-                            formatted_address = format_address_2(f) # change format_address
-                            place = geocode.get_location(formatted_address)
-                            datafile.write('\t\tFormatted address: ' + formatted_address + '\n')                            
-        
-                            if place:
-                                datafile.write('\t\tOutput address: ' + place['name'] + '\n')
-                                output_num += 1
-                            else:
-                                datafile.write('\t\tOutput address: NONE' + '\n')
+                    for f in individual_addresses:
+                        datafile.write('\t\tInput address: ' + f + '\n')
+                        input_num += 1
+                        formatted_address = format_address_2(f) # change format_address
+                        place = geocode.get_location(formatted_address)
+                        datafile.write('\t\tFormatted address: ' + formatted_address + '\n')                            
+    
+                        if place:
+                            datafile.write('\t\tOutput address: ' + place['name'] + '\n')
+                            output_num += 1
+                        else:
+                            datafile.write('\t\tOutput address: NONE' + '\n')
             else:
                 datafile.write('\tNO AUTHORS LISTED.\n')
 
@@ -98,7 +97,7 @@ def init():
         json_list = []
 
         for fr in fetch_results:
-            if 'MedlineCitation' in fr:
+            if 'MedlineCitation' in fr and 'AuthorList' in fr['MedlineCitation']['Article']:
                 json_list.append(fr)
 
         datafile.write(json.dumps(json_list))
@@ -106,6 +105,6 @@ def init():
 
 if __name__ == "__main__":
     # count(fake_json('eFetch_biology.json'))
-    init()
+    # init()
     # geocode_run(fake_json('eFetch_biology.json'))
-    # print('no method chosen')
+    print('no method chosen')

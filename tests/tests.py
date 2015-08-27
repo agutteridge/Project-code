@@ -149,6 +149,14 @@ class TestUmls(unittest.TestCase):
             'CUIs': ['C0086418']}
         self.assertEqual(observed, expected)
 
+    def test_group_other(self):
+        expected = [{"PARENT_CUI": "C0010298", "CHILD_CUI": "C0000941", "S_TYPE": "Individual concepts", "PARENT_STR": "Credentialing"},
+                    {"PARENT_CUI": "C0001779", "CHILD_CUI": "C0001675", "S_TYPE": "Age Group", "PARENT_STR": "Age"}, 
+                    {"PARENT_CUI": "C0001792", "CHILD_CUI": "C0001795", "S_TYPE": "Age Group", "PARENT_STR": "Elderly (population group)"}]
+        observed = umls.group_other(fake_json('umls_sql_output.json'))
+        self.maxDiff = None
+        self.assertEqual(observed, expected)
+
 class TestCitations(unittest.TestCase):
     def test_format_papers_et_al(self):
         observed = citations.format_papers(fake_json('cache_example.json'))
