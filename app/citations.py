@@ -66,17 +66,18 @@ def format_papers(all_papers):
     results = []
 
     for p in all_papers:
-        author_text = get_authors(p['MedlineCitation']['Article']['AuthorList'])
-        date = get_date(p['MedlineCitation']['Article']['Journal']['JournalIssue'])
+        if 'MedlineCitation' in p:
+            author_text = get_authors(p['MedlineCitation']['Article']['AuthorList'])
+            date = get_date(p['MedlineCitation']['Article']['Journal']['JournalIssue'])
 
-        result_dict = {'PMID': p['MedlineCitation']['PMID'],
-            'title': p['MedlineCitation']['Article']['ArticleTitle'],
-            'authors': author_text,
-            'date': date,
-            'journal': p['MedlineCitation']['Article']['Journal']['ISOAbbreviation']
-        }
+            result_dict = {'PMID': p['MedlineCitation']['PMID'],
+                'title': p['MedlineCitation']['Article']['ArticleTitle'],
+                'authors': author_text,
+                'date': date,
+                'journal': p['MedlineCitation']['Article']['Journal']['ISOAbbreviation']
+            }
 
-        results.append(result_dict)
+            results.append(result_dict)
 
     return results
 

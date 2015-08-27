@@ -40,32 +40,33 @@ def format_results(results):
 def write_file(filename, results):
     batch = open(os.path.join('app/static', filename), 'w') # default: unbuffered
     for i in range(0, len(results)):
-        # exclude ASCII characters to avoid MetaMap errors
-        ASCII_title = results[i]['MedlineCitation']['Article']['ArticleTitle'].encode('ascii', 
-            errors='ignore').decode('UTF-8')
-        ASCII_abstract = ''
-
-        # not all papers have abstracts
-        if 'Abstract' in results[i]['MedlineCitation']['Article']:
-            ASCII_abstract = results[i]['MedlineCitation']['Article']['Abstract']['AbstractText'][0].encode('ascii', 
+        if 'MedlineCitation' in results[i]:
+            # exclude ASCII characters to avoid MetaMap errors
+            ASCII_title = results[i]['MedlineCitation']['Article']['ArticleTitle'].encode('ascii', 
                 errors='ignore').decode('UTF-8')
+            ASCII_abstract = ''
 
-        # Appending author keywords to abstract
-        if 'KeywordList' in results[i]['MedlineCitation']:
-            for kw in results[i]['MedlineCitation']['KeywordList']:
-                for k in kw:
-                    ASCII_abstract = ASCII_abstract + ' ' + str(k).encode('ascii', errors='ignore').decode('UTF-8')
-
-        # Appending MeSH keywords to abstract
-        if 'MeshHeadingList' in results[i]['MedlineCitation']:
-            for mh in results[i]['MedlineCitation']['MeshHeadingList']:
-                ASCII_abstract = ASCII_abstract + ' ' + mh['DescriptorName'].encode('ascii', 
+            # not all papers have abstracts
+            if 'Abstract' in results[i]['MedlineCitation']['Article']:
+                ASCII_abstract = results[i]['MedlineCitation']['Article']['Abstract']['AbstractText'][0].encode('ascii', 
                     errors='ignore').decode('UTF-8')
 
-        batch.write('UI  - ' + results[i]['MedlineCitation']['PMID'] + '\n' + 
-            'TI  - ' + ASCII_title + '\n' +
-            'AB  - ' + ASCII_abstract + 
-            '\n\n')
+            # Appending author keywords to abstract
+            if 'KeywordList' in results[i]['MedlineCitation']:
+                for kw in results[i]['MedlineCitation']['KeywordList']:
+                    for k in kw:
+                        ASCII_abstract = ASCII_abstract + ' ' + str(k).encode('ascii', errors='ignore').decode('UTF-8')
+
+            # Appending MeSH keywords to abstract
+            if 'MeshHeadingList' in results[i]['MedlineCitation']:
+                for mh in results[i]['MedlineCitation']['MeshHeadingList']:
+                    ASCII_abstract = ASCII_abstract + ' ' + mh['DescriptorName'].encode('ascii', 
+                        errors='ignore').decode('UTF-8')
+
+            batch.write('UI  - ' + results[i]['MedlineCitation']['PMID'] + '\n' + 
+                'TI  - ' + ASCII_title + '\n' +
+                'AB  - ' + ASCII_abstract + 
+                '\n\n')
 
     batch.close()
     return True

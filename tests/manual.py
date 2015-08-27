@@ -2,12 +2,32 @@ import os
 import json
 import sys
 
+from Bio import Entrez
+
 # configuring relative imports
 PACKAGE_PARENT = '..'
 SCRIPT_DIR = os.path.dirname(os.path.realpath(os.path.join(os.getcwd(), os.path.expanduser(__file__))))
 sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, PACKAGE_PARENT)))
 
-from app import citations, geocode
+from app import citations, geocode, cache, config
+
+# Entrez setup
+Entrez.email = config.email
+webenv = ''
+query_key = ''
+
+def citations_search(query):
+    handle = Entrez.esearch(db='pubmed', 
+                            sort='relevance', 
+                            retmax='101',
+                            retmode='xml', 
+                            term=query,
+                            usehistory='y')
+    results = Entrez.read(handle)
+    webenv = results['WebEnv'] # ID for session
+    query_key = results['QueryKey'] # ID for query within session
+
+    return results
 
 def fake_json(filename):
     with open(os.path.join('./tests/resources', filename), 'r') as datafile:
@@ -34,7 +54,7 @@ def geocode_run(results):
 
         for paper in results:
             pmid = str(paper['MedlineCitation']['PMID'])
-            datafile.write('PMID: ' + pmid + '\n')
+            datafile.write('\nPMID: ' + pmid + '\n')
 
             if 'AuthorList' in paper['MedlineCitation']['Article']: 
                 author_list = paper['MedlineCitation']['Article']['AuthorList']
@@ -62,7 +82,7 @@ def geocode_run(results):
                             else:
                                 datafile.write('\t\tOutput address: NONE' + '\n')
             else:
-                datafile.write('\tNO AUTHORS LISTED.')
+                datafile.write('\tNO AUTHORS LISTED.\n')
 
         datafile.write('\nSUCCESS RATE: ' + str(output_num / input_num * 100) + '%')
     datafile.close()
@@ -70,23 +90,22 @@ def geocode_run(results):
 
 # Writes first 100 papers from PubMed retrieved with query 'biology' to JSON file 
 def init():
-    with open(os.path.join('./tests/resources', 'eFetch_random.json'), 'a') as datafile:
+    with open(os.path.join('./tests/resources', 'eFetch_biology.json'), 'a') as datafile:
         print('opened')
-        count = 0
+
+        id_list = citations_search('biology')['IdList']
+        fetch_results = citations.fetch_details(id_list)
         json_list = []
 
-        while count < 100:
-            print('loop')
-            id_list = citations._search('biology')['IdList']
-            fetch_results = citations.fetch_details(id_list)
-
-            for fr in fetch_results:
-                count += len(fetch_results)
+        for fr in fetch_results:
+            if 'MedlineCitation' in fr:
                 json_list.append(fr)
 
         datafile.write(json.dumps(json_list))
     datafile.close()
 
 if __name__ == "__main__":
-    geocode_run(fake_json('eFetch_random.json'))
+    # count(fake_json('eFetch_biology.json'))
+    init()
+    # geocode_run(fake_json('eFetch_biology.json'))
     # print('no method chosen')
