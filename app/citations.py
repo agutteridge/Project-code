@@ -8,7 +8,7 @@ webenv = ''
 query_key = ''
 
 # Runs a PubMed search on the provided search string
-def search(query):
+def _search(query):
     handle = Entrez.esearch(db='pubmed', 
                             sort='relevance', 
                             retmax='20',
@@ -84,7 +84,7 @@ def format_papers(all_papers):
 # and the second from PubMed. 
 # Each string is JSON-formatted, and contains data for one paper.
 def start_search(query):
-    id_list = search(query)['IdList']
+    id_list = _search(query)['IdList']
 
     if id_list:
         papers = cache.retrieve(id_list)
