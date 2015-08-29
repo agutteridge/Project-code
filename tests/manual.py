@@ -304,9 +304,10 @@ def init_sensitivity():
         datafile.write(json.dumps(fetch_results))
     datafile.close()
 
+
 if __name__ == "__main__":
     # init_sensitivity()
     # init_specificity()
-    geocode_sensitivity(fake_json('eFetch_sensitivity.json'))
-    geocode_specificity(fake_json('eFetch_specificity.json'))
-    # print('no method chosen')
+    # geocode_sensitivity(fake_json('eFetch_sensitivity.json'))
+    # geocode_specificity(fake_json('eFetch_specificity.json'))
+    print('no method chosen')
