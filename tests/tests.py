@@ -1,10 +1,10 @@
 import unittest
 from unittest import mock
+from unittest.mock import patch
 import os
 import json
-from unittest.mock import patch
 
-from app import metamap, geocode, citations, umls
+from app import metamap, geocode, citations, umls, config
 
 def fake_json(filename):
     with open(os.path.join('./tests/resources', filename), 'r') as datafile:
@@ -69,6 +69,7 @@ class TestGeocode(unittest.TestCase):
     def test_run(self, mock_request):
         # patch geocode.request with example available from API docs
         mock_request.return_value = fake_json('places_search_output.json')
+
         # get_location_output.json contains the first element of the results list
         place_result = fake_json('get_location_output.json')
 
@@ -83,6 +84,8 @@ class TestGeocode(unittest.TestCase):
             'placeids': ['ChIJyWEHuEmuEmsRm9hTkapTCrk']}]}
 
         observed = geocode.run(fake_json('eFetch_sample.json'))
+        
+        self.assertEqual(mock_request.call_count, 2)
         self.maxDiff = None
         self.assertEqual(observed, expected)
 
@@ -91,20 +94,17 @@ class TestGeocode(unittest.TestCase):
         # patch geocode.request with example available from API docs
         mock_request.return_value = fake_json('places_details_output.json')
 
-        expected = [{
-            'PMID': "00000000",
+        expected = [{'PMID': "00000000",
             'place': {
                 'name': 'Google Sydney',
                 'geometry': {
                     'location': {
                         "lat": -33.8669710,
-                        "lng": 151.1958750
-                    }
-                }
-            }
-        }]
+                        "lng": 151.1958750 }}}}]
 
         observed = geocode.retrieve(fake_json('cache_example.json'))
+
+        self.assertEqual(mock_request.call_count, 1)
         self.maxDiff = None
         self.assertEqual(observed, expected)
 
@@ -130,13 +130,7 @@ class TestUmls(unittest.TestCase):
                     'children': [{
                         'name': 'imaginaryconcept', 
                         'PMIDs': [
-                            '00000000'
-                        ],
-                        'size': 500
-                    }]
-                }]
-            }]
-        }
+                            '00000000' ]}]}]}]}
 
         self.maxDiff = None
         self.assertEqual(observed, expected)

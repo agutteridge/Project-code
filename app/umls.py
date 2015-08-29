@@ -69,7 +69,6 @@ def format_json(pmids_names, results):
         dict3['PMIDs'] = pmids
         dict2['children'].append(dict3)
         dict3['name'] = c_key
-        dict3['size'] = 500
         
     return dict0
 

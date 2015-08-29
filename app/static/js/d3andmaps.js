@@ -154,6 +154,8 @@ function d3_callback(error, data) {
       .style("fill", function(d) { return d.children ? color(d.depth) : null; })
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
+// function(d) { return d.name }
+
   var text = svg.selectAll("text")
       .data(nodes)
     .enter().append("text")
@@ -183,6 +185,7 @@ function d3_callback(error, data) {
 
     transition.selectAll("text")
       .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
+        .attr("y", -26)
         .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
         .each("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
         .each("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });

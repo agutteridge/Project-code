@@ -48,7 +48,7 @@ def format_address_2(address):
     return result
 
 def geocode_run(results):
-    with open(os.path.join('./tests/resources', 'format_address_2_results.txt'), 'a') as datafile:
+    with open(os.path.join('./tests/resources', 'format_address_0_results.txt'), 'a') as datafile:
         input_num = 0
         output_num = 0
 
@@ -62,7 +62,7 @@ def geocode_run(results):
                 if 'LastName' in author:
                     datafile.write('\tAuthor: ' + author['LastName'] + '\n')
 
-                if 'CollectiveName' in author:
+                elif 'CollectiveName' in author:
                     datafile.write('\tCollective: ' + author['CollectiveName'] + '\n')
 
                 for place in author['AffiliationInfo']:
@@ -71,7 +71,7 @@ def geocode_run(results):
                     for f in individual_addresses:
                         datafile.write('\t\tInput address: ' + f + '\n')
                         input_num += 1
-                        formatted_address = format_address_2(f) # change format_address
+                        formatted_address = format_address_0(f) # change format_address
                         place = geocode.get_location(formatted_address)
                         datafile.write('\t\tFormatted address: ' + formatted_address + '\n')                            
     
@@ -80,8 +80,6 @@ def geocode_run(results):
                             output_num += 1
                         else:
                             datafile.write('\t\tOutput address: NONE' + '\n')
-            else:
-                datafile.write('\tNO AUTHORS LISTED.\n')
 
         datafile.write('\nSUCCESS RATE: ' + str(output_num / input_num * 100) + '%')
     datafile.close()
@@ -104,7 +102,6 @@ def init():
     datafile.close()
 
 if __name__ == "__main__":
-    # count(fake_json('eFetch_biology.json'))
     # init()
-    # geocode_run(fake_json('eFetch_biology.json'))
-    print('no method chosen')
+    geocode_run(fake_json('eFetch_biology.json'))
+    # print('no method chosen')

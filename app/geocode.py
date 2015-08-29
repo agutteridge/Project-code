@@ -1,4 +1,5 @@
 import urllib
+import urllib.error
 import json
 import os
 import re
@@ -46,7 +47,14 @@ def get_location(address):
         '&types=university|hospital|establishment' +
         '&language=en') 
 
-    place_options = request(url)['results']
+    place_options = []
+
+    try:
+        place_options = request(url)['results']
+    except (urllib.error.HTTPError,
+            urllib.error.URLError) as e:
+        print(e.reason)
+        print(url)
 
     result = dict()
 
