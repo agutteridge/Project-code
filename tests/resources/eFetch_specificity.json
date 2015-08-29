@@ -1,0 +1,1815 @@
+[
+  {
+    "MedlineCitation": {
+      "CitationSubset": [
+        "IM"
+      ],
+      "SpaceFlightMission": [],
+      "MedlineJournalInfo": {
+        "Country": "Italy",
+        "ISSNLinking": "0390-6078",
+        "NlmUniqueID": "0417435",
+        "MedlineTA": "Haematologica"
+      },
+      "Article": {
+        "PublicationTypeList": [
+          "Journal Article"
+        ],
+        "ArticleTitle": "Consensus recommendations for the diagnosis and management of hemophagocytic lymphohistiocytosis associated with malignancies.",
+        "AuthorList": [
+          {
+            "LastName": "Lehmberg",
+            "ForeName": "Kai",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Pediatric Hematology and Oncology, University Medical Center Eppendorf, Hamburg, Germany k.lehmberg@uke.de.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "K"
+          },
+          {
+            "LastName": "Nichols",
+            "ForeName": "Kim E",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "KE"
+          },
+          {
+            "LastName": "Henter",
+            "ForeName": "Jan-Inge",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Childhood Cancer Research Unit, Department of Women's and Children's Health, Karolinska Institutet, Karolinska University Hospital Solna, Stockholm, Sweden.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "JI"
+          },
+          {
+            "LastName": "Girschikofsky",
+            "ForeName": "Michael",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Medicine I, Hematology and Stem Cell Transplantation, Hemostasis and Medical Oncology, Elisabethinen Hospital, Linz, Austria.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "M"
+          },
+          {
+            "LastName": "Greenwood",
+            "ForeName": "Tatiana",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Childhood Cancer Research Unit, Department of Women's and Children's Health, Karolinska Institutet, Karolinska University Hospital Solna, Stockholm, Sweden.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "T"
+          },
+          {
+            "LastName": "Jordan",
+            "ForeName": "Michael",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Immunology, Cincinnati Children's Hospital, OH, USA.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "M"
+          },
+          {
+            "LastName": "Kumar",
+            "ForeName": "Ashish",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Immunology, Cincinnati Children's Hospital, OH, USA.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "A"
+          },
+          {
+            "LastName": "Minkov",
+            "ForeName": "Milen",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Pediatric Hematology and Oncology, St. Anna Children's Hospital, Vienna, Austria.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "M"
+          },
+          {
+            "LastName": "La Rosée",
+            "ForeName": "Paul",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Klinik für Innere Medizin II, Abt. Hämatologie und internistische Onkologie, Universitätsklinikum Jena, Germany.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "P"
+          },
+          {
+            "LastName": "Weitzman",
+            "ForeName": "Sheila",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Hematology and Oncology, Sick Kids Hospital, Toronto, Canada.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "S"
+          },
+          {
+            "CollectiveName": "Study Group on Hemophagocytic Lymphohistiocytosis Subtypes of the Histiocyte Society",
+            "AffiliationInfo": [],
+            "Identifier": []
+          }
+        ],
+        "Language": [
+          "eng"
+        ],
+        "ArticleDate": [],
+        "ELocationID": [
+          "10.3324/haematol.2015.123562"
+        ],
+        "Journal": {
+          "ISSN": "1592-8721",
+          "ISOAbbreviation": "Haematologica",
+          "Title": "Haematologica",
+          "JournalIssue": {
+            "Issue": "8",
+            "PubDate": {
+              "Year": "2015",
+              "Month": "Aug"
+            },
+            "Volume": "100"
+          }
+        },
+        "Pagination": {
+          "MedlinePgn": "997-1004"
+        },
+        "Abstract": {
+          "AbstractText": [
+            "The hyperinflammatory syndrome hemophagocytic lymphohistiocytosis can occur in the context of malignancies. Malignancy-triggered hemophagocytic lymphohistiocytosis should be regarded seperately from hemophagocytic lymphohistiocytosis during chemotherapeutic treatment, which is frequently associated with an infectious trigger. The substantial overlap between the features of hemophagocytic lymphohistiocytosis with features of neoplasms makes its identification difficult when it occurs in malignant conditions. To facilitate recognition and diagnostic workup, and provide guidance regarding the treatment of malignancy-associated hemophagocytic lymphohistiocytosis, consensus recommendations were developed by the Study Group on Hemophagocytic Lymphohistiocytosis Subtypes of the Histiocyte Society, an interdisciplinary group consisting of pediatric and adult hemato-oncologists and immunologists."
+          ],
+          "CopyrightInformation": "Copyright© Ferrata Storti Foundation."
+        }
+      },
+      "GeneralNote": [],
+      "OtherID": [],
+      "OtherAbstract": [],
+      "KeywordList": [],
+      "DateCreated": {
+        "Year": "2015",
+        "Day": "28",
+        "Month": "08"
+      },
+      "PMID": "26314082"
+    },
+    "PubmedData": {
+      "History": [
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        }
+      ],
+      "ArticleIdList": [
+        "haematol.2015.123562",
+        "10.3324/haematol.2015.123562",
+        "26314082"
+      ],
+      "PublicationStatus": "ppublish"
+    }
+  },
+  {
+    "MedlineCitation": {
+      "CitationSubset": [
+        "IM"
+      ],
+      "SpaceFlightMission": [],
+      "MedlineJournalInfo": {
+        "Country": "England",
+        "ISSNLinking": "0046-225X",
+        "NlmUniqueID": "7502320",
+        "MedlineTA": "Environ Entomol"
+      },
+      "Article": {
+        "PublicationTypeList": [
+          "Journal Article"
+        ],
+        "ArticleTitle": "Direct Effects of Elevated CO2 Levels on the Fitness Performance of Asian Corn Borer (Lepidoptera: Crambidae) for Multigenerations.",
+        "AuthorList": [
+          {
+            "LastName": "Xie",
+            "ForeName": "Haicui",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China. klhe@ippcaas.cn.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "H"
+          },
+          {
+            "LastName": "Zhao",
+            "ForeName": "Lei",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China. College of Agronomy, Sichuan Agricultural University, Chengdu 611130, P. R. China.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "L"
+          },
+          {
+            "LastName": "Yang",
+            "ForeName": "Qunfang",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "College of Agronomy, Sichuan Agricultural University, Chengdu 611130, P. R. China.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "Q"
+          },
+          {
+            "LastName": "Wang",
+            "ForeName": "Zhenying",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "Z"
+          },
+          {
+            "LastName": "He",
+            "ForeName": "Kanglai",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China. klhe@ippcaas.cn.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "K"
+          }
+        ],
+        "Language": [
+          "eng"
+        ],
+        "ArticleDate": [
+          {
+            "Year": "2015",
+            "Day": "06",
+            "Month": "07"
+          }
+        ],
+        "ELocationID": [
+          "10.1093/ee/nvv102"
+        ],
+        "Journal": {
+          "ISSN": "1938-2936",
+          "ISOAbbreviation": "Environ. Entomol.",
+          "Title": "Environmental entomology",
+          "JournalIssue": {
+            "Issue": "4",
+            "PubDate": {
+              "Year": "2015",
+              "Month": "Aug"
+            },
+            "Volume": "44"
+          }
+        },
+        "Pagination": {
+          "MedlinePgn": "1250-7"
+        },
+        "Abstract": {
+          "AbstractText": [
+            "Understanding direct response of insects to elevated CO2 should help to elucidate the mechanistic bases of the effects of elevated CO2 on interactions of insects with plants. This should improve our ability to predict shifts in insect population dynamics and community interactions under the conditions of climate change. Effects of elevated CO2 levels on the fitness-related parameters were examined for multigenerations in the Asian corn borer, Ostrinia furnacalis (Guenée). The larvae were allowed to feed on artificial diet, and reared in the closed-dynamic environment chambers with three CO2 levels (ambient, 550 μl/liter, and 750 μl/liter) for six generations. In comparison with the ambient CO2 level, mean larval survival rate decreased 9.9% in 750 μl/liter CO2 level, across O. furnacalis generations, and larval and pupal development times increased 7.5-16.4% and 4.5-13.4%, respectively, in two elevated CO2 levels. Pupal weight was reduced more than 12.2% in 750 μl/liter CO2 level. Across O. furnacalis generations, mean food consumption per larva increased 2.7, 7.0% and frass excretion per larva increased 14.4, 22.5% in the two elevated CO2 levels, respectively, compared with ambient CO2 level. Elevated CO2 levels resulted in the decline mean across O. furnacalis generations in mean relative growth rate, but increased in relative consumption rate. These results suggested that elevated CO2 would reduce the fitness-related parameters such as higher mortality, lower pupal weight, and longer development times in long term. It also reduced the larval food digestibility and utilizing efficiency; in turn, this would result in increase of food consumption."
+          ],
+          "CopyrightInformation": "© The Authors 2015. Published by Oxford University Press on behalf of Entomological Society of America. All rights reserved. For Permissions, please email: journals.permissions@oup.com."
+        }
+      },
+      "GeneralNote": [],
+      "OtherID": [],
+      "OtherAbstract": [],
+      "KeywordList": [
+        [
+          "Ostrinnia furnacalis",
+          "consumption",
+          "elevated CO2",
+          "food digestibility",
+          "growth"
+        ]
+      ],
+      "DateCreated": {
+        "Year": "2015",
+        "Day": "28",
+        "Month": "08"
+      },
+      "PMID": "26314071"
+    },
+    "PubmedData": {
+      "History": [
+        {
+          "Year": "2014",
+          "Day": "26",
+          "Month": "1"
+        },
+        {
+          "Year": "2015",
+          "Day": "16",
+          "Month": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "6",
+          "Month": "7"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        }
+      ],
+      "ArticleIdList": [
+        "nvv102",
+        "10.1093/ee/nvv102",
+        "26314071"
+      ],
+      "PublicationStatus": "ppublish"
+    }
+  },
+  {
+    "MedlineCitation": {
+      "CitationSubset": [
+        "IM"
+      ],
+      "SpaceFlightMission": [],
+      "MedlineJournalInfo": {
+        "Country": "Italy",
+        "ISSNLinking": "0390-6078",
+        "NlmUniqueID": "0417435",
+        "MedlineTA": "Haematologica"
+      },
+      "Article": {
+        "PublicationTypeList": [
+          "Editorial"
+        ],
+        "ArticleTitle": "Precision medicine in diffuse large B-cell lymphoma: hitting the target.",
+        "AuthorList": [
+          {
+            "LastName": "Vermaat",
+            "ForeName": "Joost S",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Haematology, Academic Medical Center, Amsterdam, The Netherlands.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "JS"
+          },
+          {
+            "LastName": "Pals",
+            "ForeName": "Steven T",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Pathology, Academic Medical Center, Amsterdam, The Netherlands.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "ST"
+          },
+          {
+            "LastName": "Younes",
+            "ForeName": "Anas",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Lymphoma Service, Memorial Sloan Kettering Cancer Center, New York, USA.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "A"
+          },
+          {
+            "LastName": "Dreyling",
+            "ForeName": "Martin",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Medicine III, LMU University of Munich, Germany.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "M"
+          },
+          {
+            "LastName": "Federico",
+            "ForeName": "Massimo",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Medical Oncology, University of Modena and Reggio Emilia, Italy.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "M"
+          },
+          {
+            "LastName": "Aurer",
+            "ForeName": "Igor",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Division of Hematology, Department of Internal Medicine, University Hospital Center Zagreb and Medical School, University of Zagreb, Croatia.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "I"
+          },
+          {
+            "LastName": "Radford",
+            "ForeName": "John",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Institute of Cancer Sciences, the University of Manchester, and the Christie NHS Foundation Trust, Manchester Academic Health Science Centre, Manchester, UK.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "J"
+          },
+          {
+            "LastName": "Kersten",
+            "ForeName": "Marie José",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Haematology, Academic Medical Center, Amsterdam, The Netherlands m.j.kersten@amc.nl.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "MJ"
+          },
+          {
+            "CollectiveName": "EHA Lymphoma Group, a Scientific Working Group of the European Hematology Association (www.ehalyg.org)",
+            "AffiliationInfo": [],
+            "Identifier": []
+          }
+        ],
+        "Language": [
+          "eng"
+        ],
+        "ArticleDate": [],
+        "ELocationID": [
+          "10.3324/haematol.2015.128371"
+        ],
+        "Journal": {
+          "ISSN": "1592-8721",
+          "ISOAbbreviation": "Haematologica",
+          "Title": "Haematologica",
+          "JournalIssue": {
+            "Issue": "8",
+            "PubDate": {
+              "Year": "2015",
+              "Month": "Aug"
+            },
+            "Volume": "100"
+          }
+        },
+        "Pagination": {
+          "MedlinePgn": "989-93"
+        }
+      },
+      "GeneralNote": [],
+      "OtherID": [],
+      "OtherAbstract": [],
+      "KeywordList": [],
+      "DateCreated": {
+        "Year": "2015",
+        "Day": "28",
+        "Month": "08"
+      },
+      "PMID": "26314080"
+    },
+    "PubmedData": {
+      "History": [
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        }
+      ],
+      "ArticleIdList": [
+        "haematol.2015.128371",
+        "10.3324/haematol.2015.128371",
+        "26314080"
+      ],
+      "PublicationStatus": "ppublish"
+    }
+  },
+  {
+    "MedlineCitation": {
+      "CitationSubset": [],
+      "DateRevised": {
+        "Year": "2015",
+        "Day": "28",
+        "Month": "8"
+      },
+      "SpaceFlightMission": [],
+      "MedlineJournalInfo": {
+        "ISSNLinking": "0022-3263",
+        "NlmUniqueID": "2985193R",
+        "MedlineTA": "J Org Chem"
+      },
+      "Article": {
+        "PublicationTypeList": [
+          "JOURNAL ARTICLE"
+        ],
+        "ArticleTitle": "Divergent Synthesis of α,γ-Disubstituted γ-Butyrolactones through Diastereoselective Bromolactonization with Alkali Metal Bromide: Asymmetric Total Synthesis of (+)-Dubiusamine C.",
+        "AuthorList": [
+          {
+            "LastName": "Moriyama",
+            "ForeName": "Katsuhiko",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Chemistry, Graduate School of Science, Chiba University , 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "K"
+          },
+          {
+            "LastName": "Sugiue",
+            "ForeName": "Toru",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Chemistry, Graduate School of Science, Chiba University , 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "T"
+          },
+          {
+            "LastName": "Nishinohara",
+            "ForeName": "Chihiro",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Chemistry, Graduate School of Science, Chiba University , 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "C"
+          },
+          {
+            "LastName": "Togo",
+            "ForeName": "Hideo",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Chemistry, Graduate School of Science, Chiba University , 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "H"
+          }
+        ],
+        "Language": [
+          "ENG"
+        ],
+        "ArticleDate": [
+          {
+            "Year": "2015",
+            "Day": "27",
+            "Month": "8"
+          }
+        ],
+        "ELocationID": [],
+        "Journal": {
+          "ISSN": "1520-6904",
+          "ISOAbbreviation": "J. Org. Chem.",
+          "Title": "The Journal of organic chemistry",
+          "JournalIssue": {
+            "PubDate": {
+              "Year": "2015",
+              "Day": "27",
+              "Month": "Aug"
+            }
+          }
+        },
+        "Pagination": {
+          "MedlinePgn": ""
+        },
+        "Abstract": {
+          "AbstractText": [
+            "A divergent synthesis of α-substituted bromomethyl γ-lactones was developed, which involves the diastereoselective bromolactonization of α-substituted 4-pentenoic acids and 4-pentenamides via umpolung of bromide by use of alkali metal bromide and Oxone (potassium peroxymonosulfate mixture, 2KHSO5·KHSO4·K2SO4) to obtain mainly cis-products from α-substituted 4-pentenoic acids and trans-products from α-substituted 4-pentenamides, and it was found that the bromonium species generated from KBr and Oxone had higher activity than N-bromosuccinimide. Furthermore, the asymmetric total synthesis of (+)-dubiusamine C, which was isolated as a minor diastereomer from Pandanus dubius, was accomplished for the first time through the cis-selective bromolactonization of (S)-α-methyl-4-pentenoic acid in nine linear steps and 36% overall yield."
+          ]
+        }
+      },
+      "GeneralNote": [],
+      "OtherID": [],
+      "OtherAbstract": [],
+      "KeywordList": [],
+      "DateCreated": {
+        "Year": "2015",
+        "Day": "27",
+        "Month": "8"
+      },
+      "PMID": "26313874"
+    },
+    "PubmedData": {
+      "History": [
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        }
+      ],
+      "ArticleIdList": [
+        "10.1021/acs.joc.5b01497",
+        "26313874"
+      ],
+      "PublicationStatus": "aheadofprint"
+    }
+  },
+  {
+    "MedlineCitation": {
+      "CitationSubset": [],
+      "DateRevised": {
+        "Year": "2015",
+        "Day": "28",
+        "Month": "8"
+      },
+      "SpaceFlightMission": [],
+      "MedlineJournalInfo": {
+        "ISSNLinking": "0007-1323",
+        "NlmUniqueID": "0372553",
+        "MedlineTA": "Br J Surg"
+      },
+      "Article": {
+        "PublicationTypeList": [
+          "JOURNAL ARTICLE"
+        ],
+        "ArticleTitle": "Effects of macrophage-dependent peroxisome proliferator-activated receptor γ signalling on adhesion formation after abdominal surgery in an experimental model.",
+        "AuthorList": [
+          {
+            "LastName": "Hong",
+            "ForeName": "G-S",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Surgery, University Hospital of Bonn, Bonn, Germany.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "GS"
+          },
+          {
+            "LastName": "Schwandt",
+            "ForeName": "T",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Surgery, University Hospital of Bonn, Bonn, Germany.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "T"
+          },
+          {
+            "LastName": "Stein",
+            "ForeName": "K",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Surgery, University Hospital of Bonn, Bonn, Germany.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "K"
+          },
+          {
+            "LastName": "Schneiker",
+            "ForeName": "B",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Surgery, University Hospital of Bonn, Bonn, Germany.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "B"
+          },
+          {
+            "LastName": "Kummer",
+            "ForeName": "M P",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Clinical Neurosciences Unit, University Hospital of Bonn, Bonn, Germany.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "MP"
+          },
+          {
+            "LastName": "Heneka",
+            "ForeName": "M T",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Clinical Neurosciences Unit, University Hospital of Bonn, Bonn, Germany.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "MT"
+          },
+          {
+            "LastName": "Kitamura",
+            "ForeName": "K",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Surgery, University Hospital of Bonn, Bonn, Germany.",
+                "Identifier": []
+              },
+              {
+                "Affiliation": "Graduate School of Medicine, Kyoto University, Kyoto, Japan.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "K"
+          },
+          {
+            "LastName": "Kalff",
+            "ForeName": "J C",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Surgery, University Hospital of Bonn, Bonn, Germany.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "JC"
+          },
+          {
+            "LastName": "Wehner",
+            "ForeName": "S",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Surgery, University Hospital of Bonn, Bonn, Germany.",
+                "Identifier": []
+              },
+              {
+                "Affiliation": "Tytgat Institute for Liver and Intestinal Research, Academic Medical Centre, Amsterdam, The Netherlands.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "S"
+          }
+        ],
+        "Language": [
+          "ENG"
+        ],
+        "ArticleDate": [
+          {
+            "Year": "2015",
+            "Day": "27",
+            "Month": "8"
+          }
+        ],
+        "ELocationID": [
+          "10.1002/bjs.9907"
+        ],
+        "Journal": {
+          "ISSN": "1365-2168",
+          "ISOAbbreviation": "Br J Surg",
+          "Title": "The British journal of surgery",
+          "JournalIssue": {
+            "PubDate": {
+              "Year": "2015",
+              "Day": "27",
+              "Month": "Aug"
+            }
+          }
+        },
+        "Pagination": {
+          "MedlinePgn": ""
+        },
+        "Abstract": {
+          "AbstractText": [
+            "The pathophysiology of adhesion formation after abdominal and pelvic surgery is still largely unknown. The aim of the study was to investigate the role of macrophage polarization and the effect of peroxisome proliferator-activated receptor (PPAR) γ stimulation on adhesion formation in an animal model.",
+            "Peritoneal adhesion formation was induced by the creation of ischaemic buttons within the peritoneal wall and the formation of a colonic anastomosis in wild-type, interleukin (IL) 10-deficient (IL-10(-/-) ), IL-4-deficient (IL-4(-/-) ) and CD11b-Cre/PPARγ(fl) (/fl) mice. Adhesions were assessed at regular intervals, and cell preparations were isolated from ischaemic buttons and normal peritoneum. These samples were analysed for macrophage differentiation and its markers, and expression of cytokines by quantitative PCR, fluorescence microscopy, arginase activity and pathological examination. Some animals underwent pioglitazone (PPAR-γ agonist) or vehicle treatment to inhibit adhesion formation. Anastomotic healing was evaluated by bursting pressure measurement and collagen gene expression.",
+            "Macrophage M2 marker expression and arginase activity were raised in buttons without adhesions compared with buttons with adhesions. IL-4(-/-) and IL-10(-/-) mice were not affected, whereas CD11b-Cre/PPARγ(fl) (/fl) mice showed decreased arginase activity and increased adhesion formation. Perioperative pioglitazone treatment increased arginase activity and decreased adhesion formation in wild-type but not CD11b-Cre/PPARγ(fl) (/fl) mice. Pioglitazone had no effect on anastomotic healing.",
+            "Endogenous macrophage-specific PPAR-γ signalling affected arginase activity and macrophage polarization, and counter-regulated peritoneal adhesion manifestation. Pharmacological PPAR-γ agonism induced a shift towards macrophage M2 polarization and ameliorated adhesion formation in a macrophage-dependent manner. Surgical relevance Postoperative adhesion formation is frequently seen after abdominal surgery and occurs in response to peritoneal trauma. The pathogenesis is still unknown but includes an imbalance in fibrinolysis, collagen production and inflammatory mechanisms. Little is known about the role of macrophages during adhesion formation. In an experimental model, macrophage M2 marker expression was associated with reduced peritoneal adhesion formation and involved PPAR-γ-mediated arginase activity. Macrophage-specific PPAR-γ deficiency resulted in reduced arginase activity and aggravated adhesion formation. Pioglitazone, a PPAR-γ agonist, induced M2 polarization and reduced postoperative adhesion formation without compromising anastomotic healing in mice. Pioglitazone ameliorated postoperative adhesion formation without compromising intestinal wound healing. Therefore, perioperative PPAR-γ agonism might be a promising strategy for prevention of adhesion formation after abdominal surgery."
+          ],
+          "CopyrightInformation": "© 2015 BJS Society Ltd Published by John Wiley & Sons Ltd."
+        }
+      },
+      "GeneralNote": [],
+      "OtherID": [],
+      "OtherAbstract": [],
+      "KeywordList": [],
+      "DateCreated": {
+        "Year": "2015",
+        "Day": "27",
+        "Month": "8"
+      },
+      "PMID": "26313905"
+    },
+    "PubmedData": {
+      "History": [
+        {
+          "Year": "2014",
+          "Day": "22",
+          "Month": "12"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "2"
+        },
+        {
+          "Year": "2015",
+          "Day": "30",
+          "Month": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        }
+      ],
+      "ArticleIdList": [
+        "10.1002/bjs.9907",
+        "26313905"
+      ],
+      "PublicationStatus": "aheadofprint"
+    }
+  },
+  {
+    "MedlineCitation": {
+      "CitationSubset": [
+        "IM"
+      ],
+      "SpaceFlightMission": [],
+      "MedlineJournalInfo": {
+        "Country": "Italy",
+        "ISSNLinking": "0390-6078",
+        "NlmUniqueID": "0417435",
+        "MedlineTA": "Haematologica"
+      },
+      "Article": {
+        "PublicationTypeList": [
+          "Letter"
+        ],
+        "ArticleTitle": "Response to comment on Multifunctional human CD56lowCD16low NK cells are the prominent subset in bone marrow of both pediatric healthy donors and leukemic patients.",
+        "AuthorList": [
+          {
+            "LastName": "Stabile",
+            "ForeName": "Helena",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Molecular Medicine, University of Rome \"La Sapienza\", University of Pavia, Italy.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "H"
+          },
+          {
+            "LastName": "Nisti",
+            "ForeName": "Paolo",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Molecular Medicine, University of Rome \"La Sapienza\", University of Pavia, Italy.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "P"
+          },
+          {
+            "LastName": "Pagliara",
+            "ForeName": "Daria",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Pediatric Hematology/Oncology, Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Ospedale Pediatrico Bambino Gesù, Rome, University of Pavia, Italy.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "D"
+          },
+          {
+            "LastName": "Locatelli",
+            "ForeName": "Franco",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Pediatric Hematology/Oncology, Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Ospedale Pediatrico Bambino Gesù, Rome, University of Pavia, Italy.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "F"
+          },
+          {
+            "LastName": "Santoni",
+            "ForeName": "Angela",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Molecular Medicine, University of Rome \"La Sapienza\", University of Pavia, Italy.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "A"
+          },
+          {
+            "LastName": "Gismondi",
+            "ForeName": "Angela",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Molecular Medicine, University of Rome \"La Sapienza\", University of Pavia, Italy angela.gismondi@uniroma1.it.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "A"
+          }
+        ],
+        "Language": [
+          "eng"
+        ],
+        "ArticleDate": [],
+        "ELocationID": [
+          "10.3324/haematol.2015.130831"
+        ],
+        "Journal": {
+          "ISSN": "1592-8721",
+          "ISOAbbreviation": "Haematologica",
+          "Title": "Haematologica",
+          "JournalIssue": {
+            "Issue": "8",
+            "PubDate": {
+              "Year": "2015",
+              "Month": "Aug"
+            },
+            "Volume": "100"
+          }
+        },
+        "Pagination": {
+          "MedlinePgn": "e332-3"
+        }
+      },
+      "GeneralNote": [],
+      "OtherID": [],
+      "OtherAbstract": [],
+      "KeywordList": [
+        [
+          "bone marrow",
+          "leukemic patients",
+          "multifunctional human CD56low CD16low natural killer cells",
+          "pediatric healthy donors",
+          "subset"
+        ]
+      ],
+      "DateCreated": {
+        "Year": "2015",
+        "Day": "28",
+        "Month": "08"
+      },
+      "PMID": "26314084"
+    },
+    "PubmedData": {
+      "History": [
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        }
+      ],
+      "ArticleIdList": [
+        "haematol.2015.130831",
+        "10.3324/haematol.2015.130831",
+        "26314084"
+      ],
+      "PublicationStatus": "ppublish"
+    }
+  },
+  {
+    "MedlineCitation": {
+      "CitationSubset": [],
+      "DateRevised": {
+        "Year": "2015",
+        "Day": "28",
+        "Month": "8"
+      },
+      "SpaceFlightMission": [],
+      "MedlineJournalInfo": {
+        "ISSNLinking": "1526-484X",
+        "NlmUniqueID": "100939812",
+        "MedlineTA": "Int J Sport Nutr Exerc Metab"
+      },
+      "Article": {
+        "PublicationTypeList": [
+          "JOURNAL ARTICLE"
+        ],
+        "ArticleTitle": "Cycling Time Trial Performance 4h Following Glycogen-Lowering Exercise is Enhanced Similarly with Recovery Non-Dairy Chocolate Beverages vs Chocolate Milk.",
+        "AuthorList": [
+          {
+            "LastName": "Upshaw",
+            "ForeName": "Adam U",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Fitness and Health Promotion, Niagara College, Welland, Ontario, Canada.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "AU"
+          },
+          {
+            "LastName": "Wong",
+            "ForeName": "Tiffany S",
+            "AffiliationInfo": [],
+            "Identifier": [],
+            "Initials": "TS"
+          },
+          {
+            "LastName": "Bandegan",
+            "ForeName": "Arash",
+            "AffiliationInfo": [],
+            "Identifier": [],
+            "Initials": "A"
+          },
+          {
+            "LastName": "Lemon",
+            "ForeName": "Peter W",
+            "AffiliationInfo": [],
+            "Identifier": [],
+            "Initials": "PW"
+          }
+        ],
+        "Language": [
+          "ENG"
+        ],
+        "ArticleDate": [
+          {
+            "Year": "2015",
+            "Day": "27",
+            "Month": "8"
+          }
+        ],
+        "ELocationID": [],
+        "Journal": {
+          "ISSN": "1543-2742",
+          "ISOAbbreviation": "Int J Sport Nutr Exerc Metab",
+          "Title": "International journal of sport nutrition and exercise metabolism",
+          "JournalIssue": {
+            "PubDate": {
+              "Year": "2015",
+              "Day": "27",
+              "Month": "Aug"
+            }
+          }
+        },
+        "Pagination": {
+          "MedlinePgn": ""
+        },
+        "Abstract": {
+          "AbstractText": [
+            "Post exercise chocolate milk ingestion has been shown to enhance both glycogen resynthesis and subsequent exercise performance. To assess whether non-dairy chocolate beverage ingestion post glycogen-lowering exercise can enhance 20km cycling time trial performance 4h later. Eight healthy trained male cyclists (21.8 ± 2.3y, VO2max = 61.2 ± 1.4 ml·kg-1·min-1; mean±SD) completed a series of intense cycling intervals designed to lower muscle glycogen (Jentjens & Jeukendrup, 2003) followed by 4h of recovery and a subsequent 20km cycling time trial. During the first 2h of recovery, participants ingested chocolate dairy milk (DAIRYCHOC), chocolate soy beverage (SOYCHOC), chocolate hemp beverage (HEMPCHOC), low fat dairy milk (MILK), or a low energy artificially sweetened, flavored beverage (PLACEBO) at 30min intervals in a double blind, counterbalanced repeated measured design. All drinks, except the PLACEBO (247 kJ) were isoenergetic (2107 kJ) and all chocolate-flavoured drinks provided 1g CHO·kg body mass-1·h-1. Fluid intake across treatments was equalized (2262 ± 148 ml) by ingesting appropriate quantities of water based on drink intake. The CHO:PRO ratio was 4:1, 1.5:1, 4:1, and 6:1, for DAIRYCHOC, MILK, SOYCHOC, and HEMPCHOC, respectively. One-way Anova with repeated measures showed time trial performance (DAIRYCHOC=34.58 ± 2.5 min, SOYCHOC=34.83 ± 2.2 min, HEMPCHOC=34.88 ± 1.1 min, MILK=34.47 ± 1.7 min) was enhanced similarly vs PLACEBO (37.85 ± 2.1) for all treatments (P=0.019) These data suggest that post exercise macronutrient and total energy intake are more important for same day 20 km cycling time trial performance following glycogen-lowering exercise than protein type or protein to carbohydrate ratio."
+          ]
+        }
+      },
+      "GeneralNote": [],
+      "OtherID": [],
+      "OtherAbstract": [],
+      "KeywordList": [],
+      "DateCreated": {
+        "Year": "2015",
+        "Day": "27",
+        "Month": "8"
+      },
+      "PMID": "26314086"
+    },
+    "PubmedData": {
+      "History": [
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        }
+      ],
+      "ArticleIdList": [
+        "2015-0056",
+        "10.1123/ijsnem.2015-0056",
+        "26314086"
+      ],
+      "PublicationStatus": "aheadofprint"
+    }
+  },
+  {
+    "MedlineCitation": {
+      "CitationSubset": [
+        "IM"
+      ],
+      "SpaceFlightMission": [],
+      "MedlineJournalInfo": {
+        "Country": "England",
+        "ISSNLinking": "0046-225X",
+        "NlmUniqueID": "7502320",
+        "MedlineTA": "Environ Entomol"
+      },
+      "Article": {
+        "PublicationTypeList": [
+          "Journal Article"
+        ],
+        "ArticleTitle": "Local and Landscape Drivers of Ant Parasitism in a Coffee Landscape.",
+        "AuthorList": [
+          {
+            "LastName": "De la Mora",
+            "ForeName": "Aldo",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "El Colegio de la Frontera Sur, Ecología de Artrópodos y Manejo de Plagas, Carretera Antiguo Aeropuerto Km 2.5 Tapachula 30700, Chiapas, México. sphilpot@ucsc.edu.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "A"
+          },
+          {
+            "LastName": "Pérez-Lachaud",
+            "ForeName": "Gabriela",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "El Colegio de la Frontera Sur, Conservación de la Biodiversidad, Avenida Centenario km 5.5, Chetumal 77014, Quintana Roo, México.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "G"
+          },
+          {
+            "LastName": "Lachaud",
+            "ForeName": "Jean-Paul",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "El Colegio de la Frontera Sur, Conservación de la Biodiversidad, Avenida Centenario km 5.5, Chetumal 77014, Quintana Roo, México. Centre de Recherches sur la Cognition Animale, CNRS-UMR 5169, Université de Toulouse UPS, 118 route de Narbonne, 31062 Toulouse Cedex 09, France.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "JP"
+          },
+          {
+            "LastName": "Philpott",
+            "ForeName": "Stacy M",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Environmental Studies Department, University of California, Santa Cruz, 1156 High St., Santa Cruz, CA 95064.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "SM"
+          }
+        ],
+        "Language": [
+          "eng"
+        ],
+        "ArticleDate": [
+          {
+            "Year": "2015",
+            "Day": "06",
+            "Month": "05"
+          }
+        ],
+        "ELocationID": [
+          "10.1093/ee/nvv071"
+        ],
+        "Journal": {
+          "ISSN": "1938-2936",
+          "ISOAbbreviation": "Environ. Entomol.",
+          "Title": "Environmental entomology",
+          "JournalIssue": {
+            "Issue": "4",
+            "PubDate": {
+              "Year": "2015",
+              "Month": "Aug"
+            },
+            "Volume": "44"
+          }
+        },
+        "Pagination": {
+          "MedlinePgn": "939-50"
+        },
+        "Abstract": {
+          "AbstractText": [
+            "Parasitism of ants that nest in rotting wood by eucharitid wasps was studied in order to examine whether habitat and season influence ant parasitism, vegetation complexity and agrochemical use correlate with ant parasitism, and whether specific local and landscape features of agricultural landscapes correlate with changes in ant parasitism. In a coffee landscape, 30 coffee and 10 forest sites were selected in which local management (e.g., vegetation, agrochemical use) and landscape features (e.g., distance to forest, percent of rustic coffee nearby) were characterized. Rotten logs were sampled and ant cocoons were collected from logs and cocoons were monitored for parasitoid emergence. Sixteen ant morphospecies in three ant subfamilies (Ectatomminae, Ponerinae, and Formicinae) were found. Seven ant species parasitized by two genera of Eucharitidae parasitoids (Kapala and Obeza) were reported and some ant-eucharitid associations were new. According to evaluated metrics, parasitism did not differ with habitat (forest, high-shade coffee, low-shade coffee), but did increase in the dry season for Gnamptogenys ants. Parasitism increased with vegetation complexity for Gnamptogenys and Pachycondyla and was high in sites with both high and low agrochemical use. Two landscape variables and two local factors positively correlated with parasitism for some ant genera and species. Thus, differences in vegetation complexity at the local and landscape scale and agrochemical use in coffee landscapes alter ecological interactions between parasitoids and their ant hosts."
+          ],
+          "CopyrightInformation": "© The Authors 2015. Published by Oxford University Press on behalf of Entomological Society of America. All rights reserved. For Permissions, please email: journals.permissions@oup.com."
+        }
+      },
+      "GeneralNote": [],
+      "OtherID": [],
+      "OtherAbstract": [],
+      "KeywordList": [
+        [
+          "coffee",
+          "eucharitidae",
+          "formicidae",
+          "vegetation complexity"
+        ]
+      ],
+      "DateCreated": {
+        "Year": "2015",
+        "Day": "28",
+        "Month": "08"
+      },
+      "PMID": "26314039"
+    },
+    "PubmedData": {
+      "History": [
+        {
+          "Year": "2014",
+          "Day": "23",
+          "Month": "8"
+        },
+        {
+          "Year": "2015",
+          "Day": "8",
+          "Month": "4"
+        },
+        {
+          "Year": "2015",
+          "Day": "6",
+          "Month": "5"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        }
+      ],
+      "ArticleIdList": [
+        "nvv071",
+        "10.1093/ee/nvv071",
+        "26314039"
+      ],
+      "PublicationStatus": "ppublish"
+    }
+  },
+  {
+    "MedlineCitation": {
+      "CitationSubset": [],
+      "DateRevised": {
+        "Year": "2015",
+        "Day": "28",
+        "Month": "8"
+      },
+      "SpaceFlightMission": [],
+      "MedlineJournalInfo": {
+        "ISSNLinking": "1543-3080",
+        "NlmUniqueID": "101189457",
+        "MedlineTA": "J Phys Act Health"
+      },
+      "Article": {
+        "PublicationTypeList": [
+          "JOURNAL ARTICLE"
+        ],
+        "ArticleTitle": "Gender Differences in Physical Activity Levels of Older People With Type 2 Diabetes Mellitus.",
+        "AuthorList": [
+          {
+            "LastName": "Kelly",
+            "ForeName": "Joan",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Menzies Institute for Medical Research, University of Tasmania, Hobart, Tasmania, Australia.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "J"
+          },
+          {
+            "LastName": "Edney",
+            "ForeName": "Katrina",
+            "AffiliationInfo": [],
+            "Identifier": [],
+            "Initials": "K"
+          },
+          {
+            "LastName": "Moran",
+            "ForeName": "Chris",
+            "AffiliationInfo": [],
+            "Identifier": [],
+            "Initials": "C"
+          },
+          {
+            "LastName": "Srikanth",
+            "ForeName": "Velandai",
+            "AffiliationInfo": [],
+            "Identifier": [],
+            "Initials": "V"
+          },
+          {
+            "LastName": "Callisaya",
+            "ForeName": "Michele",
+            "AffiliationInfo": [],
+            "Identifier": [],
+            "Initials": "M"
+          }
+        ],
+        "Language": [
+          "ENG"
+        ],
+        "ArticleDate": [
+          {
+            "Year": "2015",
+            "Day": "27",
+            "Month": "8"
+          }
+        ],
+        "ELocationID": [],
+        "Journal": {
+          "ISSN": "1543-5474",
+          "ISOAbbreviation": "J Phys Act Health",
+          "Title": "Journal of physical activity & health",
+          "JournalIssue": {
+            "PubDate": {
+              "Year": "2015",
+              "Day": "27",
+              "Month": "Aug"
+            }
+          }
+        },
+        "Pagination": {
+          "MedlinePgn": ""
+        },
+        "Abstract": {
+          "AbstractText": [
+            "Physical activity (PA) is important in managing Type 2 Diabetes Mellitus (T2DM). This study aimed to determine (i) the number of daily steps taken by older people with T2DM, (ii) if T2DM is associated with taking fewer steps per day and less likelihood of meeting PA guidelines and (iii) whether these associations are modified by age or gender.",
+            "PA was obtained by pedometer from two cohorts of older adults with and without T2DM. Multivariable regression was used to determine associations between T2DM, mean steps per day and meeting a guideline equivalent (7 100 steps per day).",
+            "There were 293 participants with T2DM (mean age 67.6 ± 6.8 years) and 336 without T2DM (mean age 72.1 ± 7.1 years). In women, T2DM was associated with fewer mean steps per day (β = -1306.4 95% CI -2052.5, -560.3, p=0.001) and not meeting the PA guidelines (OR 0.51 95% CI 0.28, 0.92, p=0.03). Associations were not significant in men (p>0.05). Only 29.7% of those with T2DM and 33.3% of those without T2DM met PA guidelines.",
+            "Greater focus is needed on how to maintain and increase PA in older age with particular focus on women with T2DM."
+          ]
+        }
+      },
+      "GeneralNote": [],
+      "OtherID": [],
+      "OtherAbstract": [],
+      "KeywordList": [],
+      "DateCreated": {
+        "Year": "2015",
+        "Day": "27",
+        "Month": "8"
+      },
+      "PMID": "26314087"
+    },
+    "PubmedData": {
+      "History": [
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        }
+      ],
+      "ArticleIdList": [
+        "2015-0147",
+        "10.1123/jpah.2015-0147",
+        "26314087"
+      ],
+      "PublicationStatus": "aheadofprint"
+    }
+  },
+  {
+    "MedlineCitation": {
+      "CitationSubset": [
+        "IM"
+      ],
+      "SpaceFlightMission": [],
+      "MedlineJournalInfo": {
+        "Country": "England",
+        "ISSNLinking": "0046-225X",
+        "NlmUniqueID": "7502320",
+        "MedlineTA": "Environ Entomol"
+      },
+      "Article": {
+        "PublicationTypeList": [
+          "Journal Article"
+        ],
+        "ArticleTitle": "Distribution of Bemisia tabaci Genetic Groups in India.",
+        "AuthorList": [
+          {
+            "LastName": "Ellango",
+            "ForeName": "R",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore, India-560089. Contributed Equally.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "R"
+          },
+          {
+            "LastName": "Singh",
+            "ForeName": "Shalini Thakur",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Contributed Equally. Department of Zoology, University of Delhi, Delhi, India-110007.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "ST"
+          },
+          {
+            "LastName": "Rana",
+            "ForeName": "Vipin Singh",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Zoology, University of Delhi, Delhi, India-110007.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "VS"
+          },
+          {
+            "LastName": "Gayatri Priya",
+            "ForeName": "N",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Zoology, University of Delhi, Delhi, India-110007.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "N"
+          },
+          {
+            "LastName": "Raina",
+            "ForeName": "Harpreet",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore, India-560089.Contributed Equally.Department of Zoology, University of Delhi, Delhi, India-110007.Division of Entomology, Indian Agricultural Research Institute, Delhi, India-110012.Department of Biotechnology, Kuvempu University, Shimoga-577451, India.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "H"
+          },
+          {
+            "LastName": "Chaubey",
+            "ForeName": "Rahul",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Division of Entomology, Indian Agricultural Research Institute, Delhi, India-110012.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "R"
+          },
+          {
+            "LastName": "Naveen",
+            "ForeName": "N C",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Division of Entomology, Indian Agricultural Research Institute, Delhi, India-110012.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "NC"
+          },
+          {
+            "LastName": "Mahmood",
+            "ForeName": "Riaz",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Biotechnology, Kuvempu University, Shimoga-577451, India.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "R"
+          },
+          {
+            "LastName": "Ramamurthy",
+            "ForeName": "V V",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Division of Entomology, Indian Agricultural Research Institute, Delhi, India-110012.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "VV"
+          },
+          {
+            "LastName": "Asokan",
+            "ForeName": "R",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore, India-560089.Contributed Equally.Department of Zoology, University of Delhi, Delhi, India-110007.Division of Entomology, Indian Agricultural Research Institute, Delhi, India-110012.Department of Biotechnology, Kuvempu University, Shimoga-577451, India. asokaniihr@gmail.com.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "R"
+          },
+          {
+            "LastName": "Rajagopal",
+            "ForeName": "R",
+            "AffiliationInfo": [
+              {
+                "Affiliation": "Department of Zoology, University of Delhi, Delhi, India-110007. asokaniihr@gmail.com.",
+                "Identifier": []
+              }
+            ],
+            "Identifier": [],
+            "Initials": "R"
+          }
+        ],
+        "Language": [
+          "eng"
+        ],
+        "ArticleDate": [
+          {
+            "Year": "2015",
+            "Day": "11",
+            "Month": "05"
+          }
+        ],
+        "ELocationID": [
+          "10.1093/ee/nvv062"
+        ],
+        "Journal": {
+          "ISSN": "1938-2936",
+          "ISOAbbreviation": "Environ. Entomol.",
+          "Title": "Environmental entomology",
+          "JournalIssue": {
+            "Issue": "4",
+            "PubDate": {
+              "Year": "2015",
+              "Month": "Aug"
+            },
+            "Volume": "44"
+          }
+        },
+        "Pagination": {
+          "MedlinePgn": "1258-64"
+        },
+        "Abstract": {
+          "AbstractText": [
+            "The whitefly Bemisia tabaci (Gennadius) (Hemiptera: Aleyrodidae) is a phloem-feeding, economically important pest of crops worldwide. In addition to direct damage, it also vectors a number of plant viruses belonging to the family Geminiviridae. Its populations differ biologically with respect to insecticide resistance, virus transmission and host range. Therefore, understanding genetic variation among populations is important for management. We sequenced 850 bp of the mitochondrial COI (mtCOI) gene from B. tabaci populations surveyed across India. BLAST analysis of the mtCOI sequences generated in this study with sequences from the mtCOI dataset showed the presence of one invasive group, MEAM1, and eight other groups of B. tabaci in India. mtCOI sequence analyses showed the presence of Asia I, Asia I-India, Asia II-1, Asia II-5, Asia II-7, Asia II-8, and Asia II-11 genetic groups. We also found China-3 in a field in Birbhum district, West Bengal, India, suggesting a role of anthropogenic activities in the distribution of B. tabaci. Interestingly, more than one genetic group was found coexisting in the same field."
+          ],
+          "CopyrightInformation": "© The Authors 2015. Published by Oxford University Press on behalf of Entomological Society of America. All rights reserved. For Permissions, please email: journals.permissions@oup.com."
+        }
+      },
+      "GeneralNote": [],
+      "OtherID": [],
+      "OtherAbstract": [],
+      "KeywordList": [
+        [
+          "Bemisia tabaci",
+          "genetic group",
+          "mtCOI"
+        ]
+      ],
+      "DateCreated": {
+        "Year": "2015",
+        "Day": "28",
+        "Month": "08"
+      },
+      "PMID": "26314072"
+    },
+    "PubmedData": {
+      "History": [
+        {
+          "Year": "2014",
+          "Day": "19",
+          "Month": "9"
+        },
+        {
+          "Year": "2015",
+          "Day": "21",
+          "Month": "3"
+        },
+        {
+          "Year": "2015",
+          "Day": "11",
+          "Month": "5"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        },
+        {
+          "Year": "2015",
+          "Day": "28",
+          "Month": "8",
+          "Minute": "0",
+          "Hour": "6"
+        }
+      ],
+      "ArticleIdList": [
+        "nvv062",
+        "10.1093/ee/nvv062",
+        "26314072"
+      ],
+      "PublicationStatus": "ppublish"
+    }
+  }
+]

@@ -1,0 +1,97 @@
+
+PMID: 26314082
+
+PMID: 26314082
+	Input address: Department of Pediatric Hematology and Oncology, University Medical Center Eppendorf, Hamburg, Germany k.lehmberg@uke.de.
+	Formatted address: University Medical Center Eppendorf, Hamburg, Germany
+	Output address: Hotel Eggers GmbH
+	Input address: Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN, USA.
+	Formatted address: St. Jude Children's Research Hospital, Memphis, TN, USA.
+	Output address: St. Jude Children's Research Hospital
+	Input address: Childhood Cancer Research Unit, Department of Women's and Children's Health, Karolinska Institutet, Karolinska University Hospital Solna, Stockholm, Sweden.
+	Formatted address: Childhood Cancer Research Unit, Karolinska Institutet, Karolinska University Hospital Solna, Stockholm, Sweden.
+	Output address: NONE
+	Input address: Department of Medicine I, Hematology and Stem Cell Transplantation, Hemostasis and Medical Oncology, Elisabethinen Hospital, Linz, Austria.
+	Formatted address: Hematology and Stem Cell Transplantation, Hemostasis and Medical Oncology, Elisabethinen Hospital, Linz, Austria.
+	Output address: NONE
+	Input address: Childhood Cancer Research Unit, Department of Women's and Children's Health, Karolinska Institutet, Karolinska University Hospital Solna, Stockholm, Sweden.
+	Formatted address: Childhood Cancer Research Unit, Karolinska Institutet, Karolinska University Hospital Solna, Stockholm, Sweden.
+	Output address: NONE
+	Input address: Department of Immunology, Cincinnati Children's Hospital, OH, USA.
+	Formatted address: Cincinnati Children's Hospital, OH, USA.
+	Output address: Cincinnati Children's Hospital Medical Center
+	Input address: Department of Immunology, Cincinnati Children's Hospital, OH, USA.
+	Formatted address: Cincinnati Children's Hospital, OH, USA.
+	Output address: Cincinnati Children's Hospital Medical Center
+	Input address: Department of Pediatric Hematology and Oncology, St. Anna Children's Hospital, Vienna, Austria.
+	Formatted address: St. Anna Children's Hospital, Vienna, Austria.
+	Output address: Hotel Tulip Inn Thueringer Hof Vienna
+	Input address: Klinik für Innere Medizin II, Abt. Hämatologie und internistische Onkologie, Universitätsklinikum Jena, Germany.
+	Formatted address: Klinik für Innere Medizin II, Abt. Hämatologie und internistische Onkologie, Universitätsklinikum Jena, Germany.
+	Output address: NONE
+	Input address: Department of Hematology and Oncology, Sick Kids Hospital, Toronto, Canada.
+	Formatted address: Sick Kids Hospital, Toronto, Canada.
+	Output address: The Hospital for Sick Children
+
+PMID: 26314080
+	Input address: Department of Haematology, Academic Medical Center, Amsterdam, The Netherlands.
+	Formatted address: Academic Medical Center, Amsterdam, The Netherlands.
+	Output address: Academic Medical Center
+	Input address: Department of Pathology, Academic Medical Center, Amsterdam, The Netherlands.
+	Formatted address: Academic Medical Center, Amsterdam, The Netherlands.
+	Output address: Academic Medical Center
+	Input address: Lymphoma Service, Memorial Sloan Kettering Cancer Center, New York, USA.
+	Formatted address: Lymphoma Service, Memorial Sloan Kettering Cancer Center, New York, USA.
+	Output address: Memorial Sloan Cancer Center: Horwitz Steven M MD
+	Input address: Department of Medicine III, LMU University of Munich, Germany.
+	Formatted address: LMU University of Munich, Germany.
+	Output address: Juristische Fakultät der Ludwig-Maximilians-Universität
+	Input address: Medical Oncology, University of Modena and Reggio Emilia, Italy.
+	Formatted address: Medical Oncology, University of Modena and Reggio Emilia, Italy.
+	Output address: NONE
+	Input address: Division of Hematology, Department of Internal Medicine, University Hospital Center Zagreb and Medical School, University of Zagreb, Croatia.
+	Formatted address: Division of Hematology, University Hospital Center Zagreb and Medical School, University of Zagreb, Croatia.
+	Output address: NONE
+	Input address: Institute of Cancer Sciences, the University of Manchester, and the Christie NHS Foundation Trust, Manchester Academic Health Science Centre, Manchester, UK.
+	Formatted address: Institute of Cancer Sciences, the University of Manchester, and the Christie NHS Foundation Trust, Manchester Academic Health Science Centre, Manchester, UK.
+	Output address: NONE
+	Input address: Department of Haematology, Academic Medical Center, Amsterdam, The Netherlands m.j.kersten@amc.nl.
+	Formatted address: Academic Medical Center, Amsterdam, The Netherlands
+	Output address: Academic Medical Center
+
+PMID: 26313916
+	Input address: Department of Anesthesiology, Shengjing Hospital of China Medical University, Shenyang, Liaoning 110004, People's Republic of China.
+	Formatted address: Shengjing Hospital of China Medical University, Shenyang, Liaoning 110004, People's Republic of China.
+	Output address: NONE
+	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Output address: The Johns Hopkins University School of Medicine
+	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Output address: The Johns Hopkins University School of Medicine
+	Input address: State Key Laboratory of Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100190, People's Repubic of China.
+	Formatted address: State Key Laboratory of Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100190, People's Repubic of China.
+	Output address: Natural History Museum
+	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Output address: The Johns Hopkins University School of Medicine
+	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Output address: The Johns Hopkins University School of Medicine
+	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Output address: The Johns Hopkins University School of Medicine
+	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Output address: The Johns Hopkins University School of Medicine
+	Input address: Department of Orthopaedics, the First Affiliated Hospital, Orthopaedic Institute, Soochow University, Suzhou 215123, Jiangsu, People's Republic of China.
+	Formatted address: the First Affiliated Hospital, Orthopaedic Institute, Soochow University, Suzhou 215123, Jiangsu, People's Republic of China.
+	Output address: NONE
+	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Output address: The Johns Hopkins University School of Medicine
+	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Output address: The Johns Hopkins University School of Medicine
+	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
