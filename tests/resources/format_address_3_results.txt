@@ -1,0 +1,1589 @@
+
+PMID: 25515145
+	Author: Benson
+
+PMID: 25185231
+	Author: Eddy
+		Input address: *Department of Biology, University of Washington, Seattle, WA 98195 sleddy@u.washington.edu.
+		Formatted address: University of Washington
+		Output address: University of Washington
+	Author: Brownell
+		Input address: School of Life Sciences, Arizona State University, Tempe, AZ 85287.
+		Formatted address: School of Life Sciences
+		Output address: School of Life Science Hamburg gGmbH
+	Author: Wenderoth
+		Input address: *Department of Biology, University of Washington, Seattle, WA 98195.
+		Formatted address: University of Washington
+		Output address: University of Washington
+
+PMID: 25316777
+	Author: Wright
+		Input address: Department of Genetics, Cell Biology and Development, College of Biological Sciences, University of Minnesota, St. Paul, Minnesota 55108.
+		Formatted address: Cell Biology and Development
+		Output address: Department of Genetics, Cell Biology and Development
+
+PMID: 24591504
+	Author: Hester
+		Input address: Department of Molecular and Cellular Biology, University of Arizona, Tucson, AZ 85721 Department of Teaching, Learning and Sociocultural Studies, University of Arizona, Tucson, AZ 85721.
+		Formatted address: University of Arizona
+		Output address: University of Arizona Retirees Association
+	Author: Buxner
+	Author: Elfring
+	Author: Nagy
+
+PMID: 24782329
+	Author: Seyfried
+		Input address: Department for Art and Knowledge Transfer, University of Applied Arts, Vienna, Austria.
+		Formatted address: University of Applied Arts
+		Output address: University of Applied Arts Vienna
+	Author: Pei
+	Author: Schmidt
+
+PMID: 25189506
+	Author: Surman
+		Input address: Leibniz Graduate School "History, Knowledge, Media in East Central Europe", Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association, Gisonenweg 5-7, 35037 Marburg, Germany. Electronic address: jan.surman@herder-institut.de.
+		Formatted address: Leibniz Graduate School "History
+		Output address: Greenwich Playhouse
+	Author: Stráner
+		Input address: Leibniz-Institut for European History, Alte Universitätsstraße 19, 55116 Mainz, Germany
+		Formatted address: Leibniz-Institut for European History
+		Output address: NONE
+		Input address:  Pasts, Inc. Center for Historical Studies, Central European University, 1051 Budapest Nádor u. 9, Hungary.
+		Formatted address: Pasts
+		Output address: Pasts
+	Author: Haslinger
+		Input address: Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association, Gisonenweg 5-7, 35037 Marburg, Germany.
+		Formatted address: Herder Institute for Historical Research on East Central Europe - Institute of the Leibniz Association
+		Output address: NONE
+
+PMID: 25404324
+	Author: Lynch
+		Input address: Department of Biology, Indiana University, Bloomington, IN 47405
+		Formatted address: Indiana University
+		Output address: Indiana University
+		Input address:  milynch@indiana.edu ssazer@bcm.edu.
+		Formatted address: 
+		Output address: NONE
+	Author: Field
+		Input address: Division of Biological Chemistry and Drug Discovery, University of Dundee, Dundee DD1 5EH, United Kingdom
+		Formatted address: Division of Biological Chemistry and Drug Discovery
+		Output address: Granath Oloph K DDS
+		Input address: 
+		Formatted address: 
+		Output address: NONE
+	Author: Goodson
+		Input address: Department of Chemistry and Biochemistry, University of Notre Dame, Notre Dame, IN 46556
+		Formatted address: University of Notre Dame
+		Output address: University of Notre Dame
+		Input address: 
+		Formatted address: 
+		Output address: NONE
+	Author: Malik
+		Input address: Division of Basic Sciences and Howard Hughes Medical Institute, Fred Hutchinson Cancer Research Center, Seattle, WA 98195
+		Formatted address: Division of Basic Sciences and Howard Hughes Medical Institute
+		Output address: Royal Festival Hall
+		Input address: 
+		Formatted address: 
+		Output address: NONE
+	Author: Pereira-Leal
+		Input address: Instituto Gulbenkian de Ciência, P-2781-901 Oeiras, Portugal
+		Formatted address: Instituto Gulbenkian de Ciência
+		Output address: Instituto Gulbenkian de Ciência (IGC)
+		Input address: 
+		Formatted address: 
+		Output address: NONE
+	Author: Roos
+		Input address: Department of Biology, University of Pennsylvania, Philadelphia, PA 19143
+		Formatted address: University of Pennsylvania
+		Output address: University of Pennsylvania
+		Input address: 
+		Formatted address: 
+		Output address: NONE
+	Author: Turkewitz
+		Input address: Department of Molecular Genetics and Cell Biology, University of Chicago, Chicago, IL 60637
+		Formatted address: University of Chicago
+		Output address: University Of Chicago
+		Input address:  and.
+		Formatted address: and.
+		Output address: ａｎｄ
+	Author: Sazer
+		Input address: Verna and Marrs McLean Department of Biochemistry and Molecular Biology, Baylor College of Medicine, Houston, TX 77030 milynch@indiana.edu ssazer@bcm.edu.
+		Formatted address: Baylor College of Medicine
+		Output address: Baylor College of Medicine
+
+PMID: 25185232
+	Author: Basey
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309 john.basey@colorado.edu.
+		Formatted address: University of Colorado at Boulder
+		Output address: University of Colorado Boulder
+	Author: Maines
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309.
+		Formatted address: University of Colorado at Boulder
+		Output address: University of Colorado Boulder
+	Author: Francis
+		Input address: Department of Biological Sciences, California Polytechnic State University, San Luis Obispo, CA 93407.
+		Formatted address: California Polytechnic State University
+		Output address: California Polytechnic State University
+	Author: Melbourne
+		Input address: *Department of Ecology and Evolutionary Biology, University of Colorado at Boulder, Boulder, CO 80309.
+		Formatted address: University of Colorado at Boulder
+		Output address: University of Colorado Boulder
+
+PMID: 24736556
+	Author: Scannapieco
+		Input address: Department of Oral Biology, School of Dental Medicine, University at Buffalo, The State University of New York Foster Hall, Buffalo, NY 14214, USA.
+		Formatted address: School of Dental Medicine
+		Output address: University of Pennsylvania School of Dental Medicine
+
+PMID: 25583953
+	Author: Wikswo
+		Input address: Vanderbilt Institute for Integrative Biosystems Research and Education, Departments of Biomedical Engineering, Molecular Physiology & Biophysics, and Physics & Astronomy, Vanderbilt University, Nashville, TN 37235, USA john.wikswo@vanderbilt.edu.
+		Formatted address: Vanderbilt Institute for Integrative Biosystems Research and Education
+		Output address: VIIBRE - Vanderbilt Institute for Integrative Biosystems Research and Education
+	Author: Porter
+		Input address: Center for Theology and the Natural Sciences, Graduate Theological Union, Berkeley, CA 94709-1212, USA.
+		Formatted address: Center for Theology and the Natural Sciences
+		Output address: The Royal Society
+
+PMID: 24006392
+	Author: Rissing
+		Input address: Department of Evolution, Ecology, and Organismal Biology, Ohio State University, Columbus, OH 43210, USA. rissing.2@osu.edu
+		Formatted address: Ecology
+		Output address: Odum School of Ecology
+
+PMID: 25363806
+	Author: Kalluri
+		Input address: BioEnergy Science Center and Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA.
+		Formatted address: BioEnergy Science Center and Biosciences Division
+		Output address: NONE
+	Author: Yin
+	Author: Yang
+	Author: Davison
+
+PMID: 25108565
+	Author: Wijdeven
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands.
+		Formatted address: Division of Cell Biology
+		Output address: Dept of Pathology and Cell Biology
+	Author: Neefjes
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands. Electronic address: J.Neefjes@nki.nl.
+		Formatted address: Division of Cell Biology
+		Output address: Dept of Pathology and Cell Biology
+	Author: Ovaa
+		Input address: Division of Cell Biology, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands. Electronic address: H.Ovaa@nki.nl.
+		Formatted address: Division of Cell Biology
+		Output address: Dept of Pathology and Cell Biology
+
+PMID: 24914161
+	Author: Denes
+		Input address: Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720, USA pdenes@lbl.gov.
+		Formatted address: Lawrence Berkeley National Laboratory
+		Output address: Lawrence Berkeley National Laboratory
+
+PMID: 24914145
+	Author: Altarelli
+		Input address: European XFEL GmbH, Albert Einstein Ring 19, 22761 Hamburg, Germany massimo.altarelli@xfel.eu.
+		Formatted address: European XFEL GmbH
+		Output address: European XFEL
+	Author: Mancuso
+		Input address: European XFEL GmbH, Albert Einstein Ring 19, 22761 Hamburg, Germany.
+		Formatted address: European XFEL GmbH
+		Output address: European XFEL
+
+PMID: 25963198
+	Author: Moczek
+		Input address: Department of Biology, Indiana University, 915 East 3rd Street, Bloomington, IN 47405, USA.
+		Formatted address: Indiana University
+		Output address: Indiana University
+	Author: Sears
+		Input address: School of Integrative Biology and Institute for Genomic Biology, University of Illinois, 505 South Goodwin Avenue, Urbana, IL, 61801, USA.
+		Formatted address: School of Integrative Biology and Institute for Genomic Biology
+		Output address: オックスフォードジャーナル
+	Author: Stollewerk
+		Input address: School of Biological and Chemical Sciences, Queen Mary, University of London, Mile End Road, London, E1 4NS, UK.
+		Formatted address: School of Biological and Chemical Sciences
+		Output address: School of Biological and Chemical Sciences
+	Author: Wittkopp
+		Input address: Department of Ecology and Evolutionary Biology, Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI, USA.
+		Formatted address: Cellular
+		Output address: Consumer Cellular
+	Author: Diggle
+		Input address: Department of Ecology and Evolutionary Biology, University of Connecticut, Storrs, CT, 06269, USA.
+		Formatted address: University of Connecticut
+		Output address: University of Connecticut
+	Author: Dworkin
+		Input address: Department of Biology, McMaster University, 1280 Main St. West Hamilton, Ontario, L8S 4K1, Canada.
+		Formatted address: McMaster University
+		Output address: McMaster University
+	Author: Ledon-Rettig
+		Input address: Department of Biology, Indiana University, 915 East 3rd Street, Bloomington, IN 47405, USA.
+		Formatted address: Indiana University
+		Output address: Indiana University
+	Author: Matus
+		Input address: Department of Biochemistry and Cell Biology, Stony Brook University, 412 Life Sciences Building, Stony Brook, NY, 11794-5215, USA.
+		Formatted address: Stony Brook University
+		Output address: Stony Brook University
+	Author: Roth
+		Input address: University of Cologne, Institute of Developmental Biology, Biocenter, Zülpicher Straße 47b, D-50674, Cologne, Germany.
+		Formatted address: University of Cologne
+		Output address: Academy of Media Arts Cologne
+	Author: Abouheif
+		Input address: Department of Biology, McGill University, 1205 Avenue Docteur Penfield, Montréal Québec, H3A 1B1, Canada.
+		Formatted address: McGill University
+		Output address: McGill University
+	Author: Brown
+		Input address: Departamento de Zoologia, Instituto Biociências, Universidade de São Paulo, Rua do Matão, Travessa 14, no. 101, 05508-090, São Paulo, Brazil.
+		Formatted address: Departamento de Zoologia
+		Output address: Departamento De Zoologia
+	Author: Chiu
+		Input address: Department of Biological Sciences, Kent State University, OH, USA.
+		Formatted address: Kent State University
+		Output address: Kent State University
+	Author: Cohen
+		Input address: Biology Department, Romberg Tiburon Center for Environmental Studies, San Francisco State University, 3150 Paradise Drive, Tiburon, CA, 94920, USA.
+		Formatted address: Romberg Tiburon Center for Environmental Studies
+		Output address: NONE
+	Author: Tomaso
+		Input address: Department of MCD Biology, University of California, Santa Barbara, CA, USA.
+		Formatted address: University of California
+		Output address: University of California Irvine
+	Author: Gilbert
+		Input address: Department of Biology, Swarthmore College, Swarthmore, Pennsylvania 19081, USA and Biotechnology Institute, University of Helsinki, 00014, Helsinki, Finland.
+		Formatted address: Swarthmore College
+		Output address: Swarthmore College
+	Author: Hall
+		Input address: Department of Biology, Dalhousie University, Halifax, Nova Scotia, CA, B3H 4R2, USA.
+		Formatted address: Dalhousie University
+		Output address: Dalhousie University
+	Author: Love
+		Input address: Department of Philosophy, Minnesota Center for Philosophy of Science, University of Minnesota, USA.
+		Formatted address: Minnesota Center for Philosophy of Science
+		Output address: White Bear Montessori School
+	Author: Lyons
+		Input address: Department of Biology, Duke University, Box 90338, Durham, NC, 27708, USA.
+		Formatted address: Duke University
+		Output address: Duke University
+	Author: Sanger
+		Input address: Department of Molecular Genetics and Microbiology, University of Florida, P.O. Box 103610, Gainesville, FL, 32610, USA.
+		Formatted address: University of Florida
+		Output address: University of Florida Eastside Campus
+	Author: Smith
+		Input address: Marine Biological Laboratory, 7 MBL Street, Woods Hole, MA, 02543, USA.
+		Formatted address: Marine Biological Laboratory
+		Output address: Marine Biological Laboratory
+	Author: Specht
+		Input address: Plant and Microbial Biology, Department of Integrative Biology, University and Jepson Herbaria, University of California, Berkeley, CA, USA.
+		Formatted address: Plant and Microbial Biology
+		Output address: Department of Plant and Microbial Biology
+	Author: Vallejo-Marin
+		Input address: Biological and Environmental Sciences, University of Stirling, FK9 4LA, Scotland, UK.
+		Formatted address: Biological and Environmental Sciences
+		Output address: Department of Biological and Environmental Sciences
+	Author: Extavour
+		Input address: Department of Organismic and Evolutionary Biology, Department of Molecular and Cellular Biology, Harvard University, 16 Divinity Avenue, BioLabs 4103, Cambridge, MA, 02138, USA.
+		Formatted address: Harvard University
+		Output address: Harvard University
+
+PMID: 25521633
+	Author: Keen
+		Input address: Department of Biology, University of Miami, Coral Gables, FL, USA
+		Formatted address: University of Miami
+		Output address: University of Miami
+		Input address:  Laboratory of Molecular Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.
+		Formatted address: Laboratory of Molecular Biology
+		Output address: MRC Laboratory of Molecular Biology
+
+PMID: 25116370
+	Author: Bloch
+		Input address: StartingBloch Nimes France. Electronic address: jfbloch@startingbloch.com.
+		Formatted address: StartingBloch Nimes France.  :
+		Output address: NONE
+	Author: Tardieu-Guigues
+		Input address: ERCIM UMR 5815 Faculty of Law and Political Sciences, Montpellier 1 University, France.
+		Formatted address: ERCIM UMR 5815 Faculty of Law and Political Sciences
+		Output address: NONE
+
+PMID: 25468194
+	Author: Bunyavanich
+		Input address: Department of Genetics and Genomic Sciences and the Icahn Institute for Genomics and Multiscale Biology, New York, NY
+		Formatted address: New York
+		Output address: NONE
+		Input address:  Division of Pediatric Allergy and Immunology, Department of Pediatrics, and the Mindich Child Health and Development Institute, Icahn School of Medicine at Mount Sinai, New York, NY. Electronic address: supinda@post.harvard.edu.
+		Formatted address: Division of Pediatric Allergy and Immunology
+		Output address: UT Pediatric Allergy and Immunology
+	Author: Schadt
+		Input address: Department of Genetics and Genomic Sciences and the Icahn Institute for Genomics and Multiscale Biology, New York, NY.
+		Formatted address: New York
+		Output address: NONE
+
+PMID: 25368416
+	Author: Howard
+		Input address: Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520 jonathon.howard@yale.edu.
+		Formatted address: Yale University
+		Output address: Yale University
+
+PMID: 24931378
+	Author: Smith
+		Input address: Department of Chemical Engineering, Brigham Young University, Provo, UT, USA.
+		Formatted address: Brigham Young University
+		Output address: Brigham Young University
+	Author: Wilding
+		Input address: Department of Chemical Engineering, Brigham Young University, Provo, UT, USA.
+		Formatted address: Brigham Young University
+		Output address: Brigham Young University
+	Author: Hunt
+		Input address: Department of Chemical Engineering, Brigham Young University, Provo, UT, USA.
+		Formatted address: Brigham Young University
+		Output address: Brigham Young University
+	Author: Bennett
+		Input address: Department of Chemical Engineering, Brigham Young University, Provo, UT, USA.
+		Formatted address: Brigham Young University
+		Output address: Brigham Young University
+	Author: Bundy
+		Input address: Department of Chemical Engineering, Brigham Young University, Provo, UT, USA. Electronic address: bundy@byu.edu.
+		Formatted address: Brigham Young University
+		Output address: Brigham Young University
+
+PMID: 23737634
+	Author: Watkins
+		Input address: Department of Education and Center for Engineering Education and Outreach, Tufts University, Medford, MA 02155, USA. jessica.e.watkins@gmail.com
+		Formatted address: Tufts University
+		Output address: Tufts University
+	Author: Elby
+
+PMID: 23737623
+	Author: Hoskinson
+		Input address: Department of Ecology and Evolutionary Biology, University of Colorado-Boulder, Boulder, CO 80309, USA. annemarie.hoskinson@colorado.edu
+		Formatted address: University of Colorado-Boulder
+		Output address: University of Colorado Boulder
+	Author: Caballero
+	Author: Knight
+
+PMID: 23463233
+	Author: Barsoum
+		Input address: Department of Biology, Davidson College, Davidson, NC 28035, USA. mabarsoum@davidson.edu
+		Formatted address: Davidson College
+		Output address: Davidson College
+	Author: Sellers
+	Author: Campbell
+	Author: Heyer
+	Author: Paradise
+
+PMID: 24941735
+	Author: Peterson
+
+PMID: 25577398
+	Author: Perkins
+		Input address: Research Laboratory, IBIMA, Regional University Hospital of Malaga, UMA, Malaga, Spain.
+		Formatted address: Research Laboratory
+		Output address: HRL Laboratories, LLC.
+	Author: Sanak
+		Input address: Division of Molecular Biology and Clinical Genetics, Department of Medicine, Jagiellonian University Medical College, Krakow, Poland.
+		Formatted address: Division of Molecular Biology and Clinical Genetics
+		Output address: Grifols International Representative Office (Japan)
+	Author: Canto
+		Input address: Allergy Service, Infanta Leonor Hospital, Madrid, Spain.
+		Formatted address: Allergy Service
+		Output address: Charlottesville Allergy & Respiratory Enterprises - CARE
+	Author: Blanca
+		Input address: Allergy Unit, IBIMA, Regional University Hospital of Malaga, UMA, Malaga, Spain. Electronic address: mblancago@gmail.com.
+		Formatted address: Allergy Unit
+		Output address: Allergy Unit
+	Author: Cornejo-García
+		Input address: Research Laboratory, IBIMA, Regional University Hospital of Malaga, UMA, Malaga, Spain
+		Formatted address: Research Laboratory
+		Output address: HRL Laboratories, LLC.
+		Input address:  Allergy Unit, IBIMA, Regional University Hospital of Malaga, UMA, Malaga, Spain.
+		Formatted address: Allergy Unit
+		Output address: Allergy Unit
+
+PMID: 25437435
+	Author: Johnson
+		Input address: 1] Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, California, USA. [2] Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, California, USA. [3] California Institute for Quantitative Biosciences (QB3), University of California, San Francisco, San Francisco, California, USA.
+		Formatted address: The Scripps Research Institute
+		Output address: The Scripps Research Institute
+	Author: Autin
+		Input address: Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, California, USA.
+		Formatted address: The Scripps Research Institute
+		Output address: The Scripps Research Institute
+	Author: Al-Alusi
+		Input address: Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, California, USA.
+		Formatted address: The Scripps Research Institute
+		Output address: The Scripps Research Institute
+	Author: Goodsell
+		Input address: Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, California, USA.
+		Formatted address: The Scripps Research Institute
+		Output address: The Scripps Research Institute
+	Author: Sanner
+		Input address: Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, California, USA.
+		Formatted address: The Scripps Research Institute
+		Output address: The Scripps Research Institute
+	Author: Olson
+		Input address: Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, California, USA.
+		Formatted address: The Scripps Research Institute
+		Output address: The Scripps Research Institute
+
+PMID: 25452489
+	Author: Dees
+		Input address: *Department of Biological Sciences, North Dakota State University, Fargo, ND 58108.
+		Formatted address: North Dakota State University
+		Output address: North Dakota State University
+	Author: Momsen
+		Input address: *Department of Biological Sciences, North Dakota State University, Fargo, ND 58108 jennifer.momsen@ndsu.edu.
+		Formatted address: North Dakota State University
+		Output address: North Dakota State University
+	Author: Niemi
+		Input address: Department of Statistics, Iowa State University, Ames, IA 50011.
+		Formatted address: Iowa State University
+		Output address: Iowa State University
+	Author: Montplaisir
+		Input address: *Department of Biological Sciences, North Dakota State University, Fargo, ND 58108.
+		Formatted address: North Dakota State University
+		Output address: North Dakota State University
+
+PMID: 24453960
+	Author: Singhania
+		Input address: Bioclues Organization, IKP Knowledge Park, Picket, Secunderabad, India.
+		Formatted address: Bioclues Organization
+		Output address: Bioclues Organization
+	Author: Madduru
+		Input address: Bioclues Organization, IKP Knowledge Park, Picket, Secunderabad, India.
+		Formatted address: Bioclues Organization
+		Output address: Bioclues Organization
+	Author: Pappu
+		Input address: Bioclues Organization, IKP Knowledge Park, Picket, Secunderabad, India.
+		Formatted address: Bioclues Organization
+		Output address: Bioclues Organization
+	Author: Panchangam
+		Input address: Bioclues Organization, IKP Knowledge Park, Picket, Secunderabad, India.
+		Formatted address: Bioclues Organization
+		Output address: Bioclues Organization
+	Author: Suravajhala
+		Input address: Bioclues Organization, IKP Knowledge Park, Picket, Secunderabad, India.
+		Formatted address: Bioclues Organization
+		Output address: Bioclues Organization
+	Author: Chandrasekharan
+		Input address: Bioclues Organization, IKP Knowledge Park, Picket, Secunderabad, India.
+		Formatted address: Bioclues Organization
+		Output address: Bioclues Organization
+
+PMID: 23235920
+	Author: Bare
+	Author: Baliga
+
+PMID: 24911500
+	Author: Galdzicki
+		Input address: Biomedical and Health Informatics, University of Washington, Seattle, Washington, USA.
+		Formatted address: Biomedical and Health Informatics
+		Output address: Department of Biomedical Informatics
+	Author: Clancy
+		Input address: Synthetic Biology Unit, Life Technologies, Carlsbad, California, USA.
+		Formatted address: Synthetic Biology Unit
+		Output address: Integrated Database Unit, ACCC RIKEN Institute (formerly BASE Division)
+	Author: Oberortner
+		Input address: Department of Electrical and Computer Engineering, Boston University, Boston, Massachusetts, USA.
+		Formatted address: Boston University
+		Output address: Boston University
+	Author: Pocock
+		Input address: School of Computing Science, Newcastle University, Newcastle upon Tyne, UK.
+		Formatted address: School of Computing Science
+		Output address: School of Computer Science and IT
+	Author: Quinn
+		Input address: Autodesk Research, Autodesk, San Francisco, California, USA.
+		Formatted address: Autodesk Research
+		Output address: BKF-Schule GmbH
+	Author: Rodriguez
+		Input address: Autodesk Research, Autodesk, San Francisco, California, USA.
+		Formatted address: Autodesk Research
+		Output address: BKF-Schule GmbH
+	Author: Roehner
+		Input address: Bioengineering, University of Utah, Salt Lake City, Utah, USA.
+		Formatted address: Bioengineering
+		Output address: Department of Bioengineering
+	Author: Wilson
+		Input address: Virginia Bioinformatics Institute, Virginia Tech, Blacksburg, Virginia, USA.
+		Formatted address: Virginia Bioinformatics Institute
+		Output address: Virginia Bioinformatics Institute
+	Author: Adam
+		Input address: Virginia Bioinformatics Institute, Virginia Tech, Blacksburg, Virginia, USA.
+		Formatted address: Virginia Bioinformatics Institute
+		Output address: Virginia Bioinformatics Institute
+	Author: Anderson
+		Input address: Department of Bioengineering, University of California, Berkeley, Berkeley, California, USA.
+		Formatted address: University of California
+		Output address: University of California Irvine
+	Author: Bartley
+		Input address: Department of Bioengineering, University of Washington, Seattle, Washington, USA.
+		Formatted address: University of Washington
+		Output address: University of Washington
+	Author: Beal
+		Input address: Raytheon BBN Technologies, Cambridge, Massachusetts, USA.
+		Formatted address: Raytheon BBN Technologies
+		Output address: Raytheon BBN Technologies
+	Author: Chandran
+		Input address: Autodesk Research, Autodesk, San Francisco, California, USA.
+		Formatted address: Autodesk Research
+		Output address: BKF-Schule GmbH
+	Author: Chen
+		Input address: Fuels Synthesis Division, Joint Bioenergy Institute (JBEI), Berkeley, California, USA.
+		Formatted address: Fuels Synthesis Division
+		Output address: Bill Estes Chevrolet
+	Author: Densmore
+		Input address: Department of Electrical and Computer Engineering, Boston University, Boston, Massachusetts, USA.
+		Formatted address: Boston University
+		Output address: Boston University
+	Author: Endy
+		Input address: Department of Bioengineering, Stanford University, Stanford, California, USA.
+		Formatted address: Stanford University
+		Output address: Stanford University
+	Author: Grünberg
+		Input address: IRIC, University of Montreal, Montreal, Quebec, Canada.
+		Formatted address: IRIC
+		Output address: IRIC
+	Author: Hallinan
+		Input address: School of Computing Science, Newcastle University, Newcastle upon Tyne, UK.
+		Formatted address: School of Computing Science
+		Output address: School of Computer Science and IT
+	Author: Hillson
+		Input address: Fuels Synthesis Division, Joint Bioenergy Institute (JBEI), Berkeley, California, USA.
+		Formatted address: Fuels Synthesis Division
+		Output address: Bill Estes Chevrolet
+	Author: Johnson
+		Input address: Plant and Microbial Biology, University of California, Berkeley, Berkeley, California, USA.
+		Formatted address: Plant and Microbial Biology
+		Output address: Department of Plant and Microbial Biology
+	Author: Kuchinsky
+		Input address: Molecular Tools Laboratory, Agilent Technologies, Santa Clara, California, USA.
+		Formatted address: Molecular Tools Laboratory
+		Output address: Avidity, LLC
+	Author: Lux
+		Input address: Virginia Bioinformatics Institute, Virginia Tech, Blacksburg, Virginia, USA.
+		Formatted address: Virginia Bioinformatics Institute
+		Output address: Virginia Bioinformatics Institute
+	Author: Misirli
+		Input address: School of Computing Science, Newcastle University, Newcastle upon Tyne, UK.
+		Formatted address: School of Computing Science
+		Output address: School of Computer Science and IT
+	Author: Peccoud
+		Input address: Virginia Bioinformatics Institute, Virginia Tech, Blacksburg, Virginia, USA.
+		Formatted address: Virginia Bioinformatics Institute
+		Output address: Virginia Bioinformatics Institute
+	Author: Plahar
+		Input address: Fuels Synthesis Division, Joint Bioenergy Institute (JBEI), Berkeley, California, USA.
+		Formatted address: Fuels Synthesis Division
+		Output address: Bill Estes Chevrolet
+	Author: Sirin
+		Input address: Clark & Parsia, Arlington, Massachusetts, USA.
+		Formatted address: Clark & Parsia
+		Output address: Clark & Parsia LLC
+	Author: Stan
+		Input address: Bioengineering, Imperial College London, London, UK.
+		Formatted address: Bioengineering
+		Output address: Department of Bioengineering
+	Author: Villalobos
+		Input address: DNA2.0, Menlo Park, California, USA.
+		Formatted address: DNA2.0
+		Output address: DNA2.0
+	Author: Wipat
+		Input address: School of Computing Science, Newcastle University, Newcastle upon Tyne, UK.
+		Formatted address: School of Computing Science
+		Output address: School of Computer Science and IT
+	Author: Gennari
+		Input address: Biomedical and Health Informatics, University of Washington, Seattle, Washington, USA.
+		Formatted address: Biomedical and Health Informatics
+		Output address: Department of Biomedical Informatics
+	Author: Myers
+		Input address: Department of Electrical and Computer Engineering, University of Utah, Salt Lake City, Utah, USA.
+		Formatted address: University of Utah
+		Output address: The University of Utah
+	Author: Sauro
+		Input address: Department of Bioengineering, University of Washington, Seattle, Washington, USA.
+		Formatted address: University of Washington
+		Output address: University of Washington
+
+PMID: 25399588
+	Author: Henderson
+		Input address: *Department of Microbial Diseases, UCL Eastman Dental Institute, 256 Gray's Inn Road, London WC1X 8LD, U.K.
+		Formatted address: UCL Eastman Dental Institute
+		Output address: UCL Eastman Dental Institute
+	Author: Martin
+		Input address: †Biomolecular Structure and Modelling Unit, Institute of Structural and Molecular Biology, Research Department of Structural and Molecular Biology, Division of Biosciences, University College London, Gower Street, London WC1E 6BT, U.K.
+		Formatted address: †Biomolecular Structure and Modelling Unit
+		Output address: jpr
+
+PMID: 25726450
+	Author: Thornton
+		Input address: European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton CB10 1SD, UK. Electronic address: info@acmedsci.ac.uk.
+		Formatted address: European Bioinformatics Institute (EMBL-EBI)
+		Output address: NONE
+
+PMID: 25368426
+	Author: Shekhar
+		Input address: Cytoskeleton Dynamics and Motility Group, LEBS, CNRS, 91190 Gif-sur-Yvette, France Cytoskeleton Dynamics and Motility Group, LEBS, CNRS, 91190 Gif-sur-Yvette, France shekhar@lebs.cnrs-gif.fr.
+		Formatted address: Cytoskeleton Dynamics and Motility Group
+		Output address: NONE
+	Author: Zhu
+		Input address: Cytoskeleton Dynamics and Motility Group, LEBS, CNRS, 91190 Gif-sur-Yvette, France Marine Biological Laboratory, Woods Hole, MA 02543.
+		Formatted address: Cytoskeleton Dynamics and Motility Group
+		Output address: NONE
+	Author: Mazutis
+		Input address: Cytoskeleton Dynamics and Motility Group, LEBS, CNRS, 91190 Gif-sur-Yvette, France Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544.
+		Formatted address: Cytoskeleton Dynamics and Motility Group
+		Output address: NONE
+	Author: Sgro
+		Input address: Cytoskeleton Dynamics and Motility Group, LEBS, CNRS, 91190 Gif-sur-Yvette, France Department of Physics, Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544.
+		Formatted address: Cytoskeleton Dynamics and Motility Group
+		Output address: NONE
+	Author: Fai
+		Input address: Cytoskeleton Dynamics and Motility Group, LEBS, CNRS, 91190 Gif-sur-Yvette, France School of Engineering and Applied Sciences, Harvard University, Cambridge, MA 02138.
+		Formatted address: Cytoskeleton Dynamics and Motility Group
+		Output address: NONE
+	Author: Podolski
+		Input address: Cytoskeleton Dynamics and Motility Group, LEBS, CNRS, 91190 Gif-sur-Yvette, France Courant Institute of Mathematical Sciences, New York University, New York, NY 10012.
+		Formatted address: Cytoskeleton Dynamics and Motility Group
+		Output address: NONE
+
+PMID: 24591509
+	Author: Spell
+		Input address: Emory University, Atlanta, GA 30322 Flinders University, Adelaide, SA 5001, Australia.
+		Formatted address: Emory University
+		Output address: Emory University
+	Author: Guinan
+	Author: Miller
+	Author: Beck
+
+PMID: 24565608
+	Author: Vetter
+		Input address: SynthSys - Centre for Synthetic and Systems Biology, School of Biological Sciences, University of Edinburgh, UK. Electronic address: Beatrice.Vetter@ed.ac.uk.
+		Formatted address: SynthSys - Centre for Synthetic and Systems Biology
+		Output address: （株）ニュートリノ 仙台営業所
+	Author: Pantidos
+		Input address: SynthSys - Centre for Synthetic and Systems Biology, School of Biological Sciences, University of Edinburgh, UK.
+		Formatted address: SynthSys - Centre for Synthetic and Systems Biology
+		Output address: （株）ニュートリノ 仙台営業所
+	Author: Edmundson
+		Input address: SynthSys - Centre for Synthetic and Systems Biology, School of Biological Sciences, University of Edinburgh, UK.
+		Formatted address: SynthSys - Centre for Synthetic and Systems Biology
+		Output address: （株）ニュートリノ 仙台営業所
+
+PMID: 25123304
+	Author: Brunschweiger
+		Input address: Fakultät Chemie - Chemische Biologie, Technische Universität Dortmund , Otto-Hahn-Str. 6, 44227 Dortmund, Germany.
+		Formatted address: Fakultät Chemie - Chemische Biologie
+		Output address: NONE
+
+PMID: 25185235
+	Author: Speth
+		Input address: *Biology Department, Saint Louis University, St. Louis, MO 63103 espeth@slu.edu.
+		Formatted address: Saint Louis University
+		Output address: Saint Louis University
+	Author: Shaw
+		Input address: School of Medicine, Saint Louis University, St. Louis, MO 63104.
+		Formatted address: School of Medicine
+		Output address: Emory University: School of Medicine
+	Author: Momsen
+		Input address: Department of Biological Sciences, North Dakota State University, Fargo, ND 58108.
+		Formatted address: North Dakota State University
+		Output address: North Dakota State University
+	Author: Reinagel
+		Input address: *Biology Department, Saint Louis University, St. Louis, MO 63103.
+		Formatted address: Saint Louis University
+		Output address: Saint Louis University
+	Author: Le
+		Input address: Biology Department, Southern Illinois University-Edwardsville, Edwardsville, IL 62026.
+		Formatted address: Southern Illinois University-Edwardsville
+		Output address: Southern Illinois University Edwardsville
+	Author: Taqieddin
+		Input address: *Biology Department, Saint Louis University, St. Louis, MO 63103.
+		Formatted address: Saint Louis University
+		Output address: Saint Louis University
+	Author: Long
+		Input address: Department of Plant Biology, Michigan State University, East Lansing, MI 48824.
+		Formatted address: Michigan State University
+		Output address: Michigan State University
+
+PMID: 24528503
+	Author: Kongsbak
+		Input address: Division of Toxicology and Risk Assessment, National Food Institute, Technical University of Denmark, Søborg, Denmark
+		Formatted address: Division of Toxicology and Risk Assessment
+		Output address: NONE
+		Input address:  Department for Systems Biology, Centre for Biological Sequence Analysis, Technical University of Denmark, Kgs. Lyngby, Denmark.
+		Formatted address: Centre for Biological Sequence Analysis
+		Output address: Kings Place
+	Author: Hadrup
+	Author: Audouze
+	Author: Vinggaard
+
+PMID: 24948140
+	Author: Padilla
+		Input address: *Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY 11794-5245, USA
+		Formatted address: Stony Brook University
+		Output address: Stony Brook University
+		Input address:  Department of Biology, California State University, Fresno, CA 93740, USA Dianna.Padilla@stonybrook.edu.
+		Formatted address: California State University
+		Output address: California State University Los Angeles
+	Author: Tsukimura
+		Input address: *Department of Ecology and Evolution, Stony Brook University, Stony Brook, NY 11794-5245, USA
+		Formatted address: Stony Brook University
+		Output address: Stony Brook University
+		Input address:  Department of Biology, California State University, Fresno, CA 93740, USA.
+		Formatted address: California State University
+		Output address: California State University Los Angeles
+
+PMID: 25168014
+	Author: Gambarotto
+		Input address: IHPST, 13, Rue du four, 75006 Paris, France. Electronic address: andrea.gambarotto@gmail.com.
+		Formatted address: IHPST
+		Output address: NONE
+
+PMID: 24829281
+	Author: Goers
+		Input address: Department of Life Sciences, Imperial College London, South Kensington Campus, London SW7 2AZ, UK Centre for Synthetic Biology and Innovation, Imperial College London, South Kensington Campus, London SW7 2AZ, UK.
+		Formatted address: Imperial College London
+		Output address: Imperial College
+	Author: Freemont
+		Input address: Department of Life Sciences, Imperial College London, South Kensington Campus, London SW7 2AZ, UK Centre for Synthetic Biology and Innovation, Imperial College London, South Kensington Campus, London SW7 2AZ, UK p.freemont@imperial.ac.uk.
+		Formatted address: Imperial College London
+		Output address: Imperial College
+	Author: Polizzi
+		Input address: Department of Life Sciences, Imperial College London, South Kensington Campus, London SW7 2AZ, UK Centre for Synthetic Biology and Innovation, Imperial College London, South Kensington Campus, London SW7 2AZ, UK k.polizzi@imperial.ac.uk.
+		Formatted address: Imperial College London
+		Output address: Imperial College
+
+PMID: 24567493
+	Author: DePaoli
+		Input address: BioSciences Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831-6422, USA.
+		Formatted address: BioSciences Division
+		Output address: NONE
+	Author: Borland
+		Input address: BioSciences Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831-6422, USA School of Biology, Newcastle University, Newcastle Upon Tyne, NE1 7RU, UK.
+		Formatted address: BioSciences Division
+		Output address: NONE
+	Author: Tuskan
+		Input address: BioSciences Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831-6422, USA.
+		Formatted address: BioSciences Division
+		Output address: NONE
+	Author: Cushman
+		Input address: Department of Biochemistry and Molecular Biology, MS330, University of Nevada, Reno, NV 89557-0330, USA.
+		Formatted address: MS330
+		Output address: 斯立普科技有限公司
+	Author: Yang
+		Input address: BioSciences Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831-6422, USA yangx@ornl.gov.
+		Formatted address: BioSciences Division
+		Output address: NONE
+
+PMID: 25644272
+	Author: Karp
+		Input address: International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department of Mathematics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA, Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Saarbruecken, Germany, Hebrew University & Institute of Advanced Studies, Jerusalem, Israel, Center for Systems Biology, Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA, Department of Immunology and Infectious Disease, Harvard School of Public Health, Cambridge, MA, USA, Broad Institute of Harvard and MIT, Cambridge, MA, USA, Sheffield Institute for Translational Neuroscience, Harvard School of Public Health, Boston, MA, USA, Department of Informatics, Bioinformatics & Computational Biology, TUM, Munich, Germany and Department of Biochemistry & Molecular Biophysics, Columbia University, New York, NY, USA International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department of Mathematics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA, Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Saarbruecken, Germany, Hebrew University & Institute of Advanced Studies, Jerusalem, Israel, Center for Systems Biology, Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA, Department of Immunology and Infectious Disease, Harvard School of Public Health, Cambridge, MA, USA, Broad Institute of Harvard and MIT, Cambridge, MA, USA, Sheffield Institute for Translational Neuroscience, Harvard School of Public Health, Boston, MA, USA, Department of Informatics, Bioinformatics & Computational Biology, TUM, Munich, Germany and Department of Biochemistry & Molecular Biophysics, Columbia University, New York, NY, USA.
+		Formatted address: International Society for Computational Biology
+		Output address: オックスフォードジャーナル
+	Author: Berger
+		Input address: International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department of Mathematics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA, Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Saarbruecken, Germany, Hebrew University & Institute of Advanced Studies, Jerusalem, Israel, Center for Systems Biology, Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA, Department of Immunology and Infectious Disease, Harvard School of Public Health, Cambridge, MA, USA, Broad Institute of Harvard and MIT, Cambridge, MA, USA, Sheffield Institute for Translational Neuroscience, Harvard School of Public Health, Boston, MA, USA, Department of Informatics, Bioinformatics & Computational Biology, TUM, Munich, Germany and Department of Biochemistry & Molecular Biophysics, Columbia University, New York, NY, USA International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department of Mathematics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA, Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Saarbruecken, Germany, Hebrew University & Institute of Advanced Studies, Jerusalem, Israel, Center for Systems Biology, Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA, Department of Immunology and Infectious Disease, Harvard School of Public Health, Cambridge, MA, USA, Broad Institute of Harvard and MIT, Cambridge, MA, USA, Sheffield Institute for Translational Neuroscience, Harvard School of Public Health, Boston, MA, USA, Department of Informatics, Bioinformatics & Computational Biology, TUM, Munich, Germany and Department of Biochemistry & Molecular Biophysics, Columbia University, New York, NY, USA.
+		Formatted address: International Society for Computational Biology
+		Output address: オックスフォードジャーナル
+	Author: Kovats
+		Input address: International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department of Mathematics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA, Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Saarbruecken, Germany, Hebrew University & Institute of Advanced Studies, Jerusalem, Israel, Center for Systems Biology, Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA, Department of Immunology and Infectious Disease, Harvard School of Public Health, Cambridge, MA, USA, Broad Institute of Harvard and MIT, Cambridge, MA, USA, Sheffield Institute for Translational Neuroscience, Harvard School of Public Health, Boston, MA, USA, Department of Informatics, Bioinformatics & Computational Biology, TUM, Munich, Germany and Department of Biochemistry & Molecular Biophysics, Columbia University, New York, NY, USA.
+		Formatted address: International Society for Computational Biology
+		Output address: オックスフォードジャーナル
+	Author: Lengauer
+		Input address: International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department of Mathematics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA, Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Saarbruecken, Germany, Hebrew University & Institute of Advanced Studies, Jerusalem, Israel, Center for Systems Biology, Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA, Department of Immunology and Infectious Disease, Harvard School of Public Health, Cambridge, MA, USA, Broad Institute of Harvard and MIT, Cambridge, MA, USA, Sheffield Institute for Translational Neuroscience, Harvard School of Public Health, Boston, MA, USA, Department of Informatics, Bioinformatics & Computational Biology, TUM, Munich, Germany and Department of Biochemistry & Molecular Biophysics, Columbia University, New York, NY, USA International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department of Mathematics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA, Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Saarbruecken, Germany, Hebrew University & Institute of Advanced Studies, Jerusalem, Israel, Center for Systems Biology, Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA, Department of Immunology and Infectious Disease, Harvard School of Public Health, Cambridge, MA, USA, Broad Institute of Harvard and MIT, Cambridge, MA, USA, Sheffield Institute for Translational Neuroscience, Harvard School of Public Health, Boston, MA, USA, Department of Informatics, Bioinformatics & Computational Biology, TUM, Munich, Germany and Department of Biochemistry & Molecular Biophysics, Columbia University, New York, NY, USA.
+		Formatted address: International Society for Computational Biology
+		Output address: オックスフォードジャーナル
+	Author: Linial
+		Input address: International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department of Mathematics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA, Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Saarbruecken, Germany, Hebrew University & Institute of Advanced Studies, Jerusalem, Israel, Center for Systems Biology, Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA, Department of Immunology and Infectious Disease, Harvard School of Public Health, Cambridge, MA, USA, Broad Institute of Harvard and MIT, Cambridge, MA, USA, Sheffield Institute for Translational Neuroscience, Harvard School of Public Health, Boston, MA, USA, Department of Informatics, Bioinformatics & Computational Biology, TUM, Munich, Germany and Department of Biochemistry & Molecular Biophysics, Columbia University, New York, NY, USA International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department of Mathematics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA, Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Saarbruecken, Germany, Hebrew University & Institute of Advanced Studies, Jerusalem, Israel, Center for Systems Biology, Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA, Department of Immunology and Infectious Disease, Harvard School of Public Health, Cambridge, MA, USA, Broad Institute of Harvard and MIT, Cambridge, MA, USA, Sheffield Institute for Translational Neuroscience, Harvard School of Public Health, Boston, MA, USA, Department of Informatics, Bioinformatics & Computational Biology, TUM, Munich, Germany and Department of Biochemistry & Molecular Biophysics, Columbia University, New York, NY, USA.
+		Formatted address: International Society for Computational Biology
+		Output address: オックスフォードジャーナル
+	Author: Sabeti
+		Input address: International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department of Mathematics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA, Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Saarbruecken, Germany, Hebrew University & Institute of Advanced Studies, Jerusalem, Israel, Center for Systems Biology, Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA, Department of Immunology and Infectious Disease, Harvard School of Public Health, Cambridge, MA, USA, Broad Institute of Harvard and MIT, Cambridge, MA, USA, Sheffield Institute for Translational Neuroscience, Harvard School of Public Health, Boston, MA, USA, Department of Informatics, Bioinformatics & Computational Biology, TUM, Munich, Germany and Department of Biochemistry & Molecular Biophysics, Columbia University, New York, NY, USA International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department of Mathematics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA, Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Saarbruecken, Germany, Hebrew University & Institute of Advanced Studies, Jerusalem, Israel, Center for Systems Biology, Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA, Department of Immunology and Infectious Disease, Harvard School of Public Health, Cambridge, MA, USA, Broad Institute of Harvard and MIT, Cambridge, MA, USA, Sheffield Institute for Translational Neuroscience, Harvard School of Public Health, Boston, MA, USA, Department of Informatics, Bioinformatics & Computational Biology, TUM, Munich, Germany and Department of Biochemistry & Molecular Biophysics, Columbia University, New York, NY, USA International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department o
+		Formatted address: International Society for Computational Biology
+		Output address: オックスフォードジャーナル
+	Author: Hide
+		Input address: International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department of Mathematics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA, Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Saarbruecken, Germany, Hebrew University & Institute of Advanced Studies, Jerusalem, Israel, Center for Systems Biology, Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA, Department of Immunology and Infectious Disease, Harvard School of Public Health, Cambridge, MA, USA, Broad Institute of Harvard and MIT, Cambridge, MA, USA, Sheffield Institute for Translational Neuroscience, Harvard School of Public Health, Boston, MA, USA, Department of Informatics, Bioinformatics & Computational Biology, TUM, Munich, Germany and Department of Biochemistry & Molecular Biophysics, Columbia University, New York, NY, USA.
+		Formatted address: International Society for Computational Biology
+		Output address: オックスフォードジャーナル
+	Author: Rost
+		Input address: International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department of Mathematics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA, Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Saarbruecken, Germany, Hebrew University & Institute of Advanced Studies, Jerusalem, Israel, Center for Systems Biology, Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA, Department of Immunology and Infectious Disease, Harvard School of Public Health, Cambridge, MA, USA, Broad Institute of Harvard and MIT, Cambridge, MA, USA, Sheffield Institute for Translational Neuroscience, Harvard School of Public Health, Boston, MA, USA, Department of Informatics, Bioinformatics & Computational Biology, TUM, Munich, Germany and Department of Biochemistry & Molecular Biophysics, Columbia University, New York, NY, USA International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department of Mathematics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA, Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Saarbruecken, Germany, Hebrew University & Institute of Advanced Studies, Jerusalem, Israel, Center for Systems Biology, Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA, USA, Department of Immunology and Infectious Disease, Harvard School of Public Health, Cambridge, MA, USA, Broad Institute of Harvard and MIT, Cambridge, MA, USA, Sheffield Institute for Translational Neuroscience, Harvard School of Public Health, Boston, MA, USA, Department of Informatics, Bioinformatics & Computational Biology, TUM, Munich, Germany and Department of Biochemistry & Molecular Biophysics, Columbia University, New York, NY, USA International Society for Computational Biology, La Jolla, CA, USA, SRI International, Menlo Park, CA, USA, Department o
+		Formatted address: International Society for Computational Biology
+		Output address: オックスフォードジャーナル
+
+PMID: 25571749
+	Author: Knuuttila
+		Input address: University of South Carolina, Department of Philosophy, Columbia, SC, USA. tarja.knuuttila@helsinki.fi
+		Formatted address: University of South Carolina
+		Output address: University of South Carolina
+	Author: Loettgers
+
+PMID: 24681407
+	Author: Edmundson
+		Input address: School of Biological Sciences, University of Edinburgh, Edinburgh EH9 3JR, UK. Electronic address: medmunds@staffmail.ed.ac.uk.
+		Formatted address: School of Biological Sciences
+		Output address: School of Biological Sciences
+	Author: Capeness
+		Input address: School of Biological Sciences, University of Edinburgh, Edinburgh EH9 3JR, UK.
+		Formatted address: School of Biological Sciences
+		Output address: School of Biological Sciences
+	Author: Horsfall
+		Input address: School of Biological Sciences, University of Edinburgh, Edinburgh EH9 3JR, UK. Electronic address: louise.horsfall@ed.ac.uk.
+		Formatted address: School of Biological Sciences
+		Output address: School of Biological Sciences
+
+PMID: 24935989
+	Author: Zamer
+		Input address: Biological Sciences Directorate, National Science Foundation, 4201 Wilson Boulevard, Arlington, VA 22230, USA wzamer@nsf.gov.
+		Formatted address: Biological Sciences Directorate
+		Output address: NONE
+	Author: Scheiner
+		Input address: Biological Sciences Directorate, National Science Foundation, 4201 Wilson Boulevard, Arlington, VA 22230, USA.
+		Formatted address: Biological Sciences Directorate
+		Output address: NONE
+
+PMID: 25175428
+	Author: Rangel-Castilla
+		Input address: Division of Neurological Surgery, Barrow Neurological Institute, St. Joseph's Hospital and Medical Center, Phoenix, Arizona.
+		Formatted address: Division of Neurological Surgery
+		Output address: Division of Neurosurgery: Nosko Michael MD
+	Author: Russin
+	Author: Martinez-Del-Campo
+	Author: Soriano-Baron
+	Author: Spetzler
+	Author: Nakaji
+
+PMID: 24156739
+	Author: Agapakis
+		Input address: Department of Molecular, Cell and Developmental Biology and Art | Science Center, University of California, Los Angeles , Los Angeles, California 90095, United States of America.
+		Formatted address: Cell and Developmental Biology and Art | Science Center
+		Output address: China Xibao Shengwuxue Academy
+
+PMID: 24365950
+	Author: Wilmanns
+		Input address: European Molecular Biology Laboratory, Notkestrasse 85, D-22603 Hamburg, Germany.
+		Formatted address: European Molecular Biology Laboratory
+		Output address: EMBL Heidelberg
+	Author: Svergun
+		Input address: European Molecular Biology Laboratory, Notkestrasse 85, D-22603 Hamburg, Germany.
+		Formatted address: European Molecular Biology Laboratory
+		Output address: EMBL Heidelberg
+
+PMID: 25428375
+	Author: Rose
+		Input address: RCSB Protein Data Bank, San Diego Supercomputer Center, University of California San Diego, La Jolla, CA 92093, USA pwrose@ucsd.edu.
+		Formatted address: RCSB Protein Data Bank
+		Output address: (주)엔솔테크
+	Author: Prlić
+		Input address: RCSB Protein Data Bank, San Diego Supercomputer Center, University of California San Diego, La Jolla, CA 92093, USA.
+		Formatted address: RCSB Protein Data Bank
+		Output address: (주)엔솔테크
+	Author: Bi
+		Input address: RCSB Protein Data Bank, San Diego Supercomputer Center, University of California San Diego, La Jolla, CA 92093, USA.
+		Formatted address: RCSB Protein Data Bank
+		Output address: (주)엔솔테크
+	Author: Bluhm
+		Input address: RCSB Protein Data Bank, San Diego Supercomputer Center, University of California San Diego, La Jolla, CA 92093, USA.
+		Formatted address: RCSB Protein Data Bank
+		Output address: (주)엔솔테크
+	Author: Christie
+		Input address: RCSB Protein Data Bank, San Diego Supercomputer Center, University of California San Diego, La Jolla, CA 92093, USA.
+		Formatted address: RCSB Protein Data Bank
+		Output address: (주)엔솔테크
+	Author: Dutta
+		Input address: RCSB Protein Data Bank, Department of Chemistry and Chemical Biology and Center for Integrative Proteomics Research, Rutgers, The State University of New Jersey, Piscataway, NJ 08854, USA.
+		Formatted address: RCSB Protein Data Bank
+		Output address: (주)엔솔테크
+	Author: Green
+		Input address: RCSB Protein Data Bank, Department of Chemistry and Chemical Biology and Center for Integrative Proteomics Research, Rutgers, The State University of New Jersey, Piscataway, NJ 08854, USA.
+		Formatted address: RCSB Protein Data Bank
+		Output address: (주)엔솔테크
+	Author: Goodsell
+		Input address: Department of Molecular Biology, The Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, CA 92037, USA.
+		Formatted address: The Scripps Research Institute
+		Output address: The Scripps Research Institute
+	Author: Westbrook
+		Input address: RCSB Protein Data Bank, Department of Chemistry and Chemical Biology and Center for Integrative Proteomics Research, Rutgers, The State University of New Jersey, Piscataway, NJ 08854, USA.
+		Formatted address: RCSB Protein Data Bank
+		Output address: (주)엔솔테크
+	Author: Woo
+		Input address: RCSB Protein Data Bank, San Diego Supercomputer Center, University of California San Diego, La Jolla, CA 92093, USA.
+		Formatted address: RCSB Protein Data Bank
+		Output address: (주)엔솔테크
+	Author: Young
+		Input address: RCSB Protein Data Bank, Department of Chemistry and Chemical Biology and Center for Integrative Proteomics Research, Rutgers, The State University of New Jersey, Piscataway, NJ 08854, USA.
+		Formatted address: RCSB Protein Data Bank
+		Output address: (주)엔솔테크
+	Author: Zardecki
+		Input address: RCSB Protein Data Bank, Department of Chemistry and Chemical Biology and Center for Integrative Proteomics Research, Rutgers, The State University of New Jersey, Piscataway, NJ 08854, USA.
+		Formatted address: RCSB Protein Data Bank
+		Output address: (주)엔솔테크
+	Author: Berman
+		Input address: RCSB Protein Data Bank, Department of Chemistry and Chemical Biology and Center for Integrative Proteomics Research, Rutgers, The State University of New Jersey, Piscataway, NJ 08854, USA.
+		Formatted address: RCSB Protein Data Bank
+		Output address: (주)엔솔테크
+	Author: Bourne
+		Input address: RCSB Protein Data Bank, San Diego Supercomputer Center, University of California San Diego, La Jolla, CA 92093, USA Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, La Jolla, CA 92093, USA.
+		Formatted address: RCSB Protein Data Bank
+		Output address: (주)엔솔테크
+	Author: Burley
+		Input address: RCSB Protein Data Bank, San Diego Supercomputer Center, University of California San Diego, La Jolla, CA 92093, USA RCSB Protein Data Bank, Department of Chemistry and Chemical Biology and Center for Integrative Proteomics Research, Rutgers, The State University of New Jersey, Piscataway, NJ 08854, USA Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, La Jolla, CA 92093, USA sburley@proteomics.rutgers.edu.
+		Formatted address: RCSB Protein Data Bank
+		Output address: (주)엔솔테크
+
+PMID: 23765498
+	Author: Marx
+
+PMID: 23737628
+	Author: Manthey
+		Input address: Department of Teaching and Learning, Florida International University, Miami, FL 33199, USA. smanthey@fiu.edu
+		Formatted address: Florida International University
+		Output address: Florida International University
+	Author: Brewe
+
+PMID: 24315772
+	Author: Odenbaugh
+		Input address: Department of Philosophy, Lewis & Clark College, United States. Electronic address: jay@lclark.edu.
+		Formatted address: Lewis & Clark College
+		Output address: Lewis & Clark College
+
+PMID: 24216191
+	Author: Frank
+		Input address: Environmental Studies, Center for Bioethics, New York University, 285 Mercer St. #908, New York, NY 10003, United States. Electronic address: df81@nyu.edu.
+		Formatted address: Environmental Studies
+		Output address: High School for Environmental Studies
+
+PMID: 25515360
+	Author: Talcott
+
+PMID: 25745139
+	Author: Mervis
+
+PMID: 23281389
+	Author: Paul
+		Input address: Horticultural Science Department, University of Florida, Gainesville, Florida 32610, USA.
+		Formatted address: University of Florida
+		Output address: University of Florida Eastside Campus
+	Author: Wheeler
+	Author: Levine
+	Author: Ferl
+
+PMID: 24297290
+	Author: Smith
+		Input address: Holy Names University, Oakland, CA 94619 Northeastern University, Boston, MA 02115.
+		Formatted address: Holy Names University
+		Output address: Holy Names University
+	Author: Combs
+	Author: Nagami
+	Author: Alto
+	Author: Goh
+	Author: Gourdet
+	Author: Hough
+	Author: Nickell
+	Author: Peer
+	Author: Coley
+	Author: Tanner
+
+PMID: 24914164
+	Author: Gallat
+		Input address: Photon Factory, High Energy Accelerator Research Organization, 1-1 Oho, Tsukuba, Ibaraki 305-0801, Japan.
+		Formatted address: Photon Factory
+		Output address: Photon Factory
+	Author: Matsugaki
+		Input address: Photon Factory, High Energy Accelerator Research Organization, 1-1 Oho, Tsukuba, Ibaraki 305-0801, Japan.
+		Formatted address: Photon Factory
+		Output address: Photon Factory
+	Author: Coussens
+		Input address: National Center for Advancing Translational Sciences, National Institutes of Health, 9800 Medical Center Drive, Rockville, MD 20850, USA.
+		Formatted address: National Center for Advancing Translational Sciences
+		Output address: NONE
+	Author: Yagi
+		Input address: Department of Cell and Systems Biology, University of Toronto, Toronto, Canada M5S 3G5.
+		Formatted address: University of Toronto
+		Output address: University of Toronto - St. George Campus
+	Author: Boudes
+		Input address: Department of Biochemistry and Molecular Biology, Monash University, Building 76, Clayton, Victoria 3800, Australia.
+		Formatted address: Monash University
+		Output address: Monash University
+	Author: Higashi
+		Input address: Department of Medicinal Biotechnology, University of Tokushima, 1-78 Sho-machi Tokushima, Tokushima 770-8505, Japan.
+		Formatted address: University of Tokushima
+		Output address: University of Tokushima
+	Author: Tsuji
+		Input address: Department of Medicinal Biotechnology, University of Tokushima, 1-78 Sho-machi Tokushima, Tokushima 770-8505, Japan.
+		Formatted address: University of Tokushima
+		Output address: University of Tokushima
+	Author: Tatano
+		Input address: Deparment of Microbiology and Immunology, School of Medicine, Shimane University, Izumo, Shimane 693-8501, Japan.
+		Formatted address: Deparment of Microbiology and Immunology
+		Output address: Department of Microbiology and Immunology
+	Author: Suzuki
+		Input address: Institute for Protein Research, Osaka University, 3-2 Yamadaoka, Suita, Osaka 565-0871, Japan.
+		Formatted address: Institute for Protein Research
+		Output address: Centre for Research on the Function, Structure and Protein Engineering
+	Author: Mizohata
+		Input address: Division of Applied Chemistry, Graduate School of Engineering, Osaka University, 2-1 Yamadaoka, Suita, Osaka 565-0871, Japan.
+		Formatted address: Division of Applied Chemistry
+		Output address: Dept of Chemical Engineering
+	Author: Tono
+		Input address: Japan Synchrotron Radiation Research Institute, Kouto 1-1-1, Sayo, Hyogo 679-5198, Japan.
+		Formatted address: Japan Synchrotron Radiation Research Institute
+		Output address: （財）高輝度光科学研究センター ＳＰｒｉｎｇ−８利用業務部・共同利用問合わせ窓口
+	Author: Joti
+		Input address: Japan Synchrotron Radiation Research Institute, Kouto 1-1-1, Sayo, Hyogo 679-5198, Japan.
+		Formatted address: Japan Synchrotron Radiation Research Institute
+		Output address: （財）高輝度光科学研究センター ＳＰｒｉｎｇ−８利用業務部・共同利用問合わせ窓口
+	Author: Kameshima
+		Input address: Japan Synchrotron Radiation Research Institute, Kouto 1-1-1, Sayo, Hyogo 679-5198, Japan.
+		Formatted address: Japan Synchrotron Radiation Research Institute
+		Output address: （財）高輝度光科学研究センター ＳＰｒｉｎｇ−８利用業務部・共同利用問合わせ窓口
+	Author: Park
+		Input address: RIKEN SPring-8 Center, Kouto 1-1-1, Sayo, Hyogo 679-5148, Japan.
+		Formatted address: RIKEN SPring-8 Center
+		Output address: （財）高輝度光科学研究センター ＳＰｒｉｎｇ−８利用業務部・共同利用問合わせ窓口
+	Author: Song
+		Input address: RIKEN SPring-8 Center, Kouto 1-1-1, Sayo, Hyogo 679-5148, Japan.
+		Formatted address: RIKEN SPring-8 Center
+		Output address: （財）高輝度光科学研究センター ＳＰｒｉｎｇ−８利用業務部・共同利用問合わせ窓口
+	Author: Hatsui
+		Input address: RIKEN SPring-8 Center, Kouto 1-1-1, Sayo, Hyogo 679-5148, Japan.
+		Formatted address: RIKEN SPring-8 Center
+		Output address: （財）高輝度光科学研究センター ＳＰｒｉｎｇ−８利用業務部・共同利用問合わせ窓口
+	Author: Yabashi
+		Input address: RIKEN SPring-8 Center, Kouto 1-1-1, Sayo, Hyogo 679-5148, Japan.
+		Formatted address: RIKEN SPring-8 Center
+		Output address: （財）高輝度光科学研究センター ＳＰｒｉｎｇ−８利用業務部・共同利用問合わせ窓口
+	Author: Nango
+		Input address: RIKEN SPring-8 Center, Kouto 1-1-1, Sayo, Hyogo 679-5148, Japan.
+		Formatted address: RIKEN SPring-8 Center
+		Output address: （財）高輝度光科学研究センター ＳＰｒｉｎｇ−８利用業務部・共同利用問合わせ窓口
+	Author: Itoh
+		Input address: Department of Medicinal Biotechnology, University of Tokushima, 1-78 Sho-machi Tokushima, Tokushima 770-8505, Japan.
+		Formatted address: University of Tokushima
+		Output address: University of Tokushima
+	Author: Coulibaly
+		Input address: Department of Biochemistry and Molecular Biology, Monash University, Building 76, Clayton, Victoria 3800, Australia.
+		Formatted address: Monash University
+		Output address: Monash University
+	Author: Tobe
+		Input address: Department of Cell and Systems Biology, University of Toronto, Toronto, Canada M5S 3G5.
+		Formatted address: University of Toronto
+		Output address: University of Toronto - St. George Campus
+	Author: Ramaswamy
+		Input address: Institute for Stem Cell Biology and Regenerative Medicine, Bellary Road, Bangalore 560065, India.
+		Formatted address: Institute for Stem Cell Biology and Regenerative Medicine
+		Output address: Manipal Institute of Regenerative Medicine
+	Author: Stay
+		Input address: Department of Biology, University of Iowa, Iowa City, IA 52242, USA.
+		Formatted address: University of Iowa
+		Output address: The University of Iowa
+	Author: Iwata
+		Input address: RIKEN SPring-8 Center, Kouto 1-1-1, Sayo, Hyogo 679-5148, Japan s.iwata@mfour.med.kyoto-u.ac.jp.
+		Formatted address: RIKEN SPring-8 Center
+		Output address: （財）高輝度光科学研究センター ＳＰｒｉｎｇ−８利用業務部・共同利用問合わせ窓口
+	Author: Chavas
+		Input address: Photon Factory, High Energy Accelerator Research Organization, 1-1 Oho, Tsukuba, Ibaraki 305-0801, Japan Center for Free-Electron Laser science, Notkestrasse 85, Building 99, Hamburg 22607, Germany leonard.chavas@desy.de.
+		Formatted address: Photon Factory
+		Output address: Photon Factory
+
+PMID: 25318996
+	Author: Kennedy
+		Input address: Department of Pharmaceutical and Biomedical Sciences, College of Pharmacy, University of Georgia, 240 W. Green Street, Athens, GA 30602 (USA). ekennedy@uga.edu.
+		Formatted address: College of Pharmacy
+		Output address: The James L. Winkle College of Pharmacy
+
+PMID: 25457388
+	Author: Reijnders
+		Input address: Laboratory of Systems and Synthetic Biology, Wageningen University, Dreijenplein 10, Building number 316, 6703 HB Wageningen, The Netherlands.
+		Formatted address: Laboratory of Systems and Synthetic Biology
+		Output address: LBL
+	Author: van Heck
+		Input address: Laboratory of Systems and Synthetic Biology, Wageningen University, Dreijenplein 10, Building number 316, 6703 HB Wageningen, The Netherlands.
+		Formatted address: Laboratory of Systems and Synthetic Biology
+		Output address: LBL
+	Author: Lam
+		Input address: Laboratory of Systems and Synthetic Biology, Wageningen University, Dreijenplein 10, Building number 316, 6703 HB Wageningen, The Netherlands
+		Formatted address: Laboratory of Systems and Synthetic Biology
+		Output address: LBL
+		Input address:  LifeGlimmer GmbH, Markelstrasse 38, 12163 Berlin, Germany.
+		Formatted address: LifeGlimmer GmbH
+		Output address: LifeGlimmer GmbH
+	Author: Scaife
+		Input address: Department of Plant Sciences, University of Cambridge, Downing Street, Cambridge CB2 3EA, UK.
+		Formatted address: University of Cambridge
+		Output address: University of Cambridge
+	Author: dos Santos
+		Input address: Laboratory of Systems and Synthetic Biology, Wageningen University, Dreijenplein 10, Building number 316, 6703 HB Wageningen, The Netherlands
+		Formatted address: Laboratory of Systems and Synthetic Biology
+		Output address: LBL
+		Input address:  LifeGlimmer GmbH, Markelstrasse 38, 12163 Berlin, Germany.
+		Formatted address: LifeGlimmer GmbH
+		Output address: LifeGlimmer GmbH
+	Author: Smith
+		Input address: Department of Plant Sciences, University of Cambridge, Downing Street, Cambridge CB2 3EA, UK.
+		Formatted address: University of Cambridge
+		Output address: University of Cambridge
+	Author: Schaap
+		Input address: Laboratory of Systems and Synthetic Biology, Wageningen University, Dreijenplein 10, Building number 316, 6703 HB Wageningen, The Netherlands. Electronic address: peter.schaap@wur.nl.
+		Formatted address: Laboratory of Systems and Synthetic Biology
+		Output address: LBL
+
+PMID: 24728588
+	Author: Cvijovic
+		Input address: Department of Mathematical Sciences, Chalmers University of Technology and University of Gothenburg, Chalmers Tvärgata 3, 412 96, Göteborg, Sweden, marija.cvijovic@chalmers.se.
+		Formatted address: Chalmers University of Technology and University of Gothenburg
+		Output address: Chalmers University of Technology
+	Author: Almquist
+	Author: Hagmar
+	Author: Hohmann
+	Author: Kaltenbach
+	Author: Klipp
+	Author: Krantz
+	Author: Mendes
+	Author: Nelander
+	Author: Nielsen
+	Author: Pagnani
+	Author: Przulj
+	Author: Raue
+	Author: Stelling
+	Author: Stoma
+	Author: Tobin
+	Author: Wodke
+	Author: Zecchina
+	Author: Jirstrand
+
+PMID: 23585583
+	Author: Secrier
+	Author: Schneider
+
+PMID: 24591506
+	Author: Gutierrez
+		Input address: Education Department, Bulacan State University-Sarmiento Campus, City of San Jose del Monte, Bulacan 3023, Philippines.
+		Formatted address: Bulacan State University-Sarmiento Campus
+		Output address: NONE
+
+PMID: 26085823
+	Author: O'Malley
+		Input address: Department of Philosophy, University of Sydney, Sydney, Australia.
+		Formatted address: University of Sydney
+		Output address: The University of Sydney
+	Author: Soyer
+		Input address: School of Life Sciences, University of Warwick, Coventry, UK.
+		Formatted address: School of Life Sciences
+		Output address: School of Life Science Hamburg gGmbH
+	Author: Siegal
+		Input address: Department of Biology, Center for Genomics and Systems, Biology, New York University, New York, NY, USA.
+		Formatted address: Center for Genomics and Systems
+		Output address: NYU Center for Genomics and Systems Biology
+
+PMID: 25452490
+	Author: Sato
+		Input address: *Department of Molecular Biology and Biochemistry, University of California, Irvine, Irvine, CA 92697 bsato@uci.edu.
+		Formatted address: University of California
+		Output address: University of California Irvine
+	Author: Kadandale
+		Input address: *Department of Molecular Biology and Biochemistry, University of California, Irvine, Irvine, CA 92697.
+		Formatted address: University of California
+		Output address: University of California Irvine
+	Author: He
+		Input address: Department of Education, University of California, Irvine, Irvine, CA 92697.
+		Formatted address: University of California
+		Output address: University of California Irvine
+	Author: Murata
+		Input address: *Department of Molecular Biology and Biochemistry, University of California, Irvine, Irvine, CA 92697.
+		Formatted address: University of California
+		Output address: University of California Irvine
+	Author: Latif
+		Input address: *Department of Molecular Biology and Biochemistry, University of California, Irvine, Irvine, CA 92697.
+		Formatted address: University of California
+		Output address: University of California Irvine
+	Author: Warschauer
+		Input address: *Department of Molecular Biology and Biochemistry, University of California, Irvine, Irvine, CA 92697.
+		Formatted address: University of California
+		Output address: University of California Irvine
+
+PMID: 25592532
+	Author: Eccleston
+	Author: Gray
+	Author: Shadan
+	Author: Weiss
+
+PMID: 26056745
+	Author: Crowe
+		Input address: Department of History, University of North Carolina Wilmington, Wilmington, NC 28403, United States. Electronic address: crowen@uncw.edu.
+		Formatted address: University of North Carolina Wilmington
+		Output address: University of North Carolina Wilmington
+	Author: Dietrich
+		Input address: Department of Biological Sciences, Dartmouth College, Hanover, NH 03755, United States. Electronic address: Michael.Dietrich@dartmouth.edu.
+		Formatted address: Dartmouth College
+		Output address: Dartmouth College
+	Author: Alomepe
+		Input address: Department of Biological Sciences, Dartmouth College, Hanover, NH 03755, United States. Electronic address: Beverly.S.Alomepe.17@dartmouth.edu.
+		Formatted address: Dartmouth College
+		Output address: Dartmouth College
+	Author: Antrim
+		Input address: Department of Biological Sciences, Dartmouth College, Hanover, NH 03755, United States. Electronic address: Amelia.F.Antrim.14@dartmouth.edu.
+		Formatted address: Dartmouth College
+		Output address: Dartmouth College
+	Author: ByrneSim
+		Input address: Department of Biological Sciences, Dartmouth College, Hanover, NH 03755, United States. Electronic address: Bay.Lauris.ByrneSim.15@dartmouth.edu.
+		Formatted address: Dartmouth College
+		Output address: Dartmouth College
+	Author: He
+		Input address: Department of Biological Sciences, Dartmouth College, Hanover, NH 03755, United States. Electronic address: Yi.He.17@dartmouth.edu.
+		Formatted address: Dartmouth College
+		Output address: Dartmouth College
+
+PMID: 25292464
+	Author: Millar
+		Input address: Department of Integrative Structural & Computational Biology, The Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, CA 92037, USA. Electronic address: millar@scripps.edu.
+		Formatted address: The Scripps Research Institute
+		Output address: The Scripps Research Institute
+	Author: Trewhella
+		Input address: Deputy Vice-Chancellor (Research), The University of Sydney, Room 646, Jane Foss Russell Building G02, Sydney, NSW 2006, Australia. Electronic address: jill.trewhella@sydney.edu.au.
+		Formatted address: Deputy Vice-Chancellor (Research)
+		Output address: Office of the Deputy Vice Chancellor (Research & Innovation) UPM
+
+PMID: 23816689
+	Author: Preston
+		Input address: Department of Philosophy, University of Georgia, Athens, GA 30602-1627, USA. Electronic address: epreston@uga.edu.
+		Formatted address: University of Georgia
+		Output address: The University of Georgia
+
+PMID: 23872085
+	Author: Bose
+		Input address: Department of Biotechnology, Indian Institute of Technology Guwahati, Guwahati 781039, Assam, India. Electronic address: biplabbose@iitg.ernet.in.
+		Formatted address: Indian Institute of Technology Guwahati
+		Output address: Indian Institute of Technology Guwahati
+
+PMID: 25669094
+	Author: Sverdlov
+
+PMID: 24918915
+	Author: Mesquita
+	Author: Jorge
+	Author: Souza Junior
+	Author: Cassino
+
+PMID: 24377865
+	Author: Han
+		Input address: Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing 100101, China.
+		Formatted address: Institute of Genetics and Developmental Biology
+		Output address: Institute of Genetics And Developmental Biology Chinese Academy of Sciences
+	Author: Li
+		Input address: Institute of Opto-Electronic Materials and Technology, South China Normal University, Guangzhou 510631, China.
+		Formatted address: Institute of Opto- Materials and Technology
+		Output address: 深圳市锦冠辰贸易有限公司
+	Author: Fan
+		Input address: Institute of Opto-Electronic Materials and Technology, South China Normal University, Guangzhou 510631, China.
+		Formatted address: Institute of Opto- Materials and Technology
+		Output address: 深圳市锦冠辰贸易有限公司
+	Author: Jiang
+		Input address: Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing 100101, China. Electronic address: yqjiang@genetics.ac.cn.
+		Formatted address: Institute of Genetics and Developmental Biology
+		Output address: Institute of Genetics And Developmental Biology Chinese Academy of Sciences
+
+PMID: 25537028
+	Author: Lafanechère
+		Input address: Institut Albert Bonniot, CRI Inserm/UJF U823, département différenciation et transformation cellulaire, rond-point de la Chantourne, 38706 La Tronche Cedex, France.
+		Formatted address: Institut Albert Bonniot
+		Output address: Institut Albert Bonniot - Inserm U823
+	Author: Maréchal
+		Input address: UMR 5168 CNRS-CEA-INRA-Université Grenoble Alpes, institut de recherches en technologies et sciences pour le vivant, CEA-Grenoble, 17, rue des Martyrs, 38054 Grenoble Cedex 9, France.
+		Formatted address: UMR 5168 CNRS-CEA-INRA-Université Grenoble Alpes
+		Output address: NONE
+	Author: Guillemot
+		Input address: AFMB (architecture et fonction des macromolécules biologiques), Polytech-Marseille, Campus de Luminy, 13288 Marseille Cedex 09, France.
+		Formatted address: AFMB (architecture et fonction des macromolécules biologiques)
+		Output address: AFMB : Laboratoire Architecture et Fonction des Macromolécules Biologiques
+
+PMID: 25307206
+	Author: Jones
+		Input address: Worldwide Medicinal Chemistry, Pfizer BioTherapeutics Chemistry, Cambridge, MA, USA. Electronic address: Lyn.Jones@pfizer.com.
+		Formatted address: Worldwide Medicinal Chemistry
+		Output address: NONE
+	Author: Heinis
+		Input address: Laboratory of Therapeutic Proteins and Peptides (LPPT), École Polytechnique Fédérale de Lausanne (EPFL), BCH 5305 (Bâtochime), Lausanne CH-1015, Switzerland. Electronic address: christian.heinis@epfl.ch.
+		Formatted address: Laboratory of Therapeutic Proteins and Peptides (LPPT)
+		Output address: NONE
+
+PMID: 24006396
+	Author: Kalinowski
+		Input address: Department of Ecology, Montana State University, Bozeman, MT 59717, USA. skalinowski@montana.edu
+		Formatted address: Montana State University
+		Output address: Montana State University
+	Author: Leonard
+	Author: Andrews
+	Author: Litt
+
+PMID: 24945217
+	Author: Rosania
+
+PMID: 24875755
+	Author: Viney
+		Input address: School of Biological Sciences, University of Bristol, Woodland Road, Bristol, BS8 1UG, UK. Electronic address: Mark.Viney@bristol.ac.uk.
+		Formatted address: School of Biological Sciences
+		Output address: School of Biological Sciences
+
+PMID: 24502956
+	Author: Cook
+		Input address: School of Life Sciences, University of Warwick, Gibbet Hill Campus, Coventry CV4 7AL, UK.
+		Formatted address: School of Life Sciences
+		Output address: School of Life Science Hamburg gGmbH
+	Author: Martin
+	Author: Bastow
+
+PMID: 23737615
+	Author: Woodin
+		Input address: National Science Foundation, Arlington, VA 22230, USA. twoodin@nsf.gov
+		Formatted address: National Science Foundation
+		Output address: National Science Foundation
+	Author: Vasaly
+	Author: McBride
+	Author: White
+
+PMID: 24572655
+	Author: Buhk
+		Input address: Federal Ministry of Food, and Agriculture, Division Research and Innovation, Wilhelmstraße 54, D-10117 Berlin, Germany. Electronic address: hans-joerg.buhk@bmel.bund.de.
+		Formatted address: Federal Ministry of Food
+		Output address: Federal Ministry of Food
+
+PMID: 25399920
+	Author: Yu
+		Input address: Department of Defense Biotechnology High Performance Computing Software Applications Institute, Telemedicine and Advanced Technology Research Center, U.S. Army Medical Research and Materiel Command, Fort Detrick, Maryland.
+		Formatted address: Telemedicine and Advanced Technology Research Center
+		Output address: NONE
+	Author: Boutté
+	Author: Yu
+	Author: Dutta
+	Author: Feala
+	Author: Schmid
+	Author: Dave
+	Author: Tawa
+	Author: Wallqvist
+	Author: Reifman
+
+PMID: 25282688
+	Author: Barcena Menendez
+		Input address: EMBL/CRG Systems Biology Research Unit, Centre for Genomic Regulation (CRG), Dr. Aiguader 88, 08003 Barcelona, Spain
+		Formatted address: EMBL/CRG Systems Biology Research Unit
+		Output address: NONE
+		Input address:  Universitat Pompeu Fabra (UPF), Barcelona, Spain.
+		Formatted address: Universitat Pompeu Fabra (UPF)
+		Output address: Pompeu Fabra University
+	Author: Senthivel
+		Input address: EMBL/CRG Systems Biology Research Unit, Centre for Genomic Regulation (CRG), Dr. Aiguader 88, 08003 Barcelona, Spain
+		Formatted address: EMBL/CRG Systems Biology Research Unit
+		Output address: NONE
+		Input address:  Universitat Pompeu Fabra (UPF), Barcelona, Spain.
+		Formatted address: Universitat Pompeu Fabra (UPF)
+		Output address: Pompeu Fabra University
+	Author: Isalan
+		Input address: Department of Life Sciences, Imperial College London, London SW7 2AZ, UK. Electronic address: m.isalan@imperial.ac.uk.
+		Formatted address: Imperial College London
+		Output address: Imperial College
+
+PMID: 24982882
+	Author: Altaf-Ul-Amin
+		Input address: Nara Institute of Science and Technology, Japan.
+		Formatted address: Nara Institute of Science and Technology
+		Output address: 奈良先端科学技術大学院大学
+	Author: Afendi
+		Input address: Bogor Agricultural University, Indonesia.
+		Formatted address: Bogor Agricultural University
+		Output address: Fakultas Ekonomi Dan Manajemen - Bogor Agricultural University
+	Author: Kiboi
+		Input address: University of Nairobi, Kenya.
+		Formatted address: University of Nairobi
+		Output address: University of Nairobi
+	Author: Kanaya
+		Input address: Nara Institute of Science and Technology, Japan.
+		Formatted address: Nara Institute of Science and Technology
+		Output address: 奈良先端科学技術大学院大学
+
+PMID: 25123302
+	Author: Rader
+		Input address: Department of Cancer Biology and Department of Molecular Therapeutics, The Scripps Research Institute , Scripps Florida, 130 Scripps Way, Jupiter, Florida 33458, United States.
+		Formatted address: The Scripps Research Institute
+		Output address: The Scripps Research Institute
+	Author: Segal
+	Author: Shabat
+
+PMID: 25845210
+	Author: Rodríguez López
+
+PMID: 24717645
+	Author: Sterner
+		Input address: Field Museum of Natural History, Chicago, IL, United States. Electronic address: bsterner@uchicago.edu.
+		Formatted address: Field Museum of Natural History
+		Output address: The Field Museum
+	Author: Lidgard
+		Input address: Field Museum of Natural History, Chicago, IL, United States.
+		Formatted address: Field Museum of Natural History
+		Output address: The Field Museum
+
+PMID: 26013981
+	Author: Eddy
+		Input address: Institute for Systems Biology, 401 Terry Avenue North, Seattle, WA 98109, USA.
+		Formatted address: Institute for Systems Biology
+		Output address: Institute For Systems Biology
+	Author: Funk
+		Input address: Institute for Systems Biology, 401 Terry Avenue North, Seattle, WA 98109, USA.
+		Formatted address: Institute for Systems Biology
+		Output address: Institute For Systems Biology
+	Author: Price
+		Input address: Institute for Systems Biology, 401 Terry Avenue North, Seattle, WA 98109, USA. Electronic address: nprice@systemsbiology.org.
+		Formatted address: Institute for Systems Biology
+		Output address: Institute For Systems Biology
+
+PMID: 26260156
+	Author: Kelwick
+		Input address: Centre for Synthetic Biology and Innovation, Imperial College London, South Kensington London, SW7 2AZ, UK
+		Formatted address: Centre for Synthetic Biology and Innovation
+		Output address: Congress Centre
+		Input address:  Department of Medicine, Imperial College London, London, SW7 2AZ, UK.
+		Formatted address: Imperial College London
+		Output address: Imperial College
+	Author: Bowater
+		Input address: Norwich Medical School, University of East Anglia, Norwich Research Park, Norwich NR4 7TJ, UK.
+		Formatted address: Norwich Medical School
+		Output address: NONE
+	Author: Yeoman
+		Input address: School of Biological Sciences, University of East Anglia, Norwich Research Park, Norwich NR4 7TJ, UK.
+		Formatted address: School of Biological Sciences
+		Output address: School of Biological Sciences
+	Author: Bowater
+		Input address: School of Biological Sciences, University of East Anglia, Norwich Research Park, Norwich NR4 7TJ, UK r.bowater@uea.ac.uk.
+		Formatted address: School of Biological Sciences
+		Output address: School of Biological Sciences
+
+PMID: 23578694
+	Author: Vermeulen
+		Input address: University of Manchester, Manchester, UK. niki.vermeulen@manchester.ac.uk
+		Formatted address: University of Manchester
+		Output address: The University of Manchester
+	Author: Parker
+	Author: Penders
+
+PMID: 24622617
+	Author: Church
+		Input address: Department of Genetics, Harvard Medical School, Harvard University, 77 Avenue Louis Pasteur, Boston, Massachusetts 02115, USA.
+		Formatted address: Harvard Medical School
+		Output address: Harvard Medical School : Center for Molecular and Cellular Dynamics
+	Author: Elowitz
+		Input address: Division of Biology and Biological Engineering and Department of Applied Physics, Howard Hughes Medical Institute, California Institute of Technology (Caltech), M/C 114-96, Pasadena, California 91125, USA.
+		Formatted address: Howard Hughes Medical Institute
+		Output address: Howard Hughes Medical Institute
+	Author: Smolke
+		Input address: Stanford University School of Medicine, 473 Via Ortega, University of Stanford, Stanford, California 94305, USA.
+		Formatted address: Stanford University School of Medicine
+		Output address: Stanford School of Medicine
+	Author: Voigt
+		Input address: Synthetic Biology Center, Department of Biological Engineering, Massachusetts Institute of Technology (MIT), 500 Technology Square, Cambridge, Massachusetts 02139, USA.
+		Formatted address: Synthetic Biology Center
+		Output address: Center for Systems and Synthetic Biology
+	Author: Weiss
+		Input address: Synthetic Biology Center, Department of Biological Engineering, Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology (MIT), NE47-223, 500 Technology Square, Cambridge, Massachusetts 02139, USA.
+		Formatted address: Synthetic Biology Center
+		Output address: Center for Systems and Synthetic Biology
+
+PMID: 25368425
+	Author: Aikens
+		Input address: Texas Institute for Discovery Education in Science, College of Natural Sciences, University of Texas, Austin, TX 78712.
+		Formatted address: Texas Institute for Discovery Education in Science
+		Output address: NONE
+	Author: Dolan
+		Input address: Texas Institute for Discovery Education in Science, College of Natural Sciences, University of Texas, Austin, TX 78712 edolan@austin.utexas.edu.
+		Formatted address: Texas Institute for Discovery Education in Science
+		Output address: NONE
+
+PMID: 25418707
+	Author: Carter
+
+PMID: 25251660
+	Author: O'Connor
+		Input address: Laboratory of Translational Cytomics, Joint Research Unit, University of Valencia and Principe Felipe Research Center, Valencia, Spain. Electronic address: jose.e.oconnor@uv.es.
+		Formatted address: Laboratory of Translational Cytomics
+		Output address: NONE
+	Author: Herrera
+		Input address: Laboratory of Cytometry, Incliva Foundation, Clinical University Hospital, University of Valencia, Valencia, Spain.
+		Formatted address: Laboratory of Cytometry
+		Output address: Moody Foundation Flow Cytometry Facility
+	Author: Martínez-Romero
+		Input address: Cytometry Technological Service, Principe Felipe Research Center, Valencia, Spain.
+		Formatted address: Cytometry Technological Service
+		Output address: ジャスパー英語教室
+	Author: de Oyanguren
+		Input address: Laboratory of Translational Cytomics, Joint Research Unit, University of Valencia and Principe Felipe Research Center, Valencia, Spain.
+		Formatted address: Laboratory of Translational Cytomics
+		Output address: NONE
+	Author: Díaz
+		Input address: Laboratory of Translational Cytomics, Joint Research Unit, University of Valencia and Principe Felipe Research Center, Valencia, Spain.
+		Formatted address: Laboratory of Translational Cytomics
+		Output address: NONE
+	Author: Gomes
+		Input address: Laboratory of Translational Cytomics, Joint Research Unit, University of Valencia and Principe Felipe Research Center, Valencia, Spain.
+		Formatted address: Laboratory of Translational Cytomics
+		Output address: NONE
+	Author: Balaguer
+		Input address: Laboratory of Translational Cytomics, Joint Research Unit, University of Valencia and Principe Felipe Research Center, Valencia, Spain.
+		Formatted address: Laboratory of Translational Cytomics
+		Output address: NONE
+	Author: Callaghan
+		Input address: Department of Pathology, Faculty of Medicine, The University of Valencia, Valencia, Spain.
+		Formatted address: Faculty of Medicine
+		Output address: Faculty of Medicine
+
+PMID: 25378328
+	Author: Wodke
+		Input address: EMBL/CRG Systems Biology Research Unit, Centre for Genomic Regulation (CRG), Dr. Aiguader 88, 08003 Barcelona, Spain Universitat Pompeu Fabra (UPF), Dr. Aiguader 88, 08003 Barcelona, Spain Theoretical Biophysics, Humboldt-Universitt zu Berlin, Invalidenstr 42, 10115 Berlin, Germany guglielmo.roma@crg.eu luis.serrano@crg.eu.
+		Formatted address: EMBL/CRG Systems Biology Research Unit
+		Output address: NONE
+	Author: Alibés
+		Input address: Universitat Pompeu Fabra (UPF), Dr. Aiguader 88, 08003 Barcelona, Spain CRG Bioinformatics Facility, Centre for Genomic Regulation (CRG), Dr. Aiguader 88, 08003 Barcelona, Spain.
+		Formatted address: Universitat Pompeu Fabra (UPF)
+		Output address: Pompeu Fabra University
+	Author: Cozzuto
+		Input address: Universitat Pompeu Fabra (UPF), Dr. Aiguader 88, 08003 Barcelona, Spain CRG Bioinformatics Facility, Centre for Genomic Regulation (CRG), Dr. Aiguader 88, 08003 Barcelona, Spain.
+		Formatted address: Universitat Pompeu Fabra (UPF)
+		Output address: Pompeu Fabra University
+	Author: Hermoso
+		Input address: Universitat Pompeu Fabra (UPF), Dr. Aiguader 88, 08003 Barcelona, Spain CRG Bioinformatics Facility, Centre for Genomic Regulation (CRG), Dr. Aiguader 88, 08003 Barcelona, Spain.
+		Formatted address: Universitat Pompeu Fabra (UPF)
+		Output address: Pompeu Fabra University
+	Author: Yus
+		Input address: EMBL/CRG Systems Biology Research Unit, Centre for Genomic Regulation (CRG), Dr. Aiguader 88, 08003 Barcelona, Spain Universitat Pompeu Fabra (UPF), Dr. Aiguader 88, 08003 Barcelona, Spain.
+		Formatted address: EMBL/CRG Systems Biology Research Unit
+		Output address: NONE
+	Author: Lluch-Senar
+		Input address: EMBL/CRG Systems Biology Research Unit, Centre for Genomic Regulation (CRG), Dr. Aiguader 88, 08003 Barcelona, Spain Universitat Pompeu Fabra (UPF), Dr. Aiguader 88, 08003 Barcelona, Spain.
+		Formatted address: EMBL/CRG Systems Biology Research Unit
+		Output address: NONE
+	Author: Serrano
+		Input address: EMBL/CRG Systems Biology Research Unit, Centre for Genomic Regulation (CRG), Dr. Aiguader 88, 08003 Barcelona, Spain Universitat Pompeu Fabra (UPF), Dr. Aiguader 88, 08003 Barcelona, Spain Institució Catalana de Recerca i Estudis Avançats (ICREA), Pg. Lluis Companys 23, 08010 Barcelona, Spain.
+		Formatted address: EMBL/CRG Systems Biology Research Unit
+		Output address: NONE
+	Author: Roma
+		Input address: Universitat Pompeu Fabra (UPF), Dr. Aiguader 88, 08003 Barcelona, Spain CRG Bioinformatics Facility, Centre for Genomic Regulation (CRG), Dr. Aiguader 88, 08003 Barcelona, Spain guglielmo.roma@crg.eu luis.serrano@crg.eu.
+		Formatted address: Universitat Pompeu Fabra (UPF)
+		Output address: Pompeu Fabra University
+
+PMID: 25152014
+	Author: Sanassy
+		Input address: Interdisciplinary Computing and Complex BioSystems (ICOS) Research Group, School of Computing Science, Newcastle University , Newcastle upon Tyne, Tyne and Wear, NE1 7RU, United Kingdom.
+		Formatted address: Interdisciplinary Computing and Complex BioSystems (ICOS) Research Group
+		Output address: NONE
+	Author: Widera
+	Author: Krasnogor
+
+PMID: 24896221
+	Author: Roehner
+		Input address: Department of Bioengineering, University of Utah , Salt Lake City, Utah, United States.
+		Formatted address: University of Utah
+		Output address: The University of Utah
+	Author: Oberortner
+	Author: Pocock
+	Author: Beal
+	Author: Clancy
+	Author: Madsen
+	Author: Misirli
+	Author: Wipat
+	Author: Sauro
+	Author: Myers
+
+SUCCESS RATE: 84.25925925925925%
