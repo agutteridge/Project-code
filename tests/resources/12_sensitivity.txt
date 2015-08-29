@@ -4,16 +4,16 @@ PMID: 26314082
 	Formatted address: University Medical Center Eppendorf, Hamburg, Germany
 	Output address: Hotel Eggers GmbH
 	Input address: Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN, USA.
-	Formatted address: St. Jude Children's Research Hospital, Memphis, TN, USA.
+	Formatted address: St. Jude Children's Research Hospital, Memphis, TN
 	Output address: St. Jude Children's Research Hospital
 	Input address: Childhood Cancer Research Unit, Department of Women's and Children's Health, Karolinska Institutet, Karolinska University Hospital Solna, Stockholm, Sweden.
-	Formatted address: Childhood Cancer Research Unit, Karolinska Institutet, Karolinska University Hospital Solna, Stockholm, Sweden.
+	Formatted address: Childhood Cancer Research Unit, Karolinska Institutet, Karolinska University Hospital Solna
 	Output address: NONE
 	Input address: Department of Medicine I, Hematology and Stem Cell Transplantation, Hemostasis and Medical Oncology, Elisabethinen Hospital, Linz, Austria.
-	Formatted address: Hematology and Stem Cell Transplantation, Hemostasis and Medical Oncology, Elisabethinen Hospital, Linz, Austria.
+	Formatted address: Hematology and Stem Cell Transplantation, Hemostasis and Medical Oncology, Elisabethinen Hospital
 	Output address: NONE
 	Input address: Childhood Cancer Research Unit, Department of Women's and Children's Health, Karolinska Institutet, Karolinska University Hospital Solna, Stockholm, Sweden.
-	Formatted address: Childhood Cancer Research Unit, Karolinska Institutet, Karolinska University Hospital Solna, Stockholm, Sweden.
+	Formatted address: Childhood Cancer Research Unit, Karolinska Institutet, Karolinska University Hospital Solna
 	Output address: NONE
 	Input address: Department of Immunology, Cincinnati Children's Hospital, OH, USA.
 	Formatted address: Cincinnati Children's Hospital, OH, USA.
@@ -25,7 +25,7 @@ PMID: 26314082
 	Formatted address: St. Anna Children's Hospital, Vienna, Austria.
 	Output address: Hotel Tulip Inn Thueringer Hof Vienna
 	Input address: Klinik für Innere Medizin II, Abt. Hämatologie und internistische Onkologie, Universitätsklinikum Jena, Germany.
-	Formatted address: Klinik für Innere Medizin II, Abt. Hämatologie und internistische Onkologie, Universitätsklinikum Jena, Germany.
+	Formatted address: Klinik für Innere Medizin II, Abt. Hämatologie und internistische Onkologie, Universitätsklinikum Jena
 	Output address: NONE
 	Input address: Department of Hematology and Oncology, Sick Kids Hospital, Toronto, Canada.
 	Formatted address: Sick Kids Hospital, Toronto, Canada.
@@ -39,19 +39,16 @@ PMID: 26314080
 	Formatted address: Academic Medical Center, Amsterdam, The Netherlands.
 	Output address: Academic Medical Center
 	Input address: Lymphoma Service, Memorial Sloan Kettering Cancer Center, New York, USA.
-	Formatted address: Lymphoma Service, Memorial Sloan Kettering Cancer Center, New York, USA.
+	Formatted address: Lymphoma Service, Memorial Sloan Kettering Cancer Center, New York
 	Output address: Memorial Sloan Cancer Center: Horwitz Steven M MD
-	Input address: Department of Medicine III, LMU University of Munich, Germany.
-	Formatted address: LMU University of Munich, Germany.
-	Output address: Juristische Fakultät der Ludwig-Maximilians-Universität
 	Input address: Medical Oncology, University of Modena and Reggio Emilia, Italy.
 	Formatted address: Medical Oncology, University of Modena and Reggio Emilia, Italy.
 	Output address: NONE
 	Input address: Division of Hematology, Department of Internal Medicine, University Hospital Center Zagreb and Medical School, University of Zagreb, Croatia.
-	Formatted address: Division of Hematology, University Hospital Center Zagreb and Medical School, University of Zagreb, Croatia.
+	Formatted address: Division of Hematology, University Hospital Center Zagreb and Medical School, University of Zagreb
 	Output address: NONE
 	Input address: Institute of Cancer Sciences, the University of Manchester, and the Christie NHS Foundation Trust, Manchester Academic Health Science Centre, Manchester, UK.
-	Formatted address: Institute of Cancer Sciences, the University of Manchester, and the Christie NHS Foundation Trust, Manchester Academic Health Science Centre, Manchester, UK.
+	Formatted address: Institute of Cancer Sciences, the University of Manchester, and the Christie NHS Foundation Trust
 	Output address: NONE
 	Input address: Department of Haematology, Academic Medical Center, Amsterdam, The Netherlands m.j.kersten@amc.nl.
 	Formatted address: Academic Medical Center, Amsterdam, The Netherlands
@@ -59,156 +56,144 @@ PMID: 26314080
 
 PMID: 26313916
 	Input address: Department of Anesthesiology, Shengjing Hospital of China Medical University, Shenyang, Liaoning 110004, People's Republic of China.
-	Formatted address: Shengjing Hospital of China Medical University, Shenyang, Liaoning 110004, People's Republic of China.
-	Output address: NONE
+	Formatted address: Shengjing Hospital of China Medical University, Shenyang, Liaoning 110004
+	Output address: Shengjing Hospital of China Medical University
 	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
-	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287
 	Output address: The Johns Hopkins University School of Medicine
 	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
-	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287
 	Output address: The Johns Hopkins University School of Medicine
 	Input address: State Key Laboratory of Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100190, People's Repubic of China.
-	Formatted address: State Key Laboratory of Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing 100190, People's Repubic of China.
+	Formatted address: State Key Laboratory of Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences
 	Output address: Natural History Museum
 	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
-	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287
 	Output address: The Johns Hopkins University School of Medicine
 	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
-	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287
 	Output address: The Johns Hopkins University School of Medicine
 	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
-	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287
 	Output address: The Johns Hopkins University School of Medicine
 	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
-	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287
 	Output address: The Johns Hopkins University School of Medicine
 	Input address: Department of Orthopaedics, the First Affiliated Hospital, Orthopaedic Institute, Soochow University, Suzhou 215123, Jiangsu, People's Republic of China.
-	Formatted address: the First Affiliated Hospital, Orthopaedic Institute, Soochow University, Suzhou 215123, Jiangsu, People's Republic of China.
+	Formatted address: the First Affiliated Hospital, Orthopaedic Institute, Soochow University
 	Output address: NONE
 	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
-	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287
 	Output address: The Johns Hopkins University School of Medicine
 	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
-	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287
 	Output address: The Johns Hopkins University School of Medicine
 	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
-	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287
 	Output address: The Johns Hopkins University School of Medicine
 	Input address: Department of Orthopaedic Surgery and Neuroscience, The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
-	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore, MD 21287
 	Output address: The Johns Hopkins University School of Medicine
 	Input address: The Solomon H Snyder Department of Neuroscience, The Johns Hopkins University School of Medicine, Baltimore 21287, MD, USA.
-	Formatted address: The Johns Hopkins University School of Medicine, Baltimore 21287, MD, USA.
+	Formatted address: The Johns Hopkins University School of Medicine, Baltimore 21287, MD
 	Output address: The Johns Hopkins University School of Medicine
 
 PMID: 26313902
 	Input address: Division of Endocrinology, Boston Children's Hospital, Harvard Medical School, Boston, Massachusetts, USA.
-	Formatted address: Division of Endocrinology, Boston Children's Hospital, Harvard Medical School, Boston, Massachusetts, USA.
-	Output address: NONE
+	Formatted address: Division of Endocrinology, Boston Children's Hospital, Harvard Medical School
+	Output address: Florida Detox: Sponaugle Marvin MD
 
 PMID: 26313900
 	Input address: aMemorial Sloan Kettering Cancer Center, New York bMercy Catholic Medical Center, Philadelphia, USA.
-	Formatted address: aMemorial Sloan Kettering Cancer Center, New York bMercy Catholic Medical Center, Philadelphia, USA.
+	Formatted address: aMemorial Sloan Kettering Cancer Center, New York bMercy Catholic Medical Center, Philadelphia
 	Output address: NONE
 
 PMID: 26313898
 	Input address: aDivision of Nutrition, Harvard Medical School bMassachusetts General Hospital Weight Center, Obesity Metabolism and Nutrition Institute, Massachusetts General Hospital, Boston, Massachusetts, USA.
-	Formatted address: aDivision of Nutrition, Harvard Medical School bMassachusetts General Hospital Weight Center, Obesity Metabolism and Nutrition Institute, Massachusetts General Hospital, Boston, Massachusetts, USA.
+	Formatted address: aDivision of Nutrition, Harvard Medical School bMassachusetts General Hospital Weight Center, Obesity Metabolism and Nutrition Institute
 	Output address: NONE
 
 PMID: 26313894
 	Input address: a Department of Molecular Genetics and Microbiology , University of New Mexico Health Sciences Center , 915 Camino de Salud, NE, Albuquerque , NM 87131 USA.
-	Formatted address: University of New Mexico Health Sciences Center, 915 Camino de Salud, NE, Albuquerque, NM 87131 USA.
-	Output address: Law Library
+	Formatted address: University of New Mexico Health Sciences Center, 915 Camino de Salud, NE
+	Output address: NONE
 
 PMID: 26313870
 	Input address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute, University of Pittsburgh, Pittsburgh, PA, USA
-	Formatted address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute, University of Pittsburgh, Pittsburgh, PA, USA
+	Formatted address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute
 	Output address: NONE
 	Input address:  Department of Medicine, University of Pittsburgh, Pittsburgh, PA, USA. Electronic address: olafiranyeo@upmc.edu.
-	Formatted address: University of Pittsburgh, Pittsburgh, PA, USA.  :
+	Formatted address: University of Pittsburgh, Pittsburgh, PA
 	Output address: University of Pittsburgh Graduate School Of Public Health
 	Input address: College of Nursing, University of South Florida, Tampa, FL, USA.
-	Formatted address: College of Nursing, University of South Florida, Tampa, FL, USA.
+	Formatted address: College of Nursing, University of South Florida, Tampa
 	Output address: University of South Florida College of Nursing
 	Input address: Department of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.
-	Formatted address: University of Pittsburgh, Pittsburgh, PA, USA.
+	Formatted address: University of Pittsburgh, Pittsburgh, PA
 	Output address: University of Pittsburgh Graduate School Of Public Health
 	Input address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute, University of Pittsburgh, Pittsburgh, PA, USA
-	Formatted address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute, University of Pittsburgh, Pittsburgh, PA, USA
+	Formatted address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute
 	Output address: NONE
 	Input address:  Department of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.
-	Formatted address: University of Pittsburgh, Pittsburgh, PA, USA.
+	Formatted address: University of Pittsburgh, Pittsburgh, PA
 	Output address: University of Pittsburgh Graduate School Of Public Health
 	Input address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute, University of Pittsburgh, Pittsburgh, PA, USA
-	Formatted address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute, University of Pittsburgh, Pittsburgh, PA, USA
+	Formatted address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute
 	Output address: NONE
 	Input address:  Department of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.
-	Formatted address: University of Pittsburgh, Pittsburgh, PA, USA.
+	Formatted address: University of Pittsburgh, Pittsburgh, PA
 	Output address: University of Pittsburgh Graduate School Of Public Health
 	Input address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute, University of Pittsburgh, Pittsburgh, PA, USA
-	Formatted address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute, University of Pittsburgh, Pittsburgh, PA, USA
+	Formatted address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute
 	Output address: NONE
 	Input address:  Department of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.
-	Formatted address: University of Pittsburgh, Pittsburgh, PA, USA.
+	Formatted address: University of Pittsburgh, Pittsburgh, PA
 	Output address: University of Pittsburgh Graduate School Of Public Health
 	Input address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute, University of Pittsburgh, Pittsburgh, PA, USA
-	Formatted address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute, University of Pittsburgh, Pittsburgh, PA, USA
+	Formatted address: Pittsburgh Heart, Lung, Blood and Vascular Medicine Institute
 	Output address: NONE
 	Input address:  Department of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.
-	Formatted address: University of Pittsburgh, Pittsburgh, PA, USA.
+	Formatted address: University of Pittsburgh, Pittsburgh, PA
 	Output address: University of Pittsburgh Graduate School Of Public Health
 
 PMID: 26313854
-	Input address:  Northwestern University Feinberg School of Medicine
-	Formatted address: Northwestern University Feinberg School of Medicine
-	Output address: Dean Northwestern University Feinberg School of Medicine
-	Input address:  Human Molecular Genetics Program
-	Formatted address: Human Molecular Genetics Program
-	Output address: Addiction Treatment Centers XL
-	Input address:  Ann & Robert H. Lurie Children's Hospital of Chicago 
-	Formatted address: Ann & Robert H. Lurie Children's Hospital of Chicago
-	Output address: Ann & Robert H. Lurie Children's Hospital of Chicago
-	Input address:  Chicago , IL USA.
-	Formatted address: Chicago, IL USA.
-	Output address: NONE
 
 PMID: 26313852
 	Input address: a Department of Medicine, Myositis Center and Division of Rheumatology and Clinical Immunology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA.
-	Formatted address: Myositis Center and Division of Rheumatology and Clinical Immunology, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA.
+	Formatted address: Myositis Center and Division of Rheumatology and Clinical Immunology, University of Pittsburgh School of Medicine, Pittsburgh
 	Output address: NONE
 
 PMID: 26313850
 	Input address: Department of Chemical and Biological Engineering, University of Wisconsin-Madison, 1415 Engineering Drive, Madison, WI 53706, USA.
-	Formatted address: University of Wisconsin-Madison, 1415 Engineering Drive, Madison, WI 53706, USA.
-	Output address: Engineering Career Services
+	Formatted address: University of Wisconsin-Madison, 1415 Engineering Drive, Madison
+	Output address: UW-Madison Department of Engineering Physics
 	Input address: Department of Chemical and Biological Engineering, University of Wisconsin-Madison, 1415 Engineering Drive, Madison, WI 53706, USA.
-	Formatted address: University of Wisconsin-Madison, 1415 Engineering Drive, Madison, WI 53706, USA.
-	Output address: Engineering Career Services
+	Formatted address: University of Wisconsin-Madison, 1415 Engineering Drive, Madison
+	Output address: UW-Madison Department of Engineering Physics
 	Input address: Department of Chemical and Biological Engineering, University of Wisconsin-Madison, 1415 Engineering Drive, Madison, WI 53706, USA. Electronic address: sppalecek@wisc.edu.
-	Formatted address: University of Wisconsin-Madison, 1415 Engineering Drive, Madison, WI 53706, USA.  :
-	Output address: Engineering Career Services
+	Formatted address: University of Wisconsin-Madison, 1415 Engineering Drive, Madison
+	Output address: UW-Madison Department of Engineering Physics
 
 PMID: 26313765
 	Input address: a Department of Population Health , New York University School of Medicine , New York , New York , USA.
-	Formatted address: New York University School of Medicine, New York, New York, USA.
+	Formatted address: New York University School of Medicine, New York, New York
 	Output address: NYU Department of Medicine - Martin Blaser, MD
 
 PMID: 26313755
 	Input address: School of Natural Resources and Environment, University of Michigan, Ann Arbor, Michigan, USA.
-	Formatted address: School of Natural Resources and Environment, University of Michigan, Ann Arbor, Michigan, USA.
+	Formatted address: School of Natural Resources and Environment, University of Michigan, Ann Arbor
 	Output address: The School of Natural Resources and Environment
 	Input address: School of Natural Resources and Environment, University of Michigan, Ann Arbor, Michigan, USA.
-	Formatted address: School of Natural Resources and Environment, University of Michigan, Ann Arbor, Michigan, USA.
+	Formatted address: School of Natural Resources and Environment, University of Michigan, Ann Arbor
 	Output address: The School of Natural Resources and Environment
 	Input address: Department of Biological Sciences, Kent State University, Kent, Ohio, USA.
-	Formatted address: Kent State University, Kent, Ohio, USA.
+	Formatted address: Kent State University, Kent, Ohio
 	Output address: Kent State University
 	Input address: Department of Earth and Environmental Sciences, Wright State University, Dayton, Ohio, USA.
-	Formatted address: Wright State University, Dayton, Ohio, USA.
+	Formatted address: Wright State University, Dayton, Ohio
 	Output address: Wright State University Dept Of Surgery
 	Input address: School of Natural Resources and Environment, University of Michigan, Ann Arbor, Michigan, USA.
-	Formatted address: School of Natural Resources and Environment, University of Michigan, Ann Arbor, Michigan, USA.
+	Formatted address: School of Natural Resources and Environment, University of Michigan, Ann Arbor
 	Output address: The School of Natural Resources and Environment
 
 PMID: 26313747
@@ -218,83 +203,83 @@ PMID: 26313747
 
 PMID: 26314071
 	Input address: The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China. klhe@ippcaas.cn.
-	Formatted address: The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China.
-	Output address: NONE
+	Formatted address: The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences
+	Output address: Natural History Museum
 	Input address: The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China. College of Agronomy, Sichuan Agricultural University, Chengdu 611130, P. R. China.
-	Formatted address: The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China. College of Agronomy, Sichuan Agricultural University, Chengdu 611130, P. R. China.
-	Output address: NONE
+	Formatted address: The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences
+	Output address: Natural History Museum
 	Input address: College of Agronomy, Sichuan Agricultural University, Chengdu 611130, P. R. China.
-	Formatted address: College of Agronomy, Sichuan Agricultural University, Chengdu 611130, P. R. China.
+	Formatted address: College of Agronomy, Sichuan Agricultural University, Chengdu 611130
 	Output address: NONE
 	Input address: The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China.
-	Formatted address: The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China.
-	Output address: NONE
+	Formatted address: The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences
+	Output address: Natural History Museum
 	Input address: The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China. klhe@ippcaas.cn.
-	Formatted address: The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China.
-	Output address: NONE
+	Formatted address: The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences
+	Output address: Natural History Museum
 
 PMID: 26314069
 	Input address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences, Nanning 530007, China. The authors contributed equally to this work.
-	Formatted address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences, Nanning 530007, China. The authors contributed equally to this work.
+	Formatted address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences
 	Output address: NONE
 	Input address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences, Nanning 530007, China. The authors contributed equally to this work.
-	Formatted address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences, Nanning 530007, China. The authors contributed equally to this work.
+	Formatted address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences
 	Output address: NONE
 	Input address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences, Nanning 530007, China.
-	Formatted address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences, Nanning 530007, China.
+	Formatted address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences
 	Output address: NONE
 	Input address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences, Nanning 530007, China.
-	Formatted address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences, Nanning 530007, China.
+	Formatted address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences
 	Output address: NONE
 	Input address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences, Nanning 530007, China. College of Plant Protection, Yunnan Agricultural University, Kunming 650201, China.
-	Formatted address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences, Nanning 530007, China. College of Plant Protection, Yunnan Agricultural University, Kunming 650201, China.
+	Formatted address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences
 	Output address: NONE
 	Input address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences, Nanning 530007, China.
-	Formatted address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences, Nanning 530007, China.
+	Formatted address: Guangxi Key Laboratory of Biology for Crop Diseases and Insect Pests, Institute of Plant Protection, Guangxi Academy of Agricultural Sciences
 	Output address: NONE
 	Input address: State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, China. zhongshizhou@yahoo.com.
-	Formatted address: State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, China.
-	Output address: NONE
+	Formatted address: State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences
+	Output address: Natural History Museum
 
 PMID: 26314035
 	Input address: State Key Laboratory of Agricultural Microbiology, Institute of Urban and Horticultural Pests, Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China. Hubei Collaborative Innovation Center for the Characteristic Resources Exploitation of Dabie Mountains, China.
-	Formatted address: State Key Laboratory of Agricultural Microbiology, Institute of Urban and Horticultural Pests, Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China. Hubei Collaborative Innovation Center for the Characteristic Resources Exploitation of Dabie Mountains, China.
+	Formatted address: State Key Laboratory of Agricultural Microbiology, Institute of Urban and Horticultural Pests, Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory
 	Output address: NONE
 	Input address: National Key Laboratory of Agromicrobiology, Huazhong Agricultural University, Wuhan, Hubei 430070, China
-	Formatted address: National Key Laboratory of Agromicrobiology, Huazhong Agricultural University, Wuhan, Hubei 430070, China
+	Formatted address: National Key Laboratory of Agromicrobiology, Huazhong Agricultural University, Wuhan
 	Output address: NONE
 	Input address:  The Key Laboratory of Plant Pathology of Hubei Province, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan, Hubei 430070, China.
-	Formatted address: The Key Laboratory of Plant Pathology of Hubei Province, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan, Hubei 430070, China.
+	Formatted address: The Key Laboratory of Plant Pathology of Hubei Province, College of Plant Science and Technology, Huazhong Agricultural University
 	Output address: NONE
 	Input address: Department of Entomology, Faculty of Agricultural Sciences and Technology, Bahauddin Zakariya University, Bosan Road, Multan 60000, Pakistan.
-	Formatted address: Faculty of Agricultural Sciences and Technology, Bahauddin Zakariya University, Bosan Road, Multan 60000, Pakistan.
+	Formatted address: Faculty of Agricultural Sciences and Technology, Bahauddin Zakariya University, Bosan Road
 	Output address: NONE
 	Input address: State Key Laboratory of Agricultural Microbiology, Institute of Urban and Horticultural Pests, Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China. Hubei Collaborative Innovation Center for the Characteristic Resources Exploitation of Dabie Mountains, China. hongyu.zhang@mail.hzau.edu.cn.
-	Formatted address: State Key Laboratory of Agricultural Microbiology, Institute of Urban and Horticultural Pests, Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory, College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, China. Hubei Collaborative Innovation Center for the Characteristic Resources Exploitation of Dabie Mountains, China.
+	Formatted address: State Key Laboratory of Agricultural Microbiology, Institute of Urban and Horticultural Pests, Hubei Insect Resources Utilization and Sustainable Pest Management Key Laboratory
 	Output address: NONE
 
 PMID: 26314029
 	Input address: College of Agriculture, South China Agricultural University, 483 Wushan Rd., Guangzhou, Guangdong 510642, P. R. China. jian.chen@ars.usda.gov.
-	Formatted address: College of Agriculture, South China Agricultural University, 483 Wushan Rd., Guangzhou, Guangdong 510642, P. R. China.
+	Formatted address: College of Agriculture, South China Agricultural University, 483 Wushan Rd.
 	Output address: NONE
 	Input address: College of Agriculture, South China Agricultural University, 483 Wushan Rd., Guangzhou, Guangdong 510642, P. R. China.
-	Formatted address: College of Agriculture, South China Agricultural University, 483 Wushan Rd., Guangzhou, Guangdong 510642, P. R. China.
+	Formatted address: College of Agriculture, South China Agricultural University, 483 Wushan Rd.
 	Output address: NONE
 	Input address: National Biological Control Laboratory, Southeast Area, Agriculture Research Service, United States Department of Agriculture, 59 Lee Rd., Stoneville, MS 38776. jian.chen@ars.usda.gov.
-	Formatted address: National Biological Control Laboratory, Southeast Area, Agriculture Research Service, 59 Lee Rd., Stoneville, MS 38776.
-	Output address: NONE
+	Formatted address: National Biological Control Laboratory, Southeast Area, Agriculture Research Service
+	Output address: 北京世纪恒迅机电设备有限责任公司
 
 PMID: 26313888
 	Input address: Faculty of Health and Wellbeing, Sheffield Hallam University, Collegiate Campus, Sheffield, S10 2BP, UK.
-	Formatted address: Faculty of Health and Wellbeing, Sheffield Hallam University, Collegiate Campus, Sheffield, S10 2BP, UK.
+	Formatted address: Faculty of Health and Wellbeing, Sheffield Hallam University, Collegiate Campus
 	Output address: Sheffield Hallam University Collegiate Crescent Campus
 	Input address: Faculty of Health and Wellbeing, Sheffield Hallam University, Collegiate Campus, Sheffield, S10 2BP, UK.
-	Formatted address: Faculty of Health and Wellbeing, Sheffield Hallam University, Collegiate Campus, Sheffield, S10 2BP, UK.
+	Formatted address: Faculty of Health and Wellbeing, Sheffield Hallam University, Collegiate Campus
 	Output address: Sheffield Hallam University Collegiate Crescent Campus
 
 PMID: 26313805
 	Input address: From the Department of Pathology (XM, WG), People's Hospital of Guangxi Province, Nanning, Guangxi, China
-	Formatted address: WG), People's Hospital of Guangxi Province, Nanning, Guangxi, China
+	Formatted address: WG), People's Hospital of Guangxi Province, Nanning
 	Output address: NONE
 	Input address:  and Department of Histopathology (HY), Royal National Orthopaedic Hospital NHS Trust, Middlesex, UK.
 	Formatted address: Royal National Orthopaedic Hospital NHS Trust, Middlesex, UK.
@@ -302,17 +287,17 @@ PMID: 26313805
 
 PMID: 26313665
 	Input address: Translational Radiobiology Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre, University of Manchester, Wilmslow Road, Manchester, UK.
-	Formatted address: Translational Radiobiology Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre, University of Manchester, Wilmslow Road, Manchester, UK.
+	Formatted address: Translational Radiobiology Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre
 	Output address: NONE
 	Input address: The Christie NHS Foundation Trust, Manchester, Wilmslow Road, UK.
-	Formatted address: The Christie NHS Foundation Trust, Manchester, Wilmslow Road, UK.
+	Formatted address: The Christie NHS Foundation Trust, Manchester, Wilmslow Road
 	Output address: The Christie
 	Input address: Lymphoma Translational Research Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre, University of Manchester, Wilmslow Road, Manchester, UK.
-	Formatted address: Lymphoma Translational Research Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre, University of Manchester, Wilmslow Road, Manchester, UK.
-	Output address: NONE
+	Formatted address: Lymphoma Translational Research Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre
+	Output address: Royal Albert Hall
 	Input address: Lymphoma Translational Research Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre, Manchester Medical School, University of Manchester, Wilmslow Road, Manchester, UK.
-	Formatted address: Lymphoma Translational Research Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre, Manchester Medical School, University of Manchester, Wilmslow Road, Manchester, UK.
-	Output address: NONE
+	Formatted address: Lymphoma Translational Research Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre
+	Output address: Royal Albert Hall
 	Input address: Central Manchester University Hospitals, Manchester, UK.
 	Formatted address: Central Manchester University Hospitals, Manchester, UK.
 	Output address: Central Manchester University Hospitals
@@ -320,85 +305,82 @@ PMID: 26313665
 	Formatted address: Central Manchester University Hospitals, Manchester, UK.
 	Output address: Central Manchester University Hospitals
 	Input address: The Christie NHS Foundation Trust, Manchester, Wilmslow Road, UK.
-	Formatted address: The Christie NHS Foundation Trust, Manchester, Wilmslow Road, UK.
+	Formatted address: The Christie NHS Foundation Trust, Manchester, Wilmslow Road
 	Output address: The Christie
 	Input address: Targeted Therapy Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre, the University of Manchester
-	Formatted address: Targeted Therapy Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre, the University of Manchester
-	Output address: NONE
-	Input address:  Wilmslow Road, Manchester.
-	Formatted address: Wilmslow Road, Manchester.
+	Formatted address: Targeted Therapy Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre
 	Output address: NONE
 	Input address: Center for Women's Cancer, Institute of Cancer Sciences, University of Manchester, Paterson Building, Wilmslow Road, Manchester, M20 4BX, UK.
-	Formatted address: Center for Women's Cancer, Institute of Cancer Sciences, University of Manchester, Paterson Building, Wilmslow Road, Manchester, M20 4BX, UK.
+	Formatted address: Center for Women's Cancer, Institute of Cancer Sciences, University of Manchester
 	Output address: NONE
 	Input address: Translational Radiobiology Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre, University of Manchester, Wilmslow Road, Manchester, UK.
-	Formatted address: Translational Radiobiology Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre, University of Manchester, Wilmslow Road, Manchester, UK.
+	Formatted address: Translational Radiobiology Group, Institute of Cancer Sciences, Manchester Academic Health Science Centre
 	Output address: NONE
 	Input address: The Christie NHS Foundation Trust, Manchester, Wilmslow Road, UK.
-	Formatted address: The Christie NHS Foundation Trust, Manchester, Wilmslow Road, UK.
+	Formatted address: The Christie NHS Foundation Trust, Manchester, Wilmslow Road
 	Output address: The Christie
 
 PMID: 26313874
 	Input address: Department of Chemistry, Graduate School of Science, Chiba University , 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.
-	Formatted address: Graduate School of Science, Chiba University, 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.
+	Formatted address: Graduate School of Science, Chiba University, 1-33 Yayoi-cho
 	Output address: NONE
 	Input address: Department of Chemistry, Graduate School of Science, Chiba University , 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.
-	Formatted address: Graduate School of Science, Chiba University, 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.
+	Formatted address: Graduate School of Science, Chiba University, 1-33 Yayoi-cho
 	Output address: NONE
 	Input address: Department of Chemistry, Graduate School of Science, Chiba University , 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.
-	Formatted address: Graduate School of Science, Chiba University, 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.
+	Formatted address: Graduate School of Science, Chiba University, 1-33 Yayoi-cho
 	Output address: NONE
 	Input address: Department of Chemistry, Graduate School of Science, Chiba University , 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.
-	Formatted address: Graduate School of Science, Chiba University, 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.
+	Formatted address: Graduate School of Science, Chiba University, 1-33 Yayoi-cho
 	Output address: NONE
 
 PMID: 26313868
 	Input address: Department of Cardiovascular Medicine, Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku, Chiba City, Chiba 260-8670, Japan. Electronic address: nobusada@w8.dion.ne.jp.
-	Formatted address: Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku, Chiba City, Chiba 260-8670, Japan.  :
+	Formatted address: Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku
 	Output address: NONE
 	Input address: Department of Cardiovascular Medicine, Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku, Chiba City, Chiba 260-8670, Japan.
-	Formatted address: Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku, Chiba City, Chiba 260-8670, Japan.
+	Formatted address: Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku
 	Output address: NONE
 	Input address: Department of Cardiovascular Medicine, Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku, Chiba City, Chiba 260-8670, Japan.
-	Formatted address: Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku, Chiba City, Chiba 260-8670, Japan.
+	Formatted address: Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku
 	Output address: NONE
 	Input address: Department of Cardiovascular Medicine, Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku, Chiba City, Chiba 260-8670, Japan.
-	Formatted address: Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku, Chiba City, Chiba 260-8670, Japan.
+	Formatted address: Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku
 	Output address: NONE
 	Input address: Department of Pediatrics, Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku, Chiba-shi 260-8670 Chiba, Japan.
-	Formatted address: Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku, Chiba-shi 260-8670 Chiba, Japan.
+	Formatted address: Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku
 	Output address: NONE
 	Input address: Department of Cardiovascular Medicine, Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku, Chiba City, Chiba 260-8670, Japan.
-	Formatted address: Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku, Chiba City, Chiba 260-8670, Japan.
+	Formatted address: Chiba University Graduate School of Medicine, 1-8-1 Inohana, Chuo-ku
 	Output address: NONE
 
 PMID: 26313663
 	Input address: Service d'oncologie médical, Hôpital du Valais, Sion 1951, Switzerland.
-	Formatted address: Service d'oncologie médical, Hôpital du Valais, Sion 1951, Switzerland.
+	Formatted address: Service d'oncologie médical, Hôpital du Valais, Sion 1951
 	Output address: NONE
 	Input address: NCCCR, Hamad Medical Corporation, PO Box 3050, Doha, Qatar.
-	Formatted address: NCCCR, Hamad Medical Corporation, PO Box 3050, Doha, Qatar.
+	Formatted address: NCCCR, Hamad Medical Corporation, PO Box 3050
 	Output address: NONE
 	Input address: Institute of Surgical Pathology, University Hospital Zurich, Zurich 8091, Switzerland.
-	Formatted address: Institute of Surgical Pathology, University Hospital Zurich, Zurich 8091, Switzerland.
+	Formatted address: Institute of Surgical Pathology, University Hospital Zurich, Zurich 8091
 	Output address: NONE
 	Input address: Department of Oncology and Hematology, Kantonsspital St Gallen, St Gallen 9700, Switzerland.
 	Formatted address: Kantonsspital St Gallen, St Gallen 9700, Switzerland.
 	Output address: Kantonsspital St.Gallen
 	Input address: Department of Pathology, GROW School for Oncology and Developmental Biology, Maastricht University Medical Center, Maastricht 6229HX, The Netherlands.
-	Formatted address: GROW School for Oncology and Developmental Biology, Maastricht University Medical Center, Maastricht 6229HX, The Netherlands.
+	Formatted address: GROW School for Oncology and Developmental Biology, Maastricht University Medical Center, Maastricht 6229HX
 	Output address: NONE
 	Input address: Horten Center for Patient-Oriented Research and Knowledge Transfer, University of Zurich, Zurich 8091, Switzerland.
-	Formatted address: Horten Center for Patient-Oriented Research and Knowledge Transfer, University of Zurich, Zurich 8091, Switzerland.
+	Formatted address: Horten Center for Patient-Oriented Research and Knowledge Transfer, University of Zurich, Zurich 8091
 	Output address: NONE
 	Input address: Neuroradiology, MRI Medizinisch Radiologisches Institut, Zurich 8001, Switzerland.
-	Formatted address: Neuroradiology, MRI Medizinisch Radiologisches Institut, Zurich 8001, Switzerland.
+	Formatted address: Neuroradiology, MRI Medizinisch Radiologisches Institut, Zurich 8001
 	Output address: NONE
 	Input address: Department of Radiation Oncology, Netherlands Cancer Institute, Amsterdam 1066, The Netherlands.
 	Formatted address: Netherlands Cancer Institute, Amsterdam 1066, The Netherlands.
 	Output address: NONE
 	Input address: Gastrointestinal Medical Oncology Division, National Cancer Center Hospital Tokyo, Tokyo 104-0045, Japan.
-	Formatted address: Gastrointestinal Medical Oncology Division, National Cancer Center Hospital Tokyo, Tokyo 104-0045, Japan.
+	Formatted address: Gastrointestinal Medical Oncology Division, National Cancer Center Hospital Tokyo, Tokyo 104-0045
 	Output address: NONE
 	Input address: Department of Radiooncology, Luzerner Kantonsspital, Lucerne 6000, Switzerland.
 	Formatted address: Luzerner Kantonsspital, Lucerne 6000, Switzerland.
@@ -410,34 +392,34 @@ PMID: 26313663
 	Formatted address: Hôpital du Valais, Sion 1951, Switzerland.
 	Output address: Hospital Sion
 	Input address: Institute of Pathology, Luzerner Kantonsspital, Lucerne 6000, Switzerland.
-	Formatted address: Institute of Pathology, Luzerner Kantonsspital, Lucerne 6000, Switzerland.
+	Formatted address: Institute of Pathology, Luzerner Kantonsspital, Lucerne 6000
 	Output address: NONE
 	Input address: Institute of Pathology, Kantonsspital, St Gallen 9700, Switzerland.
-	Formatted address: Institute of Pathology, Kantonsspital, St Gallen 9700, Switzerland.
+	Formatted address: Institute of Pathology, Kantonsspital, St Gallen 9700
 	Output address: NONE
 	Input address: Gastrointestinal Medical Oncology Division, National Cancer Center Hospital Tokyo, Tokyo 104-0045, Japan.
-	Formatted address: Gastrointestinal Medical Oncology Division, National Cancer Center Hospital Tokyo, Tokyo 104-0045, Japan.
+	Formatted address: Gastrointestinal Medical Oncology Division, National Cancer Center Hospital Tokyo, Tokyo 104-0045
 	Output address: NONE
 	Input address: Department of Clinical Laboratory Medicine and Pathology, Shiga University of Medical Science, Seta, Otsu, Shiga 520-2192, Japan.
-	Formatted address: Shiga University of Medical Science, Seta, Otsu, Shiga 520-2192, Japan.
+	Formatted address: Shiga University of Medical Science, Seta, Otsu
 	Output address: 滋賀医科大学
 	Input address: Department of Oncology, CHUV, Lausanne 1011, Switzerland.
 	Formatted address: CHUV, Lausanne 1011, Switzerland.
 	Output address: Centre hospitalier universitaire vaudois
 	Input address: Gastrointestinal Medical Oncology Division, National Cancer Center Hospital Tokyo, Tokyo 104-0045, Japan.
-	Formatted address: Gastrointestinal Medical Oncology Division, National Cancer Center Hospital Tokyo, Tokyo 104-0045, Japan.
+	Formatted address: Gastrointestinal Medical Oncology Division, National Cancer Center Hospital Tokyo, Tokyo 104-0045
 	Output address: NONE
 	Input address: Department of Gastroenterology, Netherlands Cancer Institute, Amsterdam 1066, The Netherlands.
 	Formatted address: Netherlands Cancer Institute, Amsterdam 1066, The Netherlands.
 	Output address: NONE
 	Input address: NCCCR, Hamad Medical Corporation, PO Box 3050, Doha, Qatar.
-	Formatted address: NCCCR, Hamad Medical Corporation, PO Box 3050, Doha, Qatar.
+	Formatted address: NCCCR, Hamad Medical Corporation, PO Box 3050
 	Output address: NONE
 	Input address: Department of Oncology, University Hospital Zurich, Zurich 8091, Switzerland.
 	Formatted address: University Hospital Zurich, Zurich 8091, Switzerland.
 	Output address: University Hospital Zurich
 	Input address: Institute of Surgical Pathology, University Hospital Zurich, Zurich 8091, Switzerland.
-	Formatted address: Institute of Surgical Pathology, University Hospital Zurich, Zurich 8091, Switzerland.
+	Formatted address: Institute of Surgical Pathology, University Hospital Zurich, Zurich 8091
 	Output address: NONE
 	Input address: Department of Oncology, Luzerner Kantonsspital, Lucerne 6000, Switzerland.
 	Formatted address: Luzerner Kantonsspital, Lucerne 6000, Switzerland.
@@ -463,16 +445,16 @@ PMID: 26313905
 	Formatted address: University Hospital of Bonn, Bonn, Germany.
 	Output address: President Hotel
 	Input address: Clinical Neurosciences Unit, University Hospital of Bonn, Bonn, Germany.
-	Formatted address: Clinical Neurosciences Unit, University Hospital of Bonn, Bonn, Germany.
+	Formatted address: Clinical Neurosciences Unit, University Hospital of Bonn, Bonn
 	Output address: NONE
 	Input address: Clinical Neurosciences Unit, University Hospital of Bonn, Bonn, Germany.
-	Formatted address: Clinical Neurosciences Unit, University Hospital of Bonn, Bonn, Germany.
+	Formatted address: Clinical Neurosciences Unit, University Hospital of Bonn, Bonn
 	Output address: NONE
 	Input address: Department of Surgery, University Hospital of Bonn, Bonn, Germany.
 	Formatted address: University Hospital of Bonn, Bonn, Germany.
 	Output address: President Hotel
 	Input address: Graduate School of Medicine, Kyoto University, Kyoto, Japan.
-	Formatted address: Graduate School of Medicine, Kyoto University, Kyoto, Japan.
+	Formatted address: Graduate School of Medicine, Kyoto University, Kyoto
 	Output address: 京都大学医学研究科・医学部 医学科医学領域産学連携推進機構
 	Input address: Department of Surgery, University Hospital of Bonn, Bonn, Germany.
 	Formatted address: University Hospital of Bonn, Bonn, Germany.
@@ -481,17 +463,17 @@ PMID: 26313905
 	Formatted address: University Hospital of Bonn, Bonn, Germany.
 	Output address: President Hotel
 	Input address: Tytgat Institute for Liver and Intestinal Research, Academic Medical Centre, Amsterdam, The Netherlands.
-	Formatted address: Tytgat Institute for Liver and Intestinal Research, Academic Medical Centre, Amsterdam, The Netherlands.
+	Formatted address: Tytgat Institute for Liver and Intestinal Research, Academic Medical Centre, Amsterdam
 	Output address: NONE
 
 PMID: 26313901
 	Input address: Institute of Experimental Endocrinology, Charité University Medicine Berlin, Berlin, Germany.
-	Formatted address: Institute of Experimental Endocrinology, Charité University Medicine Berlin, Berlin, Germany.
+	Formatted address: Institute of Experimental Endocrinology, Charité University Medicine Berlin, Berlin
 	Output address: NONE
 
 PMID: 26313875
 	Input address: a Institute of Sports Science , University of Tübingen , Wilhelmstrasse 124, 72074 Tübingen , Germany.
-	Formatted address: a Institute of Sports Science, University of Tübingen, Wilhelmstrasse 124, 72074 Tübingen, Germany.
+	Formatted address: a Institute of Sports Science, University of Tübingen, Wilhelmstrasse 124
 	Output address: NONE
 
 PMID: 26314084
@@ -502,10 +484,10 @@ PMID: 26314084
 	Formatted address: University of Rome "La Sapienza", University of Pavia, Italy.
 	Output address: NONE
 	Input address: Department of Pediatric Hematology/Oncology, Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Ospedale Pediatrico Bambino Gesù, Rome, University of Pavia, Italy.
-	Formatted address: Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Ospedale Pediatrico Bambino Gesù, Rome, University of Pavia, Italy.
+	Formatted address: Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Ospedale Pediatrico Bambino Gesù, Rome, University of Pavia
 	Output address: NONE
 	Input address: Department of Pediatric Hematology/Oncology, Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Ospedale Pediatrico Bambino Gesù, Rome, University of Pavia, Italy.
-	Formatted address: Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Ospedale Pediatrico Bambino Gesù, Rome, University of Pavia, Italy.
+	Formatted address: Istituto di Ricovero e Cura a Carattere Scientifico (IRCCS) Ospedale Pediatrico Bambino Gesù, Rome, University of Pavia
 	Output address: NONE
 	Input address: Department of Molecular Medicine, University of Rome "La Sapienza", University of Pavia, Italy.
 	Formatted address: University of Rome "La Sapienza", University of Pavia, Italy.
@@ -516,55 +498,55 @@ PMID: 26314084
 
 PMID: 26314086
 	Input address: Fitness and Health Promotion, Niagara College, Welland, Ontario, Canada.
-	Formatted address: Fitness and Health Promotion, Niagara College, Welland, Ontario, Canada.
+	Formatted address: Fitness and Health Promotion, Niagara College, Welland
 	Output address: NONE
 
 PMID: 26314039
 	Input address: El Colegio de la Frontera Sur, Ecología de Artrópodos y Manejo de Plagas, Carretera Antiguo Aeropuerto Km 2.5 Tapachula 30700, Chiapas, México. sphilpot@ucsc.edu.
-	Formatted address: El Colegio de la Frontera Sur, Ecología de Artrópodos y Manejo de Plagas, Carretera Antiguo Aeropuerto Km 2.5 Tapachula 30700, Chiapas, México.
+	Formatted address: El Colegio de la Frontera Sur, Ecología de Artrópodos y Manejo de Plagas, Carretera Antiguo Aeropuerto Km 2.5 Tapachula 30700
 	Output address: NONE
 	Input address: El Colegio de la Frontera Sur, Conservación de la Biodiversidad, Avenida Centenario km 5.5, Chetumal 77014, Quintana Roo, México.
-	Formatted address: El Colegio de la Frontera Sur, Conservación de la Biodiversidad, Avenida Centenario km 5.5, Chetumal 77014, Quintana Roo, México.
+	Formatted address: El Colegio de la Frontera Sur, Conservación de la Biodiversidad, Avenida Centenario km 5.5
 	Output address: NONE
 	Input address: El Colegio de la Frontera Sur, Conservación de la Biodiversidad, Avenida Centenario km 5.5, Chetumal 77014, Quintana Roo, México. Centre de Recherches sur la Cognition Animale, CNRS-UMR 5169, Université de Toulouse UPS, 118 route de Narbonne, 31062 Toulouse Cedex 09, France.
-	Formatted address: El Colegio de la Frontera Sur, Conservación de la Biodiversidad, Avenida Centenario km 5.5, Chetumal 77014, Quintana Roo, México. Centre de Recherches sur la Cognition Animale, CNRS-UMR 5169, Université de Toulouse UPS, 118 route de Narbonne, 31062 Toulouse Cedex 09, France.
+	Formatted address: El Colegio de la Frontera Sur, Conservación de la Biodiversidad, Avenida Centenario km 5.5
 	Output address: NONE
 	Input address: Environmental Studies Department, University of California, Santa Cruz, 1156 High St., Santa Cruz, CA 95064.
-	Formatted address: University of California, Santa Cruz, 1156 High St., Santa Cruz, CA 95064.
+	Formatted address: University of California, Santa Cruz, 1156 High St.
 	Output address: University of California, Santa Cruz
 
 PMID: 26313935
 	Input address: 1Laboratory of Food Biotechnology,Institute of Food, Nutrition and Health,ETH Zurich,Schmelzbergstrasse 7,8092 Zurich,Switzerland.
-	Formatted address: 1Laboratory of Food Biotechnology, Institute of Food, Nutrition and Health, ETH Zurich, Schmelzbergstrasse 7, 8092 Zurich, Switzerland.
-	Output address: NONE
+	Formatted address: 1Laboratory of Food Biotechnology, Institute of Food, Nutrition and Health
+	Output address: 大磯内科クリニック
 	Input address: 1Laboratory of Food Biotechnology,Institute of Food, Nutrition and Health,ETH Zurich,Schmelzbergstrasse 7,8092 Zurich,Switzerland.
-	Formatted address: 1Laboratory of Food Biotechnology, Institute of Food, Nutrition and Health, ETH Zurich, Schmelzbergstrasse 7, 8092 Zurich, Switzerland.
-	Output address: NONE
+	Formatted address: 1Laboratory of Food Biotechnology, Institute of Food, Nutrition and Health
+	Output address: 大磯内科クリニック
 	Input address: 2INRA,UR454 Microbiology Unit,Clermont-Ferrand Research Centre,63122 Saint Genès-Champanelle,France.
-	Formatted address: 2INRA, UR454 Microbiology Unit, Clermont-Ferrand Research Centre, 63122 Saint Genès-Champanelle, France.
+	Formatted address: 2INRA, UR454 Microbiology Unit, Clermont-Ferrand Research Centre
 	Output address: NONE
 	Input address: 1Laboratory of Food Biotechnology,Institute of Food, Nutrition and Health,ETH Zurich,Schmelzbergstrasse 7,8092 Zurich,Switzerland.
-	Formatted address: 1Laboratory of Food Biotechnology, Institute of Food, Nutrition and Health, ETH Zurich, Schmelzbergstrasse 7, 8092 Zurich, Switzerland.
-	Output address: NONE
+	Formatted address: 1Laboratory of Food Biotechnology, Institute of Food, Nutrition and Health
+	Output address: 大磯内科クリニック
 	Input address: 1Laboratory of Food Biotechnology,Institute of Food, Nutrition and Health,ETH Zurich,Schmelzbergstrasse 7,8092 Zurich,Switzerland.
-	Formatted address: 1Laboratory of Food Biotechnology, Institute of Food, Nutrition and Health, ETH Zurich, Schmelzbergstrasse 7, 8092 Zurich, Switzerland.
-	Output address: NONE
+	Formatted address: 1Laboratory of Food Biotechnology, Institute of Food, Nutrition and Health
+	Output address: 大磯内科クリニック
 	Input address: 2INRA,UR454 Microbiology Unit,Clermont-Ferrand Research Centre,63122 Saint Genès-Champanelle,France.
-	Formatted address: 2INRA, UR454 Microbiology Unit, Clermont-Ferrand Research Centre, 63122 Saint Genès-Champanelle, France.
+	Formatted address: 2INRA, UR454 Microbiology Unit, Clermont-Ferrand Research Centre
 	Output address: NONE
 	Input address: 1Laboratory of Food Biotechnology,Institute of Food, Nutrition and Health,ETH Zurich,Schmelzbergstrasse 7,8092 Zurich,Switzerland.
-	Formatted address: 1Laboratory of Food Biotechnology, Institute of Food, Nutrition and Health, ETH Zurich, Schmelzbergstrasse 7, 8092 Zurich, Switzerland.
-	Output address: NONE
+	Formatted address: 1Laboratory of Food Biotechnology, Institute of Food, Nutrition and Health
+	Output address: 大磯内科クリニック
 
 PMID: 26314087
 	Input address: Menzies Institute for Medical Research, University of Tasmania, Hobart, Tasmania, Australia.
-	Formatted address: Menzies Institute for Medical Research, University of Tasmania, Hobart, Tasmania, Australia.
+	Formatted address: Menzies Institute for Medical Research, University of Tasmania, Hobart
 	Output address: Menzies Research Institute Tasmania
 
 PMID: 26314072
 	Input address: Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore, India-560089. Contributed Equally.
-	Formatted address: Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore, India-560089. Contributed Equally.
-	Output address: NONE
+	Formatted address: Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore
+	Output address: Medbiosys - Clinical Research Training division of Innova
 	Input address: Contributed Equally. Department of Zoology, University of Delhi, Delhi, India-110007.
 	Formatted address: University of Delhi, Delhi, India-110007.
 	Output address: University of Delhi
@@ -575,25 +557,25 @@ PMID: 26314072
 	Formatted address: University of Delhi, Delhi, India-110007.
 	Output address: University of Delhi
 	Input address: Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore, India-560089.Contributed Equally.Department of Zoology, University of Delhi, Delhi, India-110007.Division of Entomology, Indian Agricultural Research Institute, Delhi, India-110012.Department of Biotechnology, Kuvempu University, Shimoga-577451, India.
-	Formatted address: Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore, University of Delhi, Delhi, India-110007.Division of Entomology, Indian Agricultural Research Institute, Delhi, Kuvempu University, Shimoga-577451, India.
+	Formatted address: Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore
+	Output address: Medbiosys - Clinical Research Training division of Innova
+	Input address: Division of Entomology, Indian Agricultural Research Institute, Delhi, India-110012.
+	Formatted address: Division of Entomology, Indian Agricultural Research Institute, Delhi
 	Output address: NONE
 	Input address: Division of Entomology, Indian Agricultural Research Institute, Delhi, India-110012.
-	Formatted address: Division of Entomology, Indian Agricultural Research Institute, Delhi, India-110012.
-	Output address: NONE
-	Input address: Division of Entomology, Indian Agricultural Research Institute, Delhi, India-110012.
-	Formatted address: Division of Entomology, Indian Agricultural Research Institute, Delhi, India-110012.
+	Formatted address: Division of Entomology, Indian Agricultural Research Institute, Delhi
 	Output address: NONE
 	Input address: Department of Biotechnology, Kuvempu University, Shimoga-577451, India.
 	Formatted address: Kuvempu University, Shimoga-577451, India.
 	Output address: Kuvempu University
 	Input address: Division of Entomology, Indian Agricultural Research Institute, Delhi, India-110012.
-	Formatted address: Division of Entomology, Indian Agricultural Research Institute, Delhi, India-110012.
+	Formatted address: Division of Entomology, Indian Agricultural Research Institute, Delhi
 	Output address: NONE
 	Input address: Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore, India-560089.Contributed Equally.Department of Zoology, University of Delhi, Delhi, India-110007.Division of Entomology, Indian Agricultural Research Institute, Delhi, India-110012.Department of Biotechnology, Kuvempu University, Shimoga-577451, India. asokaniihr@gmail.com.
-	Formatted address: Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore, University of Delhi, Delhi, India-110007.Division of Entomology, Indian Agricultural Research Institute, Delhi, Kuvempu University, Shimoga-577451, India.
-	Output address: NONE
+	Formatted address: Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore
+	Output address: Medbiosys - Clinical Research Training division of Innova
 	Input address: Department of Zoology, University of Delhi, Delhi, India-110007. asokaniihr@gmail.com.
 	Formatted address: University of Delhi, Delhi, India-110007.
 	Output address: University of Delhi
 
-SUCCESS RATE: 42.3728813559322%
+SUCCESS RATE: 51.461988304093566%

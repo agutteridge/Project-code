@@ -3,6 +3,7 @@ import json
 import sys
 import math
 import re
+import statistics
 
 from Bio import Entrez
 
@@ -12,7 +13,6 @@ SCRIPT_DIR = os.path.dirname(os.path.realpath(os.path.join(os.getcwd(), os.path.
 sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, PACKAGE_PARENT)))
 
 from app import citations, geocode, cache, config
-import graphs
 
 # Entrez setup
 Entrez.email = config.email
@@ -46,123 +46,176 @@ def getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2):
         math.cos(deg2rad(lat1)) * math.cos(deg2rad(lat2)) * 
         math.sin(dLon / 2) * math.sin(dLon / 2))
     c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
-    d = R * c # Distance in km
+    d = r * c # Distance in km
     return d
 
 def deg2rad(deg):
   return deg * (math.pi / 180)
 
-# check > 0
-def format_address_0(address):
+def format_address_00(address):
     return address
 
-# check > 0
-def format_address_1(address):
+def format_address_01(address):
     return geocode.remove_email(address)
 
-# check > 0
-def format_address_2(address):
+def format_address_02(address):
     without_email = geocode.remove_email(address)
     without_department = geocode.remove_dept(without_email)
-    lines_list.append(len(without_department))
     result = (', '.join(without_department))
     return result
 
-# check > 0
-def format_address_3(address):
+def format_address_03(address):
     without_email = geocode.remove_email(address)
     without_department = geocode.remove_dept(without_email)
-    result = without_department[0]
-    return result
+    if len(without_department) > 0:
+        return without_department[0]
+    else:
+        return ''
 
-# check > 1
-def format_address_4(address):
+def format_address_04(address):
     without_email = geocode.remove_email(address)
     without_department = geocode.remove_dept(without_email)
-    return without_department[1]
+    if len(without_department) > 1:
+        return without_department[1]
+    else:
+        return ''
 
-# check > 1
-def format_address_5(address):
+def format_address_05(address):
     without_email = geocode.remove_email(address)
     without_department = geocode.remove_dept(without_email)
-    return ', '.join(without_department[0:2])
+    if len(without_department) > 1:
+        return ', '.join(without_department[0:2])
+    else:
+        return ''
 
-# check > 1
-def format_address_6(address):
+def format_address_06(address):
     without_email = geocode.remove_email(address)
     without_department = geocode.remove_dept(without_email)
-    return ', '.join([without_department[0], without_department[-1]])        
+    if len(without_department) > 1:
+        return ', '.join([without_department[0], without_department[-1]])        
+    else:
+        return ''
 
-# check > 1
-def format_address_7(address):
+def format_address_07(address):
     without_email = geocode.remove_email(address)
     without_department = geocode.remove_dept(without_email)
-    return ', '.join([without_department[1], without_department[-1]])
+    if len(without_department) > 2:
+        return ', '.join([without_department[1], without_department[-1]])
+    else:
+        return ''
+
+def format_address_08(address):
+    without_email = geocode.remove_email(address)
+    without_department = geocode.remove_dept(without_email)
+    if len(without_department) > 2:
+        return without_department[2]
+    else:
+        return ''
+
+def format_address_09(address):
+    without_email = geocode.remove_email(address)
+    without_department = geocode.remove_dept(without_email)
+    if len(without_department) > 3:
+        return ', '.join([without_department[2], without_department[-1]])
+    else:
+        return ''
+
+def format_address_10(address):
+    without_email = geocode.remove_email(address)
+    without_department = geocode.remove_dept(without_email)
+    if len(without_department) > 1:
+        return ', '.join(without_department[-2:])
+    else:
+        return ''
+
+def format_address_11(address):
+    without_email = geocode.remove_email(address)
+    without_department = geocode.remove_dept(without_email)
+    if len(without_department) > 2:
+        return ', '.join(without_department[-3:])
+    else:
+        return ''
+
+def format_address_12(address):
+    without_email = geocode.remove_email(address)
+    without_department = geocode.remove_dept(without_email)
+    if len(without_department) > 2:
+        return ', '.join(without_department[:3])
+    else:
+        return ''
+
+def format_address_13(address):
+    without_email = geocode.remove_email(address)
+    without_department = geocode.remove_dept(without_email)
+    if len(without_department) > 3:
+        return ', '.join(without_department[-4:])
+    else:
+        return ''
+
+def format_address_14(address):
+    without_email = geocode.remove_email(address)
+    without_department = geocode.remove_dept(without_email)
+    if len(without_department) > 3:
+        return ', '.join(without_department[:4])
+    else:
+        return ''
 
 def check(address):
-    address_lines = address.split(',')
-    if len(address_lines) > 0:
+    if len(address) > 1:
         return True
     else:
         return False    
 
-# def geocode_specificity(results):
-#     coords = fake_json('spec_results.json')
-#     coordinate_list = []
+def geocode_specificity(results):
+    with open(os.path.join('./tests/resources', '14_specificity.txt'), 'a') as datafile:
+        input_num = 0
+        output_num = 0
+        distance_list = []
 
-#         for paper in results:
-#             pmid = str(paper['MedlineCitation']['PMID'])
-#             datafile.write('\nPMID: ' + pmid + '\n')
+        for paper in results:
+            pmid = str(paper['MedlineCitation']['PMID'])
+            datafile.write('\nPMID: ' + pmid + '\n')
 
-#             author_list = paper['MedlineCitation']['Article']['AuthorList']
-#             alphanumeric_addresses = set() # do not analyse duplicate addresses per paper
+            author_list = paper['MedlineCitation']['Article']['AuthorList']
 
-#             for author in author_list:
-#                 if 'LastName' in author:
-#                     datafile.write('\tAuthor: ' + author['LastName'] + '\n')
-
-#                 elif 'CollectiveName' in author:
-#                     datafile.write('\tCollective: ' + author['CollectiveName'] + '\n')
-
-#                 for place in author['AffiliationInfo']:
-#                     individual_addresses = place['Affiliation'].split(';')
-
-#                     coords_number = 0
-#                     for f in individual_addresses:
-#                         formatted_address = format_address_1(f) # change format_address
-#                         alphanumeric = re.sub('[\W]', '', formatted_address).upper()
-                        
-#                         if alphanumeric != '' and alphanumeric not in alphanumeric_addresses and check(f):
-#                             place = geocode.get_location(formatted_address)
-#                             datafile.write('\t\tFormatted address: ' + formatted_address + '\n')                            
+            for author in author_list:
+                for a in author['AffiliationInfo']:
+                    
+                    if 'lat' in a: # coordinates have been found manually
+                        formatted_address = format_address_14(a['Affiliation']) # change format_address
+                        if formatted_address:
+                            datafile.write('\tInput address: ' + a['Affiliation'] + '\n')
+                            place = geocode.get_location(formatted_address)
+                            datafile.write('\t\tFormatted address: ' + formatted_address + '\n')                            
         
-#                             if place:
-#                                 datafile.write('\t\tOutput address: ' + place['name'] + '\n')
-#                                 this_coord = place['geometry']['location']
-#                                 coordinate_list.append()
-#                                 distance = getDistanceFromLatLonInKm(this_coord['lat'],
-#                                     this_coord['long'],
-#                                     coords[coords_number]['lat'],
-#                                     coords[coords_number]['long'])
-#                                 datafile.write('\t\tDistance from target: ' + str(distance) + ' km\n')
-#                                 output_num += 1
-#                             else:
-#                                 coordinate_list.append({'coordinates': False})
-#                                 datafile.write('\t\tOutput address: NONE' + '\n')
+                            if place:
+                                input_num += 1
+                                datafile.write('\tOutput address: ' + place['name'] + '\n')
+                                datafile.write('\tResult coordinates: ' + str(place['geometry']['location']) + '\n')
+                                distance = getDistanceFromLatLonInKm(
+                                    place['geometry']['location']['lat'],
+                                    place['geometry']['location']['lng'],
+                                    a['lat'],
+                                    a['lng'])
+                                distance_list.append(distance)
 
-#                         coords_number += 1 # move to next coord in list regardless
+                                if distance < 5:
+                                    output_num += 1
+                                
+                                datafile.write('\t\tDistance from target: ' + str(distance) + ' km\n')
+                            else:
+                                datafile.write('\t\tOutput address: NONE' + '\n')
 
-#         if input_num > 0:
-#             datafile.write('\nSUCCESS RATE: ' + str(output_num / input_num * 100) + '%\n')
-#     datafile.close()
+        datafile.write(str(distance_list) + '\n\n')
+        datafile.write('\nMEAN DISTANCE: ' + str(statistics.mean(distance_list)) + ' km\n')
+        datafile.write('\n1 STANDARD DEVIATION: ' + str(statistics.stdev(distance_list)) + ' km\n')
 
-#     with open(os.path.join('./tests/resources', 'format_address_01_coords.json'), 'a') as datafile:
-#         datafile.write(json.dumps(coordinate_list))
-#     datafile.close()
+        if input_num > 0:
+            datafile.write('\nSUCCESS RATE: ' + str(output_num / input_num * 100) + '%\n')    
+    datafile.close()
 
-lines_list = []
 def geocode_sensitivity(results):
-    with open(os.path.join('./tests/resources', '02_sensitivity.txt'), 'a') as datafile:
+    with open(os.path.join('./tests/resources', '14_sensitivity.txt'), 'a') as datafile:
         input_num = 0
         output_num = 0
 
@@ -178,10 +231,10 @@ def geocode_sensitivity(results):
                     individual_addresses = place['Affiliation'].split(';')
 
                     for f in individual_addresses:
-                        formatted_address = format_address_2(f) # change format_address
+                        formatted_address = format_address_14(f) # change format_address
                         alphanumeric = re.sub('[\W]', '', formatted_address).upper()
                         
-                        if alphanumeric != '' and alphanumeric not in alphanumeric_addresses and check(f):
+                        if alphanumeric != '' and alphanumeric not in alphanumeric_addresses and formatted_address:
                             datafile.write('\tInput address: ' + f + '\n')
                             input_num += 1
                             place = geocode.get_location(formatted_address)
@@ -194,9 +247,8 @@ def geocode_sensitivity(results):
                                 datafile.write('\tOutput address: NONE' + '\n')
 
         if input_num > 0:
-            datafile.write('\nSUCCESS RATE: ' + str(output_num / input_num * 100) + '%\n' + str(countries_dict))
+            datafile.write('\nSUCCESS RATE: ' + str(output_num / input_num * 100) + '%\n')
     datafile.close()
-    graphs.plot(lines_list)
 
 def init_specificity():
     id_list = (search_num('USA[Affiliation]', 1)['IdList'] + 
@@ -256,4 +308,5 @@ if __name__ == "__main__":
     # init_sensitivity()
     # init_specificity()
     geocode_sensitivity(fake_json('eFetch_sensitivity.json'))
+    geocode_specificity(fake_json('eFetch_specificity.json'))
     # print('no method chosen')

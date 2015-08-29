@@ -23,7 +23,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Department of Pediatric Hematology and Oncology, University Medical Center Eppendorf, Hamburg, Germany k.lehmberg@uke.de.",
-                "Identifier": []
+                "Identifier": [],
+                "lat":  53.5890864,
+                "lng": 9.9759963
               }
             ],
             "Identifier": [],
@@ -35,7 +37,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
-                "Identifier": []
+                "Identifier": [],
+                "lat":  35.1555334,
+                "lng": -90.0455115
               }
             ],
             "Identifier": [],
@@ -47,7 +51,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Childhood Cancer Research Unit, Department of Women's and Children's Health, Karolinska Institutet, Karolinska University Hospital Solna, Stockholm, Sweden.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": 59.3481484,
+                "lng": 18.0236578
               }
             ],
             "Identifier": [],
@@ -59,7 +65,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Department of Medicine I, Hematology and Stem Cell Transplantation, Hemostasis and Medical Oncology, Elisabethinen Hospital, Linz, Austria.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": 48.3051251,
+                "lng": 14.2937941
               }
             ],
             "Identifier": [],
@@ -240,7 +248,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China. klhe@ippcaas.cn.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": 40.022621,
+                "lng": 116.2860293
               }
             ],
             "Identifier": [],
@@ -421,7 +431,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Department of Haematology, Academic Medical Center, Amsterdam, The Netherlands.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": 52.295843,
+                "lng": 4.9577432
               }
             ],
             "Identifier": [],
@@ -445,7 +457,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Lymphoma Service, Memorial Sloan Kettering Cancer Center, New York, USA.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": 40.7641718,
+                "lng": -73.9567148
               }
             ],
             "Identifier": [],
@@ -457,7 +471,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Department of Medicine III, LMU University of Munich, Germany.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": 48.1508394,
+                "lng": 11.5810441
               }
             ],
             "Identifier": [],
@@ -469,7 +485,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Medical Oncology, University of Modena and Reggio Emilia, Italy.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": 44.6319678,
+                "lng": 10.943805
               }
             ],
             "Identifier": [],
@@ -481,7 +499,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Division of Hematology, Department of Internal Medicine, University Hospital Center Zagreb and Medical School, University of Zagreb, Croatia.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": 45.8238607,
+                "lng": 16.0077337
               }
             ],
             "Identifier": [],
@@ -493,7 +513,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Institute of Cancer Sciences, the University of Manchester, and the Christie NHS Foundation Trust, Manchester Academic Health Science Centre, Manchester, UK.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": 53.4630893,
+                "lng": -2.2384236
               }
             ],
             "Identifier": [],
@@ -610,7 +632,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Department of Chemistry, Graduate School of Science, Chiba University , 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": 35.6262467,
+                "lng": 140.1024121
               }
             ],
             "Identifier": [],
@@ -1151,7 +1175,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Fitness and Health Promotion, Niagara College, Welland, Ontario, Canada.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": 43.0135332,
+                "lng": -79.2667694
               }
             ],
             "Identifier": [],
@@ -1278,7 +1304,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "El Colegio de la Frontera Sur, Ecología de Artrópodos y Manejo de Plagas, Carretera Antiguo Aeropuerto Km 2.5 Tapachula 30700, Chiapas, México. sphilpot@ucsc.edu.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": 14.8866807,
+                "lng": -92.2869404
               }
             ],
             "Identifier": [],
@@ -1301,8 +1329,10 @@
             "ForeName": "Jean-Paul",
             "AffiliationInfo": [
               {
-                "Affiliation": "El Colegio de la Frontera Sur, Conservación de la Biodiversidad, Avenida Centenario km 5.5, Chetumal 77014, Quintana Roo, México. Centre de Recherches sur la Cognition Animale, CNRS-UMR 5169, Université de Toulouse UPS, 118 route de Narbonne, 31062 Toulouse Cedex 09, France.",
-                "Identifier": []
+                "Affiliation": "Centre de Recherches sur la Cognition Animale, CNRS-UMR 5169, Université de Toulouse UPS, 118 route de Narbonne, 31062 Toulouse Cedex 09, France.",
+                "Identifier": [],
+                "lat": 43.559597,
+                "lng": 1.4720178
               }
             ],
             "Identifier": [],
@@ -1314,7 +1344,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Environmental Studies Department, University of California, Santa Cruz, 1156 High St., Santa Cruz, CA 95064.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": 36.9914461,
+                "lng": -122.0609145
               }
             ],
             "Identifier": [],
@@ -1448,7 +1480,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Menzies Institute for Medical Research, University of Tasmania, Hobart, Tasmania, Australia.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": -42.8778436,
+                "lng": 147.3287217
               }
             ],
             "Identifier": [],
@@ -1585,7 +1619,9 @@
             "AffiliationInfo": [
               {
                 "Affiliation": "Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore, India-560089. Contributed Equally.",
-                "Identifier": []
+                "Identifier": [],
+                "lat": 13.1371586,
+                "lng": 77.497329
               }
             ],
             "Identifier": [],
