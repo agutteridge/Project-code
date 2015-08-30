@@ -82,7 +82,8 @@ function placeMarkers(data) {
         data[i].place.geometry.location.lng),
       map: map,
       pmid: data[i].PMID,
-      opacity: opacity
+      opacity: opacity,
+      address: data[i].place.name
     });
 
     // add marker to global array
@@ -90,7 +91,7 @@ function placeMarkers(data) {
 
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
       return function() {
-        infowindow.setContent(marker.pmid);
+        infowindow.setContent(marker.address);
         infowindow.open(map, marker);
       }
     })(marker, i));
