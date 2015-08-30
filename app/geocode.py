@@ -92,11 +92,11 @@ def remove_dept(address):
 # Removes first address lines for addresses over ???????? parts long (comma separated)
 def format_address(address):
     without_email = remove_email(address)
-    without_department = remove_dept(without_email)
-    if len(without_department) > 3:
-        without_department = without_department[0:3]
-    result = (', '.join(without_department))
-    return result
+    address_lines = without_email.split(',')
+    if len(address_lines) > 1:
+        return ', '.join(address_lines[1:len(address_lines)])
+    else:
+        return ''
 
 # Returns a set of strings, each with a different address.
 # The set of strings with alphanumeric chars prevents duplication of
@@ -114,7 +114,7 @@ def unique_addresses(author_list):
                 formatted_address = format_address(f)
                 # exclude all non-alphanumeric chars, upper case
                 alphanumeric = re.sub('[\W]', '', formatted_address).upper()
-                if alphanumeric != '' and alphanumeric not in alphanumeric_addresses:
+                if alphanumeric != '' and alphanumeric not in alphanumeric_addresses and formatted_address:
                     result.append(formatted_address)
                     alphanumeric_addresses.add(alphanumeric)
     return result

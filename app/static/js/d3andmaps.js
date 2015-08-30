@@ -71,12 +71,18 @@ function placeMarkers(data) {
   var infowindow = new google.maps.InfoWindow();
 
   for (i = 0; i < data.length; i++) {
+    var opacity = 0.5;
+
+    if (data[i].pmid === firstpmid) {
+      opacity = 1;
+    };
+
     marker = new google.maps.Marker({
       position: new google.maps.LatLng(data[i].place.geometry.location.lat, 
         data[i].place.geometry.location.lng),
       map: map,
       pmid: data[i].PMID,
-      opacity: 0.5
+      opacity: opacity
     });
 
     // add marker to global array
@@ -92,7 +98,7 @@ function placeMarkers(data) {
 }
 
 function clearMarkers() {
-  for (var i = 0; i < markers.length; i++ ) {
+  for (var i = 0; i < markers.length; i++) {
     markers[i].setMap(null);
   }
   markers.length = 0;
@@ -109,7 +115,6 @@ var previous_btn = document.getElementById('previous_btn');
 var next_btn = document.getElementById('next_btn');
 
 previous_btn.onclick = function(){
-  console.log('PREV');
   if (paper_position != 0) {
     sendPaper(papers[paper_position - 1]);
     paper_position -= 1;
@@ -117,7 +122,6 @@ previous_btn.onclick = function(){
 };
 
 next_btn.onclick = function(){
-  console.log('NEXT');
   if (paper_position > -1 && paper_position < 20) {
     sendPaper(papers[paper_position + 1]);
     paper_position += 1;
@@ -164,6 +168,14 @@ function sendPaper(paper) {
   info.innerHTML = paper.authors + ", <i>" +
     paper.journal + "</i>, " +
     paper.date;
+
+  for (var i = 0; i < markers.length; i++) {
+    if (markers[i].pmid === paper.PMID) {
+      markers[i].setOpacity(1);
+    } else {
+      markers[i].setOpacity(0.5);
+    };
+  };
 }
 
 function d3_callback(error, data) {
@@ -171,6 +183,8 @@ function d3_callback(error, data) {
   if (error) throw error;
 
   var root = data.concepts;
+  // sets global var as first PMID so markers can be formatted accordingly
+  firstpmid = data.papers[0].PMID
   // passing location data to Google Maps function
   placeMarkers(data.places)
   //displaying paper information
