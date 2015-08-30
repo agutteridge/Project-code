@@ -52,122 +52,94 @@ def getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2):
 def deg2rad(deg):
   return deg * (math.pi / 180)
 
+# No formatting
 def format_address_00(address):
     return address
 
+# Email address removed
 def format_address_01(address):
     return geocode.remove_email(address)
 
+# Department removed
 def format_address_02(address):
     without_email = geocode.remove_email(address)
     without_department = geocode.remove_dept(without_email)
     result = (', '.join(without_department))
     return result
 
+# First line removed
 def format_address_03(address):
     without_email = geocode.remove_email(address)
-    without_department = geocode.remove_dept(without_email)
-    if len(without_department) > 0:
-        return without_department[0]
+    address_lines = without_email.split(',')
+    if len(address_lines) > 1:
+        return ', '.join(address_lines[1:len(address_lines)])
     else:
         return ''
 
+# All but first line, department removed
 def format_address_04(address):
     without_email = geocode.remove_email(address)
     without_department = geocode.remove_dept(without_email)
     if len(without_department) > 1:
-        return without_department[1]
+        return ', '.join(without_department[1:len(without_department)])
     else:
         return ''
 
+# Last 2 lines
 def format_address_05(address):
     without_email = geocode.remove_email(address)
-    without_department = geocode.remove_dept(without_email)
-    if len(without_department) > 1:
-        return ', '.join(without_department[0:2])
+    address_lines = without_email.split(',')
+    if len(address_lines) > 1:
+        return ', '.join(address_lines[-2:])
     else:
         return ''
 
+# Second and third lines only
 def format_address_06(address):
     without_email = geocode.remove_email(address)
-    without_department = geocode.remove_dept(without_email)
-    if len(without_department) > 1:
-        return ', '.join([without_department[0], without_department[-1]])        
+    address_lines = without_email.split(',')
+    if len(address_lines) > 2:
+        return ', '.join(address_lines[1:3])
     else:
         return ''
 
+# Second and last lines
 def format_address_07(address):
     without_email = geocode.remove_email(address)
-    without_department = geocode.remove_dept(without_email)
-    if len(without_department) > 2:
-        return ', '.join([without_department[1], without_department[-1]])
+    address_lines = without_email.split(',')
+    if len(address_lines) > 2:
+        return ', '.join([address_lines[1], address_lines[-1]])
     else:
         return ''
 
+# Last 3 lines
 def format_address_08(address):
     without_email = geocode.remove_email(address)
-    without_department = geocode.remove_dept(without_email)
-    if len(without_department) > 2:
-        return without_department[2]
+    address_lines = without_email.split(',')
+    if len(address_lines) > 2:
+        return ', '.join(address_lines[-3:])
     else:
         return ''
 
+# All but first 2 lines
 def format_address_09(address):
     without_email = geocode.remove_email(address)
-    without_department = geocode.remove_dept(without_email)
-    if len(without_department) > 3:
-        return ', '.join([without_department[2], without_department[-1]])
+    address_lines = without_email.split(',')
+    if len(address_lines) > 2:
+        return ', '.join(address_lines[2:len(address_lines)])
     else:
         return ''
 
 def format_address_10(address):
     without_email = geocode.remove_email(address)
-    without_department = geocode.remove_dept(without_email)
-    if len(without_department) > 1:
-        return ', '.join(without_department[-2:])
+    address_lines = without_email.split(',')
+    if len(address_lines) > 2:
+        return ', '.join(address_lines[1:len(address_lines)-1])
     else:
-        return ''
+        return ''    
 
-def format_address_11(address):
-    without_email = geocode.remove_email(address)
-    without_department = geocode.remove_dept(without_email)
-    if len(without_department) > 2:
-        return ', '.join(without_department[-3:])
-    else:
-        return ''
-
-def format_address_12(address):
-    without_email = geocode.remove_email(address)
-    without_department = geocode.remove_dept(without_email)
-    if len(without_department) > 2:
-        return ', '.join(without_department[:3])
-    else:
-        return ''
-
-def format_address_13(address):
-    without_email = geocode.remove_email(address)
-    without_department = geocode.remove_dept(without_email)
-    if len(without_department) > 3:
-        return ', '.join(without_department[-4:])
-    else:
-        return ''
-
-def format_address_14(address):
-    without_email = geocode.remove_email(address)
-    without_department = geocode.remove_dept(without_email)
-    if len(without_department) > 3:
-        return ', '.join(without_department[:4])
-    else:
-        return ''
-
-def check(address):
-    if len(address) > 1:
-        return True
-    else:
-        return False    
-
-def geocode_specificity(results):
-    with open(os.path.join('./tests/resources', '14_specificity.txt'), 'a') as datafile:
+def geocode_acc(results):
+    with open(os.path.join('./tests/resources', '10_acc.txt'), 'a') as datafile:
         input_num = 0
         output_num = 0
         distance_list = []
@@ -182,7 +154,7 @@ def geocode_specificity(results):
                 for a in author['AffiliationInfo']:
                     
                     if 'lat' in a: # coordinates have been found manually
-                        formatted_address = format_address_14(a['Affiliation']) # change format_address
+                        formatted_address = format_address_10(a['Affiliation']) # change format_address
                         if formatted_address:
                             datafile.write('\tInput address: ' + a['Affiliation'] + '\n')
                             place = geocode.get_location(formatted_address)
@@ -214,8 +186,8 @@ def geocode_specificity(results):
             datafile.write('\nSUCCESS RATE: ' + str(output_num / input_num * 100) + '%\n')    
     datafile.close()
 
-def geocode_sensitivity(results):
-    with open(os.path.join('./tests/resources', '14_sensitivity.txt'), 'a') as datafile:
+def geocode_hit(results):
+    with open(os.path.join('./tests/resources', '10_hit.txt'), 'a') as datafile:
         input_num = 0
         output_num = 0
 
@@ -231,7 +203,7 @@ def geocode_sensitivity(results):
                     individual_addresses = place['Affiliation'].split(';')
 
                     for f in individual_addresses:
-                        formatted_address = format_address_14(f) # change format_address
+                        formatted_address = format_address_10(f) # change format_address
                         alphanumeric = re.sub('[\W]', '', formatted_address).upper()
                         
                         if alphanumeric != '' and alphanumeric not in alphanumeric_addresses and formatted_address:
@@ -280,7 +252,7 @@ def init_specificity():
 
 # Retrieves unique papers according to affiliate countries,
 # according to % share of citations
-def init_sensitivity():
+def init_hit():
     id_list = (search_num('USA[Affiliation]', 14)['IdList'] + 
         search_num('China[Affiliation]', 4)['IdList'] + 
         search_num('UK[Affiliation]', 4)['IdList'] + 
@@ -299,15 +271,17 @@ def init_sensitivity():
 
     fetch_results = citations.fetch_details(unique_ids)
 
-    with open(os.path.join('./tests/resources', 'eFetch_sensitivity.json'), 'w') as datafile:
+    with open(os.path.join('./tests/resources', 'eFetch_hit.json'), 'w') as datafile:
         print('opened, writing...')
         datafile.write(json.dumps(fetch_results))
     datafile.close()
 
 
+def doublecheck():
+    place = """TN, USA"""
+    print(geocode.get_location(place))
+
 if __name__ == "__main__":
-    # init_sensitivity()
-    # init_specificity()
-    # geocode_sensitivity(fake_json('eFetch_sensitivity.json'))
-    # geocode_specificity(fake_json('eFetch_specificity.json'))
-    print('no method chosen')
+    # doublecheck()
+    geocode_hit(fake_json('eFetch_hit.json'))
+    geocode_acc(fake_json('eFetch_acc.json'))

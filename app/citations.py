@@ -63,10 +63,10 @@ def get_authors(authors):
 # Returns either year of publishing or formatted date
 def get_date(journal):
     # Dict containing year, month and day 
-    if 'PubDate' in journal:
-        return journal['PubDate']
-    elif 'MedlineDate' in journal:
-        return journal['MedlineDate']
+    if 'Year' in journal['PubDate']:
+        return journal['PubDate']['Year']
+    elif 'MedlineDate' in journal['PubDate']:
+        return journal['PubDate']['MedlineDate']
 
 # Formatting paper information for frontend as JSON
 def format_papers(all_papers):
@@ -75,6 +75,7 @@ def format_papers(all_papers):
     for p in all_papers:
         author_text = get_authors(p['MedlineCitation']['Article']['AuthorList'])
         date = get_date(p['MedlineCitation']['Article']['Journal']['JournalIssue'])
+        print(date)
 
         result_dict = {'PMID': p['MedlineCitation']['PMID'],
             'title': p['MedlineCitation']['Article']['ArticleTitle'],

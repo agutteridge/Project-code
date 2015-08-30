@@ -1,53 +1,52 @@
 
 PMID: 26314082
 	Input address: Department of Pediatric Hematology and Oncology, University Medical Center Eppendorf, Hamburg, Germany k.lehmberg@uke.de.
-		Formatted address: Hamburg, Germany
+		Formatted address:  Hamburg,  Germany 
 		Output address: NONE
 	Input address: Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN, USA.
-		Formatted address: Memphis, USA.
+		Formatted address:  Memphis,  TN,  USA.
 		Output address: NONE
 	Input address: Childhood Cancer Research Unit, Department of Women's and Children's Health, Karolinska Institutet, Karolinska University Hospital Solna, Stockholm, Sweden.
-		Formatted address: Karolinska Institutet, Sweden.
-	Output address: Karolinska Institute
-	Result coordinates: {'lat': 59.348148, 'lng': 18.023658}
-		Distance from target: 4.590029899489919e-05 km
+		Formatted address:  Karolinska Institutet,  Karolinska University Hospital Solna,  Stockholm,  Sweden.
+	Output address: First Hotel Norrtull
+	Result coordinates: {'lng': 18.04026, 'lat': 59.347666}
+		Distance from target: 0.9427030238973922 km
 	Input address: Department of Medicine I, Hematology and Stem Cell Transplantation, Hemostasis and Medical Oncology, Elisabethinen Hospital, Linz, Austria.
-		Formatted address: Hemostasis and Medical Oncology, Austria.
+		Formatted address:  Hemostasis and Medical Oncology,  Elisabethinen Hospital,  Linz,  Austria.
 		Output address: NONE
 
 PMID: 26314071
 	Input address: The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China. klhe@ippcaas.cn.
-		Formatted address: Institute of Plant Protection, P. R. China.
+		Formatted address:  Chinese Academy of Agricultural Sciences,  Beijing 100193,  P. R. China. 
 		Output address: NONE
 
 PMID: 26314080
 	Input address: Department of Haematology, Academic Medical Center, Amsterdam, The Netherlands.
-		Formatted address: Amsterdam, The Netherlands.
+		Formatted address:  Amsterdam,  The Netherlands.
 		Output address: NONE
 	Input address: Lymphoma Service, Memorial Sloan Kettering Cancer Center, New York, USA.
-		Formatted address: Memorial Sloan Kettering Cancer Center, USA.
-	Output address: Memorial Sloan Kettering Cancer Center
-	Result coordinates: {'lat': 40.764456, 'lng': -73.957126}
-		Distance from target: 0.04688244882832312 km
+		Formatted address:  New York,  USA.
+		Output address: NONE
+	Input address: Department of Medicine III, LMU University of Munich, Germany.
+		Formatted address:  Germany.
+		Output address: NONE
 	Input address: Medical Oncology, University of Modena and Reggio Emilia, Italy.
-		Formatted address: University of Modena and Reggio Emilia, Italy.
-	Output address: University of Modena and Reggio Emilia - San Lazzaro Campus
-	Result coordinates: {'lat': 44.688982, 'lng': 10.663918}
-		Distance from target: 23.02651565202709 km
+		Formatted address:  Italy.
+	Output address: Italy
+	Result coordinates: {'lng': -81.5483, 'lat': 28.3675}
+		Distance from target: 8022.4072100325975 km
 	Input address: Division of Hematology, Department of Internal Medicine, University Hospital Center Zagreb and Medical School, University of Zagreb, Croatia.
-		Formatted address: University Hospital Center Zagreb and Medical School, Croatia.
+		Formatted address:  University Hospital Center Zagreb and Medical School,  University of Zagreb,  Croatia.
 		Output address: NONE
 	Input address: Institute of Cancer Sciences, the University of Manchester, and the Christie NHS Foundation Trust, Manchester Academic Health Science Centre, Manchester, UK.
-		Formatted address: the University of Manchester, UK.
-	Output address: The University of Manchester
-	Result coordinates: {'lat': 53.46685, 'lng': -2.233884}
-		Distance from target: 0.5149454517706066 km
+		Formatted address:  and the Christie NHS Foundation Trust,  Manchester Academic Health Science Centre,  Manchester,  UK.
+		Output address: NONE
 
 PMID: 26313874
 	Input address: Department of Chemistry, Graduate School of Science, Chiba University , 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.
-		Formatted address: Chiba University, Japan.
+		Formatted address:  Chiba University ,  1-33 Yayoi-cho,  Inage-ku,  Chiba 263-8522,  Japan.
 	Output address: Chiba University
-	Result coordinates: {'lat': 35.627754, 'lng': 140.103572}
+	Result coordinates: {'lng': 140.103572, 'lat': 35.627754}
 		Distance from target: 0.19769007002731534 km
 
 PMID: 26313905
@@ -56,40 +55,38 @@ PMID: 26314084
 
 PMID: 26314086
 	Input address: Fitness and Health Promotion, Niagara College, Welland, Ontario, Canada.
-		Formatted address: Niagara College, Canada.
-	Output address: Niagara College Canada Human Resources Department
-	Result coordinates: {'lat': 43.013737, 'lng': -79.266752}
-		Distance from target: 0.02270564131659597 km
+		Formatted address:  Welland,  Ontario,  Canada.
+		Output address: NONE
 
 PMID: 26314039
 	Input address: El Colegio de la Frontera Sur, Ecología de Artrópodos y Manejo de Plagas, Carretera Antiguo Aeropuerto Km 2.5 Tapachula 30700, Chiapas, México. sphilpot@ucsc.edu.
-		Formatted address: Ecología de Artrópodos y Manejo de Plagas, México.
-		Output address: NONE
+		Formatted address:  Carretera Antiguo Aeropuerto Km 2.5 Tapachula 30700,  Chiapas,  México. 
+	Output address: 30700
+	Result coordinates: {'lng': -92.29930929999999, 'lat': 14.8782812}
+		Distance from target: 1.6245470770154922 km
 	Input address: Centre de Recherches sur la Cognition Animale, CNRS-UMR 5169, Université de Toulouse UPS, 118 route de Narbonne, 31062 Toulouse Cedex 09, France.
-		Formatted address: CNRS-UMR 5169, France.
-	Output address: Géosciences-Rennes, CNRS UMR 6118
-	Result coordinates: {'lat': 48.117908, 'lng': -1.638006}
-		Distance from target: 561.0861345907254 km
+		Formatted address:  Université de Toulouse UPS,  118 route de Narbonne,  31062 Toulouse Cedex 09,  France.
+	Output address: Université Toulouse III - Paul Sabatier
+	Result coordinates: {'lng': 1.466455, 'lat': 43.556945}
+		Distance from target: 0.5365521889164289 km
 	Input address: Environmental Studies Department, University of California, Santa Cruz, 1156 High St., Santa Cruz, CA 95064.
-		Formatted address: Santa Cruz, CA 95064.
+		Formatted address:  Santa Cruz,  1156 High St.,  Santa Cruz,  CA 95064.
 		Output address: NONE
 
 PMID: 26314087
 	Input address: Menzies Institute for Medical Research, University of Tasmania, Hobart, Tasmania, Australia.
-		Formatted address: University of Tasmania, Australia.
-	Output address: University of Tasmania
-	Result coordinates: {'lat': -42.903512, 'lng': 147.326639}
-		Distance from target: 2.859234616963753 km
+		Formatted address:  Hobart,  Tasmania,  Australia.
+		Output address: NONE
 
 PMID: 26314072
 	Input address: Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore, India-560089. Contributed Equally.
-		Formatted address: Indian Institute of Horticultural Research, India-560089. Contributed Equally.
+		Formatted address:  Bangalore,  India-560089. Contributed Equally.
 		Output address: NONE
-[4.590029899489919e-05, 0.04688244882832312, 23.02651565202709, 0.5149454517706066, 0.19769007002731534, 0.02270564131659597, 561.0861345907254, 2.859234616963753]
+[0.9427030238973922, 8022.4072100325975, 0.19769007002731534, 1.6245470770154922, 0.5365521889164289]
 
 
-MEAN DISTANCE: 73.46926929649476 km
+MEAN DISTANCE: 1605.1417404784909 km
 
-1 STANDARD DEVIATION: 197.1853677531579 km
+1 STANDARD DEVIATION: 3587.3604942653596 km
 
-SUCCESS RATE: 75.0%
+SUCCESS RATE: 80.0%

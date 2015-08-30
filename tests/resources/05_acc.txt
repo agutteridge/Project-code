@@ -1,42 +1,52 @@
 
 PMID: 26314082
+	Input address: Department of Pediatric Hematology and Oncology, University Medical Center Eppendorf, Hamburg, Germany k.lehmberg@uke.de.
+		Formatted address:  Hamburg,  Germany 
+		Output address: NONE
 	Input address: Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN, USA.
-		Formatted address: TN, USA.
+		Formatted address:  TN,  USA.
 		Output address: NONE
 	Input address: Childhood Cancer Research Unit, Department of Women's and Children's Health, Karolinska Institutet, Karolinska University Hospital Solna, Stockholm, Sweden.
-		Formatted address: Karolinska University Hospital Solna, Sweden.
-	Output address: Karolinska University Hospital
-	Result coordinates: {'lng': 18.031625, 'lat': 59.352407}
-		Distance from target: 0.6543719149474971 km
+		Formatted address:  Stockholm,  Sweden.
+		Output address: NONE
 	Input address: Department of Medicine I, Hematology and Stem Cell Transplantation, Hemostasis and Medical Oncology, Elisabethinen Hospital, Linz, Austria.
-		Formatted address: Elisabethinen Hospital, Austria.
+		Formatted address:  Linz,  Austria.
 		Output address: NONE
 
 PMID: 26314071
 	Input address: The State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, P. R. China. klhe@ippcaas.cn.
-		Formatted address: Chinese Academy of Agricultural Sciences, P. R. China.
-	Output address: Chinese Academy of Tropical Agricultural Sciences South China University of Tropical Agriculture Workers' Hospital
-	Result coordinates: {'lng': 109.496357, 'lat': 19.504462}
-		Distance from target: 2371.825942864161 km
+		Formatted address:  Beijing 100193,  P. R. China. 
+		Output address: NONE
 
 PMID: 26314080
-	Input address: Lymphoma Service, Memorial Sloan Kettering Cancer Center, New York, USA.
-		Formatted address: New York, USA.
+	Input address: Department of Haematology, Academic Medical Center, Amsterdam, The Netherlands.
+		Formatted address:  Amsterdam,  The Netherlands.
 		Output address: NONE
+	Input address: Lymphoma Service, Memorial Sloan Kettering Cancer Center, New York, USA.
+		Formatted address:  New York,  USA.
+		Output address: NONE
+	Input address: Department of Medicine III, LMU University of Munich, Germany.
+		Formatted address:  LMU University of Munich,  Germany.
+	Output address: Juristische Fakultät der Ludwig-Maximilians-Universität
+	Result coordinates: {'lat': 48.150839, 'lng': 11.581044}
+		Distance from target: 4.509241323978885e-05 km
+	Input address: Medical Oncology, University of Modena and Reggio Emilia, Italy.
+		Formatted address:  University of Modena and Reggio Emilia,  Italy.
+	Output address: University of Modena and Reggio Emilia - San Lazzaro Campus
+	Result coordinates: {'lat': 44.688982, 'lng': 10.663918}
+		Distance from target: 23.02651565202709 km
 	Input address: Division of Hematology, Department of Internal Medicine, University Hospital Center Zagreb and Medical School, University of Zagreb, Croatia.
-		Formatted address: University of Zagreb, Croatia.
+		Formatted address:  University of Zagreb,  Croatia.
 	Output address: University of Zagreb
-	Result coordinates: {'lng': 15.969802, 'lat': 45.81057}
+	Result coordinates: {'lat': 45.81057, 'lng': 15.969802}
 		Distance from target: 3.2901871406360272 km
 	Input address: Institute of Cancer Sciences, the University of Manchester, and the Christie NHS Foundation Trust, Manchester Academic Health Science Centre, Manchester, UK.
-		Formatted address: and the Christie NHS Foundation Trust, UK.
-	Output address: The Christie
-	Result coordinates: {'lng': -2.229695, 'lat': 53.429632}
-		Distance from target: 3.7649224544969635 km
+		Formatted address:  Manchester,  UK.
+		Output address: NONE
 
 PMID: 26313874
 	Input address: Department of Chemistry, Graduate School of Science, Chiba University , 1-33 Yayoi-cho, Inage-ku, Chiba 263-8522, Japan.
-		Formatted address: 1-33 Yayoi-cho, Japan.
+		Formatted address:  Chiba 263-8522,  Japan.
 		Output address: NONE
 
 PMID: 26313905
@@ -45,38 +55,36 @@ PMID: 26314084
 
 PMID: 26314086
 	Input address: Fitness and Health Promotion, Niagara College, Welland, Ontario, Canada.
-		Formatted address: Welland, Canada.
+		Formatted address:  Ontario,  Canada.
 		Output address: NONE
 
 PMID: 26314039
 	Input address: El Colegio de la Frontera Sur, Ecología de Artrópodos y Manejo de Plagas, Carretera Antiguo Aeropuerto Km 2.5 Tapachula 30700, Chiapas, México. sphilpot@ucsc.edu.
-		Formatted address: Carretera Antiguo Aeropuerto Km 2.5 Tapachula 30700, México.
-	Output address: 30700
-	Result coordinates: {'lng': -92.29930929999999, 'lat': 14.8782812}
-		Distance from target: 1.6245470770154922 km
+		Formatted address:  Chiapas,  México. 
+		Output address: NONE
 	Input address: Centre de Recherches sur la Cognition Animale, CNRS-UMR 5169, Université de Toulouse UPS, 118 route de Narbonne, 31062 Toulouse Cedex 09, France.
-		Formatted address: Université de Toulouse UPS, France.
-	Output address: Inn at Queen Anne
-	Result coordinates: {'lng': -122.355769, 'lat': 47.623396}
-		Distance from target: 8482.042754485394 km
+		Formatted address:  31062 Toulouse Cedex 09,  France.
+	Output address: Hôtel de France
+	Result coordinates: {'lat': 43.605912, 'lng': 1.447336}
+		Distance from target: 5.520396803760842 km
 	Input address: Environmental Studies Department, University of California, Santa Cruz, 1156 High St., Santa Cruz, CA 95064.
-		Formatted address: 1156 High St., CA 95064.
+		Formatted address:  Santa Cruz,  CA 95064.
 		Output address: NONE
 
 PMID: 26314087
 	Input address: Menzies Institute for Medical Research, University of Tasmania, Hobart, Tasmania, Australia.
-		Formatted address: Hobart, Australia.
+		Formatted address:  Tasmania,  Australia.
 		Output address: NONE
 
 PMID: 26314072
 	Input address: Division of Biotechnology, Indian Institute of Horticultural Research, Bangalore, India-560089. Contributed Equally.
-		Formatted address: Bangalore, India-560089. Contributed Equally.
+		Formatted address:  Bangalore,  India-560089. Contributed Equally.
 		Output address: NONE
-[0.6543719149474971, 2371.825942864161, 3.2901871406360272, 3.7649224544969635, 1.6245470770154922, 8482.042754485394]
+[4.509241323978885e-05, 23.02651565202709, 3.2901871406360272, 5.520396803760842]
 
 
-MEAN DISTANCE: 1810.5337876561086 km
+MEAN DISTANCE: 7.9592861722093 km
 
-1 STANDARD DEVIATION: 3403.0116097957616 km
+1 STANDARD DEVIATION: 10.29756589170426 km
 
-SUCCESS RATE: 66.66666666666666%
+SUCCESS RATE: 50.0%

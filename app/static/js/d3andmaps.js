@@ -75,7 +75,8 @@ function placeMarkers(data) {
       position: new google.maps.LatLng(data[i].place.geometry.location.lat, 
         data[i].place.geometry.location.lng),
       map: map,
-      pmid: data[i].PMID
+      pmid: data[i].PMID,
+      opacity: 0.5
     });
 
     // add marker to global array
@@ -88,8 +89,6 @@ function placeMarkers(data) {
       }
     })(marker, i));
   }
-
-  var markerCluster = new MarkerClusterer(map, markers);
 }
 
 function clearMarkers() {
@@ -103,8 +102,27 @@ function clearMarkers() {
 var markers = [];
 var map;
 var papers;
+var paper_position = 0; 
 var text_field = document.getElementById('text_field');
 var btn_search = document.getElementById('btn_search');
+var previous_btn = document.getElementById('previous_btn');
+var next_btn = document.getElementById('next_btn');
+
+previous_btn.onclick = function(){
+  console.log('PREV');
+  if (paper_position != 0) {
+    sendPaper(papers[paper_position - 1]);
+    paper_position -= 1;
+  };
+};
+
+next_btn.onclick = function(){
+  console.log('NEXT');
+  if (paper_position > -1 && paper_position < 20) {
+    sendPaper(papers[paper_position + 1]);
+    paper_position += 1;
+  };
+};
 
 btn_search.onclick = function(){
   console.log(text_field.value);
@@ -125,13 +143,28 @@ var color = d3.scale.linear()
 var pack = d3.layout.pack()
     .padding(5)
     .size([diameter - margin, diameter - margin])
-    .value(function(d) { return d.PMIDs.length * 500; })
+    .value(function(d) { return d.PMIDs.length * 500; });
 
 var svg = d3.select("body").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
   .append("g")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+
+function sendPaper(paper) {
+  console.log('sending paper')
+  title = document.getElementById('bar-title');
+  info = document.getElementById('bar-info');
+
+  title.innerHTML = "<a href=\"http://ncbi.nlm.nih.gov/pubmed/" + 
+    paper.PMID + "\" target=\"_blank\">" + 
+    paper.title +
+    "</a>";
+
+  info.innerHTML = paper.authors + ", <i>" +
+    paper.journal + "</i>, " +
+    paper.date;
+}
 
 function d3_callback(error, data) {
   console.log('in d3_callback')
@@ -140,6 +173,8 @@ function d3_callback(error, data) {
   var root = data.concepts;
   // passing location data to Google Maps function
   placeMarkers(data.places)
+  //displaying paper information
+  sendPaper(data.papers[0])
   // assigning global var papers
   papers = data.papers
 
@@ -153,8 +188,6 @@ function d3_callback(error, data) {
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
       .style("fill", function(d) { return d.children ? color(d.depth) : null; })
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
-
-// function(d) { return d.name }
 
   var text = svg.selectAll("text")
       .data(nodes)
