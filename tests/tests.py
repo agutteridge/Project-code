@@ -53,12 +53,19 @@ class TestGeocode(unittest.TestCase):
     def test_format_address(self):
       self.assertEqual(geocode.format_address(
           'Department of Pharmacology, Faculty of Medical Sciences, Lagos State University College of Medicine, 1-5 Oba Akinjobi Way, G.R.A., Ikeja, Lagos State, Nigeria.'),
-          'Faculty of Medical Sciences, Lagos State University College of Medicine, 1-5 Oba Akinjobi Way')
+          ' Faculty of Medical Sciences, Lagos State University College of Medicine, 1-5 Oba Akinjobi Way, G.R.A., Ikeja, Lagos State, Nigeria.')
 
     def test_format_address_dummy(self):
-      self.assertEqual(geocode.format_address('this, is, a, test, string'), 'this, is, a')
+      self.assertEqual(geocode.format_address('this, is, a, test, string'), ' is, a, test, string')
 
-    def test_unique_addresses(self): 
+    @patch('app.geocode.format_address')
+    def test_unique_addresses(self, mock_format_address): 
+        mock_format_address.side_effect = ['some location',
+                                            'another location',
+                                            'some LOCATION',
+                                            'some !!location',
+                                            '  some lo cat  io n']
+
         self.assertEqual(geocode.unique_addresses([{'AffiliationInfo' : [{'Affiliation' : 'some location;another location'}]},
                                                    {'AffiliationInfo' : [{'Affiliation' : 'some LOCATION'}]},
                                                    {'AffiliationInfo' : [{'Affiliation' : 'some !!location'}]},
@@ -157,10 +164,7 @@ class TestCitations(unittest.TestCase):
         expected = [{'PMID': '00000000',
             'title': 'Example of a title',
             'authors': 'Heredia et al.',
-            'date': {
-                'Year': '2013',
-                'Month': 'Jan'
-            },
+            'date': '2013',
             'journal': 'Methods'
         }]
 

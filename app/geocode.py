@@ -94,7 +94,7 @@ def format_address(address):
     without_email = remove_email(address)
     address_lines = without_email.split(',')
     if len(address_lines) > 1:
-        return ', '.join(address_lines[1:len(address_lines)])
+        return ','.join(address_lines[1:len(address_lines)])
     else:
         return ''
 
