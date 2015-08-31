@@ -51,12 +51,12 @@ class TestGeocode(unittest.TestCase):
             'hello     more text')
 
     def test_format_address(self):
-      self.assertEqual(geocode.format_address(
-          'Department of Pharmacology, Faculty of Medical Sciences, Lagos State University College of Medicine, 1-5 Oba Akinjobi Way, G.R.A., Ikeja, Lagos State, Nigeria.'),
-          ' Faculty of Medical Sciences, Lagos State University College of Medicine, 1-5 Oba Akinjobi Way, G.R.A., Ikeja, Lagos State, Nigeria.')
+        self.assertEqual(geocode.format_address(
+            'Department of Pharmacology, Faculty of Medical Sciences, Lagos State University College of Medicine, 1-5 Oba Akinjobi Way, G.R.A., Ikeja, Lagos State, Nigeria.'),
+            ' Faculty of Medical Sciences, Lagos State University College of Medicine, 1-5 Oba Akinjobi Way, G.R.A., Ikeja, Lagos State, Nigeria.')
 
     def test_format_address_dummy(self):
-      self.assertEqual(geocode.format_address('this, is, a, test, string'), ' is, a, test, string')
+        self.assertEqual(geocode.format_address('this, is, a, test, string'), ' is, a, test, string')
 
     @patch('app.geocode.format_address')
     def test_unique_addresses(self, mock_format_address): 
@@ -80,15 +80,32 @@ class TestGeocode(unittest.TestCase):
         # get_location_output.json contains the first element of the results list
         place_result = fake_json('get_location_output.json')
 
-        expected = {'results': [
-                {'PMID': '00000000',
-                 'place': place_result},
-                {'PMID': '00000001',
-                 'place': place_result}],
-            'for_cache': [{'PMID': '00000000',
-            'placeids': ['ChIJyWEHuEmuEmsRm9hTkapTCrk']},
-            {'PMID': '00000001',
-            'placeids': ['ChIJyWEHuEmuEmsRm9hTkapTCrk']}]}
+        expected = {
+            'results': [
+                {
+                    'PMID': '00000000',
+                    'place': place_result
+                },
+                {
+                    'PMID': '00000001',
+                    'place': place_result
+                }
+            ],
+           'for_cache': [
+                {
+                    'PMID': '00000000',
+                    'placeids': [
+                        'ChIJyWEHuEmuEmsRm9hTkapTCrk'
+                    ]
+                },
+                {
+                    'PMID': '00000001',
+                    'placeids': [
+                        'ChIJyWEHuEmuEmsRm9hTkapTCrk'
+                    ]
+                }
+            ]
+        }
 
         observed = geocode.run(fake_json('eFetch_sample.json'))
         

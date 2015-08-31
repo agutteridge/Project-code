@@ -24,9 +24,18 @@ def insert_into_db(results, concepts, places):
 
         #logging
         with open(os.path.join('./app/static', 'log.txt'), 'a') as datafile:
-            datafile.write(pmid + ': ' + str(len(r['concepts'])) + 
-                ' concepts, ' + str(len(r['placeids'])) + ' place IDs.\n')
-            datafile.close()
+            datafile.write('\n' + pmid + ':\n\t' + str(len(r['concepts'])) + ' concepts.\n') 
+            
+            for c in r['concepts']:
+                datafile.write('\t\t' + str(c) + '\n')
+
+            datafile.write('\t' + str(len(r['placeids'])) + ' place IDs.\n')
+            
+            for p in r['placeids']:
+                datafile.write('\t\t' + str(p) + '\n')
+
+            datafile.write("""--------------------------------------
+                              --------------------------------------""")
 
         all_docs.append(r)
 

@@ -177,6 +177,23 @@ function sendPaper(paper) {
       markers[i].setOpacity(0.5);
     };
   };
+
+  changeColour(paper.PMID);
+}
+
+function changeColour (pmid) {
+  svg.selectAll("circle")
+    .style("fill", function(d) { return d.children ? color(d.depth) : colourNode(d, pmid); })
+}
+
+function colourNode(d, thispmid) {
+  if ("PMIDs" in d) {
+    if (d.PMIDs.indexOf(thispmid) > -1) {
+      return "#f2756a";
+    } else {
+      return null
+    };
+  };
 }
 
 function d3_callback(error, data) {
@@ -201,7 +218,7 @@ function d3_callback(error, data) {
       .data(nodes)
     .enter().append("circle")
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
-      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
+      .style("fill", function(d) { return d.children ? color(d.depth) : colourNode(d, firstpmid); })
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
   var text = svg.selectAll("text")
@@ -213,6 +230,7 @@ function d3_callback(error, data) {
       .text(function(d) { return d.name; });
 
   var node = svg.selectAll("circle,text");
+
 
   d3.select("body")
       //.style("background", color(-1))

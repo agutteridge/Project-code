@@ -58,9 +58,8 @@ def get_location(address):
 
     result = dict()
 
-    #logging
     with open(os.path.join('./app/static', 'log.txt'), 'a') as datafile:
-        datafile.write('Input address: ' + address + '\n')
+        datafile.write('Formatted address: ' + address + '\n')
         if place_options:
             datafile.write('Output address: ' +  place_options[0]['name'] + '\n')
             result = place_options[0] # only return first result
@@ -96,7 +95,7 @@ def format_address(address):
     if len(address_lines) > 1:
         return ','.join(address_lines[1:len(address_lines)])
     else:
-        return ''
+        return without_email
 
 # Returns a set of strings, each with a different address.
 # The set of strings with alphanumeric chars prevents duplication of
@@ -111,7 +110,7 @@ def unique_addresses(author_list):
             # a list of individual addresses
             individual_addresses = place['Affiliation'].split(';')
             for f in individual_addresses:
-                formatted_address = format_address(f)
+                formatted_address = format_address(f).strip()
                 # exclude all non-alphanumeric chars, upper case
                 alphanumeric = re.sub('[\W]', '', formatted_address).upper()
                 if alphanumeric != '' and alphanumeric not in alphanumeric_addresses and formatted_address:
