@@ -3,14 +3,21 @@
 }
 
 .text_btns #previous_btn {
-  float: left;
+  display: none;
+  position: relative;
+  left: 5px;
+  bottom: 24px;
 }
 
 .text_btns #next_btn {
-  float: right;
+  display: none;
+  position: relative;
+  bottom: 24px;
+  left: 1138px;
 }
 
 #bar {
+  display: block;
   height: 90px;
   padding: 5px;
   fill: blue;
@@ -18,7 +25,8 @@
 }
 
 #bar-container {
-  padding: 5px;  
+  padding: 5px;
+  display: block;
 }
 
 .bar-text {
@@ -78,8 +86,9 @@
 
 #map-canvas { 
   float: right;
-  margin: 0;
+  margin-top: 20px;
   padding: 0;
+  padding-top: 100px;
   width: 600px; 
   height: 500px;
   position: fixed;

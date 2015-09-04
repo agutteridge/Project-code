@@ -105,57 +105,6 @@ function clearMarkers() {
   markers.length = 0;
 }
 
-// global vars
-var markers = [];
-var map;
-var papers;
-var paper_position = 0; 
-var text_field = document.getElementById('text_field');
-var btn_search = document.getElementById('btn_search');
-var previous_btn = document.getElementById('previous_btn');
-var next_btn = document.getElementById('next_btn');
-
-previous_btn.onclick = function(){
-  if (paper_position != 0) {
-    sendPaper(papers[paper_position - 1]);
-    paper_position -= 1;
-  };
-};
-
-next_btn.onclick = function(){
-  if (paper_position > -1 && paper_position < 20) {
-    sendPaper(papers[paper_position + 1]);
-    paper_position += 1;
-  };
-};
-
-btn_search.onclick = function(){
-  console.log(text_field.value);
-  document.getElementById("loading").style.display = "block";
-  d3.json("/data?search_term=" + text_field.value, d3_callback);
-  svg.selectAll("circle,text").remove();
-};
-
-//D3: mostly taken from http://bl.ocks.org/mbostock/7607535
-var margin = 20,
-    diameter = 600;
-
-var color = d3.scale.linear()
-    .domain([-1, 5])
-    .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
-    .interpolate(d3.interpolateHcl);
-
-var pack = d3.layout.pack()
-    .padding(5)
-    .size([diameter - margin, diameter - margin])
-    .value(function(d) { return d.PMIDs.length * 500; });
-
-var svg = d3.select("body").append("svg")
-    .attr("width", diameter)
-    .attr("height", diameter)
-  .append("g")
-    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
-
 function sendPaper(paper) {
   console.log('sending paper')
   title = document.getElementById('bar-title');
@@ -180,6 +129,76 @@ function sendPaper(paper) {
 
   changeColour(paper.PMID);
 }
+
+// global vars
+var markers = [];
+var map;
+var papers = [];
+var paper_position = 0; 
+var text_field = document.getElementById('text_field');
+var btn_search = document.getElementById('btn_search');
+var previous_btn = document.getElementById('previous_btn');
+var next_btn = document.getElementById('next_btn');
+
+function next() {
+  if (paper_position > -1 && paper_position < 20) {
+    sendPaper(papers[paper_position + 1]);
+    paper_position += 1;
+  };
+}
+
+function previous() {
+  if (paper_position != 0) {
+    sendPaper(papers[paper_position - 1]);
+    paper_position -= 1;
+  };
+}
+
+btn_search.onclick = function(){
+  console.log(text_field.value);
+  document.getElementById("loading").style.display = "block";
+  d3.json("/data?search_term=" + text_field.value, d3_callback);
+  svg.selectAll("circle,text").remove();
+};
+
+previous_btn.onclick = previous;
+next_btn.onclick = next;
+
+document.onkeydown = function(e) {
+    e = e || window.event;
+    switch(e.which || e.keyCode) {
+      case 37: // left
+        previous();
+        break;
+
+        case 39: // right
+        next();
+        break;
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+};
+
+//D3: mostly taken from http://bl.ocks.org/mbostock/7607535
+var margin = 20,
+    diameter = 600;
+
+var color = d3.scale.linear()
+    .domain([-1, 5])
+    .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+    .interpolate(d3.interpolateHcl);
+
+var pack = d3.layout.pack()
+    .padding(5)
+    .size([diameter - margin, diameter - margin])
+    .value(function(d) { return d.PMIDs.length * 500; });
+
+var svg = d3.select("body").append("svg")
+    .attr("width", diameter)
+    .attr("height", diameter)
+  .append("g")
+    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
 function changeColour (pmid) {
   svg.selectAll("circle")
@@ -210,6 +229,10 @@ function d3_callback(error, data) {
   // assigning global var papers
   papers = data.papers
 
+  //show buttons
+  document.getElementById('previous_btn').style.display = "inline";
+  document.getElementById('next_btn').style.display = "inline";
+
   var focus = root,
       nodes = pack.nodes(root),
       view;
@@ -230,7 +253,6 @@ function d3_callback(error, data) {
       .text(function(d) { return d.name; });
 
   var node = svg.selectAll("circle,text");
-
 
   d3.select("body")
       //.style("background", color(-1))
@@ -266,4 +288,8 @@ function d3_callback(error, data) {
 
 // Load map and place D3 SVG
 google.maps.event.addDomListener(window, 'load', initialize);
-d3.select(self.frameElement).style("height", diameter + "px");
+d3.select(self.frameElement)
+  .style("height", diameter + "px")
+  .style("stroke", "black")
+  .style("fill", "none")
+  .style("stroke-width", "1");

@@ -5,10 +5,13 @@ import json
 from app import citations, geocode, metamap, umls, cache
 
 def search_for(query):
+    start = ''
+
     #logging
     with open(os.path.join('./app/static', 'log.txt'), 'a') as datafile:
         now = datetime.datetime.today()
-        datafile.write('BEGIN ' + str(now) + '\n')
+        start = str(now)
+        datafile.write('BEGIN ' + start + '\n')
         datafile.write('Search term: ' + query + '\n')
         datafile.close()
 
@@ -34,6 +37,17 @@ def search_for(query):
         else:
             print('all docs retrieved from cache')
 
+        end(start)
+
         return json.dumps({ 'concepts': concepts, 'places': places, 'papers': citations_results['formatted'] })
     else:
+        end(start)
         return 'No items found.'
+
+def end(start):
+    #logging
+    with open(os.path.join('./app/static', 'speedtest.txt'), 'a') as datafile:
+        now = datetime.datetime.today()
+        datafile.write('BEGIN ' + start + '\n')
+        datafile.write('END ' + str(now) + '\n')
+        datafile.close()    
