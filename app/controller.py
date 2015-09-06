@@ -24,7 +24,7 @@ def search_for(query):
             datafile.write(str(len(citations_results['results'])) + ' documents fetched from PubMed.\n')
             datafile.close()
 
-        metamap_results = metamap.run(citations_results['results'])
+        metamap_results = metamap.run_local(citations_results['results'])
         combined = citations_results['docs'] + metamap_results
         concepts = umls.run(combined)
 

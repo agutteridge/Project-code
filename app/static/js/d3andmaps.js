@@ -73,7 +73,7 @@ function placeMarkers(data) {
   for (i = 0; i < data.length; i++) {
     var opacity = 0.5;
 
-    if (data[i].pmid === firstpmid) {
+    if (data[i].PMID === firstpmid) {
       opacity = 1;
     };
 
@@ -91,8 +91,10 @@ function placeMarkers(data) {
 
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
       return function() {
-        infowindow.setContent(marker.address);
+        infowindow.setContent(marker.address + "<br><button id=\"paperlink\">" + marker.pmid + "</button>");
         infowindow.open(map, marker);
+        thispaper = getPaperbyPMID(marker.pmid)
+        document.getElementById("paperlink").addEventListener("click", sendPaper(thispaper));
       }
     })(marker, i));
   }
@@ -107,6 +109,7 @@ function clearMarkers() {
 
 function sendPaper(paper) {
   console.log('sending paper')
+  console.log(paper)
   title = document.getElementById('bar-title');
   info = document.getElementById('bar-info');
 
@@ -154,6 +157,15 @@ function previous() {
   };
 }
 
+function getPaperbyPMID(pmid) {
+  for (i = 0; i < papers.length; i++) {
+    if (papers[i].PMID === pmid) {
+      paper_position = i;
+      return papers[i];
+    };
+  };
+}
+
 btn_search.onclick = function(){
   console.log(text_field.value);
   document.getElementById("loading").style.display = "block";
@@ -181,12 +193,12 @@ document.onkeydown = function(e) {
 };
 
 //D3: mostly taken from http://bl.ocks.org/mbostock/7607535
-var margin = 20,
-    diameter = 600;
+var margin = 0,
+    diameter = 500;
 
 var color = d3.scale.linear()
     .domain([-1, 5])
-    .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+    .range(["hsl(174,100%,80%)", "hsl(180,10.3%,40%)"])
     .interpolate(d3.interpolateHcl);
 
 var pack = d3.layout.pack()
@@ -194,7 +206,7 @@ var pack = d3.layout.pack()
     .size([diameter - margin, diameter - margin])
     .value(function(d) { return d.PMIDs.length * 500; });
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#svg-container").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
   .append("g")
@@ -219,6 +231,10 @@ function d3_callback(error, data) {
   console.log('in d3_callback')
   if (error) throw error;
 
+
+  // assigning global var papers
+  papers = data.papers
+
   var root = data.concepts;
   // sets global var as first PMID so markers can be formatted accordingly
   firstpmid = data.papers[0].PMID
@@ -226,8 +242,6 @@ function d3_callback(error, data) {
   placeMarkers(data.places)
   //displaying paper information
   sendPaper(data.papers[0])
-  // assigning global var papers
-  papers = data.papers
 
   //show buttons
   document.getElementById('previous_btn').style.display = "inline";

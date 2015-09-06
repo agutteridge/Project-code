@@ -1,40 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html{ font-family: 'Open Sans', sans-serif; }
+
 .text_btns {
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;    
+  /*font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;    */
+  font-size: 14px;
 }
 
 .text_btns #previous_btn {
   display: none;
   position: relative;
-  left: 5px;
-  bottom: 24px;
+  bottom: 7px;
 }
 
 .text_btns #next_btn {
   display: none;
   position: relative;
-  bottom: 24px;
   left: 1138px;
+  bottom: 7px;
 }
 
 #bar {
   display: block;
-  height: 90px;
+  height: 82px;
   padding: 5px;
   fill: blue;
-  border: 1px solid blue;
+  background: rgba(1,1,1,0.05);
+  /*border: 1px solid blue;*/
+}
+
+#main-container {
+  width: 100%;
+  height: 500px;
 }
 
 #bar-container {
-  padding: 5px;
   display: block;
+  width:100%;
+  height:70px;
 }
 
 .bar-text {
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;  
+  font-size: 12px;  
 }
 
 .bar-text #bar-title {
-  font-size: 20px;
+  font-size: 16px;
+}
+
+#svg-container {
+  margin-left: 50px;
+  margin-top: 12px;
+  display:inline-block;
 }
 
 .node {
@@ -86,10 +103,9 @@
 
 #map-canvas { 
   float: right;
-  margin-top: 20px;
-  padding: 0;
-  padding-top: 100px;
+  margin-top: 12px;
+  margin-right: 20px;
   width: 600px; 
-  height: 500px;
+  height: 480px;
   position: fixed;
 }

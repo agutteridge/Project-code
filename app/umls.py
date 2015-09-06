@@ -126,7 +126,6 @@ def organise(input_data):
                         'PMIDs': [pmid]}
                 pmids_names[c[1]] = data
 
-    print(str(cui_list))
     return {
         'PMIDs': pmids_names, 
         'CUIs': list(cui_list)
