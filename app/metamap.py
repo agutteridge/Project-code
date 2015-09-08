@@ -62,13 +62,13 @@ def write_file(filename, results, is_local):
             for kw in results[i]['MedlineCitation']['KeywordList']:
                 for k in kw:
                     ASCII_abstract = ASCII_abstract + ' ' + str(k).encode('ascii', 
-                        errors='ignore').decode('UTF-8') + '. '
+                        errors='ignore').decode('UTF-8') + ', '
 
         # Appending MeSH keywords to abstract
         if 'MeshHeadingList' in results[i]['MedlineCitation']:
             for mh in results[i]['MedlineCitation']['MeshHeadingList']:
                 ASCII_abstract = ASCII_abstract + ' ' + mh['DescriptorName'].encode('ascii', 
-                    errors='ignore').decode('UTF-8') + '. '
+                    errors='ignore').decode('UTF-8') + ', '
 
         batch.write('UI  - ' + results[i]['MedlineCitation']['PMID'] + '\n' + 
             'TI  - ' + ASCII_title + '\n' +
@@ -98,11 +98,9 @@ def run_local(results):
 
         # shell args for running MetaMapCaller.class
         popen_args = [mp + '/bin/metamap14',
-                      '--strict_model',
+        			  '-E',
                       '--prefer_multiple_concepts',
                       '--fielded_mmi_output',
-                      '--prune',
-                      '1',
                       config.proj_path + '/app/static/' + filename,
                       config.proj_path + '/app/static/mm_output.txt']
         
@@ -119,7 +117,7 @@ def run_local(results):
         # Delete input file from app/static
         os.remove(os.path.join('app/static', filename))
 
-        print('returning from metamap.run')
+        print('returning from metamap.run (local)')
         return read_local_results()
     else:
         return []
@@ -168,7 +166,6 @@ def run(results):
         os.remove(os.path.join('./app/static', filename))
 
         print('returning from metamap.run')
-        end(now)
         return format_results(terms_list, False)
     else:
         return []

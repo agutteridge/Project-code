@@ -12,7 +12,7 @@ PACKAGE_PARENT = '..'
 SCRIPT_DIR = os.path.dirname(os.path.realpath(os.path.join(os.getcwd(), os.path.expanduser(__file__))))
 sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, PACKAGE_PARENT)))
 
-from app import citations, geocode, cache, config
+from app import citations, geocode, cache, config, metamap
 
 # Entrez setup
 Entrez.email = config.email
@@ -283,5 +283,6 @@ def doublecheck():
 
 if __name__ == "__main__":
     # doublecheck()
-    geocode_hit(fake_json('eFetch_hit.json'))
-    geocode_acc(fake_json('eFetch_acc.json'))
+    # geocode_hit(fake_json('eFetch_hit.json'))
+    # geocode_acc(fake_json('eFetch_acc.json'))
+    metamap.run(fake_json('mm_example.json'))

@@ -1,0 +1,205 @@
+[
+  {
+    "PubmedData": {
+      "PublicationStatus": "ppublish",
+      "ArticleIdList": [
+        "S1046-2023(12)00252-6",
+        "10.1016/j.ymeth.2012.09.012",
+        "00000000"
+      ],
+      "History": [
+        {
+          "Day": "2",
+          "Year": "2012",
+          "Month": "10"
+        },
+        {
+          "Hour": "6",
+          "Day": "6",
+          "Year": "2012",
+          "Month": "10",
+          "Minute": "0"
+        },
+        {
+          "Hour": "6",
+          "Day": "6",
+          "Year": "2012",
+          "Month": "10",
+          "Minute": "0"
+        },
+        {
+          "Hour": "6",
+          "Day": "19",
+          "Year": "2013",
+          "Month": "6",
+          "Minute": "0"
+        }
+      ]
+    },
+    "MedlineCitation": {
+      "OtherID": [],
+      "ChemicalList": [],
+      "DateCreated": {
+        "Day": "14",
+        "Year": "2013",
+        "Month": "01"
+      },
+      "MedlineJournalInfo": {
+        "ISSNLinking": "1046-2023",
+        "MedlineTA": "Methods",
+        "NlmUniqueID": "9426302",
+        "Country": "United States"
+      },
+      "PMID": "00000000",
+      "KeywordList": [],
+      "Article": {
+        "Language": [
+          "eng"
+        ],
+        "Abstract": {
+          "CopyrightInformation": "Copyright © 2012 Elsevier Inc. All rights reserved.",
+          "AbstractText": [
+            ""]
+        },
+        "PublicationTypeList": [
+          "Comparative Study",
+          "Journal Article"
+        ],
+        "Pagination": {
+          "MedlinePgn": "S20-3"
+        },
+        "AuthorList": [
+          {
+            "LastName": "Heredia",
+            "Identifier": [],
+            "Initials": "NJ",
+            "ForeName": "Nicholas J",
+            "AffiliationInfo": [
+              {
+                "Identifier": [],
+                "Affiliation": "Digital Biology Center, Bio-Rad Laboratories Inc., 7068 Koll Center Pkwy, Ste. 401, Pleasanton, CA 94566, USA."
+              }
+            ]
+          },
+          {
+            "LastName": "Belgrader",
+            "Identifier": [],
+            "Initials": "P",
+            "ForeName": "Phillip",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Wang",
+            "Identifier": [],
+            "Initials": "S",
+            "ForeName": "Shenglong",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Koehler",
+            "Identifier": [],
+            "Initials": "R",
+            "ForeName": "Ryan",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Regan",
+            "Identifier": [],
+            "Initials": "J",
+            "ForeName": "Jack",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Cosman",
+            "Identifier": [],
+            "Initials": "AM",
+            "ForeName": "Angela M",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Saxonov",
+            "Identifier": [],
+            "Initials": "S",
+            "ForeName": "Serge",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Hindson",
+            "Identifier": [],
+            "Initials": "B",
+            "ForeName": "Benjamin",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Tanner",
+            "Identifier": [],
+            "Initials": "SC",
+            "ForeName": "Stephanie C",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Brown",
+            "Identifier": [],
+            "Initials": "AS",
+            "ForeName": "Alexandra S",
+            "AffiliationInfo": []
+          },
+          {
+            "LastName": "Karlin-Neumann",
+            "Identifier": [],
+            "Initials": "G",
+            "ForeName": "George",
+            "AffiliationInfo": []
+          }
+        ],
+        "ArticleDate": [
+          {
+            "Day": "02",
+            "Year": "2012",
+            "Month": "10"
+          }
+        ],
+        "Journal": {
+          "JournalIssue": {
+            "Volume": "59",
+            "Issue": "1",
+            "PubDate": {
+              "Year": "2013",
+              "Month": "Jan"
+            }
+          },
+          "ISOAbbreviation": "Methods",
+          "ISSN": "1095-9130",
+          "Title": "Methods (San Diego, Calif.)"
+        },
+        "ELocationID": [
+          "10.1016/j.ymeth.2012.09.012",
+          "S1046-2023(12)00252-6"
+        ],
+        "ArticleTitle": "Loss of SMAD4 Promotes Colorectal Cancer Progression by Accumulation of Myeloid-Derived Suppressor Cells through CCL15-CCR1 Chemokine Axis."
+      },
+      "DateRevised": {
+        "Day": "20",
+        "Year": "2014",
+        "Month": "11"
+      },
+      "SpaceFlightMission": [],
+      "MeshHeadingList": [
+      ],
+      "DateCompleted": {
+        "Day": "18",
+        "Year": "2013",
+        "Month": "06"
+      },
+      "OtherAbstract": [],
+      "GeneralNote": [],
+      "CitationSubset": [
+        "IM"
+      ]
+    },
+    "placeids": ["imaginaryid"],
+    "concepts": [
+      ["imaginaryconcept", "C0086418"]
+    ]
+  }
+]

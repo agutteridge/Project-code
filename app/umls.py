@@ -78,21 +78,16 @@ def execute_sql(cui_list, connection):
         with connection.cursor() as cursor:
 
             sql = """SELECT * FROM (
-                        SELECT M0.`CUI1` AS CHILD_CUI, M0.`CUI2` AS PARENT_CUI, C0.`STR` AS PARENT_STR, S.`STY` AS S_TYPE
-                        FROM `MRCONSO` AS C0
-                        INNER JOIN `MRRANK` AS R0 ON (C0.`SAB` = R0.`SAB` AND C0.`TTY` = R0.`TTY`)
-                        INNER JOIN `MRREL` AS M0 on M0.`CUI2` = C0.`CUI`
-                        INNER JOIN `MRSTY` AS S on S.`CUI` = M0.`CUI1`
-                            WHERE M0.`CUI1` IN %s
-                            AND (M0.`RELA`=%s
-                            OR M0.`REL`=%s
-                            OR M0.`REL`=%s)
-                            AND C0.`STT`=%s
-                            AND C0.`ISPREF`=%s
-                        ORDER BY R0.`RANK` DESC, PARENT_CUI ASC) AS TT
+                        SELECT S.`CUI` AS CHILD_CUI, M0.`CUI2` AS PARENT_CUI, C0.`STR` AS PARENT_STR, S.`STY` AS S_TYPE
+                        FROM `MRSTY` AS S
+                        LEFT OUTER JOIN `MRREL` AS M0 on M0.`CUI1` = S.`CUI`AND M0.`RELA`=%s
+                        LEFT OUTER JOIN `MRCONSO` AS C0 on C0.`CUI` = M0.`CUI2` AND C0.`STT`=%s AND C0.`ISPREF`=%s
+                        LEFT OUTER JOIN `MRRANK` AS R0 ON (C0.`SAB` = R0.`SAB` AND C0.`TTY` = R0.`TTY`)
+                        WHERE S.`CUI` IN %s
+                        ORDER BY R0.`RANK` DESC, PARENT_CUI ASC, S.STN ASC) AS TT
                         GROUP BY TT.`CHILD_CUI`"""
 
-            cursor.execute(sql, (cui_list, 'inverse_isa', 'PAR', 'RB', 'PF', 'Y'))
+            cursor.execute(sql, ('inverse_isa', 'PF', 'Y', cui_list))
             return cursor.fetchall() 
 
     finally:
@@ -146,6 +141,7 @@ def run(input_data):
     output = execute_sql(organised['CUIs'], connection)
 
     results = format_json(organised['PMIDs'], group_other(output))
+    print(results)
 
     print('returning from umls.run')
     return results
