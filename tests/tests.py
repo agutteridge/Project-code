@@ -21,7 +21,7 @@ def load_read_close(path, filename):
 class TestMetaMap(unittest.TestCase):
 
     def test_write_file(self):
-        flag = metamap.write_file('metamap_input.txt', fake_json('eFetch_sample.json'))
+        flag = metamap.write_file('metamap_input.txt', fake_json('eFetch_sample.json'), False)
         self.assertTrue(flag)
         
         test_txt = load_read_close('./app/static', 'metamap_input.txt')
@@ -33,7 +33,8 @@ class TestMetaMap(unittest.TestCase):
 
     def test_format_results(self):
         self.assertEqual(metamap.format_results(
-            ["23036330|Humans|C0086418|1000|CT|Breast Cancer;CT Treecode Lookup: C17.800.090 (Breast Cancer);CT Text Lookup: human||MM;RC"]),
+                ["23036330|Humans|C0086418|1000|CT|Breast Cancer;CT Treecode Lookup: C17.800.090 (Breast Cancer);CT Text Lookup: human||MM;RC"],
+                False),
             [{'PMID': '23036330',
             'concepts': [['Humans',
                 'C0086418']]}])
@@ -48,29 +49,29 @@ class TestGeocode(unittest.TestCase):
     def test_remove_email(self):
         self.assertEqual(geocode.remove_email(
             'hello address eMail Electronic hel++lo@123-bbk.ac.uk more text'), 
-            'hello     more text')
+            ['hello     more text'])
 
-    def test_format_address(self):
-        self.assertEqual(geocode.format_address(
+    def test_format1(self):
+        self.assertEqual(geocode.format1(
             'Department of Pharmacology, Faculty of Medical Sciences, Lagos State University College of Medicine, 1-5 Oba Akinjobi Way, G.R.A., Ikeja, Lagos State, Nigeria.'),
-            ' Faculty of Medical Sciences, Lagos State University College of Medicine, 1-5 Oba Akinjobi Way, G.R.A., Ikeja, Lagos State, Nigeria.')
+            'Faculty of Medical Sciences, Lagos State University College of Medicine, 1-5 Oba Akinjobi Way, G.R.A., Ikeja, Lagos State, Nigeria.')
 
-    def test_format_address_dummy(self):
-        self.assertEqual(geocode.format_address('this, is, a, test, string'), ' is, a, test, string')
-
-    @patch('app.geocode.format_address')
-    def test_unique_addresses(self, mock_format_address): 
-        mock_format_address.side_effect = ['some location',
-                                            'another location',
-                                            'some LOCATION',
-                                            'some !!location',
-                                            '  some lo cat  io n']
-
-        self.assertEqual(geocode.unique_addresses([{'AffiliationInfo' : [{'Affiliation' : 'some location;another location'}]},
-                                                   {'AffiliationInfo' : [{'Affiliation' : 'some LOCATION'}]},
-                                                   {'AffiliationInfo' : [{'Affiliation' : 'some !!location'}]},
-                                                   {'AffiliationInfo' : [{'Affiliation' : '  some lo cat  io n'}]}]), 
-            ['some location', 'another location'])
+    def test_unique_addresses(self): 
+        self.assertEqual(geocode.unique_addresses([
+                {'pmid': '00000000', 'address': 'some location', 'i_num': 0 },
+                {'pmid': '00000000', 'address': 'another location', 'i_num': 1},
+                {'pmid': '00000000', 'address': 'some !!LOCATION', 'i_num': 2},
+                {'pmid': '00000001', 'address': '  some lo cat  io n', 'i_num': 3}]), 
+            [
+                {'alphanumeric': 'SOMELOCATION',
+                'address': 'some location',
+                'pmids': ['00000000', '00000001'],
+                'i_nums': [0, 2, 3]},
+                {'alphanumeric': 'ANOTHERLOCATION',
+                'address': 'another location',
+                'pmids': ['00000000'],
+                'i_nums': [1]
+            }])
 
     @patch('app.geocode.request')
     def test_run(self, mock_request):

@@ -281,8 +281,53 @@ def doublecheck():
     place = """TN, USA"""
     print(geocode.get_location(place))
 
+def acc_tiered():
+    distance_list = []
+
+    distance_list.append(getDistanceFromLatLonInKm(53.5890864, 9.9759963,
+                                                   53.596819, 10.153465))
+    distance_list.append(getDistanceFromLatLonInKm(35.1555334, -90.0455115,
+                                                   35.155527, -90.045487))
+    distance_list.append(getDistanceFromLatLonInKm(59.3481484, 18.0236578,
+                                                   59.346709, 18.039748))
+    distance_list.append(getDistanceFromLatLonInKm(40.022621, 116.2860293,
+                                                   40.022621, 116.286029))
+    distance_list.append(getDistanceFromLatLonInKm(52.295843, 4.9577432,
+                                                   52.294629, 4.957973))
+    distance_list.append(getDistanceFromLatLonInKm(40.7641718, -73.9567148,
+                                                   40.764112, -73.955969))
+    distance_list.append(getDistanceFromLatLonInKm(48.1508394, 11.5810441,
+                                                   48.150839, 11.581044))
+    distance_list.append(getDistanceFromLatLonInKm(44.6319678,10.943805,
+                                                   44.688982, 10.663918))
+    distance_list.append(getDistanceFromLatLonInKm(45.8238607,16.0077337,
+                                                   51.524384, -0.073223))
+    distance_list.append(getDistanceFromLatLonInKm(53.4630893,-2.2384236,
+                                                   35.77601, 139.900834))
+    distance_list.append(getDistanceFromLatLonInKm(43.0135332,-79.2667694,
+                                                   43.013533, -79.266769))
+    distance_list.append(getDistanceFromLatLonInKm(36.9914461,-122.0609145,
+                                                   36.998541, -122.059815))
+    distance_list.append(getDistanceFromLatLonInKm(-42.8778436,147.3287217,
+                                                   -42.878589, 147.330118))
+    distance_list.append(getDistanceFromLatLonInKm(13.1371586,77.497329,
+                                                   13.134844, 77.4960078))
+
+    num_correct = 0
+
+    for d in distance_list:
+        if d < 5:
+            num_correct = num_correct + 1
+
+    print('SUCCESS RATE: ' + str(num_correct / len(distance_list) * 100) + '%\n')
+    print('MEAN DISTANCE: ' + str(statistics.mean(distance_list)) + ' km\n')
+    print('1 STANDARD DEVIATION: ' + str(statistics.stdev(distance_list)) + ' km\n')
+
+    print(str(distance_list))
+
 if __name__ == "__main__":
+    geocode.run(fake_json('eFetch_hit.json'))
     # doublecheck()
     # geocode_hit(fake_json('eFetch_hit.json'))
     # geocode_acc(fake_json('eFetch_acc.json'))
-    metamap.run(fake_json('mm_example.json'))
+    # metamap.run(fake_json('mm_example.json'))

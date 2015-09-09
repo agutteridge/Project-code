@@ -34,8 +34,7 @@ def insert_into_db(results, concepts, places):
             for p in r['placeids']:
                 datafile.write('\t\t' + str(p) + '\n')
 
-            datafile.write("""--------------------------------------
-                              --------------------------------------""")
+            datafile.write("----------------------------------------------------------------------------")
 
         all_docs.append(r)
 
