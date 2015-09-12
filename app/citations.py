@@ -76,7 +76,7 @@ def format_papers(all_papers):
         author_text = get_authors(p['MedlineCitation']['Article']['AuthorList'])
         date = get_date(p['MedlineCitation']['Article']['Journal']['JournalIssue'])
 
-        result_dict = {'PMID': p['MedlineCitation']['PMID'],
+        result_dict = {'PMID': str(p['MedlineCitation']['PMID']),
             'title': p['MedlineCitation']['Article']['ArticleTitle'],
             'authors': author_text,
             'date': date,

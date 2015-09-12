@@ -2,8 +2,8 @@
 function initialize() {
   var mapOptions = {
     // centres on London
-    center: { lat: 51.508742, lng: -0.120850},
-    zoom: 2,
+    center: { lat: 0, lng: 0},
+    zoom: 1,
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
     }
@@ -231,49 +231,54 @@ function d3_callback(error, data) {
   console.log('in d3_callback')
   if (error) throw error;
 
+  if (data == 'No results found') {
+    window.alert('No results found!\nPlease enter another search term.');
+    document.getElementById("loading").style.display = "none";
+  } else {
+    // assigning global var papers
+    papers = data.papers
 
-  // assigning global var papers
-  papers = data.papers
+    var root = data.concepts;
+    // sets global var as first PMID so markers can be formatted accordingly
+    firstpmid = data.papers[0].PMID;
+    // passing location data to Google Maps function
+    placeMarkers(data.places);
+    //displaying paper information
+    sendPaper(data.papers[0]);
 
-  var root = data.concepts;
-  // sets global var as first PMID so markers can be formatted accordingly
-  firstpmid = data.papers[0].PMID
-  // passing location data to Google Maps function
-  placeMarkers(data.places)
-  //displaying paper information
-  sendPaper(data.papers[0])
+    //show buttons
+    document.getElementById('previous_btn').style.display = "inline";
+    document.getElementById('next_btn').style.display = "inline";
 
-  //show buttons
-  document.getElementById('previous_btn').style.display = "inline";
-  document.getElementById('next_btn').style.display = "inline";
+    var focus = root,
+        nodes = pack.nodes(root),
+        view;
 
-  var focus = root,
-      nodes = pack.nodes(root),
-      view;
+    var circle = svg.selectAll("circle")
+        .data(nodes)
+      .enter().append("circle")
+        .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
+        .style("fill", function(d) { return d.children ? color(d.depth) : colourNode(d, firstpmid); })
+        .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
-  var circle = svg.selectAll("circle")
-      .data(nodes)
-    .enter().append("circle")
-      .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
-      .style("fill", function(d) { return d.children ? color(d.depth) : colourNode(d, firstpmid); })
-      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+    var text = svg.selectAll("text")
+        .data(nodes)
+      .enter().append("text")
+        .attr("class", "label")
+        .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
+        .style("display", function(d) { return d.parent === root ? null : "none"; })
+        .text(function(d) { return d.name; });
 
-  var text = svg.selectAll("text")
-      .data(nodes)
-    .enter().append("text")
-      .attr("class", "label")
-      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
-      .style("display", function(d) { return d.parent === root ? null : "none"; })
-      .text(function(d) { return d.name; });
+    var node = svg.selectAll("circle,text");
 
-  var node = svg.selectAll("circle,text");
+    d3.select("body")
+        //.style("background", color(-1))
+        .on("click", function() { zoom(root); });
 
-  d3.select("body")
-      //.style("background", color(-1))
-      .on("click", function() { zoom(root); });
+    zoomTo([root.x, root.y, root.r * 2 + margin]);
+    document.getElementById("loading").style.display = "none";
 
-  zoomTo([root.x, root.y, root.r * 2 + margin]);
-  document.getElementById("loading").style.display = "none";
+  }
 
   function zoom(d) {
     var focus0 = focus; focus = d;

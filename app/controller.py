@@ -37,17 +37,6 @@ def search_for(query):
         else:
             print('all docs retrieved from cache')
 
-        end(start)
-
         return json.dumps({ 'concepts': concepts, 'places': places, 'papers': citations_results['formatted'] })
     else:
-        end(start)
-        return 'No items found.'
-
-def end(start):
-    #logging
-    with open(os.path.join('./app/static', 'speedtest.txt'), 'a') as datafile:
-        now = datetime.datetime.today()
-        datafile.write('BEGIN ' + start + '\n')
-        datafile.write('END ' + str(now) + '\n')
-        datafile.close()    
+        return json.dumps('No results found')

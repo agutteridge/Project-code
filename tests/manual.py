@@ -190,13 +190,13 @@ def geocode_hit(results):
     with open(os.path.join('./tests/resources', '10_hit.txt'), 'a') as datafile:
         input_num = 0
         output_num = 0
+        alphanumeric_addresses = set() # do not analyse duplicate addresses
 
         for paper in results:
             pmid = str(paper['MedlineCitation']['PMID'])
             datafile.write('\nPMID: ' + pmid + '\n')
 
             author_list = paper['MedlineCitation']['Article']['AuthorList']
-            alphanumeric_addresses = set() # do not analyse duplicate addresses per paper
 
             for author in author_list:
                 for place in author['AffiliationInfo']:
@@ -207,6 +207,7 @@ def geocode_hit(results):
                         alphanumeric = re.sub('[\W]', '', formatted_address).upper()
                         
                         if alphanumeric != '' and alphanumeric not in alphanumeric_addresses and formatted_address:
+                            alphanumeric_addresses.add(alphanumeric)
                             datafile.write('\tInput address: ' + f + '\n')
                             input_num += 1
                             place = geocode.get_location(formatted_address)

@@ -25,15 +25,23 @@ def get_latlong(placeid):
             '&key=' + config.maps_key +
             '&language=en')
 
-    result = request(url)
+    try:
+        result = request(url)
+    except (urllib.error.HTTPError,
+            urllib.error.URLError) as e:
+        print(e.reason)
+        print(url)
 
-    # retain structure for continuity between data from cache and API
-    return {
-        'name': result['result']['name'],
-        'geometry': {
-            'location': result['result']['geometry']['location']
+    if 'error_message' in result:
+        print(result['status'] + ': ' + result['error_message'])
+        return dict()
+    else:
+        return {
+            'name': result['result']['name'],
+            'geometry': {
+                'location': result['result']['geometry']['location']
+            }
         }
-    }
 
 # Uses Google Places Web API to match the address string to a real-world location.
 # Returns a list 
@@ -50,26 +58,30 @@ def get_location(num, address):
     place_options = []
 
     try:
-        place_options = request(url)['results']
+        place_options = request(url)
     except (urllib.error.HTTPError,
             urllib.error.URLError) as e:
         print(e.reason)
         print(url)
 
-    result = dict()
+    if 'error_message' in place_options:
+        print(place_options['status'] + ': ' + place_options['error_message'])
+        return dict()
+    else:        
+        place = place_options['results'][0] # only return first result
+        with open(os.path.join('./app/static', 'log.txt'), 'a') as datafile:
+            datafile.write('Formatted address (format' + str(num) + '): ' + address + '\n')
 
-    with open(os.path.join('./app/static', 'log.txt'), 'a') as datafile:
-        datafile.write('Formatted address (format' + str(num) + '): ' + address + '\n')
-        if place_options:
-            datafile.write('Output address: ' +  place_options[0]['name'] + '\n')
-            datafile.write('Coordinates: ' + str(place_options[0]['geometry']['location']['lat']) + 
-                ", " + str(place_options[0]['geometry']['location']['lng']) + '\n')
-            result = place_options[0] # only return first result
-        elif num is 3:
-            datafile.write('Output address: NONE\n')
-        datafile.close()
+            if place_options:
+                datafile.write('Output address: ' +  place['name'] + '\n')
+                datafile.write('Coordinates: ' + str(place['geometry']['location']['lat']) + 
+                    ", " + str(place['geometry']['location']['lng']) + '\n')
+            elif num is 3:
+                datafile.write('Output address: NONE\n')
 
-    return result
+            datafile.close()
+
+        return place
 
 # Email addresses are removed to improve success of geocoding using Google Places API
 def remove_email(address):
@@ -102,7 +114,7 @@ def format1(address):
     if len(without_email) > 1:
         return ','.join(without_email[1:len(without_email)]).strip()
     else:
-        return without_email.strip()
+        return without_email[0].strip()
 
 # Second and third lines only
 def format2(address):
@@ -110,7 +122,7 @@ def format2(address):
     if len(without_email) > 2:
         return ', '.join(without_email[1:3]).strip()
     else: # Less than 3 lines, use last line only
-        return without_email[-1:].strip()
+        return without_email[-1].strip()
 
 def format3(address):
     without_email = remove_email(address)
@@ -256,8 +268,6 @@ def start_geocoding(all_addresses):
                 all_addresses = remove_address(i, all_addresses)
 
     print(str(len(all_addresses)) + " addresses not geocoded.")
-    for leftover in all_addresses:
-        geocoded_addresses.append({'PMID': leftover['pmid'], 'place': dict()})
 
     return geocoded_addresses
 
@@ -266,26 +276,26 @@ def run(results):
 
     # dicts with PMID and original addresses
     all_addresses = list_all_addresses(results)
-    results = start_geocoding(all_addresses)
+    geocoded_addresses = start_geocoding(all_addresses)
     for_cache = []
 
     # Sorting by PMID for cache
-    for r in results:
-        if r['place']:
+    for g in geocoded_addresses:
+        if g['place']:
             added = False
             
             for c in for_cache:
-                if c['PMID'] == r['PMID']:
-                    c['placeids'].append(r['place']['place_id'])
+                if c['PMID'] == g['PMID']:
+                    c['placeids'].append(g['place']['place_id'])
                     added = True
 
             if not added:
-                for_cache.append({'PMID': r['PMID'],
-                    'placeids': [r['place']['place_id']]})
+                for_cache.append({'PMID': g['PMID'],
+                    'placeids': [g['place']['place_id']]})
 
     print('returning from geocode.run')
     return {
-        'results': results,
+        'results': geocoded_addresses,
         'for_cache': for_cache
     }
 
@@ -295,10 +305,13 @@ def retrieve(docs):
     results = []
 
     for d in docs:
-        pmid = d['MedlineCitation']['PMID']   
+        pmid = str(d['MedlineCitation']['PMID'])
         
         for p in d['placeids']:
-            results.append( {'PMID': pmid, 'place': get_latlong(p)} )
+            place_result = get_latlong(p)
+
+            if place_result:
+                results.append( {'PMID': pmid, 'place': place_result} )
 
     print('returning from geocode.retrieve')        
     return results

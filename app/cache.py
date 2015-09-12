@@ -1,4 +1,5 @@
 import os
+import datetime
 import pymongo
 from pymongo import MongoClient
 
@@ -11,14 +12,16 @@ def find_element(placeids_or_concepts, pmid, string):
     for pc in placeids_or_concepts:
         if pc['PMID'] == pmid:
             return pc[string]
-    raise AttributeError('The expected PubMed ID is not in the list.')
+
+    print(str(pmid) + ' has no ' + string)
+    return []
 
 # enter all results into the pubmeddata collection
 def insert_into_db(results, concepts, places):
     all_docs = []
 
     for r in results:
-        pmid = r['MedlineCitation']['PMID']
+        pmid = str(r['MedlineCitation']['PMID'])
         r['concepts'] = find_element(concepts, pmid, 'concepts')
         r['placeids'] = find_element(places, pmid, 'placeids')
 
@@ -34,7 +37,7 @@ def insert_into_db(results, concepts, places):
             for p in r['placeids']:
                 datafile.write('\t\t' + str(p) + '\n')
 
-            datafile.write("----------------------------------------------------------------------------")
+            datafile.write("----------------------------------------------------------------------------\n")
 
         all_docs.append(r)
 
@@ -43,7 +46,7 @@ def insert_into_db(results, concepts, places):
 
     if not insert_result.acknowledged:
         print('ERROR: not an acknowledged write operation.')
-    else: 
+    else:
         with open(os.path.join('./app/static', 'log.txt'), 'a') as datafile:
             datafile.write(str(len(insert_result.inserted_ids)) + ' inserted:\n')
             for i in insert_result.inserted_ids:
