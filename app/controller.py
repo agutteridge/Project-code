@@ -5,13 +5,9 @@ import json
 from app import citations, geocode, metamap, umls, cache
 
 def search_for(query):
-    start = ''
-
     #logging
     with open(os.path.join('./app/static', 'log.txt'), 'a') as datafile:
-        now = datetime.datetime.today()
-        start = str(now)
-        datafile.write('BEGIN ' + start + '\n')
+        datafile.write('BEGIN ' + str(datetime.datetime.today()) + '\n')
         datafile.write('Search term: ' + query + '\n')
         datafile.close()
 

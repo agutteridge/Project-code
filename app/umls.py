@@ -141,6 +141,5 @@ def run(input_data):
     output = execute_sql(organised['CUIs'], connection)
 
     results = format_json(organised['PMIDs'], group_other(output))
-
     print('returning from umls.run')
     return results

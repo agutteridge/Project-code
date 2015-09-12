@@ -71,7 +71,7 @@ function placeMarkers(data) {
   var infowindow = new google.maps.InfoWindow();
 
   for (i = 0; i < data.length; i++) {
-    var opacity = 0.5;
+    var opacity = 0.2;
 
     if (data[i].PMID === firstpmid) {
       opacity = 1;
@@ -91,10 +91,11 @@ function placeMarkers(data) {
 
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
       return function() {
-        infowindow.setContent(marker.address + "<br><button id=\"paperlink\">" + marker.pmid + "</button>");
+        infowindow.setContent(marker.address + "<br><div id=\"divlink\"><button id=\"paperlink\">" + 
+          marker.pmid + "</button></div>");
         infowindow.open(map, marker);
         thispaper = getPaperbyPMID(marker.pmid)
-        document.getElementById("paperlink").addEventListener("click", sendPaper(thispaper));
+        document.getElementById("divlink").addEventListener("click", sendPaper(thispaper));
       }
     })(marker, i));
   }
@@ -122,14 +123,37 @@ function sendPaper(paper) {
     paper.journal + "</i>, " +
     paper.date;
 
+  var markerBounds = new google.maps.LatLngBounds();
+
   for (var i = 0; i < markers.length; i++) {
     if (markers[i].pmid === paper.PMID) {
       markers[i].setOpacity(1);
+      markerBounds.extend(markers[i].position);
     } else {
-      markers[i].setOpacity(0.5);
+      markers[i].setOpacity(0.2);
     };
   };
 
+  google.maps.event.addListener(map, 'zoom_changed', function() {
+      zoomChangeBoundsListener = 
+          google.maps.event.addListener(map, 'bounds_changed', function(event) {
+              if (this.getZoom() > 5 && this.initialZoom == true) {
+                  console.log('zoom too close')
+                  // Change max/min zoom here
+                  this.setZoom(5);
+                  this.initialZoom = false;
+              }
+          google.maps.event.removeListener(zoomChangeBoundsListener);
+      });
+  });
+  map.initialZoom = true;
+
+  if (!(markerBounds.isEmpty())) {
+    map.fitBounds(markerBounds);
+  } else {
+    map.setCenter(new google.maps.LatLng(0, 0))
+    map.setZoom(1)
+  }
   changeColour(paper.PMID);
 }
 
