@@ -37,8 +37,6 @@ def insert_into_db(results, concepts, places):
             for p in r['placeids']:
                 datafile.write('\t\t' + str(p) + '\n')
 
-            datafile.write("----------------------------------------------------------------------------\n")
-
         all_docs.append(r)
 
     # batch all insertions
@@ -49,8 +47,13 @@ def insert_into_db(results, concepts, places):
     else:
         with open(os.path.join('./app/static', 'log.txt'), 'a') as datafile:
             datafile.write(str(len(insert_result.inserted_ids)) + ' inserted:\n')
+
             for i in insert_result.inserted_ids:
                 datafile.write(str(i) + '\n')
+
+            endtime = datetime.datetime.today()
+            datafile.write('END ' + str(endtime) + '\n')
+            datafile.write("----------------------------------------------------------------------------\n")
             datafile.close()
 
 def retrieve(id_list):

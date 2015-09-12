@@ -68,18 +68,20 @@ def get_location(num, address):
         print(place_options['status'] + ': ' + place_options['error_message'])
         return dict()
     else:        
-        place = place_options['results'][0] # only return first result
         with open(os.path.join('./app/static', 'log.txt'), 'a') as datafile:
             datafile.write('Formatted address (format' + str(num) + '): ' + address + '\n')
 
-            if place_options:
+            place = dict()
+
+            if place_options['results']:
+                place = place_options['results'][0] # only return first result
                 datafile.write('Output address: ' +  place['name'] + '\n')
                 datafile.write('Coordinates: ' + str(place['geometry']['location']['lat']) + 
                     ", " + str(place['geometry']['location']['lng']) + '\n')
             elif num is 3:
                 datafile.write('Output address: NONE\n')
 
-            datafile.close()
+        datafile.close()
 
         return place
 

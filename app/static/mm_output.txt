@@ -1,625 +1,637 @@
-24489745|MMI|423.36|Symbiosis|C0039029|[npop]|["Symbiosis"-ab-1-"Symbiosis"-noun-0,"Symbiosis"-ti-1-"symbiosis"-noun-0]|TI;AB|271:9;81:9|G06.590.580.800;G16.100.900
-24489745|MMI|321.42|Forests|C0086312|[geoa]|["Forests"-ab-1-"Forests"-noun-0,"Forest"-ti-1-"forest"-noun-0]|TI;AB|208:7;114:6|B01.650.915
-24489745|MMI|319.54|Mycorrhizae|C1136244|[fngs]|["Mycorrhizae"-ab-1-"Mycorrhizae"-noun-0,"Mycorrhiza"-ti-1-"mycorrhizal"-adj-0]|TI;AB|226:11;155:11|A18.400.525;A19.690;B01.300.655;B05.550
-24489745|MMI|316.66|Ectomycorrhizae|C1136245|[fngs]|["Ectomycorrhizae"-ti-1-"ectomycorrhizal"-adj-0]|TI|124:15|A18.400.525;A19.690;B01.300.655;B05.550
-24489745|MMI|216.80|Plants|C0032098|[plnt]|["Plants"-ab-1-"Plants"-noun-0,"Plant"-ti-1-"plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|240:6;68:5;167:6|B01.650
-24489745|MMI|214.12|Fungi|C0016832|[fngs]|["Fungal"-ti-1-"fungal"-adj-0]|TI|74:6|B01.300
-24489745|MMI|114.42|Diversity|C1880371|[qlco]|["Diversity"-ti-1-"Diversity"-noun-0]|TI|21:9|
-24489745|MMI|113.63|Structure|C0678594|[spco]|["Structure"-ti-1-"structure"-noun-0]|TI|43:9|
-24489745|MMI|110.42|Fungal|C0521033|[ftcn]|["Fungal"-ti-1-"fungal"-adj-0]|TI|74:6|
-24489745|MMI|110.42|Mixed (qualifier value)|C0205430|[ftcn]|["Mixed"-ti-1-"mixed"-adj-0]|TI|96:5|
-24489745|MMI|110.42|Mixed Cell Morphology|C3160715|[fndg]|["Mixed"-ti-1-"mixed"-adj-0]|TI|96:5|
-24489745|MMI|110.42|Present|C0150312|[qnco]|["In"-ti-1-"in"-prep-0]|TI|91:2|
-24489745|MMI|110.42|TBATA gene|C1428114|[gngm]|["spatial"-ti-1-"spatial"-adj-0]|TI|35:7|
-24489745|MMI|110.42|Within|C0332285|[spco]|["In"-ti-1-"in"-prep-0]|TI|91:2|
-24489745|MMI|110.22|arbuscule|C3156852|[celc]|["arbuscule"-ti-1-"arbuscular"-adj-0]|TI|144:10|
-24489745|MMI|22.41|Fagaceae|C0950075|[plnt]|["Fagaceae"-ab-1-"Fagaceae"-noun-0]|AB|197:8|B01.650.940.800.575.100.425
-24489745|MMI|16.12|Climate|C0008946|[npop]|["Climate"-ab-1-"Climate"-noun-0]|AB|292:7|G16.500.275.071;N06.230.300.100.250
-24489745|MMI|16.12|Specificity|C0037791|[qnco]|["Specificity"-ab-1-"Specificity"-noun-0]|AB|257:11|E05.318.740.872;E05.318.780.800;G17.800;N05.715.360.750.725;N05.715.360.780.700;N06.850.520.445.800;N06.850.520.830.872
-24489745|MMI|16.10|Biodiversity|C0282469|[qlco]|["Biodiversity"-ab-1-"Biodiversity"-noun-0]|AB|182:12|G16.500.275.157.049;N06.230.124.049
-24489745|MMI|12.94|Japan|C0022341|[geoa]|["Japan"-ab-1-"Japan"-noun-0]|AB|218:5|Z01.252.474.463;Z01.639.595
-24489745|MMI|3.50|Diagnostic Specificity|C1511884|[qnco]|["Specificity"-ab-1-"Specificity"-noun-0]|AB|257:11|
-24489745|MMI|3.50|Species|C1705920|[cnce]|["Species"-ab-1-"Species"-noun-0]|AB|249:7|
-25881027|AA|PRC1|plant Polycomb repressive complex 1|1|4|9|35
-25881027|MMI|424.74|Plant seeds|C0036563|[plnt]|["Seed"-ti-1-"seed"-noun-0]|TI|95:4|A18.024.500.750;J02.500.775
-25881027|MMI|322.44|Historical aspects qualifier|C0019665|[inpr]|["history"-ti-1-"history"-noun-0]|TI|137:7|x.x.x
-25881027|MMI|218.74|History|C0019664|[ocdi]|["History"-ti-1-"history"-noun-0]|TI|137:7|K01.400
-25881027|MMI|216.75|Plants|C0032098|[plnt]|["Plants"-ab-1-"Plants"-noun-0,"Plant"-ti-1-"plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|217:6;25:5;100:6|B01.650
-25881027|MMI|115.03|Concept History|C1705255|[cnce]|["History"-ti-1-"history"-noun-0]|TI|137:7|
-25881027|MMI|115.03|History of present illness|C0262512|[orga]|["History, NOS"-ti-1-"history"-noun-0]|TI|137:7|
-25881027|MMI|115.03|History of previous events|C2004062|[fndg]|["History"-ti-1-"history"-noun-0]|TI|137:7|
-25881027|MMI|115.03|Medical History|C0262926|[fndg]|["History"-ti-1-"history"-noun-0]|TI|137:7|
-25881027|MMI|113.63|Ancestor|C0870134|[famg]|["Ancestor"-ti-1-"ancestor"-noun-0]|TI|83:8|
-25881027|MMI|113.63|Radioactive Seed Implant Dosing Unit|C1882540|[qnco]|["{Seed}"-ti-1-"seed"-noun-0]|TI|95:4|
-25881027|MMI|113.63|Seed entity|C2346495|[cnce]|["Seed"-ti-1-"seed"-noun-0]|TI|95:4|
-25881027|MMI|113.63|Seeding|C1705192|[lbpr]|["Seed"-ti-1-"seed"-noun-0]|TI|95:4|
-25881027|MMI|113.13|Duplication (finding)|C0332597|[ftcn]|["Duplication"-ab-1-"Duplication"-noun-0,"Duplication"-ti-1-"duplication"-noun-0]|TI;AB|191:11;125:11|
-25881027|MMI|113.13|Gene Duplication Abnormality|C1705960|[comd]|["Duplication"-ab-1-"Duplication"-noun-0,"Duplication"-ti-1-"duplication"-noun-0]|TI;AB|191:11;125:11|
-25881027|MMI|113.03|Chromatin Remodeling Factor|C1333030|[aapp,bacs]|["Polycomb"-ab-1-"Polycomb"-noun-0,"Polycomb"-ti-1-"Polycomb"-noun-0]|TI;AB|226:8;31:8|
-25881027|MMI|113.03|Complex|C0439855|[qlco]|["Complex"-ti-1-"complex"-adj-0,"Complex"-ti-1-"complex"-noun-0]|TI|51:7^117:7;51:7^117:7|
-25881027|MMI|113.03|Polycomb|C0083956|[aapp,bacs]|["Polycomb"-ab-1-"Polycomb"-noun-0,"Polycomb"-ti-1-"Polycomb"-noun-0]|TI;AB|226:8;31:8|
-25881027|MMI|113.03|complex (molecular entity)|C1704241|[chvs]|["Complex"-ti-1-"complex"-adj-0,"Complex"-ti-1-"complex"-noun-0]|TI|51:7^117:7;51:7^117:7|
-25881027|MMI|112.92|Exist|C2987476|[cnce]|["Exist"-ti-1-"existed"-verb-0]|TI|68:7|
-25881027|MMI|25.56|Ubiquitination|C1519751|[moft]|["Ubiquitination"-ab-1-"Ubiquitination"-noun-0]|AB|280:14|G02.111.087.675.871.790.600.925;G02.111.087.693.600.775;G02.149.115.675.871.790.600.831;G02.149.115.693.600.850;G03.495.770.871.790.600.831;G05.355.315.670.600.831
-25881027|MMI|16.12|Genes|C0017337|[gngm]|["Gene"-ab-1-"Gene"-noun-0]|AB|186:4|G05.360.340.024.340
-25881027|MMI|13.27|Proteins|C0033684|[aapp,bacs]|["Protein"-ab-1-"Protein"-noun-0,"Proteins"-ab-1-"Proteins"-noun-0]|AB|262:7;241:8|D12.776
-25881027|MMI|12.94|Phylogeny|C0031797|[idcn]|["Phylogeny"-ab-1-"Phylogeny"-noun-0]|AB|205:9|G05.697;G16.100.178.605;L01.100.697
-25881027|MMI|12.85|Ubiquitin|C0041538|[aapp,bacs]|["Ubiquitin"-ab-1-"Ubiquitin"-noun-0]|AB|252:9|D12.776.947.500
-25881027|MMI|9.81|Ligase|C0023689|[aapp,enzy]|["Ligases"-ab-1-"Ligases"-noun-0]|AB|270:7|D08.811.464
-25881027|MMI|9.79|Biological Evolution|C0015219|[genf]|["Evolution"-ab-1-"Evolution"-noun-0]|AB|163:9|G05.355.044;G16.100.178
-25881027|MMI|9.70|Population Group|C1257890|[popg]|["Group"-ab-1-"Group"-noun-0]|AB|235:5|M01.686;N01.224.708
-25881027|MMI|6.63|Animals|C0003062|[anim]|["Animals"-ab-1-"Animals"-noun-0]|AB|153:7|B01.050
-25881027|MMI|3.48|Molecular|C1521991|[qlco]|["Molecular"-ab-1-"Molecular"-adj-0]|AB|174:9|
-25881027|MMI|3.39|Group Object|C1705428|[cnce]|["Group"-ab-1-"Group"-noun-0]|AB|235:5|
-25881027|MMI|3.39|Groups|C0441833|[idcn]|["Group"-ab-1-"Group"-noun-0]|AB|235:5|
-25881027|MMI|3.39|Social group|C0687744|[popg]|["group"-ab-1-"Group"-noun-0]|AB|235:5|
-25881027|MMI|3.39|Specialty Group|C1552516|[hcro]|["Group"-ab-1-"Group"-noun-0]|AB|235:5|
-25881027|MMI|3.39|User Group|C1705429|[popg]|["Group"-ab-1-"Group"-noun-0]|AB|235:5|
-25256907|MMI|633.24|MicroRNAs|C1101610|[bacs,nnon]|["MicroRNAs"-ab-1-"MicroRNAs"-noun-0,"MicroRNAs"-ti-1-"microRNAs"-noun-0]|TI;AB|172:9;39:9|D13.150.650.319;D13.444.735.150.319;D13.444.735.790.552.500
-25256907|MMI|424.81|Drug Tolerance|C0013220|[fndg]|["Tolerance"-ti-1-"tolerance"-noun-0]|TI|108:9|G07.690.812.260;G07.700.680.260
-25256907|MMI|424.81|Immune Tolerance|C0020963|[patf]|["Tolerance"-ti-1-"tolerance"-noun-0]|TI|108:9|G12.425.746.425
-25256907|MMI|216.85|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"Plant"-verb-0,"Plants"-ab-1-"Plants"-noun-0,"Plant"-ti-1-"plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|164:5;184:5^230:5;184:5^230:5;216:6;33:5;121:6|B01.650
-25256907|MMI|113.70|Mental tolerance|C0220929|[menp]|["tolerance"-ti-1-"tolerance"-noun-0]|TI|108:9|
-25256907|MMI|113.70|Physiologic tolerance|C0231197|[phsf]|["Tolerance"-ti-1-"tolerance"-noun-0]|TI|108:9|
-25256907|MMI|113.70|Tolerance|C1704410|[qlco]|["Tolerance"-ti-1-"tolerance"-noun-0]|TI|108:9|
-25256907|MMI|112.29|Stress|C0038435|[fndg]|["Stress"-ab-1-"Stress"-noun-0,"Stress"-ti-1-"stress"-noun-0]|TI;AB|238:6;101:6|
-25256907|MMI|111.46|Orthologous|C1709346|[qlco]|["Orthologous"-ti-1-"Orthologous"-adj-0]|TI|21:11|
-25256907|MMI|110.66|Greater|C1704243|[qnco]|["Great"-ti-1-"great"-adj-0]|TI|71:5|
-25256907|MMI|110.66|Large|C0549177|[qnco]|["Great"-ti-1-"great"-adj-0]|TI|71:5|
-25256907|MMI|110.66|Potential|C3245505|[qlco]|["Potential"-ti-1-"potential"-noun-0]|TI|77:9|
-25256907|MMI|110.49|Improving (qualifier value)|C1272745|[qlco]|["Improving"-ti-1-"improving"-adj-0]|TI|91:9|
-25256907|MMI|110.49|Preposition For|C0521125|[qlco]|["For"-ti-1-"for"-prep-0]|TI|87:3|
-25256907|MMI|16.01|Genes|C0017337|[gngm]|["Gene"-ab-1-"Gene"-noun-0]|AB|136:4|G05.360.340.024.340
-25256907|MMI|9.81|Regulation|C0851285|[gora]|["Regulation"-ab-1-"Regulation"-noun-0]|AB|152:10|I01.880.604;N03.706
-25256907|MMI|9.79|RNA|C0035668|[nnon]|["RNA"-ab-1-"RNA"-noun-0]|AB|225:3|D13.444.735
-25256907|MMI|6.91|Physiological|C0205463|[ftcn]|["Physiological"-ab-1-"Physiological"-adj-0]|AB|190:13^246:13|
-25256907|MMI|3.50|Phenomenon|C1882365|[phpr]|["Phenomena"-ab-1-"Phenomena"-noun-0]|AB|204:9|
-25256907|MMI|3.50|Regulation of biological process|C1327622|[biof]|["Regulation"-ab-1-"Regulation"-noun-0]|AB|152:10|
-25256907|MMI|3.39|Expression procedure|C0185117|[topp]|["Expression"-ab-1-"Expression"-noun-0]|AB|141:10|
-25563968|MMI|942.30|Brassica napus|C0330502|[plnt]|["Rape"-ab-1-"rape"-noun-0,"Oilseed rape"-ti-1-"oilseed rape"-noun-0]|TI;AB|161:4;48:12|B01.650.940.800.575.100.157.200.249
-25563968|MMI|734.45|Moths|C0026593|[euka]|["Moths"-ab-1-"Moths"-noun-0,"Moth"-ti-1-"moth"-noun-0]|TI;AB|462:5;105:4|B01.050.500.131.617.561.650
-25563968|MMI|216.25|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"Plant"-noun-0,"Plant"-ti-1-"Plant"-noun-0]|TI;AB|366:5^381:5;493:5;21:5|B01.650
-25563968|MMI|113.59|Attack behavior|C1261512|[socb]|["attack"-ti-1-"attack"-noun-0]|TI|83:6|
-25563968|MMI|113.59|Observation of attack|C1304680|[fndg]|["Attack"-ti-1-"attack"-noun-0]|TI|83:6|
-25563968|MMI|113.59|Onset of illness|C0277793|[tmco]|["Attack, NOS"-ti-1-"attack"-noun-0]|TI|83:6|
-25563968|MMI|113.59|Response process|C0871261|[orga]|["responses"-ti-1-"responses"-noun-0]|TI|35:9|
-25563968|MMI|110.94|Defense|C1880266|[cnce]|["Defense"-ab-1-"defence"-noun-0,"Defense"-ti-1-"defence"-noun-0]|TI;AB|169:7;27:7|
-25563968|MMI|110.66|Mamestra brassicae|C1018454|[euka]|["Mamestra brassicae"-ti-1-"Mamestra brassicae"-noun-0]|TI|110:18|
-25563968|MMI|110.38|Brassica oleracea|C0330498|[plnt]|["Cabbage"-ti-1-"cabbage"-noun-0]|TI|97:7|
-25563968|MMI|110.38|Cabbage - dietary|C0006619|[food]|["Cabbage"-ti-1-"cabbage"-noun-0]|TI|97:7|
-25563968|MMI|110.38|Cabbage preparation|C1095889|[phsu]|["cabbage"-ti-1-"cabbage"-noun-0]|TI|97:7|
-25563968|MMI|110.38|Mean of Other Group Imputation Technique|C2825513|[qnco]|["MOTH"-ti-1-"moth"-noun-0]|TI|105:4|
-25563968|MMI|110.38|Post|C0687676|[tmco]|["After"-ti-1-"after"-prep-0]|TI|77:5|
-25563968|MMI|110.38|Status post|C0231290|[tmco]|["After"-ti-1-"after"-prep-0]|TI|77:5|
-25563968|MMI|51.46|Brassica|C0006135|[plnt]|["Brassica"-ab-1-"Brassica"-noun-0]|AB|137:8^305:8|B01.650.940.800.575.100.157.200;J02.500.850.150
-25563968|MMI|32.38|Glucosinolates|C0017767|[carb]|["Glucosinolate"-ab-1-"glucosinolate"-noun-0,"Glucosinolates"-ab-1-"Glucosinolates"-noun-0]|AB|198:13;389:14|D02.886.740.703.350;D09.408.348.820.350;D09.408.903.703.350
-25563968|MMI|32.29|Genes|C0017337|[gngm]|["Gene"-ab-1-"Gene"-noun-0,"Genes"-ab-1-"Genes"-noun-0]|AB|338:4;374:5|G05.360.340.024.340
-25563968|MMI|28.74|Brassica rapa|C0034670|[plnt]|["Rape"-ab-1-"rape"-noun-0]|AB|161:4|B01.650.940.800.575.100.157.200.277
-25563968|MMI|22.41|Larva|C0023047|[euka]|["Larva"-ab-1-"Larva"-noun-0]|AB|454:5|B05.500.500;G07.700.320.500.550.500.500
-25563968|MMI|19.25|Cyclopentanes|C0010580|[orch]|["Cyclopentanes"-ab-1-"Cyclopentanes"-noun-0]|AB|322:13|D02.455.426.392.368.450
-25563968|MMI|19.25|Lepidoptera|C0023338|[euka]|["moths"-ab-1-"Moths"-noun-0]|AB|462:5|B01.050.500.131.617.561
-25563968|MMI|16.12|Forcible intercourse|C0034668|[socb]|["Rape"-ab-1-"rape"-noun-0]|AB|161:4|I01.198.240.748.640
-25563968|MMI|16.10|General Practitioners|C0017319|[prog]|["generalist"-ab-1-"generalist"-noun-0]|AB|185:10|M01.526.485.810.485;N02.360.810.485
-25563968|MMI|16.10|Herbivory|C0562691|[anim]|["Herbivory"-ab-1-"Herbivory"-noun-0]|AB|429:9|F01.145.113.547.600;F01.145.407.758
-25563968|MMI|16.10|Tryptophan|C0041249|[aapp,bacs,phsu]|["Tryptophan"-ab-1-"Tryptophan"-noun-0]|AB|610:10|D12.125.072.050.850;D12.125.142.875;x.x.x.x
-25563968|MMI|12.94|Hydrolysis|C0020291|[npop]|["Hydrolysis"-ab-1-"Hydrolysis"-noun-0]|AB|441:10|G02.111.087.505;G02.149.115.505;G02.149.395;G03.495.508
-25563968|MMI|12.94|Myrosinase|C0076469|[aapp,enzy]|["Myrosinase"-ab-1-"myrosinase"-noun-0]|AB|227:10|x.x.x.x
-25563968|MMI|12.94|Oxylipins|C1956100|[lipd]|["Oxylipins"-ab-1-"Oxylipins"-noun-0]|AB|481:9|D10.251.355.645
-25563968|MMI|12.85|Cardiac Glycosides|C0007158|[carb,phsu]|["Glycoside"-ab-1-"Glycoside"-noun-0]|AB|406:9|D04.808.155.580;D09.408.180
-25563968|MMI|12.85|Transcription, Genetic|C0040649|[genf]|["Transcriptional"-ab-1-"transcriptional"-adj-0]|AB|266:15|G02.111.087.847;G02.149.115.847;G05.355.310.700
-25563968|MMI|9.81|Disease|C0012634|[dsyn]|["Diseases"-ab-1-"Diseases"-noun-0]|AB|499:8|C23.550.288
-25563968|MMI|9.81|Hydrolase|C0020289|[aapp,enzy]|["Hydrolases"-ab-1-"Hydrolases"-noun-0]|AB|416:10|D08.811.277
-25563968|MMI|9.81|Regulation|C0851285|[gora]|["Regulation"-ab-1-"Regulation"-noun-0]|AB|354:10|I01.880.604;N03.706
-25563968|MMI|9.79|Mutation|C0026882|[genf]|["Mutation"-ab-1-"Mutation"-noun-0]|AB|470:8|G05.365.590
-25563968|MMI|6.63|Animals|C0003062|[anim]|["Animals"-ab-1-"Animals"-noun-0]|AB|295:7|B01.050
-25563968|MMI|6.63|Seedling|C0242437|[plnt]|["Seedling"-ab-1-"Seedling"-noun-0]|AB|577:8|A18.550
-25563968|MMI|6.55|Glycosides|C0017977|[carb]|["Glycoside"-ab-1-"Glycoside"-noun-0]|AB|406:9|D09.408
-25563968|MMI|6.54|Time|C0040223|[tmco]|["Time"-ab-1-"Time"-adj-0]|AB|515:4|G01.910
-25563968|MMI|3.50|Cells|C0007634|[cell]|["Cells"-ab-1-"cells"-noun-0]|AB|177:5|A11
-25563968|MMI|3.50|Cells [Chemical/Ingredient]|C3282337|[cell]|["Cells"-ab-1-"cells"-noun-0]|AB|177:5|
-25563968|MMI|3.50|Interaction|C1704675|[ftcn]|["Interaction"-ab-1-"interaction"-noun-0]|AB|252:11|
-25563968|MMI|3.50|Signal|C1710082|[phpr]|["Signal"-ab-1-"Signal"-noun-0]|AB|588:6|
-25563968|MMI|3.50|transduction|C1160185|[orgf]|["transduction"-ab-1-"Transduction"-noun-0]|AB|595:12|
-25563968|MMI|3.50|Regulation of biological process|C1327622|[biof]|["Regulation"-ab-1-"Regulation"-noun-0]|AB|354:10|
-25563968|MMI|3.49|Chain device|C0337112|[mnob]|["Chain"-ab-1-"Chain"-noun-0]|AB|531:5|
-25563968|MMI|3.49|Polymerase|C1335439|[aapp,enzy]|["Polymerase"-ab-1-"Polymerase"-noun-0]|AB|520:10|
-25563968|MMI|3.49|Reaction|C0443286|[ftcn]|["Reaction"-ab-1-"Reaction"-noun-0]|AB|537:8|
-25563968|MMI|3.49|Reaction:Finding:Point in time:^Patient:Nominal|C1114821|[clna]|["Reaction"-ab-1-"Reaction"-noun-0]|AB|537:8|
-25563968|MMI|3.49|chain of objects|C1524075|[idcn]|["Chain"-ab-1-"Chain"-noun-0]|AB|531:5|
-25563968|MMI|3.48|Mutation Abnormality|C1705285|[comd]|["Mutation"-ab-1-"Mutation"-noun-0]|AB|470:8|
-25563968|MMI|3.48|Profile (lab procedure)|C1979963|[lbpr]|["Profile"-ab-1-"profiling"-noun-0]|AB|282:9|
-25563968|MMI|3.48|Profiling (action)|C2003903|[ftcn]|["Profile"-ab-1-"profiling"-noun-0]|AB|282:9|
-25563968|MMI|3.47|Reproducibility|C1514863|[qlco]|["Reproducibility"-ab-1-"Reproducibility"-noun-0]|AB|548:15|
-25563968|MMI|3.46|jasmonate|C1176128|[orch]|["jasmonate"-ab-1-"jasmonates"-noun-0]|AB|214:10|
-25563968|MMI|3.39|Expression procedure|C0185117|[topp]|["Expression"-ab-1-"Expression"-noun-0]|AB|343:10|
-25563968|MMI|3.39|Actual|C0237400|[qlco]|["Real"-ab-1-"Real"-adj-0]|AB|510:4|
-25563968|MMI|3.39|Real Data Type|C3272377|[inpr]|["REAL"-ab-1-"Real"-adj-0]|AB|510:4|
-25563968|MMI|3.39|Time (foundation metadata concept)|C3541383|[tmco]|["Time"-ab-1-"Time"-adj-0]|AB|515:4|
-25563968|MMI|3.35|Experimental Result|C2825142|[fndg]|["Result"-ab-1-"Results"-noun-0]|AB|567:7|
-25563968|MMI|3.35|Result|C1274040|[ftcn]|["Result"-ab-1-"Results"-noun-0]|AB|567:7|
-25563968|MMI|3.35|What subject filter - Result|C1546471|[idcn]|["Result"-ab-1-"Results"-noun-0]|AB|567:7|
-25073950|MMI|319.70|Influentials|C0021399|[idcn]|["influential"-ti-1-"influence"-noun-0]|TI|91:9|F01.752.609
-25073950|MMI|217.81|Metabolome|C2350399|[npop]|["Metabolome"-ab-1-"Metabolome"-noun-0,"Metabolome"-ti-1-"metabolome"-noun-0]|TI;AB|313:10;151:10|G03.500
-25073950|MMI|214.61|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ti-1-"plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|339:5;113:5;51:6|B01.650
-25073950|MMI|115.11|Vegetation|C1285498|[anab]|["Vegetation"-ti-1-"vegetation"-noun-0]|TI|75:10|
-25073950|MMI|114.05|Extract (substance)|C2828366|[sbst]|["Extract"-ab-1-"Extracts"-noun-0,"Extract"-ti-1-"extracts"-verb-0]|TI;AB|345:8;119:8|
-25073950|MMI|113.81|Aegilops|C1080901|[plnt]|["Aegilops"-ti-1-"Aegilops"-noun-0]|TI|131:8|
-25073950|MMI|113.20|Interaction|C1704675|[ftcn]|["Interaction"-ti-1-"interactions"-noun-0]|TI|30:12|
-25073950|MMI|111.52|Mediterranean|C0240321|[popg]|["Mediterranean"-ab-1-"Mediterranean"-noun-0,"Mediterranean"-ti-1-"Mediterranean"-noun-0]|TI;AB|290:13;61:13|
-25073950|MMI|110.66|Chemical or Textual Reference to Actual Test or Parameter|C3272558|[inpr]|["Chemical"-ti-1-"Chemical"-adj-0]|TI|21:8|
-25073950|MMI|110.66|Chemicals|C0220806|[chem]|["Chemical"-ti-1-"Chemical"-adj-0]|TI|21:8|
-25073950|MMI|109.98|Choose (action)|C1707391|[acty]|["Select"-ti-1-"selected"-adj-0]|TI|104:8|
-25073950|MMI|22.41|Poaceae|C0018210|[plnt]|["Poaceae"-ab-1-"Poaceae"-noun-0]|AB|356:7|B01.650.940.800.575.100.822
-25073950|MMI|16.12|Metabolomics|C1328813|[bmod]|["Metabolomics"-ab-1-"metabolomics"-noun-0]|AB|242:12|H01.158.201.586;H01.158.273.180.599;H01.181.122.638
-25073950|MMI|16.10|Flavonoids|C0596577|[orch]|["Flavonoids"-ab-1-"Flavonoids"-noun-0]|AB|188:10|D03.438.150.266.450;D03.830.219.266.450
-25073950|MMI|16.01|Magnetic Resonance Imaging|C0024485|[diap]|["NMR"-ab-1-"NMR"-noun-0]|AB|232:3|E01.370.350.500;E01.370.350.825.500
-25073950|MMI|12.85|Nuclear Magnetic Resonance|C0028580|[npop]|["NMR"-ab-1-"NMR"-noun-0]|AB|232:3|E05.196.867.519
-25073950|MMI|6.63|Allelochemicals|C1135843|[bacs]|["Allelochemicals"-ab-1-"Allelochemicals"-noun-0]|AB|170:15|D23.641
-25073950|MMI|6.63|Allelopathy|C3658358|[npop]|["Allelopathy"-ab-1-"Allelopathy"-noun-0]|AB|276:11|G16.024
-25073950|MMI|6.63|Pheromone|C0031516|[bacs]|["Pheromones"-ab-1-"Pheromones"-noun-0]|AB|326:10|D23.641
-25073950|MMI|3.50|Geographic Locations|C0017446|[geoa]|["Region"-ab-1-"Region"-noun-0]|AB|304:6|Z01
-25073950|MMI|3.50|Oxidative|C0311404|[ftcn]|["Oxidative"-ab-1-"Oxidative"-noun-0]|AB|257:9|
-25073950|MMI|3.50|Stress|C0038435|[fndg]|["Stress"-ab-1-"stress"-noun-0]|AB|267:6|
-25073950|MMI|3.50|derivatives|C0243072|[chvs]|["derivatives"-ab-1-"derivatives"-noun-0]|AB|218:11|
-25073950|MMI|3.50|regional|C0205147|[spco]|["Region"-ab-1-"Region"-noun-0]|AB|304:6|
-25073950|MMI|3.39|Base - General Qualifier|C1705938|[idcn]|["Based"-ab-1-"based"-adj-0]|AB|236:5|
-25073950|MMI|3.39|Basis - conceptual entity|C1527178|[ftcn]|["Based"-ab-1-"based"-adj-0]|AB|236:5|
-24712050|MMI|321.82|Review [Publication Type]|C0282443|[inpr]|["Review"-ti-1-"review"-noun-0]|TI|90:6|V02.600.500;V02.912
-24712050|MMI|319.27|Biological Evolution|C0015219|[genf]|["Evolution"-ab-1-"Evolution"-noun-0,"Evolution"-ti-1-"Evolutionary"-adj-0]|TI;AB|116:9;21:12|G05.355.044;G16.100.178
-24712050|MMI|216.42|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plants"-ab-1-"Plants"-noun-0,"Plant"-ti-1-"plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|172:5;192:6;54:5;80:6|B01.650
-24712050|MMI|114.42|Act Class - review|C1552617|[idcn]|["Review"-ti-1-"review"-noun-0]|TI|90:6|
-24712050|MMI|113.70|Response process|C0871261|[orga]|["responses"-ti-1-"responses"-noun-0]|TI|34:9|
-24712050|MMI|112.57|Species|C1705920|[cnce]|["Species"-ab-1-"Species"-noun-0,"Species"-ti-1-"species"-noun-0]|TI;AB|150:7;60:7|
-24712050|MMI|111.52|Invasive|C0205281|[qlco]|["Invasive"-ti-1-"invasive"-adj-0]|TI|71:8|
-24712050|MMI|110.49|Native (qualifier value)|C0302891|[ftcn]|["Native"-ti-1-"native"-adj-0]|TI|47:6|
-24712050|MMI|9.70|biology (field)|C0005532|[bmod]|["Biological"-ab-1-"Biological"-adj-0]|AB|105:10|H01.158.273
-24712050|MMI|6.63|Genotype|C0017431|[orga]|["Genotype"-ab-1-"Genotype"-noun-0]|AB|128:8|G05.380
-24712050|MMI|6.63|Phenotype|C0031437|[orga]|["Phenotype"-ab-1-"Phenotype"-noun-0]|AB|160:9|G05.695
-24712050|MMI|3.50|Biologic Development|C0678723|[orgf]|["Development"-ab-1-"Development"-noun-0]|AB|178:11|
-24712050|MMI|3.50|Development|C1527148|[ftcn]|["Development"-ab-1-"Development"-noun-0]|AB|178:11|
-24712050|MMI|3.50|development aspects|C0243107|[phsf]|["development"-ab-1-"Development"-noun-0]|AB|178:11|
-24712050|MMI|3.48|Phenotype determination|C1285572|[lbpr]|["Phenotype"-ab-1-"Phenotype"-noun-0]|AB|160:9|
-24712050|MMI|3.39|biological|C0205460|[qlco]|["biological"-ab-1-"Biological"-adj-0]|AB|105:10|
-24712050|MMI|3.37|Introduces|C1292748|[ftcn]|["introduce"-ab-1-"Introduced"-adj-0]|AB|139:10|
-23673920|MMI|424.81|Growth|C0018270|[orgf]|["Growth"-ti-1-"growth"-noun-0]|TI|47:6|G07.700.320.249
-23673920|MMI|423.40|Wetlands|C1721088|[npop]|["Wetlands"-ab-1-"Wetlands"-noun-0,"Wetland"-ti-1-"wetland"-noun-0]|TI;AB|314:8;62:7|G16.500.275.960;N06.230.124.625
-23673920|MMI|421.91|perchlorate|C0136082|[inch]|["perchlorate"-ti-1-"perchlorate"-noun-0]|TI|32:11|x.x.x.x
-23673920|MMI|215.50|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"Plant"-noun-0,"Plants"-ab-1-"Plants"-noun-0,"Plant"-ti-1-"plant"-adj-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|229:5;244:5;258:6;101:5;70:6|B01.650
-23673920|MMI|114.93|Body tissue|C0040300|[tisu]|["Tissues"-ti-1-"tissues"-noun-0]|TI|107:7|A10
-23673920|MMI|114.13|Effect|C1280500|[qlco]|["effects"-ti-1-"Effects"-noun-0]|TI|21:7|
-23673920|MMI|113.70|Growth action|C2911660|[acty]|["Growth"-ti-1-"growth"-noun-0]|TI|47:6|
-23673920|MMI|113.70|Tissue Growth|C1621966|[ortf]|["Growth"-ti-1-"growth"-noun-0]|TI|47:6|
-23673920|MMI|113.70|growth aspects|C0220844|[phsf]|["growth"-ti-1-"growth"-noun-0]|TI|47:6|
-23673920|MMI|110.49|Four|C0205450|[qnco]|["Four"-ti-1-"four"-word_numeral-0]|TI|57:4|
-23673920|MMI|110.49|On (qualifier value)|C1720294|[inpr]|["On"-ti-1-"on"-prep-0]|TI|44:2|
-23673920|MMI|110.49|Upon - dosing instruction fragment|C1720176|[ftcn]|["On"-ti-1-"on"-prep-0]|TI|44:2|
-23673920|MMI|25.56|Acorus|C0949887|[plnt]|["Acorus"-ab-1-"Acorus"-noun-0]|AB|123:6|B01.650.940.800.575.100.010.500
-23673920|MMI|25.56|Chlorophyll|C0008260|[bacs,orch]|["Chlorophyll"-ab-1-"Chlorophyll"-noun-0]|AB|164:11|D03.383.129.578.840.374;D03.383.129.578.840.500.640.220;D03.549.909.374;D03.549.909.500.640.220;D04.345.783.374;D04.345.783.500.640.220;D23.767.727.220;D23.767.727.640.220
-23673920|MMI|25.56|Eichhornia|C1011668|[plnt]|["Eichhornia"-ab-1-"Eichhornia"-noun-0]|AB|178:10|B01.650.940.800.575.100.826.500
-23673920|MMI|25.56|Lilium|C0524886|[plnt]|["Lilium"-ab-1-"Lilium"-noun-0]|AB|191:6|B01.650.940.800.575.100.610.500
-23673920|MMI|25.56|Marantaceae|C0997213|[plnt]|["Marantaceae"-ab-1-"Marantaceae"-noun-0]|AB|200:11|B01.650.940.800.575.100.975.522
-23673920|MMI|19.27|Risk|C0035647|[qlco]|["Risk"-ab-1-"Risk"-noun-0]|AB|267:4|E05.318.740.600.800;G17.680.750;N05.715.360.750.625.700;N06.850.520.830.600.800
-23673920|MMI|19.25|Biodegradation|C0005482|[npop]|["Biodegradation"-ab-1-"Biodegradation"-noun-0]|AB|132:14|N06.850.460.375.500;N06.850.860.510.900.299
-23673920|MMI|16.12|Drinking Water|C0599638|[sbst]|["WATER"-ab-1-"Water"-noun-0]|AB|285:5|D01.455.900.300;D01.650.550.925.199;J02.200.418
-23673920|MMI|12.96|Water|C0043047|[inch,phsu]|["Water"-ab-1-"Water"-noun-0]|AB|285:5|D01.455.900;D01.650.550.925;x.x.x.x
-23673920|MMI|12.94|Perchlorates|C0205884|[inch]|["Perchlorates"-ab-1-"Perchlorates"-noun-0]|AB|214:12|D01.029.260.650;D01.210.675
-23673920|MMI|9.81|Plant Leaves|C0242724|[plnt]|["Leaves"-ab-1-"Leaves"-noun-0]|AB|235:6|A18.024.812
-23673920|MMI|9.79|Environment|C0014406|[spco]|["Environmental"-ab-1-"Environmental"-adj-0]|AB|148:13|G16.500.275;N06.230
-23673920|MMI|6.66|Plant Roots|C0242726|[plnt]|["Roots"-ab-1-"Roots"-noun-0]|AB|250:5|A18.400
-23673920|MMI|3.50|Assessed|C1516048|[acty]|["Assessment"-ab-1-"Assessment"-noun-0]|AB|272:10|
-23673920|MMI|3.50|Evaluation procedure|C1261322|[hlca]|["Assessment"-ab-1-"Assessment"-noun-0]|AB|272:10|
-23673920|MMI|3.50|Pollutant|C0599786|[hops]|["pollutants"-ab-1-"Pollutants"-noun-0]|AB|291:10|
-23673920|MMI|3.50|Water Specimen|C1550678|[inch]|["Water"-ab-1-"Water"-noun-0]|AB|285:5|
-23673920|MMI|3.48|Chemical or Textual Reference to Actual Test or Parameter|C3272558|[inpr]|["Chemical"-ab-1-"Chemical"-adj-0]|AB|303:8|
-23673920|MMI|3.48|Chemicals|C0220806|[chem]|["Chemical"-ab-1-"Chemical"-adj-0]|AB|303:8|
-23673920|MMI|3.48|biodegradational|C0220796|[ftcn]|["biodegradation"-ab-1-"Biodegradation"-noun-0]|AB|132:14|
-26224711|MMI|424.70|analysis aspect|C1524024|[ftcn]|["analysis"-ti-1-"analysis"-noun-0]|TI|86:8|x.x.x.x
-26224711|MMI|422.63|Soil|C0037592|[sbst]|["Soil"-ti-1-"soil"-noun-0]|TI|63:4|D20.721;G01.311.820;G16.500.275.815;N06.230.600
-26224711|MMI|322.52|chemical aspects|C0079107|[clas]|["chemistry"-ti-1-"chemistry"-noun-0]|TI|68:9|x.x.x
-26224711|MMI|218.81|Science of Chemistry|C0007996|[ocdi]|["Chemistry"-ti-1-"chemistry"-noun-0]|TI|68:9|H01.181
-26224711|MMI|214.53|Plants|C0032098|[plnt]|["Plant"-ab-1-"plant"-noun-0,"Plant"-ti-1-"plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|150:5;109:5;53:6|B01.650
-26224711|MMI|115.11|Chemical procedure|C0201682|[lbpr]|["Chemistry"-ti-1-"chemistry"-noun-0]|TI|68:9|
-26224711|MMI|114.42|Widespread|C0205391|[spco]|["Pervasive"-ti-1-"Pervasive"-adj-0]|TI|21:9|
-26224711|MMI|113.59|Analysis|C0936012|[resa]|["Analysis"-ti-1-"analysis"-noun-0]|TI|86:8|
-26224711|MMI|113.59|Analysis of substances|C0002778|[lbpr]|["Analysis"-ti-1-"analysis"-noun-0]|TI|86:8|
-26224711|MMI|113.59|Meta|C1042496|[euka]|["Meta"-ti-1-"meta"-noun-0]|TI|81:4|
-26224711|MMI|112.94|Effect|C1280500|[qlco]|["effects"-ab-1-"effects"-noun-0,"effects"-ti-1-"effects"-noun-0]|TI;AB|156:7;42:7^123:7|
-26224711|MMI|110.91|Individual|C0237401|[humn]|["Individual"-ab-1-"individual"-adj-0,"Individual"-ti-1-"individual"-adj-0]|TI;AB|139:10;98:10|
-26224711|MMI|110.91|Persons|C0027361|[popg]|["Individual"-ab-1-"individual"-adj-0,"Individual"-ti-1-"individual"-adj-0]|TI;AB|139:10;98:10|M01
-26224711|MMI|110.66|Strong|C0442821|[qlco]|["Strong"-ti-1-"strong"-adj-0]|TI|35:6|
-26224711|MMI|3.50|Heterogeneity|C0019409|[qlco]|["Heterogeneity"-ab-1-"heterogeneity"-noun-0]|AB|199:13|N01
-26224711|MMI|3.48|Interaction|C1704675|[ftcn]|["Interaction"-ab-1-"interactions"-noun-0]|AB|176:12|
-26224711|MMI|3.39|TBATA gene|C1428114|[gngm]|["spatial"-ab-1-"spatial"-adj-0]|AB|191:7|
-24476640|MMI|321.99|Anesthesiology|C0002930|[bmod]|["Anaesthesia"-ab-1-"Anesthesia"-noun-0,"Anesthetics"-ab-1-"Anesthetics"-noun-0,"Anaesthesia"-ti-1-"anesthesia"-noun-0]|TI;AB|131:10^277:10;290:11;27:10|H02.403.066
-24476640|MMI|218.35|Anesthesia procedures|C0002903|[topp]|["Anesthesia"-ab-1-"Anesthesia"-noun-0,"Anesthesia"-ti-1-"anesthesia"-noun-0]|TI;AB|131:10^277:10;27:10|E03.155
-24476640|MMI|216.87|Plants|C0032098|[plnt]|["Plant"-ab-1-"plant"-noun-0,"Plants"-ab-1-"Plants"-noun-0,"Plants"-ab-1-"plants"-noun-0,"Plant"-ti-1-"Plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|218:5;408:6;236:6;21:5;80:6|B01.650
-24476640|MMI|216.17|Animals|C0003062|[anim]|["Animals"-ab-1-"Animals"-noun-0,"Animals"-ti-1-"animals"-noun-0]|TI;AB|304:7;68:7|B01.050
-24476640|MMI|114.93|Scientific Study|C0947630|[lbpr]|["studies"-ti-1-"studies"-noun-0]|TI|115:7|
-24476640|MMI|114.42|Support, device|C0183683|[medd]|["Support"-ti-1-"supports"-verb-0]|TI|38:8|
-24476640|MMI|114.42|Supportive assistance|C1521721|[cnce]|["Support"-ti-1-"supports"-verb-0]|TI|38:8|
-24476640|MMI|113.37|Similarity|C2348205|[qlco]|["Similarity"-ti-1-"similarities"-noun-0]|TI|47:12|
-24476640|MMI|110.80|forgetting|C0598853|[mobd]|["forget"-ti-1-"forgotten"-noun-0]|TI|105:9|
-24476640|MMI|32.38|Ethylenes|C0015096|[orch]|["Ethylenes"-ab-1-"Ethylenes"-noun-0,"ethylene"-ab-1-"ethylene"-noun-0]|AB|332:9;190:8|D02.455.326.271.367
-24476640|MMI|32.38|Photosynthesis|C0031764|[npop]|["Photosynthesis"-ab-1-"Photosynthesis"-noun-0,"Photosynthesis"-ab-1-"photosynthesis"-noun-0]|AB|391:14;201:14|G02.111.087.160.937;G02.111.087.678.700;G02.149.115.160.937;G02.149.115.678.700;G02.149.767.690.921;G02.842.750.690.921;G03.495.256.937;G03.495.553.700;G03.495.795.700;G15.744.700
-24476640|MMI|28.71|Homo sapiens|C0086418|[humn]|["Humans"-ab-1-"Humans"-noun-0]|AB|382:6|B01.050.150.900.649.801.400.112.400.400
-24476640|MMI|26.04|ethyl ether|C0014994|[orch,phsu]|["Ether"-ab-1-"Ether"-noun-0,"Ether"-ab-1-"ether"-noun-0]|AB|324:5;182:5|D02.355.417.332
-24476640|MMI|19.25|Anesthetics|C0002932|[phsu]|["Anesthetics"-ab-1-"Anesthetics"-noun-0]|AB|290:11|D27.505.696.277.100;D27.505.954.427.210.100
-24476640|MMI|16.12|Chloroform|C0008238|[hops,irda,orch]|["Chloroform"-ab-1-"chloroform"-noun-0]|AB|153:10|D02.455.526.439.224;D02.455.526.913.810
-24476640|MMI|16.10|Germination|C0242735|[biof]|["Germination"-ab-1-"Germination"-noun-0]|AB|344:11|G07.700.320.625.249;G15.744.300
-24476640|MMI|13.35|Ethers|C0014996|[orch,phsu]|["Ether, NOS"-ab-1-"Ether"-noun-0,"Ether, NOS"-ab-1-"ether"-noun-0]|AB|324:5;182:5|D02.355
-24476640|MMI|12.96|Movement|C0026649|[orgf]|["Movement"-ab-1-"movements"-noun-0]|AB|224:9|G07.700.560;G11.427.590.530
-24476640|MMI|12.94|Conscious|C0234421|[menp]|["Consciousness"-ab-1-"consciousness"-noun-0]|AB|166:13|F02.463.188.409;F02.830.233
-24476640|MMI|12.94|Ethylene|C0015075|[orch,phsu]|["Ethylene"-ab-1-"ethylene"-noun-0]|AB|190:8|x.x.x.x
-24476640|MMI|12.94|Respiration|C0035203|[phsf]|["Respiration"-ab-1-"respiration"-noun-0]|AB|245:11|G09.772.770.755
-24476640|MMI|9.79|Cell Respiration|C0282636|[celf]|["respiration"-ab-1-"respiration"-noun-0]|AB|245:11|G03.495.278;G04.299.305
-24476640|MMI|9.79|Historical aspects qualifier|C0019665|[inpr]|["history"-ab-1-"History"-noun-0]|AB|358:7|x.x.x
-24476640|MMI|9.79|biology (field)|C0005532|[bmod]|["Biology"-ab-1-"Biology"-noun-0]|AB|314:7|H01.158.273
-24476640|MMI|7.00|Etherum, ether, Homeopathic preparation|C1161324|[orch,phsu]|["ether"-ab-1-"Ether"-noun-0,"ether"-ab-1-"ether"-noun-0]|AB|324:5;182:5|
-24476640|MMI|6.63|History|C0019664|[ocdi]|["History"-ab-1-"History"-noun-0]|AB|358:7|K01.400
-24476640|MMI|6.55|Behavior|C0004927|[inbe]|["Behavior"-ab-1-"behavior"-noun-0]|AB|144:8|F01.145
-24476640|MMI|3.50|centuries|C0719214|[phsu,vita]|["century"-ab-1-"Century"-noun-0]|AB|372:7|
-24476640|MMI|3.48|Concept History|C1705255|[cnce]|["History"-ab-1-"History"-noun-0]|AB|358:7|
-24476640|MMI|3.48|Consciousness related finding|C0009791|[fndg]|["consciousness"-ab-1-"consciousness"-noun-0]|AB|166:13|
-24476640|MMI|3.48|History of present illness|C0262512|[orga]|["History, NOS"-ab-1-"History"-noun-0]|AB|358:7|
-24476640|MMI|3.48|History of previous events|C2004062|[fndg]|["History"-ab-1-"History"-noun-0]|AB|358:7|
-24476640|MMI|3.48|Medical History|C0262926|[fndg]|["History"-ab-1-"History"-noun-0]|AB|358:7|
-24476640|MMI|3.48|Physiological|C0205463|[ftcn]|["Physiological"-ab-1-"Physiological"-adj-0]|AB|425:13|
-24476640|MMI|3.48|Stress|C0038435|[fndg]|["Stress"-ab-1-"Stress"-noun-0]|AB|417:6|
-24476640|MMI|3.48|respiratory gaseous exchange in organisms|C1160636|[biof]|["respiration"-ab-1-"respiration"-noun-0]|AB|245:11|
-24476640|MMI|3.48|Device Component System|C1704459|[medd]|["System"-ab-1-"systems"-noun-0]|AB|267:7|
-24476640|MMI|3.48|Entity Code - System|C1553451|[mnob]|["System"-ab-1-"systems"-noun-0]|AB|267:7|
-24476640|MMI|3.48|System|C0449913|[ftcn]|["System"-ab-1-"systems"-noun-0]|AB|267:7|
-24476640|MMI|3.39|Behavior:-:Point in time:^Patient:-|C2707008|[clna]|["Behavior"-ab-1-"behavior"-noun-0]|AB|144:8|
-24476640|MMI|3.39|Sensory (qualifier value)|C0445254|[qlco]|["Sensory"-ab-1-"sensory"-adj-0]|AB|259:7|
-26228149|MMI|422.11|Parasites|C0030498|[euka]|["Parasite"-ab-1-"Parasite"-noun-0,"parasitic"-ti-2-"parasitic"-adj-0]|TI;AB|264:8;113:9|B01.050.500.714
-26228149|MMI|322.07|Biological Evolution|C0015219|[genf]|["Evolution"-ab-1-"Evolution"-noun-0,"Evolution"-ti-2-"evolution"-noun-0,"Evolution"-ti-1-"EVOLUTION"-noun-0]|TI;AB|186:9;49:9;27:9|G05.355.044;G16.100.178
-26228149|MMI|317.96|Perception|C0030971|[menp]|["Perception"-ti-2-"perception"-noun-0]|TI|76:10|F02.463.593
-26228149|MMI|215.53|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"Plant"-noun-0,"Plants"-ab-1-"Plants"-noun-0,"Plants"-ti-2-"plants"-noun-0,"Plant"-ti-1-"PLANT"-noun-0]|TI;AB|340:5;366:5;380:6;123:6;21:5|B01.650
-26228149|MMI|114.42|Empowered|C0562342|[menp]|["Enabled"-ti-2-"enabled"-verb-0]|TI|87:7|
-26228149|MMI|113.81|Detection|C1511790|[topp]|["Detection"-ti-2-"detection"-noun-0]|TI|100:9|
-26228149|MMI|112.30|Convergence (action)|C2700387|[acty]|["Convergence"-ti-2-"Convergent"-noun-0]|TI|38:10|
-26228149|MMI|112.30|Convergence - direction|C0443193|[spco]|["Convergence"-ti-2-"Convergent"-noun-0]|TI|38:10|
-26228149|MMI|112.30|Convergent gaze|C1446614|[fndg]|["Convergence"-ti-2-"Convergent"-noun-0]|TI|38:10|
-26228149|MMI|111.00|Host (organism)|C1167395|[orgm]|["Host"-ab-1-"Host"-noun-0,"Host"-ti-2-"host"-noun-0]|TI;AB|259:4;95:4|
-26228149|MMI|110.56|parasitic|C0521066|[ftcn]|["parasitic"-ti-2-"parasitic"-adj-0]|TI|113:9|
-26228149|MMI|51.32|Arabidopsis|C0162741|[plnt]|["Arabidopsis"-ab-1-"Arabidopsis"-noun-0]|AB|138:11^152:11|B01.650.940.800.575.100.157.100
-26228149|MMI|22.41|Orobanchaceae|C1041305|[plnt]|["Orobanchaceae"-ab-1-"Orobanchaceae"-noun-0]|AB|312:13|B01.650.940.800.575.100.788
-26228149|MMI|16.10|Germination|C0242735|[biof]|["Germination"-ab-1-"Germination"-noun-0]|AB|212:11|G07.700.320.625.249;G15.744.300
-26228149|MMI|16.01|Genes|C0017337|[gngm]|["Gene"-ab-1-"Gene"-noun-0]|AB|198:4|G05.360.340.024.340
-26228149|MMI|12.94|Phylogeny|C0031797|[idcn]|["Phylogeny"-ab-1-"Phylogeny"-noun-0]|AB|328:9|G05.697;G16.100.178.605;L01.100.697
-26228149|MMI|12.85|Growth|C0018270|[orgf]|["Growth"-ab-1-"Growth"-noun-0]|AB|346:6|G07.700.320.249
-26228149|MMI|9.79|Hydrolase|C0020289|[aapp,enzy]|["Hydrolases"-ab-1-"Hydrolases"-noun-0]|AB|288:10|D08.811.277
-26228149|MMI|9.70|biology (field)|C0005532|[bmod]|["Biological"-ab-1-"Biological"-adj-0]|AB|175:10|H01.158.273
-26228149|MMI|6.66|Plant Roots|C0242726|[plnt]|["Roots"-ab-1-"Roots"-noun-0]|AB|372:5|A18.400
-26228149|MMI|6.66|Proteins|C0033684|[aapp,bacs]|["Proteins"-ab-1-"Proteins"-noun-0]|AB|164:8|D12.776
-26228149|MMI|6.63|Lactones|C0022947|[orch]|["Lactones"-ab-1-"Lactones"-noun-0]|AB|301:8|D02.540
-26228149|MMI|3.50|Dosage|C0178602|[qnco]|["Dosage"-ab-1-"Dosage"-noun-0]|AB|203:6|
-26228149|MMI|3.50|Ring (shape)|C0521164|[spco]|["Ring"-ab-1-"Ring"-noun-0]|AB|252:4|
-26228149|MMI|3.50|Ring Device Component|C1705184|[medd]|["Ring"-ab-1-"Ring"-noun-0]|AB|252:4|
-26228149|MMI|3.50|Ring device|C1260969|[medd]|["Ring"-ab-1-"Ring"-noun-0]|AB|252:4|
-26228149|MMI|3.50|Regulators (device)|C0182953|[medd]|["regulators"-ab-1-"Regulators"-noun-0]|AB|353:10|
-26228149|MMI|3.48|Changing|C0392747|[ftcn]|["Modified"-ab-1-"Modified"-verb-0]|AB|400:8|
-26228149|MMI|3.48|Heterocyclic Compounds|C0019398|[orch]|["Heterocyclic Compounds"-ab-1-"Heterocyclic Compounds"-noun-0]|AB|226:22|D03
-26228149|MMI|3.47|Interaction|C1704675|[ftcn]|["Interaction"-ab-1-"Interactions"-noun-0]|AB|273:12|
-26228149|MMI|3.39|1+ Score|C2827734|[qnco]|["1+"-ab-1-"1"-integer-0]|AB|250:1|
-26228149|MMI|3.39|1+ Score, WHO|C2981698|[clas]|["1+"-ab-1-"1"-integer-0]|AB|250:1|
-26228149|MMI|3.39|biological|C0205460|[qlco]|["biological"-ab-1-"Biological"-adj-0]|AB|175:10|
-26228149|MMI|3.39|Growth action|C2911660|[acty]|["Growth"-ab-1-"Growth"-noun-0]|AB|346:6|
-26228149|MMI|3.39|Tissue Growth|C1621966|[ortf]|["Growth"-ab-1-"Growth"-noun-0]|AB|346:6|
-26228149|MMI|3.39|growth aspects|C0220844|[phsf]|["growth"-ab-1-"Growth"-noun-0]|AB|346:6|
-26322059|MMI|526.28|Tooth root structure|C0040452|[bpoc]|["Root"-ti-1-"root"-noun-0]|TI|70:4|A14.549.167.900.750
-26322059|MMI|215.61|Plants|C0032098|[plnt]|["Plant"-ab-1-"plant"-noun-0,"Plants"-ab-1-"plants"-noun-0,"Plant"-ti-1-"plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|135:5^171:5;126:6;64:5;53:6|B01.650
-26322059|MMI|215.16|Plant Roots|C0242726|[plnt]|["Root"-ti-1-"root"-noun-0]|TI|70:4|A18.400
-26322059|MMI|113.20|Interaction|C1704675|[ftcn]|["Interaction"-ti-1-"interactions"-noun-0]|TI|32:12|
-26322059|MMI|111.46|Root body part|C1318154|[bpoc]|["Root"-ti-1-"root"-noun-0]|TI|70:4|
-26322059|MMI|111.46|heirarchal root|C1705917|[idcn]|["Root"-ti-1-"root"-noun-0]|TI|70:4|
-26322059|MMI|109.46|apoplast|C1325756|[celc]|["apoplast"-ti-1-"Apoplastic"-adj-0]|TI|21:10|
-26322059|MMI|25.86|Parasites|C0030498|[euka]|["parasitic"-ab-1-"parasitic"-adj-0]|AB|116:9^177:9|B01.050.500.714
-26322059|MMI|16.12|Nematodes|C1704319|[euka]|["Nematodes"-ab-1-"nematodes"-noun-0]|AB|187:9|B01.050.500.500.294
-26322059|MMI|9.80|enzymology|C0014445|[ftcn]|["enzymes"-ab-1-"enzymes"-noun-0]|AB|161:7|x.x.x
-26322059|MMI|6.92|Cell (compartment)|C1948049|[spco]|["Cell"-ab-1-"cell"-noun-0]|AB|93:4^141:4|
-26322059|MMI|6.92|Cell Device Component|C1704653|[medd]|["Cell"-ab-1-"cell"-noun-0]|AB|93:4^141:4|
-26322059|MMI|6.92|Cells|C0007634|[cell]|["Cell"-ab-1-"cell"-noun-0]|AB|93:4^141:4|A11
-26322059|MMI|6.92|Entire cell|C1269647|[cell]|["Cell"-ab-1-"cell"-noun-0]|AB|93:4^141:4|
-26322059|MMI|6.92|Walls of a building|C0677535|[mnob]|["Wall"-ab-1-"wall"-noun-0]|AB|98:4^146:4|
-26322059|MMI|6.82|parasitic|C0521066|[ftcn]|["parasitic"-ab-1-"parasitic"-adj-0]|AB|116:9^177:9|
-26322059|MMI|6.65|Enzymes|C0014442|[enzy,orch]|["Enzymes"-ab-1-"enzymes"-noun-0]|AB|161:7|D08.811
-26322059|MMI|3.50|Nematodes <beetle>|C1947962|[euka]|["Nematodes"-ab-1-"nematodes"-noun-0]|AB|187:9|
-26322059|MMI|3.50|Phylum Nematoda|C0027581|[euka]|["nematodes"-ab-1-"nematodes"-noun-0]|AB|187:9|
-24022267|MMI|838.31|Arabidopsis|C0162741|[plnt]|["Arabidopsis"-ab-1-"Arabidopsis"-noun-0,"Arabidopsis"-ab-1-"Arabidopsis"-noun-0,"Arabidopsis"-ti-1-"Arabidopsis"-noun-0]|TI;AB|168:11;182:11;83:11|B01.650.940.800.575.100.157.100
-24022267|MMI|216.67|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"Plant"-noun-0,"Plants"-ti-1-"plants"-noun-0,"Plant"-ti-1-"plant"-noun-0]|TI;AB|352:5;438:5;95:6;55:5|B01.650
-24022267|MMI|114.93|Defense|C1880266|[cnce]|["Defense"-ti-1-"defense"-noun-0]|TI|61:7|
-24022267|MMI|114.42|Make - Instruction Imperative|C1881534|[ftcn]|["Make"-ti-1-"makes"-verb-0]|TI|69:5|
-24022267|MMI|112.22|accessibility|C0814423|[qlco]|["accessibility"-ti-1-"accessible"-adj-0]|TI|102:10|
-24022267|MMI|111.39|Conditional|C1701901|[qlco]|["Dependent"-ti-1-"dependent"-adj-0]|TI|45:9|
-24022267|MMI|111.39|Dependent - ability|C0851827|[qlco]|["Dependent"-ti-1-"dependent"-adj-0]|TI|45:9|
-24022267|MMI|111.39|dependent|C3244310|[ftcn]|["dependent"-ti-1-"dependent"-adj-0]|TI|45:9|
-24022267|MMI|111.39|jasmonate|C1176128|[orch]|["jasmonate"-ti-1-"jasmonate"-noun-0]|TI|35:9|
-24022267|MMI|111.03|Liriomyza trifolii|C1219150|[euka]|["American serpentine leafminer"-ti-1-"American serpentine leafminer"-noun-0]|TI|120:29|
-24022267|MMI|25.58|Brassica|C0006135|[plnt]|["Brassica"-ab-1-"Brassica"-noun-0]|AB|205:8|B01.650.940.800.575.100.157.200;J02.500.850.150
-24022267|MMI|25.56|Chrysanthemum|C0008720|[plnt]|["Chrysanthemum"-ab-1-"Chrysanthemum"-noun-0]|AB|221:13|B01.650.940.800.575.100.100.206
-24022267|MMI|22.42|Transcriptase|C0040646|[aapp,enzy]|["Transcriptase"-ab-1-"Transcriptase"-noun-0]|AB|484:13|D08.811.913.696.445.735.270
-24022267|MMI|19.62|Disease|C0012634|[dsyn]|["Disease"-ab-1-"Disease"-noun-0,"Diseases"-ab-1-"Diseases"-noun-0]|AB|275:7;444:8|C23.550.288
-24022267|MMI|19.25|Cyclopentanes|C0010580|[orch]|["Cyclopentanes"-ab-1-"Cyclopentanes"-noun-0]|AB|237:13|D02.455.426.392.368.450
-24022267|MMI|19.25|Defensins|C0057256|[aapp,imft,phsu]|["Defensins"-ab-1-"Defensins"-noun-0]|AB|253:9|D12.644.050.200;D12.776.543.695.054.200
-24022267|MMI|19.25|Diptera|C0012578|[euka]|["Diptera"-ab-1-"Diptera"-noun-0]|AB|265:7|B01.050.500.131.617.289
-24022267|MMI|16.01|Genes|C0017337|[gngm]|["Gene"-ab-1-"Gene"-noun-0]|AB|324:4|G05.360.340.024.340
-24022267|MMI|12.96|Transcription, Genetic|C0040649|[genf]|["Transcription"-ab-1-"Transcription"-noun-0]|AB|526:13|G02.111.087.847;G02.149.115.847;G05.355.310.700
-24022267|MMI|12.94|Oxylipins|C1956100|[lipd]|["Oxylipins"-ab-1-"Oxylipins"-noun-0]|AB|426:9|D10.251.355.645
-24022267|MMI|12.85|Parasites|C0030498|[euka]|["Parasite"-ab-1-"Parasite"-noun-0]|AB|365:8|B01.050.500.714
-24022267|MMI|9.81|Regulation|C0851285|[gora]|["Regulation"-ab-1-"Regulation"-noun-0]|AB|340:10|I01.880.604;N03.706
-24022267|MMI|9.79|Female|C0015780|[orga]|["Female"-ab-1-"Female"-noun-0]|AB|315:6|x.x.x
-24022267|MMI|9.79|Females|C0086287|[popg]|["female"-ab-1-"Female"-noun-0]|AB|315:6|x.x.x
-24022267|MMI|9.79|Mutation|C0026882|[genf]|["Mutation"-ab-1-"Mutation"-noun-0]|AB|415:8|G05.365.590
-24022267|MMI|9.70|Population Group|C1257890|[popg]|["Population"-ab-1-"Population"-noun-0]|AB|455:10|M01.686;N01.224.708
-24022267|MMI|6.66|Proteins|C0033684|[aapp,bacs]|["Proteins"-ab-1-"Proteins"-noun-0]|AB|194:8|D12.776
-24022267|MMI|6.63|Animals|C0003062|[anim]|["Animals"-ab-1-"Animals"-noun-0]|AB|158:7|B01.050
-24022267|MMI|6.63|Behavior|C0004927|[inbe]|["Behavior"-ab-1-"Behavior"-noun-0]|AB|304:8|F01.145
-24022267|MMI|6.63|Woman|C0043210|[popg]|["female"-ab-1-"Female"-noun-0]|AB|315:6|M01.975
-24022267|MMI|6.55|geographic population|C0032659|[qnco]|["Population"-ab-1-"Population"-noun-0]|AB|455:10|N01.600
-24022267|MMI|3.50|Lycopersicon|C0331205|[plnt]|["Lycopersicon"-ab-1-"Lycopersicon"-noun-0]|AB|389:12|
-24022267|MMI|3.50|Rapa (genus)|C2992785|[euka]|["Rapa"-ab-1-"rapa"-noun-0]|AB|214:4|
-24022267|MMI|3.50|Resistance (Psychotherapeutic)|C0237834|[menp]|["Resistance"-ab-1-"Resistance"-noun-0]|AB|283:10|
-24022267|MMI|3.50|Resistance Process|C1514892|[phsf]|["Resistance"-ab-1-"Resistance"-noun-0]|AB|283:10|
-24022267|MMI|3.50|density|C0178587|[qnco]|["density"-ab-1-"Density"-noun-0]|AB|466:7|
-24022267|MMI|3.50|Regulation of biological process|C1327622|[biof]|["Regulation"-ab-1-"Regulation"-noun-0]|AB|340:10|
-24022267|MMI|3.49|Chain device|C0337112|[mnob]|["Chain"-ab-1-"Chain"-noun-0]|AB|509:5|
-24022267|MMI|3.49|Polymerase|C1335439|[aapp,enzy]|["Polymerase"-ab-1-"Polymerase"-noun-0]|AB|498:10|
-24022267|MMI|3.49|Reaction|C0443286|[ftcn]|["Reaction"-ab-1-"Reaction"-noun-0]|AB|515:8|
-24022267|MMI|3.49|Reaction:Finding:Point in time:^Patient:Nominal|C1114821|[clna]|["Reaction"-ab-1-"Reaction"-noun-0]|AB|515:8|
-24022267|MMI|3.49|Reverse|C1555029|[idcn]|["Reverse"-ab-1-"Reverse"-noun-0]|AB|476:7|
-24022267|MMI|3.49|Transcriptase activity|C2257077|[genf]|["transcriptase"-ab-1-"Transcriptase"-noun-0]|AB|484:13|
-24022267|MMI|3.49|chain of objects|C1524075|[idcn]|["Chain"-ab-1-"Chain"-noun-0]|AB|509:5|
-24022267|MMI|3.48|Behavior:-:Point in time:^Patient:-|C2707008|[clna]|["Behavior"-ab-1-"Behavior"-noun-0]|AB|304:8|
-24022267|MMI|3.48|Chrysanthemum morifolium, flower essence|C1256216|[phsu]|["chrysanthemum"-ab-1-"Chrysanthemum"-noun-0]|AB|221:13|
-24022267|MMI|3.48|Feeding Activity|C2987508|[acty]|["Feeding"-ab-1-"Feeding"-verb-0]|AB|296:7|
-24022267|MMI|3.48|Feeding patient|C0204695|[hlca]|["Feeding"-ab-1-"Feeding"-verb-0]|AB|296:7|
-24022267|MMI|3.48|Female Phenotype|C1705498|[qlco]|["Female"-ab-1-"Female"-noun-0]|AB|315:6|
-24022267|MMI|3.48|Female, Self-Report|C1705497|[qlco]|["Female"-ab-1-"Female"-noun-0]|AB|315:6|
-24022267|MMI|3.48|Mutation Abnormality|C1705285|[comd]|["Mutation"-ab-1-"Mutation"-noun-0]|AB|415:8|
-24022267|MMI|3.48|Factor|C1521761|[ftcn]|["Factor"-ab-1-"Factors"-noun-0]|AB|540:7|
-24022267|MMI|3.48|Mathematical Factor|C2827422|[cnce]|["Factor"-ab-1-"Factors"-noun-0]|AB|540:7|
-24022267|MMI|3.47|Interaction|C1704675|[ftcn]|["Interaction"-ab-1-"Interactions"-noun-0]|AB|374:12|
-24022267|MMI|3.39|Expression procedure|C0185117|[topp]|["Expression"-ab-1-"Expression"-noun-0]|AB|329:10|
-24022267|MMI|3.39|Host (organism)|C1167395|[orgm]|["Host"-ab-1-"Host"-noun-0]|AB|360:4|
-24148195|MMI|941.96|Strawberries|C0457802|[food]|["Strawberry"-ab-1-"strawberry"-noun-0,"Strawberry"-ti-1-"strawberry"-noun-0]|TI;AB|357:10;46:10|B01.650.940.800.575.100.842.500.266
-24148195|MMI|736.03|Azospirillum brasilense|C0004512|[bact]|["Azospirillum brasilense"-ti-1-"Azospirillum brasilense"-noun-0]|TI|117:23|B03.440.400.425.708.100.020;B03.660.050.663.750.100.020
-24148195|MMI|733.60|Rajiformes|C0086894|[fish]|["ray"-ab-1-"Ray"-noun-0,"ray"-ab-1-"ray"-noun-0,"ray"-ti-1-"ray"-noun-0]|TI;AB|485:3;281:3;214:3|B01.050.150.900.493.370.870;B01.050.150.900.493.378.682
-24148195|MMI|425.97|analysis aspect|C1524024|[ftcn]|["analysis"-ti-1-"analysis"-noun-0]|TI|218:8|x.x.x.x
-24148195|MMI|425.52|Electrons|C0013852|[qnco]|["Electron"-ab-1-"Electron"-noun-0,"Electron"-ab-1-"electron"-noun-0,"Electron"-ti-1-"electron"-noun-0]|TI;AB|419:8;335:8;170:8|G01.249.335;G01.358.500.750
-24148195|MMI|425.52|Microscopy|C0026018|[lbpr]|["Microscopy"-ab-1-"Microscopy"-noun-0,"Microscopy"-ab-1-"microscopy"-noun-0,"Microscopy"-ti-1-"microscopy"-noun-0]|TI;AB|407:10;344:10;179:10|E01.370.350.515;E05.595;H01.671.617.562
-24148195|MMI|425.52|Radionuclide Imaging|C0034606|[hlca]|["Scanning"-ab-1-"Scanning"-verb-0,"Scanning"-ab-1-"scanning"-noun-0,"Scanning"-ti-1-"scanning"-noun-0]|TI;AB|429:8;326:8;161:8|E01.370.350.710;E01.370.384.730
-24148195|MMI|424.61|Growth|C0018270|[orgf]|["Growth"-ti-1-"growth"-noun-0]|TI|90:6|G07.700.320.249
-24148195|MMI|215.38|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"plant"-noun-0,"Plant"-ab-1-"Plant"-noun-0,"Plant"-ti-1-"plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|440:5;300:5;455:5;84:5;57:6|B01.650
-24148195|MMI|215.08|Radiation|C0851346|[npop]|["ray"-ab-1-"Ray"-noun-0,"ray"-ab-1-"ray"-noun-0,"ray"-ti-1-"ray"-noun-0]|TI;AB|485:3;281:3;214:3|G01.750
-24148195|MMI|213.07|Elements|C0013879|[elii]|["Element"-ti-1-"Elemental"-adj-0]|TI|21:9|D01.268
-24148195|MMI|114.86|Analysis|C0936012|[resa]|["Analysis"-ti-1-"analysis"-noun-0]|TI|218:8|
-24148195|MMI|114.86|Analysis of substances|C0002778|[lbpr]|["Analysis"-ti-1-"analysis"-noun-0]|TI|218:8|
-24148195|MMI|114.41|Electron <bird>|C3463986|[bird]|["Electron"-ab-1-"Electron"-noun-0,"Electron"-ab-1-"electron"-noun-0,"Electron"-ti-1-"electron"-noun-0]|TI;AB|419:8;335:8;170:8|
-24148195|MMI|114.41|Scanning|C0441633|[diap]|["Scanning"-ab-1-"Scanning"-verb-0,"Scanning"-ab-1-"scanning"-noun-0,"Scanning"-ti-1-"scanning"-noun-0]|TI;AB|429:8;326:8;161:8|
-24148195|MMI|113.81|Act Class - Attestable unit|C1555710|[idcn]|["composition"-ti-1-"composition"-noun-0]|TI|31:11|
-24148195|MMI|113.81|Assessed|C1516048|[acty]|["Assessed"-ti-1-"assessed"-verb-0]|TI|147:8|
-24148195|MMI|113.81|Composition|C0486616|[clna]|["Composition"-ti-1-"composition"-noun-0]|TI|31:11|
-24148195|MMI|113.50|Bacteria|C0004611|[bact]|["Bacterium"-ti-1-"bacterium"-noun-0]|TI|107:9|B03
-24148195|MMI|113.50|Growth action|C2911660|[acty]|["Growth"-ti-1-"growth"-noun-0]|TI|90:6|
-24148195|MMI|113.50|Promotion (action)|C0033414|[acty]|["Promoting"-ti-1-"promoting"-adj-0]|TI|97:9|
-24148195|MMI|113.50|Tissue Growth|C1621966|[ortf]|["Growth"-ti-1-"growth"-noun-0]|TI|90:6|
-24148195|MMI|113.50|growth aspects|C0220844|[phsf]|["growth"-ti-1-"growth"-noun-0]|TI|90:6|
-24148195|MMI|112.80|Inoculation|C2987620|[topp]|["Inoculate"-ti-1-"inoculated"-verb-0]|TI|64:10|
-24148195|MMI|112.33|Fragaria x ananassa|C1138844|[plnt]|["strawberry"-ab-1-"strawberry"-noun-0,"strawberry"-ti-1-"strawberry"-noun-0]|TI;AB|357:10;46:10|
-24148195|MMI|112.33|Strawberry Flavor|C0982164|[food]|["STRAWBERRY"-ab-1-"strawberry"-noun-0,"STRAWBERRY"-ti-1-"strawberry"-noun-0]|TI;AB|357:10;46:10|
-24148195|MMI|111.38|Dipturus trachyderma|C2314876|[fish]|["ray"-ab-1-"Ray"-noun-0,"ray"-ab-1-"ray"-noun-0,"ray"-ti-1-"ray"-noun-0]|TI;AB|485:3;281:3;214:3|
-24148195|MMI|111.33|Energy|C1442080|[qnco]|["Energy"-ab-1-"energy"-noun-0,"Energy"-ti-1-"energy"-noun-0]|TI;AB|261:6;194:6|
-24148195|MMI|111.33|Energy, Physics|C0542479|[npop]|["Energy"-ab-1-"energy"-noun-0,"Energy"-ti-1-"energy"-noun-0]|TI;AB|261:6;194:6|
-24148195|MMI|111.33|Vitality|C0424589|[fndg]|["Energy"-ab-1-"energy"-noun-0,"Energy"-ti-1-"energy"-noun-0]|TI;AB|261:6;194:6|
-24148195|MMI|109.37|Component (part)|C1705248|[cnce]|["Element"-ti-1-"Elemental"-adj-0]|TI|21:9|
-24148195|MMI|38.77|Azospirillum|C0085463|[bact]|["Azospirillum"-ab-1-"Azospirillum"-noun-0]|AB|235:12^370:12|B03.440.400.425.708.100;B03.660.050.663.750.100
-24148195|MMI|28.71|Fragaria|C1080863|[plnt]|["Fragaria"-ab-1-"Fragaria"-noun-0]|AB|396:8|B01.650.940.800.575.100.842.500.266
-24148195|MMI|12.96|Nutritional status|C0392209|[orga]|["nutrition"-ab-1-"nutrition"-noun-0]|AB|314:9|G07.610.650;N01.224.425.525
-24148195|MMI|9.81|Plant Leaves|C0242724|[plnt]|["Leaves"-ab-1-"Leaves"-noun-0]|AB|446:6|A18.024.812
-24148195|MMI|9.80|Spectrum Analysis|C0037812|[lbpr]|["spectroscopy"-ab-1-"spectroscopy"-noun-0]|AB|285:12|E05.196.867
-24148195|MMI|9.79|Spectrometry|C0436196|[lbpr]|["Spectrometry"-ab-1-"Spectrometry"-noun-0]|AB|469:12|E05.196.867
-24148195|MMI|6.66|Plant Roots|C0242726|[plnt]|["Roots"-ab-1-"Roots"-noun-0]|AB|461:5|A18.400
-24148195|MMI|6.65|Science of nutrition|C0028707|[bmod]|["Nutrition"-ab-1-"nutrition"-noun-0]|AB|314:9|H02.533
-24148195|MMI|6.54|Minerals|C0026162|[inch]|["Mineral"-ab-1-"mineral"-noun-0]|AB|306:7|D01.578
-24148195|MMI|3.50|Emission - Male genitalia finding|C0233929|[bdsu]|["Emission"-ab-1-"Emission"-noun-0]|AB|489:8|
-24148195|MMI|3.50|Emission substance|C2349995|[sbst]|["Emission"-ab-1-"Emission"-noun-0]|AB|489:8|
-24148195|MMI|3.50|Nutrition function|C1442959|[orgf]|["Nutrition"-ab-1-"nutrition"-noun-0]|AB|314:9|
-24148195|MMI|3.49|Device Spectroscopy Evaluation Method|C2984732|[ftcn]|["SPECTROSCOPY"-ab-1-"spectroscopy"-noun-0]|AB|285:12|
-24148195|MMI|3.49|Spectroscopy (discipline)|C2713504|[ocdi]|["Spectroscopy"-ab-1-"spectroscopy"-noun-0]|AB|285:12|
-25353366|MMI|940.05|Alfalfa|C0002022|[plnt]|["Alfalfa"-ti-1-"Alfalfa"-noun-0]|TI|84:7|B01.650.940.800.575.100.401.590.500;J02.500.300.100.555
-25353366|MMI|735.85|Vaccination|C0042196|[topp]|["Inoculation"-ti-1-"Inoculation"-noun-0]|TI|69:11|E02.095.465.425.400.530.890;E05.478.550.600.890;N02.421.726.758.310.890;N06.850.780.200.425.900;N06.850.780.680.310.890
-25353366|MMI|633.63|Sinorhizobium|C0752002|[bact]|["Sinorhizobium"-ab-1-"Sinorhizobium"-noun-0,"Sinorhizobium"-ti-1-"Sinorhizobium"-noun-0]|TI;AB|330:13;104:13|B03.440.400.425.700.887;B03.660.050.730.835
-25353366|MMI|215.58|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"Plant"-noun-0,"Plants"-ti-1-"Plants"-noun-0,"Plant"-ti-1-"Plant"-noun-0]|TI;AB|268:5;313:5;92:6;184:5|B01.650
-25353366|MMI|116.46|Delftia sp. JD2|C2293371|[bact]|["Delftia sp. JD2"-ti-1-"Delftia sp JD2"-noun-0]|TI|131:10^150:3|
-25353366|MMI|114.42|Interaction|C1704675|[ftcn]|["Interaction"-ti-1-"Interaction"-noun-0]|TI|158:11|
-25353366|MMI|113.81|Patterns|C0449774|[spco]|["Pattern"-ti-1-"Pattern"-noun-0]|TI|25:7|
-25353366|MMI|113.63|Inoculation|C2987620|[topp]|["Inoculation"-ti-1-"Inoculation"-noun-0]|TI|69:11|
-25353366|MMI|111.39|Emotional Strain|C2987481|[menp]|["Strain"-ti-1-"strain"-noun-0]|TI|143:6|
-25353366|MMI|111.39|Microbiology subtype strains|C0456178|[inpr]|["strain"-ti-1-"strain"-noun-0]|TI|143:6|
-25353366|MMI|111.39|Muscle strain|C0080194|[inpo]|["Strain"-ti-1-"strain"-noun-0]|TI|143:6|
-25353366|MMI|111.39|Organism Strain|C1518614|[orgm]|["Strain"-ti-1-"strain"-noun-0]|TI|143:6|
-25353366|MMI|110.56|Cell secretion|C1327616|[celf]|["Secreted"-ti-1-"Secreted"-adj-0]|TI|36:8|
-25353366|MMI|110.56|Molecule|C0567416|[sbst]|["molecules"-ti-1-"Molecules"-noun-0]|TI|45:9|
-25353366|MMI|110.42|Alfalfa (dietary)|C2349204|[food]|["Alfalfa"-ti-1-"Alfalfa"-noun-0]|TI|84:7|
-25353366|MMI|110.42|During|C0347984|[tmco]|["During"-ti-1-"During"-prep-0]|TI|55:6|
-25353366|MMI|110.42|During - dosing instruction fragment|C1706551|[inpr]|["During"-ti-1-"During"-prep-0]|TI|55:6|
-25353366|MMI|26.08|metabolic aspects|C0025520|[ftcn]|["metabolism"-ab-1-"Metabolism"-noun-0]|AB|217:10^282:10|x.x.x.x
-25353366|MMI|25.58|Medicago|C0086598|[plnt]|["Medicago"-ab-1-"Medicago"-noun-0]|AB|295:8|B01.650.940.800.575.100.401.590
-25353366|MMI|19.25|Delftia|C1034494|[bact]|["Delftia"-ab-1-"Delftia"-noun-0]|AB|230:7|B03.440.400.425.292.170;B03.660.075.102.170
-25353366|MMI|16.01|Genes|C0017337|[gngm]|["Gene"-ab-1-"Gene"-noun-0]|AB|240:4|G05.360.340.024.340
-25353366|MMI|13.39|Metabolism|C0025519|[orgf]|["Metabolism"-ab-1-"Metabolism"-noun-0]|AB|217:10^282:10|G03.495
-25353366|MMI|12.94|Symbiosis|C0039029|[npop]|["Symbiosis"-ab-1-"Symbiosis"-noun-0]|AB|355:9|G06.590.580.800;G16.100.900
-25353366|MMI|9.81|Regulation|C0851285|[gora]|["Regulation"-ab-1-"Regulation"-noun-0]|AB|256:10|I01.880.604;N03.706
-25353366|MMI|6.66|Proteins|C0033684|[aapp,bacs]|["Proteins"-ab-1-"Proteins"-noun-0]|AB|319:8|D12.776
-25353366|MMI|3.50|Lipids|C0023779|[lipd]|["Lipid"-ab-1-"Lipid"-noun-0]|AB|276:5|D10
-25353366|MMI|3.50|Regulation of biological process|C1327622|[biof]|["Regulation"-ab-1-"Regulation"-noun-0]|AB|256:10|
-25353366|MMI|3.39|Carbohydrates|C0007004|[carb]|["Carbohydrate"-ab-1-"Carbohydrate"-noun-0]|AB|204:12|D09
-25353366|MMI|3.39|Expression procedure|C0185117|[topp]|["Expression"-ab-1-"Expression"-noun-0]|AB|245:10|
-26025575|MMI|733.68|Brassicaceae|C0524824|[plnt]|["Brassicaceae"-ti-1-"Brassicaceae"-noun-0]|TI|82:12|B01.650.940.800.575.100.157
-26025575|MMI|215.88|Plants|C0032098|[plnt]|["Plant"-ti-1-"plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI|61:5;39:6|B01.650
-26025575|MMI|115.03|Species|C1705920|[cnce]|["Species"-ti-1-"species"-noun-0]|TI|95:7|
-26025575|MMI|113.92|Damage|C1883709|[ftcn]|["Damage"-ti-1-"damage"-noun-0]|TI|29:6|
-26025575|MMI|113.92|Increase|C0442805|[ftcn]|["Increase"-ti-1-"increases"-verb-0]|TI|46:9|
-26025575|MMI|113.92|Tissue damage|C0010957|[inpo]|["Damage"-ti-1-"damage"-noun-0]|TI|29:6|
-26025575|MMI|113.92|size|C0456389|[spco]|["size"-ti-1-"size"-noun-0]|TI|67:4|
-26025575|MMI|110.66|Feeding Activity|C2987508|[acty]|["Feeding"-ti-1-"Feeding"-adj-0]|TI|21:7|
-26025575|MMI|110.66|Feeding patient|C0204695|[hlca]|["Feeding"-ti-1-"Feeding"-adj-0]|TI|21:7|
-24595608|MMI|423.61|Anthropological Culture|C0010453|[idcn]|["Culture"-ab-1-"Culture"-noun-0,"Culture"-ti-1-"culture"-noun-0]|TI;AB|323:7;58:7|I01.076.201.450;I01.880.143
-24595608|MMI|216.78|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"Plant"-verb-0,"Plants"-ab-1-"Plants"-noun-0,"Plant"-ti-1-"plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|241:5;255:5;296:6;36:5;116:6|B01.650
-24595608|MMI|215.95|Phytochemicals|C0577749|[bacs,orch]|["Phytochemicals"-ab-1-"Phytochemicals"-noun-0,"Phytochemicals"-ti-1-"phytochemicals"-noun-0]|TI;AB|224:14;88:14|D03.787;D20.663
-24595608|MMI|113.92|Application (Document)|C1947919|[inpr]|["Application"-ti-1-"Application"-noun-0]|TI|21:11|
-24595608|MMI|113.92|Application Dosing Unit|C3539080|[qnco]|["APPLICATION"-ti-1-"Application"-noun-0]|TI|21:11|
-24595608|MMI|113.92|Application procedure|C0185125|[hlca]|["Application"-ti-1-"Application"-noun-0]|TI|21:11|
-24595608|MMI|113.92|Regulatory Application|C2347934|[inpr]|["Application"-ti-1-"Application"-noun-0]|TI|21:11|
-24595608|MMI|112.67|Cells|C0007634|[cell]|["Cells"-ab-1-"Cells"-noun-0,"Cell"-ti-1-"cell"-noun-0]|TI;AB|247:5;42:4|A11
-24595608|MMI|112.50|Body tissue|C0040300|[tisu]|["Tissue"-ab-1-"Tissue"-noun-0,"Tissue"-ti-1-"tissue"-noun-0]|TI;AB|316:6;51:6|A10
-24595608|MMI|112.50|Cultural aspects|C0220814|[ftcn]|["culture"-ab-1-"Culture"-noun-0,"culture"-ti-1-"culture"-noun-0]|TI;AB|323:7;58:7|
-24595608|MMI|112.50|Laboratory culture|C0430400|[lbpr]|["Culture"-ab-1-"Culture"-noun-0,"Culture"-ti-1-"culture"-noun-0]|TI;AB|323:7;58:7|
-24595608|MMI|112.50|Microbial culture (procedure)|C2242979|[lbpr]|["Culture"-ab-1-"Culture"-noun-0,"Culture"-ti-1-"culture"-noun-0]|TI;AB|323:7;58:7|
-24595608|MMI|112.50|Tissue Specimen Code|C1547928|[inpr]|["Tissue"-ab-1-"Tissue"-noun-0,"Tissue"-ti-1-"tissue"-noun-0]|TI;AB|316:6;51:6|
-24595608|MMI|110.66|Cell (compartment)|C1948049|[spco]|["Cell"-ti-1-"cell"-noun-0]|TI|42:4|
-24595608|MMI|110.66|Cell Device Component|C1704653|[medd]|["Cell"-ti-1-"cell"-noun-0]|TI|42:4|
-24595608|MMI|110.66|Entire cell|C1269647|[cell]|["Cell"-ti-1-"cell"-noun-0]|TI|42:4|
-24595608|MMI|110.42|production|C0033268|[ocac]|["production"-ti-1-"production"-noun-0]|TI|74:10|
-24595608|MMI|28.71|Homo sapiens|C0086418|[humn]|["Humans"-ab-1-"Humans"-noun-0]|AB|167:6|B01.050.150.900.649.801.400.112.400.400
-24595608|MMI|19.73|Methods aspects|C0025664|[inpr]|["techniques"-ab-1-"Techniques"-noun-0]|AB|283:10^331:10|x.x.x
-24595608|MMI|19.16|Embryonic Development|C0013936|[ortf]|["Embryogenesis"-ab-1-"Embryogenesis"-noun-0]|AB|269:13|G07.700.320.500.325.180;G08.686.785.760.170.104
-24595608|MMI|9.67|Resources|C0035201|[idcn]|["Resources"-ab-1-"Resources"-noun-0]|AB|155:9|N03.349.340;N05.300.420
-24595608|MMI|7.04|Techniques|C0449851|[ftcn]|["Techniques"-ab-1-"Techniques"-noun-0]|AB|283:10^331:10|
-24595608|MMI|6.66|Engineering|C0014279|[ocdi]|["Engineering"-ab-1-"Engineering"-noun-0]|AB|210:11|J01.293
-24595608|MMI|6.63|Medicine|C0025118|[bmod]|["Medicine"-ab-1-"Medicine"-noun-0]|AB|176:8|H02.403
-24595608|MMI|3.50|Cells [Chemical/Ingredient]|C3282337|[cell]|["Cells"-ab-1-"Cells"-noun-0]|AB|247:5|
-24595608|MMI|3.48|Dispense Method - Traditional|C1548559|[idcn]|["Traditional"-ab-1-"Traditional"-adj-0]|AB|186:11|
-24595608|MMI|3.48|Pharmaceutical Preparations|C0013227|[phsu]|["Medicine, NOS"-ab-1-"Medicine"-noun-0]|AB|176:8|D26
-24595608|MMI|3.48|Traditional origin|C0443324|[ftcn]|["Traditional"-ab-1-"Traditional"-adj-0]|AB|186:11|
-24595608|MMI|3.47|Conservation|C2347858|[qlco]|["Conservation"-ab-1-"Conservation"-noun-0]|AB|131:12|
-24595608|MMI|3.39|Metabolic|C0311400|[ftcn]|["Metabolic"-ab-1-"Metabolic"-adj-0]|AB|200:9|
-24595608|MMI|3.39|Metabolic Process, Cellular|C1524026|[celf]|["Metabolic"-ab-1-"Metabolic"-adj-0]|AB|200:9|
-24595608|MMI|3.39|Metabolic:-:Point in time:^Patient:-|C2707259|[clna]|["Metabolic"-ab-1-"Metabolic"-adj-0]|AB|200:9|
-24595608|MMI|3.39|Somatic|C2986476|[qlco]|["Somatic"-ab-1-"Somatic"-noun-0]|AB|261:7|
-24595608|MMI|3.37|Natural|C0205296|[ftcn]|["Natural"-ab-1-"Natural"-noun-0]|AB|147:7|
-24102245|AA|ABA|abscisic acid|1|3|3|13
-24102245|MMI|840.75|Nicotiana|C0086707|[plnt]|["Nicotiana"-ab-1-"Nicotiana"-noun-0,"Tobacco"-ab-1-"Tobacco"-noun-0,"Tobacco"-ab-1-"tobacco"-noun-0,"Nicotiana"-ti-1-"Nicotiana"-noun-0,"Tobacco"-ti-1-"tobacco"-noun-0]|TI;AB|166:9;586:7;185:7;132:9;123:7|B01.650.940.800.575.100.905.900
-24102245|MMI|840.57|Nicotiana tabacum|C0740009|[plnt]|["Tobacco"-ab-1-"Tobacco"-noun-0,"Tobacco"-ab-1-"tobacco"-noun-0,"Tobacco"-ti-1-"tobacco"-noun-0]|TI;AB|586:7;185:7;123:7|B01.650.940.800.575.100.905.900
-24102245|MMI|529.23|Photosynthesis|C0031764|[npop]|["Photosynthesis"-ab-1-"Photosynthesis"-noun-0,"Photosynthesis"-ti-1-"photosynthesis"-noun-0]|TI;AB|438:14;48:14|G02.111.087.160.937;G02.111.087.678.700;G02.149.115.160.937;G02.149.115.678.700;G02.149.767.690.921;G02.842.750.690.921;G03.495.256.937;G03.495.553.700;G03.495.795.700;G15.744.700
-24102245|MMI|527.84|Droughts|C0013140|[npop]|["Drought"-ab-1-"drought"-noun-0,"Droughts"-ab-1-"Droughts"-noun-0,"Drought"-ti-1-"drought"-noun-0]|TI;AB|218:7;361:8;101:7|G16.500.240.135.781;G16.500.750.775.154
-24102245|MMI|425.04|Productivity|C0033269|[qnco]|["Productivity"-ti-1-"productivity"-noun-0]|TI|81:12|F02.784.692.351
-24102245|MMI|423.98|isoprene|C0064044|[orch]|["isoprene"-ab-1-"isoprene"-noun-0,"isoprene"-ti-1-"Isoprene"-noun-0]|TI;AB|248:8;21:8|x.x.x.x
-24102245|MMI|422.63|Animals, Transgenic|C0003069|[anim]|["Transgenic"-ti-1-"transgenic"-adj-0]|TI|112:10|B01.050.050.136;B05.620.136
-24102245|MMI|322.05|Tobacco|C0040329|[hops,orch,phsu]|["Tobacco"-ab-1-"Tobacco"-noun-0,"Tobacco"-ab-1-"tobacco"-noun-0,"Tobacco"-ti-1-"tobacco"-noun-0]|TI;AB|586:7;185:7;123:7|J01.637.836
-24102245|MMI|216.09|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"Plant"-noun-0,"Plants"-ab-1-"Plants"-noun-0,"Plant"-ti-1-"plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|488:5;514:5;529:6;75:5;151:6|B01.650
-24102245|MMI|115.11|Emission - Male genitalia finding|C0233929|[bdsu]|["Emission"-ti-1-"emission"-noun-0]|TI|30:8|
-24102245|MMI|115.11|Emission substance|C2349995|[sbst]|["Emission"-ti-1-"emission"-noun-0]|TI|30:8|
-24102245|MMI|32.29|Drinking Water|C0599638|[sbst]|["WATER"-ab-1-"Water"-noun-0,"WATER"-ab-1-"water"-noun-0]|AB|596:5;299:5|D01.455.900.300;D01.650.550.925.199;J02.200.418
-24102245|MMI|25.94|Water|C0043047|[inch,phsu]|["Water"-ab-1-"Water"-noun-0,"Water"-ab-1-"water"-noun-0]|AB|596:5;299:5|D01.455.900;D01.650.550.925;x.x.x.x
-24102245|MMI|22.41|Butadienes|C0006470|[orch]|["Butadienes"-ab-1-"Butadienes"-noun-0]|AB|348:10|D02.455.326.271.665.146.240
-24102245|MMI|19.27|Peroxides|C0031180|[inch]|["Peroxide"-ab-1-"peroxide"-noun-0]|AB|237:8|D01.248.497.158.685.750;D01.339.431.374;D01.650.550.750;D02.389.338;D02.737
-24102245|MMI|16.10|Biomass|C0005535|[qnco]|["Biomass"-ab-1-"Biomass"-noun-0]|AB|338:7|G16.500.275.157.100;N06.230.124.100
-24102245|MMI|16.10|Pentanes|C0030867|[orch]|["Pentanes"-ab-1-"Pentanes"-noun-0]|AB|427:8|D02.455.326.146.770
-24102245|MMI|13.39|Acids|C0001128|[chem]|["Acid"-ab-1-"Acid"-noun-0,"Acid"-ab-1-"acid"-noun-0]|AB|331:4;205:4|D01.029
-24102245|MMI|12.96|Hydrogen|C0020275|[elii]|["Hydrogen"-ab-1-"hydrogen"-noun-0]|AB|228:8|D01.268.406;D01.362.340;D01.435;x.x.x.x
-24102245|MMI|12.96|Efficiency|C0013682|[qnco]|["Efficiency"-ab-1-"efficiency"-noun-0]|AB|309:10|F02.784.692.351
-24102245|MMI|12.96|Oxygen|C0030054|[elii,phsu]|["Oxygen"-ab-1-"Oxygen"-noun-0]|AB|569:6|D01.268.185.550;D01.362.670;x.x.x.x
-24102245|MMI|12.94|Hemiterpenes|C1258150|[orch]|["Hemiterpenes"-ab-1-"Hemiterpenes"-noun-0]|AB|372:12|D02.455.849.486
-24102245|MMI|12.85|Growth|C0018270|[orgf]|["Growth"-ab-1-"Growth"-noun-0]|AB|494:6|G07.700.320.249
-24102245|MMI|9.81|Plant Leaves|C0242724|[plnt]|["Leaves"-ab-1-"Leaves"-noun-0]|AB|520:6|A18.024.812
-24102245|MMI|9.70|utilization qualifier|C0042153|[ftcn]|["use"-ab-1-"use"-noun-0]|AB|305:3|x.x.x
-24102245|MMI|7.04|Lipids|C0023779|[lipd]|["Lipid"-ab-1-"Lipid"-noun-0,"Lipid"-ab-1-"lipid"-noun-0]|AB|387:5;259:5|D10
-24102245|MMI|7.04|Lysergic acid diethylamide measurement|C0202406|[lbpr]|["Acid"-ab-1-"Acid"-noun-0,"Acid"-ab-1-"acid"-noun-0]|AB|331:4;205:4|
-24102245|MMI|7.04|Oxidative|C0311404|[ftcn]|["Oxidative"-ab-1-"Oxidative"-noun-0,"Oxidative"-ab-1-"oxidative"-noun-0]|AB|408:9;280:9|
-24102245|MMI|7.04|Stress|C0038435|[fndg]|["Stress"-ab-1-"Stress"-noun-0,"Stress"-ab-1-"stress"-noun-0]|AB|418:6;290:6|
-24102245|MMI|7.04|peroxidation|C0178796|[phpr]|["peroxidation"-ab-1-"Peroxidation"-noun-0,"peroxidation"-ab-1-"peroxidation"-noun-0]|AB|393:12;265:12|
-24102245|MMI|6.90|Water Specimen|C1550678|[inch]|["Water"-ab-1-"Water"-noun-0,"Water"-ab-1-"water"-noun-0]|AB|596:5;299:5|
-24102245|MMI|6.65|Proteins|C0033684|[aapp,bacs]|["Protein"-ab-1-"Protein"-noun-0]|AB|470:7|D12.776
-24102245|MMI|3.50|Hydrogen measurement|C0523702|[lbpr]|["HYDROGEN"-ab-1-"hydrogen"-noun-0]|AB|228:8|
-24102245|MMI|3.50|Hydrogen, Homeopathic preparation|C0885426|[inch]|["hydrogen"-ab-1-"hydrogen"-noun-0]|AB|228:8|
-24102245|MMI|3.50|Reactive|C0205332|[qlco]|["Reactive"-ab-1-"Reactive"-noun-0]|AB|560:8|
-24102245|MMI|3.50|Regulators (device)|C0182953|[medd]|["regulators"-ab-1-"Regulators"-noun-0]|AB|501:10|
-24102245|MMI|3.50|Species|C1705920|[cnce]|["Species"-ab-1-"Species"-noun-0]|AB|576:7|
-24102245|MMI|3.50|Complex|C0439855|[qlco]|["Complex"-ab-1-"Complex"-noun-0]|AB|478:7|
-24102245|MMI|3.50|complex (molecular entity)|C1704241|[chvs]|["Complex"-ab-1-"Complex"-noun-0]|AB|478:7|
-24102245|MMI|3.48|Changing|C0392747|[ftcn]|["Modified"-ab-1-"Modified"-verb-0]|AB|549:8|
-24102245|MMI|3.39|Growth action|C2911660|[acty]|["Growth"-ab-1-"Growth"-noun-0]|AB|494:6|
-24102245|MMI|3.39|Tissue Growth|C1621966|[ortf]|["Growth"-ab-1-"Growth"-noun-0]|AB|494:6|
-24102245|MMI|3.39|Usage|C0457083|[ftcn]|["Use"-ab-1-"use"-noun-0]|AB|305:3|
-24102245|MMI|3.39|Use - dosing instruction imperative|C1947944|[inpr]|["Use"-ab-1-"use"-noun-0]|AB|305:3|
-24102245|MMI|3.39|growth aspects|C0220844|[phsf]|["growth"-ab-1-"Growth"-noun-0]|AB|494:6|
-24102245|MMI|3.39|photosystem|C0597234|[celc]|["photosystem"-ab-1-"Photosystem"-noun-0]|AB|455:11|
-23717446|MMI|733.84|Ants|C0003455|[euka]|["Ants"-ab-1-"Ants"-noun-0,"Ant, NOS"-ti-1-"ant"-noun-0]|TI;AB|185:4;49:3^72:3|B01.050.500.131.617.479.205
-23717446|MMI|629.01|Diptera|C0012578|[euka]|["Dipteran"-ti-1-"dipteran"-noun-0]|TI|142:8|B01.050.500.131.617.289
-23717446|MMI|526.41|Carnivory|C3178953|[biof]|["Carnivory"-ab-1-"Carnivory"-noun-0,"Carnivory"-ti-1-"carnivorous"-adj-0]|TI;AB|201:9;88:11|F01.145.113.547.400;F01.145.407.299
-23717446|MMI|215.28|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"Plant"-noun-0,"Plants"-ab-1-"Plants"-noun-0,"Plant"-ti-1-"plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|272:5;287:5;302:6;53:5;108:6|B01.650
-23717446|MMI|214.19|Nutrients|C0678695|[food]|["Nutrient"-ti-1-"nutrient"-noun-0]|TI|123:8|J02.500
-23717446|MMI|114.42|PREVENT (product)|C0309872|[phsu]|["PREVENT"-ti-1-"prevent"-verb-0]|TI|115:7|
-23717446|MMI|113.70|Export|C0699789|[phpr]|["Export"-ti-1-"export"-noun-0]|TI|132:6|
-23717446|MMI|113.70|Partner in relationship|C0682323|[famg]|["partners"-ti-1-"partners"-noun-0]|TI|76:8|
-23717446|MMI|113.59|*Type - Kind of quantity|C1547052|[qnco]|["*Type"-ti-1-"type"-noun-0]|TI|29:4|
-23717446|MMI|113.59|Type - attribute|C0332307|[qlco]|["Type"-ti-1-"type"-noun-0]|TI|29:4|
-23717446|MMI|112.15|Interaction|C1704675|[ftcn]|["Interaction"-ab-1-"Interactions"-noun-0,"Interaction"-ti-1-"interaction"-noun-0]|TI;AB|246:12;59:11|
-23717446|MMI|110.49|Nutrient (property)|C2347375|[cnce]|["Nutrient"-ti-1-"nutrient"-noun-0]|TI|123:8|
-23717446|MMI|110.38|New|C0205314|[tmco]|["Novel"-ti-1-"novel"-adj-0]|TI|23:5|
-23717446|MMI|110.38|Nutritional|C1521739|[qlco]|["Nutritional"-ti-1-"nutritional"-adj-0]|TI|37:11|
-23717446|MMI|110.38|Nutritional:-:Point in time:^Patient:-|C2707262|[clna]|["Nutritional"-ti-1-"nutritional"-adj-0]|TI|37:11|
-23717446|MMI|110.38|literary novel|C0679622|[inpr]|["novel"-ti-1-"novel"-adj-0]|TI|23:5|
-23717446|MMI|16.10|Herbivory|C0562691|[anim]|["Herbivory"-ab-1-"Herbivory"-noun-0]|AB|220:9|F01.145.113.547.600;F01.145.407.758
-23717446|MMI|12.94|Borneo|C0006026|[geoa]|["Borneo"-ab-1-"Borneo"-noun-0]|AB|192:6|Z01.252.145.103;Z01.639.160
-23717446|MMI|12.94|Nitrogen|C0028158|[elii]|["Nitrogen"-ab-1-"Nitrogen"-noun-0]|AB|261:8|D01.268.604;D01.362.625;x.x.x.x
-23717446|MMI|12.85|Parasites|C0030498|[euka]|["Parasite"-ab-1-"Parasite"-noun-0]|AB|237:8|B01.050.500.714
-23717446|MMI|9.81|Plant Leaves|C0242724|[plnt]|["Leaves"-ab-1-"Leaves"-noun-0]|AB|278:6|A18.024.812
-23717446|MMI|9.81|Plant Nectar|C2717960|[bacs]|["Nectar"-ab-1-"Nectar"-noun-0]|AB|293:6|D20.215.780
-23717446|MMI|6.63|Animals|C0003062|[anim]|["Animals"-ab-1-"Animals"-noun-0]|AB|175:7|B01.050
-23717446|MMI|6.63|Food|C0016452|[food]|["Food"-ab-1-"Food"-noun-0]|AB|213:4|J02.500
-23717446|MMI|3.48|Nitrogen Handling|C1550581|[hcpp]|["nitrogen"-ab-1-"Nitrogen"-noun-0]|AB|261:8|
-23717446|MMI|3.39|Host (organism)|C1167395|[orgm]|["Host"-ab-1-"Host"-noun-0]|AB|232:4|
-24289981|AA|PGPB|promoting bacteria|1|4|3|18
-24289981|MMI|630.16|Sterilization for infection control|C0038280|[topp]|["Sterilization"-ab-1-"Sterilization"-noun-0,"Sterilize"-ti-1-"sterilized"-adj-0,"Sterilize"-ti-1-"sterilized"-adj-0]|TI;AB|466:13;107:10;126:10|N06.850.780.200.450.850
-24289981|MMI|425.36|Copper|C0009968|[bacs,elii,phsu]|["Copper"-ab-1-"Copper"-noun-0,"Copper"-ab-1-"Copper"-noun-0,"Copper"-ti-1-"copper"-noun-0]|TI;AB|154:6;294:6;78:6|D01.268.556.195;D01.268.956.170;D01.552.544.195;x.x.x.x
-24289981|MMI|422.04|Growth|C0018270|[orgf]|["Growth"-ab-1-"growth"-noun-0,"Growth"-ti-1-"growth"-noun-0]|TI;AB|206:6;38:6|G07.700.320.249
-24289981|MMI|215.95|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"Plant"-noun-0,"Plants"-ab-1-"Plants"-noun-0,"Plant"-ti-1-"plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|200:5;388:5;408:6;32:5;97:6|B01.650
-24289981|MMI|114.25|Cuprous|C2347872|[elii]|["Copper+"-ab-1-"Copper"-noun-0,"Copper+"-ab-1-"Copper"-noun-0,"Copper+"-ti-1-"copper"-noun-0]|TI;AB|154:6;294:6;78:6|
-24289981|MMI|114.25|Dietary Copper|C2348263|[elii]|["Copper"-ab-1-"Copper"-noun-0,"Copper"-ab-1-"Copper"-noun-0,"Copper"-ti-1-"copper"-noun-0]|TI;AB|154:6;294:6;78:6|
-24289981|MMI|113.92|Bed Status - Isolated|C1548221|[idcn]|["Isolated"-ti-1-"isolated"-verb-0]|TI|64:8|
-24289981|MMI|113.92|Isolated|C0205409|[ftcn]|["Isolated"-ti-1-"isolated"-verb-0]|TI|64:8|
-24289981|MMI|113.70|Effect|C1280500|[qlco]|["effects"-ti-1-"Effects"-noun-0]|TI|21:7|
-24289981|MMI|113.10|Bacteria|C0004611|[bact]|["Bacteria"-ab-1-"Bacteria"-noun-0,"Bacteria"-ab-1-"bacteria"-noun-0,"Bacteria"-ti-1-"bacteria"-noun-0]|TI;AB|241:8;223:8;55:8|B03
-24289981|MMI|113.10|Percent of Bacteria|C2347473|[qnco]|["% Bacteria"-ab-1-"Bacteria"-noun-0,"% Bacteria"-ab-1-"bacteria"-noun-0,"% Bacteria"-ti-1-"bacteria"-noun-0]|TI;AB|241:8;223:8;55:8|
-24289981|MMI|113.10|bacteria aspects|C1510439|[ftcn]|["bacteria"-ab-1-"Bacteria"-noun-0,"bacteria"-ab-1-"bacteria"-noun-0,"bacteria"-ti-1-"bacteria"-noun-0]|TI;AB|241:8;223:8;55:8|
-24289981|MMI|111.46|Negation|C1518422|[ftcn]|["Non"-ti-1-"non"-adj-0]|TI|122:3|
-24289981|MMI|110.93|Growth action|C2911660|[acty]|["Growth"-ab-1-"growth"-noun-0,"Growth"-ti-1-"growth"-noun-0]|TI;AB|206:6;38:6|
-24289981|MMI|110.93|Promotion (action)|C0033414|[acty]|["Promoting"-ab-1-"promoting"-adj-0,"Promoting"-ti-1-"promoting"-adj-0]|TI;AB|213:9;45:9|
-24289981|MMI|110.93|Tissue Growth|C1621966|[ortf]|["Growth"-ab-1-"growth"-noun-0,"Growth"-ti-1-"growth"-noun-0]|TI;AB|206:6;38:6|
-24289981|MMI|110.93|growth aspects|C0220844|[phsf]|["growth"-ab-1-"growth"-noun-0,"growth"-ti-1-"growth"-noun-0]|TI;AB|206:6;38:6|
-24289981|MMI|110.66|On (qualifier value)|C1720294|[inpr]|["On"-ti-1-"on"-prep-0]|TI|94:2|
-24289981|MMI|110.66|Upon - dosing instruction fragment|C1720176|[ftcn]|["On"-ti-1-"on"-prep-0]|TI|94:2|
-24289981|MMI|22.41|Siderophores|C0142281|[bacs,orch]|["Siderophores"-ab-1-"Siderophores"-noun-0]|AB|431:12|D27.505.519.914.500.410.750;D27.720.832.500.410.750
-24289981|MMI|19.60|Environment|C0014406|[spco]|["Environmental"-ab-1-"Environmental"-adj-0]|AB|268:13^303:13|G16.500.275;N06.230
-24289981|MMI|19.25|Biodegradation|C0005482|[npop]|["Biodegradation"-ab-1-"Biodegradation"-noun-0]|AB|252:14|N06.850.460.375.500;N06.850.860.510.900.299
-24289981|MMI|16.10|Biomass|C0005535|[qnco]|["Biomass"-ab-1-"Biomass"-noun-0]|AB|284:7|G16.500.275.157.100;N06.230.124.100
-24289981|MMI|16.10|Rhizosphere|C2936389|[npop]|["Rhizosphere"-ab-1-"Rhizosphere"-noun-0]|AB|417:11|G16.500.240.630;G16.500.275.157.625;N06.230.124.437
-24289981|MMI|12.96|Microbiological|C0025953|[inpr]|["microbiology"-ab-1-"Microbiology"-noun-0]|AB|451:12|x.x.x.x
-24289981|MMI|12.96|Science of Microbiology|C0025952|[bmod]|["Microbiology"-ab-1-"Microbiology"-noun-0]|AB|451:12|H01.158.273.540
-24289981|MMI|12.94|Mining|C0026175|[ocac]|["Mining"-ab-1-"Mining"-noun-0]|AB|368:6|J01.576.370.500
-24289981|MMI|12.94|Nitrogen|C0028158|[elii]|["Nitrogen"-ab-1-"Nitrogen"-noun-0]|AB|377:8|D01.268.604;D01.362.625;x.x.x.x
-24289981|MMI|12.94|Sexual sterilization|C0038288|[topp]|["Sterilization"-ab-1-"Sterilization"-noun-0]|AB|466:13|E02.875.194.910;E04.950.599
-24289981|MMI|12.85|Soil|C0037592|[sbst]|["Soil"-ab-1-"Soil"-noun-0]|AB|446:4|D20.721;G01.311.820;G16.500.275.815;N06.230.600
-24289981|MMI|6.66|Acids|C0001128|[chem]|["Acids"-ab-1-"Acids"-noun-0]|AB|360:5|D01.029
-24289981|MMI|3.50|Biologic Development|C0678723|[orgf]|["Development"-ab-1-"Development"-noun-0]|AB|394:11|
-24289981|MMI|3.50|Development|C1527148|[ftcn]|["Development"-ab-1-"Development"-noun-0]|AB|394:11|
-24289981|MMI|3.50|Microbiology procedure|C0085672|[lbpr]|["Microbiology"-ab-1-"Microbiology"-noun-0]|AB|451:12|
-24289981|MMI|3.50|Type of restoration|C0449982|[inpr]|["Restoration"-ab-1-"Restoration"-noun-0]|AB|317:11|
-24289981|MMI|3.50|development aspects|C0243107|[phsf]|["development"-ab-1-"Development"-noun-0]|AB|394:11|
-24289981|MMI|3.48|Nitrogen Handling|C1550581|[hcpp]|["nitrogen"-ab-1-"Nitrogen"-noun-0]|AB|377:8|
-24289981|MMI|3.48|biodegradational|C0220796|[ftcn]|["biodegradation"-ab-1-"Biodegradation"-noun-0]|AB|252:14|
-24011856|MMI|425.87|Soil|C0037592|[sbst]|["Soil"-ab-1-"Soil"-noun-0,"Soil"-ti-1-"Soil"-noun-0]|TI;AB|211:4;21:4|D20.721;G01.311.820;G16.500.275.815;N06.230.600
-24011856|MMI|425.24|Psychological Transfer|C0040671|[menp]|["Transfer"-ti-1-"transfer"-noun-0]|TI|35:8|F02.463.425.910
-24011856|MMI|319.20|Radioisotopes|C0034595|[elii]|["Radioisotopes"-ab-1-"Radioisotopes"-noun-0,"Radioisotopes"-ti-1-"radioisotopes"-noun-0,"Radionuclides"-ti-1-"radionuclides"-noun-0]|TI;AB|195:13;94:13;47:13|D01.496.749
-24011856|MMI|218.12|Plants|C0032098|[plnt]|["Plants"-ab-1-"Plants"-noun-0,"Plant"-ti-1-"plant"-verb-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|186:6;29:5;111:6|B01.650
-24011856|MMI|114.13|Transfer Technique|C1705822|[acty]|["Transfer"-ti-1-"transfer"-noun-0]|TI|35:8|
-24011856|MMI|113.81|FATE1 gene|C1539479|[gngm]|["FATE"-ti-1-"fate"-noun-0]|TI|77:4|
-24011856|MMI|110.56|Numerous|C0439064|[qnco]|["Multiple"-ti-1-"multiple"-adj-0]|TI|85:8|
-24011856|MMI|26.04|Strontium|C0038467|[elii]|["Strontium"-ab-1-"Strontium"-noun-0]|AB|174:9^218:9|D01.268.552.850;D01.268.556.825;D01.552.539.861;D01.552.544.825;x.x.x.x
-24011856|MMI|12.94|Phylogeny|C0031797|[idcn]|["Phylogeny"-ab-1-"Phylogeny"-noun-0]|AB|137:9|G05.697;G16.100.178.605;L01.100.697
-24011856|MMI|12.94|Radium|C0034625|[elii,phsu]|["Radium"-ab-1-"Radium"-noun-0]|AB|149:6|D01.268.271.770;D01.268.552.775;D01.268.556.775;D01.552.539.745;D01.552.544.775;x.x.x.x
-24011856|MMI|3.48|Stoichiometry|C0597526|[qnco]|["Stoichiometry"-ab-1-"Stoichiometry"-noun-0]|AB|158:13|
+23406544|MMI|838.17|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0,"Daffodil"-ti-1-"daffodil"-noun-0]|TI;AB|383:9;39:8|B01.650.940.800.575.100.610.555
+23406544|MMI|114.42|Identity|C2003939|[fndg]|["Identity"-ti-1-"identity"-noun-0]|TI|89:8|
+23406544|MMI|114.42|Sense of identity (observable entity)|C0424215|[menp]|["Identity"-ti-1-"identity"-noun-0]|TI|89:8|
+23406544|MMI|114.42|Sharing (Social Behavior)|C0237876|[socb]|["Share"-ti-1-"shares"-verb-0]|TI|70:6|
+23406544|MMI|114.42|Stamen - plant part|C2700635|[plnt]|["Stamen"-ti-1-"stamen"-noun-0]|TI|77:6|
+23406544|MMI|113.63|Corona|C3053990|[euka]|["Corona"-ti-1-"corona"-noun-0]|TI|25:6|
+23406544|MMI|110.71|Narcissus bulbocodium|C1018298|[plnt]|["Narcissus bulbocodium"-ti-1-"Narcissus bulbocodium"-noun-0]|TI|48:21|
+23406544|MMI|110.49|Orthodox|C1552057|[idcn]|["Orthodox"-ti-1-"orthodox"-adj-0]|TI|123:8|
+23406544|MMI|110.42|Narcissus pseudonarcissus|C0331673|[plnt]|["Daffodil"-ti-1-"daffodil"-noun-0]|TI|39:8|
+23406544|MMI|32.20|Genes|C0017337|[gngm]|["Gene"-ab-1-"Gene"-noun-0]|AB|164:4^208:4|G05.360.340.024.340
+23406544|MMI|22.41|Liliaceae|C0446221|[plnt]|["Liliaceae"-ab-1-"Liliaceae"-noun-0]|AB|268:9|B01.650.940.800.575.100.610
+23406544|MMI|20.12|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"Plant"-noun-0]|AB|236:5^407:5;446:5|B01.650
+23406544|MMI|19.73|Regulation|C0851285|[gora]|["Regulation"-ab-1-"Regulation"-noun-0]|AB|180:10^224:10|I01.880.604;N03.706
+23406544|MMI|19.69|RNA|C0035668|[nnon]|["RNA"-ab-1-"RNA"-noun-0]|AB|424:3^441:3|D13.444.735
+23406544|MMI|16.12|Base Sequence|C0004793|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0]|AB|367:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+23406544|MMI|16.12|DNA Sequence|C0162326|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0]|AB|367:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+23406544|MMI|16.12|RNA Sequence|C0162327|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0]|AB|367:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+23406544|MMI|13.39|Proteins|C0033684|[aapp,bacs]|["Proteins"-ab-1-"Proteins"-noun-0]|AB|292:8^413:8|D12.776
+23406544|MMI|12.96|Crossbreeding|C0020202|[genf]|["Hybridisation"-ab-1-"Hybridization"-noun-0]|AB|252:13|E05.820.150.390;G05.355.090.390
+23406544|MMI|12.96|Nucleic acid hybridization procedure|C1300517|[lbpr]|["Hybridization"-ab-1-"Hybridization"-noun-0]|AB|252:13|E05.393.661;G02.111.087.620;G02.149.115.620
+23406544|MMI|12.94|Electrons|C0013852|[qnco]|["Electron"-ab-1-"Electron"-noun-0]|AB|315:8|G01.249.335;G01.358.500.750
+23406544|MMI|12.94|Flowers|C0330090|[plnt]|["Flowers"-ab-1-"Flowers"-noun-0]|AB|154:7|A18.024.249.500
+23406544|MMI|12.94|Microscopy|C0026018|[lbpr]|["Microscopy"-ab-1-"Microscopy"-noun-0]|AB|303:10|E01.370.350.515;E05.595;H01.671.617.562
+23406544|MMI|12.94|Phylogeny|C0031797|[idcn]|["Phylogeny"-ab-1-"Phylogeny"-noun-0]|AB|395:9|G05.697;G16.100.178.605;L01.100.697
+23406544|MMI|12.94|Radionuclide Imaging|C0034606|[hlca]|["Scanning"-ab-1-"Scanning"-verb-0]|AB|325:8|E01.370.350.710;E01.370.384.730
+23406544|MMI|9.79|biology (field)|C0005532|[bmod]|["Biological"-ab-1-"Biological"-adj-0]|AB|344:10|H01.158.273
+23406544|MMI|7.04|Regulation of biological process|C1327622|[biof]|["Regulation"-ab-1-"Regulation"-noun-0]|AB|180:10^224:10|
+23406544|MMI|6.82|Expression procedure|C0185117|[topp]|["Expression"-ab-1-"Expression"-noun-0]|AB|169:10^213:10|
+23406544|MMI|3.50|Data|C1511726|[idcn]|["Data"-ab-1-"Data"-noun-0]|AB|376:4|
+23406544|MMI|3.50|Data call receiving device|C3245479|[medd]|["data"-ab-1-"Data"-noun-0]|AB|376:4|
+23406544|MMI|3.50|In situ|C0444498|[spco]|["In situ"-ab-1-"In Situ"-noun-0]|AB|244:7|
+23406544|MMI|3.50|Molecular|C1521991|[qlco]|["Molecular"-ab-1-"Molecular"-noun-0]|AB|357:9|
+23406544|MMI|3.50|Sequence|C1519249|[ftcn]|["Sequence"-ab-1-"Sequence"-noun-0]|AB|367:8|
+23406544|MMI|3.48|Biologic Development|C0678723|[orgf]|["Developmental"-ab-1-"Developmental"-adj-0]|AB|192:13|
+23406544|MMI|3.48|Developmental (qualifier value)|C0458003|[qlco]|["Developmental"-ab-1-"Developmental"-adj-0]|AB|192:13|
+23406544|MMI|3.48|Electron <bird>|C3463986|[bird]|["Electron"-ab-1-"Electron"-noun-0]|AB|315:8|
+23406544|MMI|3.48|Messenger (Occupation)|C0335218|[prog]|["Messenger"-ab-1-"Messenger"-noun-0]|AB|429:9|
+23406544|MMI|3.48|Model|C3161035|[inpr]|["Models"-ab-1-"Models"-noun-0]|AB|336:6|
+23406544|MMI|3.48|Scanning|C0441633|[diap]|["Scanning"-ab-1-"Scanning"-verb-0]|AB|325:8|
+23406544|MMI|3.48|biological|C0205460|[qlco]|["biological"-ab-1-"Biological"-adj-0]|AB|344:10|
+23406544|MMI|3.48|messenger protein|C0169911|[aapp,phsu]|["messenger"-ab-1-"Messenger"-noun-0]|AB|429:9|
+23406544|MMI|3.39|Concept model domain|C3541951|[inpr]|["Domain"-ab-1-"Domain"-noun-0]|AB|285:6|
+23406544|MMI|3.39|Domain (area of knowledge)|C1880389|[ftcn]|["Domain"-ab-1-"Domain"-noun-0]|AB|285:6|
+23406544|MMI|3.39|Superkingdom (taxonomic category)|C1883221|[cnce]|["Domain"-ab-1-"Domain"-noun-0]|AB|285:6|
+25075857|MMI|837.85|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0,"Narcissus"-ab-1-"Narcissus"-noun-0,"Narcissus"-ti-1-"Narcissus"-noun-0]|TI;AB|152:9;262:9;51:9|B01.650.940.800.575.100.610.555
+25075857|MMI|214.84|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plants"-ti-1-"plants"-noun-0]|TI;AB|274:5^291:5;61:6|B01.650
+25075857|MMI|214.41|In Vitro [Publication Type]|C0021135|[inpr]|["In Vitro"-ti-1-"In vitro"-adj-0]|TI|21:8|V03.500
+25075857|MMI|114.36|Extract (substance)|C2828366|[sbst]|["Extract"-ab-1-"Extracts"-noun-0,"Extract"-ti-1-"extracts"-verb-0]|TI;AB|280:8;68:8|
+25075857|MMI|113.63|cytotoxicity|C0596402|[comd]|["cytotoxicity"-ti-1-"cytotoxicity"-noun-0]|TI|30:12|
+25075857|MMI|110.71|In Vitro Route of Administration|C2827718|[ftcn]|["In Vitro"-ti-1-"In vitro"-adj-0]|TI|21:8|
+25075857|MMI|110.71|in vitro|C1533691|[qlco]|["in vitro"-ti-1-"In vitro"-adj-0]|TI|21:8|
+25075857|MMI|28.71|Homo sapiens|C0086418|[humn]|["Humans"-ab-1-"Humans"-noun-0]|AB|253:6|B01.050.150.900.649.801.400.112.400.400
+25075857|MMI|22.41|Amaryllidaceae|C0446223|[plnt]|["Amaryllidaceae"-ab-1-"Amaryllidaceae"-noun-0]|AB|85:14|B01.650.940.800.575.100.610
+25075857|MMI|12.85|Antineoplastic Agents|C0003392|[orch,phsu]|["Antineoplastic"-ab-1-"Antineoplastic"-adj-0]|AB|187:14|D27.505.954.248
+25075857|MMI|7.04|Cells|C0007634|[cell]|["Cells"-ab-1-"Cells"-noun-0]|AB|230:5^245:5|A11
+25075857|MMI|7.04|Cells [Chemical/Ingredient]|C3282337|[cell]|["Cells"-ab-1-"Cells"-noun-0]|AB|230:5^245:5|
+25075857|MMI|6.66|Plant Roots|C0242726|[plnt]|["Roots"-ab-1-"Roots"-noun-0]|AB|297:5|A18.400
+25075857|MMI|3.47|Agent|C0450442|[chvf]|["Agent"-ab-1-"Agents"-noun-0]|AB|202:6|
+25075857|MMI|3.47|Pharmacologic Substance|C1254351|[phsu]|["Agent"-ab-1-"Agents"-noun-0]|AB|202:6|
+25075857|MMI|3.47|Protocol Agent|C1521826|[inpr]|["Agent"-ab-1-"Agents"-noun-0]|AB|202:6|
+25075857|MMI|3.39|Narcissus papyraceus|C1018307|[plnt]|["Narcissus papyraceus"-ab-1-"Narcissus papyraceus"-noun-0]|AB|119:20|
+25075857|MMI|3.39|DNLZ gene|C2239359|[gngm]|["HEP"-ab-1-"Hep"-noun-0]|AB|238:3|
+25075857|MMI|3.39|Cytotoxic Chemotherapy|C0677881|[topp]|["Cytotoxic"-ab-1-"cytotoxic"-adj-0]|AB|175:9|
+25075857|MMI|3.39|cytotoxic|C1511636|[ftcn]|["cytotoxic"-ab-1-"cytotoxic"-adj-0]|AB|175:9|
+24141595|MMI|838.17|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0,"Daffodil"-ti-1-"Daffodil"-noun-0]|TI;AB|294:9;108:8|B01.650.940.800.575.100.610.555
+24141595|MMI|527.94|Genes|C0017337|[gngm]|["Gene"-ab-1-"Gene"-noun-0,"Gene"-ab-1-"Gene"-noun-0,"Genes"-ab-1-"Genes"-noun-0,"Gene"-ti-1-"gene"-noun-0]|TI;AB|175:4;193:4^221:4;237:5;79:4|G05.360.340.024.340
+24141595|MMI|426.18|analysis aspect|C1524024|[ftcn]|["analysis"-ab-1-"Analysis"-noun-0,"analysis"-ti-1-"analysis"-noun-0]|TI;AB|430:8;49:8|x.x.x.x
+24141595|MMI|422.57|Transcription, Genetic|C0040649|[genf]|["Transcriptional"-ti-1-"transcriptional"-adj-0]|TI|33:15|G02.111.087.847;G02.149.115.847;G05.355.310.700
+24141595|MMI|421.53|Silicon Dioxide|C0037098|[bodm,inch]|["Sand"-ti-1-"Sand"-noun-0]|TI|103:4|D01.578.750;D01.650.550.825;D01.837.725
+24141595|MMI|115.07|Analysis|C0936012|[resa]|["Analysis"-ab-1-"Analysis"-noun-0,"Analysis"-ti-1-"analysis"-noun-0]|TI;AB|430:8;49:8|
+24141595|MMI|115.07|Analysis of substances|C0002778|[lbpr]|["Analysis"-ab-1-"Analysis"-noun-0,"Analysis"-ti-1-"analysis"-noun-0]|TI;AB|430:8;49:8|
+24141595|MMI|114.42|Revealed|C0443289|[qlco]|["reveal"-ti-1-"reveals"-verb-0]|TI|58:7|
+24141595|MMI|113.30|Expression procedure|C0185117|[topp]|["Expression"-ab-1-"Expression"-noun-0,"Expression"-ab-1-"Expression"-noun-0,"Expression"-ti-1-"expression"-noun-0]|TI;AB|180:10;198:10;84:10|
+24141595|MMI|110.42|Body tissue|C0040300|[tisu]|["Tissues"-ti-1-"tissues"-noun-0]|TI|117:7|A10
+24141595|MMI|110.42|Different|C1705242|[qlco]|["Differential"-ti-1-"differential"-adj-0]|TI|66:12|
+24141595|MMI|110.42|Differential quality|C0443199|[qlco]|["Differential"-ti-1-"differential"-adj-0]|TI|66:12|
+24141595|MMI|110.42|Narcissus pseudonarcissus|C0331673|[plnt]|["Daffodil"-ti-1-"Daffodil"-noun-0]|TI|108:8|
+24141595|MMI|66.44|Base Sequence|C0004793|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0]|AB|138:8^421:8;159:8^278:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+24141595|MMI|66.44|DNA Sequence|C0162326|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0]|AB|138:8^421:8;159:8^278:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+24141595|MMI|66.44|RNA Sequence|C0162327|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0]|AB|138:8^421:8;159:8^278:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+24141595|MMI|27.15|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"Plant"-noun-0]|AB|244:5^260:5;338:5^353:5|B01.650
+24141595|MMI|22.41|Retroelements|C0242850|[bacs,nnon]|["Retroelements"-ab-1-"Retroelements"-noun-0]|AB|405:13|D13.444.308.760;G02.111.570.080.708.330.800;G05.360.080.708.330.800;G05.360.340.024.425.800
+24141595|MMI|16.12|Specificity|C0037791|[qnco]|["Specificity"-ab-1-"Specificity"-noun-0]|AB|312:11|E05.318.740.872;E05.318.780.800;G17.800;N05.715.360.750.725;N05.715.360.780.700;N06.850.520.445.800;N06.850.520.830.872
+24141595|MMI|14.43|Sequence|C1519249|[ftcn]|["Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0]|AB|138:8^421:8;159:8^278:8|
+24141595|MMI|12.94|Phylogeny|C0031797|[idcn]|["Phylogeny"-ab-1-"Phylogeny"-noun-0]|AB|326:9|G05.697;G16.100.178.605;L01.100.697
+24141595|MMI|9.81|Plant Leaves|C0242724|[plnt]|["Leaves"-ab-1-"Leaves"-noun-0]|AB|344:6|A18.024.812
+24141595|MMI|9.79|DNA|C0012854|[bacs,nnon]|["DNA"-ab-1-"DNA"-noun-0]|AB|440:3|D13.444.308
+24141595|MMI|9.79|Genome|C0017428|[gngm]|["Genome"-ab-1-"Genome"-noun-0]|AB|252:6|G05.360.340
+24141595|MMI|6.66|Alkalies|C0002055|[inch]|["base"-ab-1-"Base"-noun-0]|AB|133:4|D01.045
+24141595|MMI|6.66|Plant Roots|C0242726|[plnt]|["Roots"-ab-1-"Roots"-noun-0]|AB|359:5|A18.400
+24141595|MMI|6.54|Time|C0040223|[tmco]|["Time"-ab-1-"Time"-adj-0]|AB|372:4|G01.910
+24141595|MMI|3.50|Base|C0178499|[chvf]|["Base"-ab-1-"Base"-noun-0]|AB|133:4|
+24141595|MMI|3.50|Dental Base|C1880279|[bodm]|["Base"-ab-1-"Base"-noun-0]|AB|133:4|
+24141595|MMI|3.50|Diagnostic Specificity|C1511884|[qnco]|["Specificity"-ab-1-"Specificity"-noun-0]|AB|312:11|
+24141595|MMI|3.50|Ontology|C1518584|[ocdi]|["Ontology"-ab-1-"Ontology"-noun-0]|AB|226:8|
+24141595|MMI|3.50|Organ|C0178784|[bpoc]|["Organ"-ab-1-"Organ"-noun-0]|AB|306:5|
+24141595|MMI|3.50|Data|C1511726|[idcn]|["Data"-ab-1-"Data"-noun-0]|AB|287:4|
+24141595|MMI|3.50|Data call receiving device|C3245479|[medd]|["data"-ab-1-"Data"-noun-0]|AB|287:4|
+24141595|MMI|3.50|Molecular|C1521991|[qlco]|["Molecular"-ab-1-"Molecular"-noun-0]|AB|268:9|
+24141595|MMI|3.50|Tags (device)|C1139855|[medd]|["tags"-ab-1-"Tags"-noun-0]|AB|168:4|
+24141595|MMI|3.49|Chain device|C0337112|[mnob]|["Chain"-ab-1-"Chain"-noun-0]|AB|388:5|
+24141595|MMI|3.49|Polymerase|C1335439|[aapp,enzy]|["Polymerase"-ab-1-"Polymerase"-noun-0]|AB|377:10|
+24141595|MMI|3.49|Reaction|C0443286|[ftcn]|["Reaction"-ab-1-"Reaction"-noun-0]|AB|394:8|
+24141595|MMI|3.49|Reaction:Finding:Point in time:^Patient:Nominal|C1114821|[clna]|["Reaction"-ab-1-"Reaction"-noun-0]|AB|394:8|
+24141595|MMI|3.49|chain of objects|C1524075|[idcn]|["Chain"-ab-1-"Chain"-noun-0]|AB|388:5|
+24141595|MMI|3.48|Genome - anatomical entity|C2338314|[cnce]|["Genome"-ab-1-"Genome"-noun-0]|AB|252:6|
+24141595|MMI|3.47|Profile (lab procedure)|C1979963|[lbpr]|["Profile"-ab-1-"Profiling"-noun-0]|AB|209:9|
+24141595|MMI|3.47|Profiling (action)|C2003903|[ftcn]|["Profile"-ab-1-"Profiling"-noun-0]|AB|209:9|
+24141595|MMI|3.39|Actual|C0237400|[qlco]|["Real"-ab-1-"Real"-adj-0]|AB|367:4|
+24141595|MMI|3.39|Real Data Type|C3272377|[inpr]|["REAL"-ab-1-"Real"-adj-0]|AB|367:4|
+24141595|MMI|3.39|Time (foundation metadata concept)|C3541383|[tmco]|["Time"-ab-1-"Time"-adj-0]|AB|372:4|
+25061748|MMI|632.06|bioformation|C0005572|[ftcn]|["biosynthesis"-ti-1-"biosynthesis"-noun-0]|TI|107:12|x.x.x.x.x.x
+25061748|MMI|527.31|Methyltransferase|C0025831|[aapp,enzy]|["Methyltransferase"-ab-1-"Methyltransferase"-noun-0,"Methyltransferase"-ti-1-"methyltransferase"-noun-0]|TI;AB|363:17;73:17|D08.811.913.555.500
+25061748|MMI|425.08|Galantamine|C0016967|[orch,phsu]|["Galantamine"-ab-1-"Galantamine"-noun-0,"Galanthamine"-ti-1-"galanthamine"-noun-0]|TI;AB|318:11;144:12|D03.132.052.500;D03.438.079.525
+25061748|MMI|321.82|Cloning|C0009015|[resa]|["Cloning"-ab-1-"Cloning"-verb-0,"Cloning"-ti-1-"Cloning"-noun-0]|TI;AB|257:7;21:7|E05.393.240;E05.820.180
+25061748|MMI|217.25|Anabolism|C0220781|[biof]|["Biosynthesis"-ti-1-"biosynthesis"-noun-0]|TI|107:12|G03.495
+25061748|MMI|117.08|Narcissus pseudonarcissus|C0331673|[plnt]|["Narcissus pseudonarcissus"-ti-1-"Narcissus pseudonarcissus"-noun-0]|TI|160:9^179:15|
+25061748|MMI|113.63|Characterization|C1880022|[acty]|["Characterization"-ti-1-"characterization"-noun-0]|TI|33:16|
+25061748|MMI|113.54|Involvement with|C1314939|[ftcn]|["Involved"-ti-1-"involved"-verb-0]|TI|91:8|
+25061748|MMI|113.54|Pharmaceutical Preparations|C0013227|[phsu]|["Drug"-ti-1-"drug"-noun-0]|TI|139:4|D26
+25061748|MMI|113.54|Pharmacologic Substance|C1254351|[phsu]|["Drug"-ti-1-"drug"-noun-0]|TI|139:4|
+25061748|MMI|28.71|Homo sapiens|C0086418|[humn]|["Humans"-ab-1-"Humans"-noun-0]|AB|332:6|B01.050.150.900.649.801.400.112.400.400
+25061748|MMI|25.56|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0]|AB|341:9|B01.650.940.800.575.100.610.555
+25061748|MMI|16.12|Escherichia|C0014833|[bact]|["Escherichia"-ab-1-"Escherichia"-noun-0]|AB|299:11|B03.440.450.425.325;B03.660.250.150.180
+25061748|MMI|16.12|Base Sequence|C0004793|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0]|AB|246:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+25061748|MMI|16.12|DNA Sequence|C0162326|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0]|AB|246:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+25061748|MMI|16.12|RNA Sequence|C0162327|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0]|AB|246:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+25061748|MMI|9.81|Disease|C0012634|[dsyn]|["Disease"-ab-1-"Disease"-noun-0]|AB|225:7|C23.550.288
+25061748|MMI|9.79|DNA|C0012854|[bacs,nnon]|["DNA"-ab-1-"DNA"-noun-0]|AB|278:3|D13.444.308
+25061748|MMI|6.65|Acids|C0001128|[chem]|["Acid"-ab-1-"Acid"-noun-0]|AB|241:4|D01.029
+25061748|MMI|6.63|Alkaloids|C0002062|[orch,phsu]|["Alkaloids"-ab-1-"Alkaloids"-noun-0]|AB|203:9|D03.132
+25061748|MMI|6.54|Proteins|C0033684|[aapp,bacs]|["Protein"-ab-1-"Protein"-noun-0]|AB|353:7|D12.776
+25061748|MMI|3.50|Lysergic acid diethylamide measurement|C0202406|[lbpr]|["Acid"-ab-1-"Acid"-noun-0]|AB|241:4|
+25061748|MMI|3.50|Sequence|C1519249|[ftcn]|["Sequence"-ab-1-"Sequence"-noun-0]|AB|246:8|
+25061748|MMI|3.48|Molecular|C1521991|[qlco]|["Molecular"-ab-1-"Molecular"-adj-0]|AB|266:9|
+24461780|MMI|839.47|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0,"Narcissus"-ti-1-"Narcissus"-noun-0]|TI;AB|137:9^253:9;69:9|B01.650.940.800.575.100.610.555
+24461780|MMI|629.18|bioformation|C0005572|[ftcn]|["biosynthesis"-ti-1-"biosynthesis"-noun-0]|TI|43:12|x.x.x.x.x.x
+24461780|MMI|321.57|Biological Evolution|C0015219|[genf]|["Evolution"-ab-1-"Evolution"-noun-0,"Evolution"-ti-1-"Evolution"-noun-0]|TI;AB|156:9;21:9|G05.355.044;G16.100.178
+24461780|MMI|216.92|Alkaloids|C0002062|[orch,phsu]|["Alkaloids"-ab-1-"Alkaloids"-noun-0,"Alkaloids"-ab-1-"alkaloids"-noun-0,"Alkaloid"-ti-1-"alkaloid"-adj-0]|TI;AB|180:9;102:9;34:8|D03.132
+24461780|MMI|214.36|Anabolism|C0220781|[biof]|["Biosynthesis"-ti-1-"biosynthesis"-noun-0]|TI|43:12|G03.495
+24461780|MMI|111.52|Genus|C1708235|[clas]|["Genus"-ti-1-"genus"-noun-0]|TI|63:5|
+24461780|MMI|110.66|Plant alkaloid|C0301258|[bacs,hops,orch]|["Alkaloid"-ti-1-"alkaloid"-adj-0]|TI|34:8|
+24461780|MMI|26.04|Phylogeny|C0031797|[idcn]|["Phylogeny"-ab-1-"Phylogeny"-noun-0]|AB|168:9^265:9|G05.697;G16.100.178.605;L01.100.697
+24461780|MMI|22.32|Amaryllidaceae|C0446223|[plnt]|["Amaryllidaceae"-ab-1-"Amaryllidaceae"-noun-0]|AB|87:14|B01.650.940.800.575.100.610
+24461780|MMI|12.96|analysis aspect|C1524024|[ftcn]|["analysis"-ab-1-"Analysis"-noun-0]|AB|297:8|x.x.x.x
+24461780|MMI|9.80|Chromatography|C0008550|[lbpr]|["Chromatography"-ab-1-"Chromatography"-noun-0]|AB|196:14|E05.196.181
+24461780|MMI|9.80|Spectrometry|C0436196|[lbpr]|["Spectrometry"-ab-1-"Spectrometry"-noun-0]|AB|216:12|E05.196.867
+24461780|MMI|6.65|Plants|C0032098|[plnt]|["Plants"-ab-1-"plants"-noun-0]|AB|147:6|B01.650
+24461780|MMI|6.65|Gases|C0017110|[chvs]|["Gas"-ab-1-"Gas"-noun-0]|AB|192:3|D01.362
+24461780|MMI|3.50|Molecular|C1521991|[qlco]|["Molecular"-ab-1-"Molecular"-noun-0]|AB|231:9|
+24461780|MMI|3.50|Structure|C0678594|[spco]|["Structure"-ab-1-"Structure"-noun-0]|AB|241:9|
+24461780|MMI|3.50|Analysis|C0936012|[resa]|["Analysis"-ab-1-"Analysis"-noun-0]|AB|297:8|
+24461780|MMI|3.50|Analysis of substances|C0002778|[lbpr]|["Analysis"-ab-1-"Analysis"-noun-0]|AB|297:8|
+24461780|MMI|3.50|Component (part)|C1705248|[cnce]|["Component"-ab-1-"Component"-noun-0]|AB|287:9|
+24461780|MMI|3.50|Component object|C0449432|[mnob]|["Component"-ab-1-"Component"-noun-0]|AB|287:9|
+24461780|MMI|3.50|Primary|C0205225|[qlco]|["Principal"-ab-1-"Principal"-noun-0]|AB|277:9|
+24461780|MMI|3.50|Teaching principal|C0401925|[prog]|["Principal"-ab-1-"Principal"-noun-0]|AB|277:9|
+24461780|MMI|3.50|Mass of body region|C0577573|[sosy]|["Mass"-ab-1-"Mass"-noun-0]|AB|211:4|
+24461780|MMI|3.50|Mass of body structure|C0577559|[fndg]|["Mass"-ab-1-"Mass"-noun-0]|AB|211:4|
+24461780|MMI|3.50|Mass, a measure of quantity of matter|C1306372|[qnco]|["*Mass"-ab-1-"Mass"-noun-0]|AB|211:4|
+24461780|MMI|3.50|Molecular Mass|C3152252|[qnco]|["Mass"-ab-1-"Mass"-noun-0]|AB|211:4|
+24461780|MMI|3.50|gastrointestinal gas|C0596601|[sosy]|["Gas"-ab-1-"Gas"-noun-0]|AB|192:3|
+25598189|MMI|839.08|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0,"Narcissus"-ab-1-"Narcissus"-noun-0,"Narcissus"-ti-1-"Narcissus"-noun-0]|TI;AB|246:9;427:9;81:9|B01.650.940.800.575.100.610.555
+25598189|MMI|736.63|Quail|C0034374|[bird]|["Quail"-ab-1-"quail"-noun-0,"Quail"-ti-1-"quail"-noun-0]|TI;AB|266:5;101:5|B01.050.150.900.248.350.650
+25598189|MMI|422.50|pretazettine|C0071956|[orch,phsu]|["pretazettine"-ti-1-"pretazettine"-noun-0]|TI|40:12|x.x.x.x
+25598189|MMI|218.42|Alkaloids|C0002062|[orch,phsu]|["Alkaloids"-ab-1-"Alkaloids"-noun-0,"Alkaloids"-ab-1-"Alkaloids"-noun-0,"Alkaloid"-ti-1-"alkaloid"-noun-0]|TI;AB|160:9;274:9^301:9;58:8|D03.132
+25598189|MMI|114.93|Plant alkaloid|C0301258|[bacs,hops,orch]|["Alkaloid"-ti-1-"alkaloid"-noun-0]|TI|58:8|
+25598189|MMI|113.81|Bed Status - Isolated|C1548221|[idcn]|["Isolated"-ti-1-"isolated"-verb-0]|TI|67:8|
+25598189|MMI|113.81|Isolated|C0205409|[ftcn]|["Isolated"-ti-1-"isolated"-verb-0]|TI|67:8|
+25598189|MMI|113.70|*Activity (kind of quantity)|C1561536|[idcn]|["*Activity"-ti-1-"activity"-noun-0]|TI|113:8|
+25598189|MMI|113.70|Active|C0205177|[ftcn]|["Activity"-ti-1-"activity"-noun-0]|TI|113:8|
+25598189|MMI|113.70|Activities|C0441655|[acty]|["Activity"-ti-1-"activity"-noun-0]|TI|113:8|
+25598189|MMI|113.70|Activity (animal life circumstance)|C3668946|[fndg]|["Activity"-ti-1-"activity"-noun-0]|TI|113:8|
+25598189|MMI|113.70|Percent Activity|C0439167|[qnco]|["% activity"-ti-1-"activity"-noun-0]|TI|113:8|
+25598189|MMI|113.11|Pharmacologic Substance|C1254351|[phsu]|["Agent"-ab-1-"Agents"-noun-0,"Drug"-ab-1-"Drug"-noun-0,"Drug"-ti-1-"drug"-adj-0]|TI;AB|328:6;368:4;130:4|
+25598189|MMI|112.57|Cancer Genus|C0998265|[euka]|["Cancer"-ab-1-"Cancer"-noun-0,"Cancer"-ti-1-"cancer"-noun-0]|TI;AB|217:6;145:6|
+25598189|MMI|112.57|Malignant Neoplasms|C0006826|[neop]|["Cancer"-ab-1-"Cancer"-noun-0,"Cancer"-ti-1-"cancer"-noun-0]|TI;AB|217:6;145:6|
+25598189|MMI|112.57|Pharmaceutical Preparations|C0013227|[phsu]|["Drug"-ab-1-"Drug"-noun-0,"Drug"-ti-1-"drug"-adj-0]|TI;AB|368:4;130:4|D26
+25598189|MMI|112.57|Primary malignant neoplasm|C1306459|[neop]|["Cancer"-ab-1-"Cancer"-noun-0,"Cancer"-ti-1-"cancer"-noun-0]|TI;AB|217:6;145:6|
+25598189|MMI|111.39|*Type - Kind of quantity|C1547052|[qnco]|["*Type"-ti-1-"type"-noun-0]|TI|53:4|
+25598189|MMI|111.39|New|C0205314|[tmco]|["New"-ti-1-"new"-adj-0]|TI|36:3|
+25598189|MMI|111.39|Type - attribute|C0332307|[qlco]|["Type"-ti-1-"type"-noun-0]|TI|53:4|
+25598189|MMI|110.49|Antimicrobial Resistance Result|C2827757|[lbtr]|["RESISTANT"-ti-1-"resistant"-adj-0]|TI|135:9|
+25598189|MMI|110.49|In addition to|C0332287|[qlco]|["With"-ti-1-"with"-prep-0]|TI|108:4|
+25598189|MMI|110.49|Resistant (qualifier value)|C0332325|[ftcn]|["Resistant"-ti-1-"resistant"-adj-0]|TI|135:9|
+25598189|MMI|110.49|With - dosing instruction fragment|C1705690|[inpr]|["With"-ti-1-"with"-prep-0]|TI|108:4|
+25598189|MMI|44.98|Amaryllidaceae|C0446223|[plnt]|["Amaryllidaceae"-ab-1-"Amaryllidaceae"-noun-0]|AB|172:14^286:14|B01.650.940.800.575.100.610
+25598189|MMI|28.71|Homo sapiens|C0086418|[humn]|["Humans"-ab-1-"Humans"-noun-0]|AB|396:6|B01.050.150.900.649.801.400.112.400.400
+25598189|MMI|12.85|Antineoplastic Agents|C0003392|[orch,phsu]|["Antineoplastic"-ab-1-"Antineoplastic"-adj-0]|AB|313:14|D27.505.954.248
+25598189|MMI|7.04|Cells|C0007634|[cell]|["Cell"-ab-1-"Cell"-noun-0,"Cells"-ab-1-"cells"-noun-0]|AB|349:4;224:5|A11
+25598189|MMI|7.00|Neoplasm|C0027651|[neop]|["Neoplasm"-ab-1-"Neoplasm"-noun-0,"Tumor"-ab-1-"Tumor"-noun-0]|AB|385:8;360:5|C04
+25598189|MMI|6.66|Plant Roots|C0242726|[plnt]|["Roots"-ab-1-"Roots"-noun-0]|AB|445:5|A18.400
+25598189|MMI|6.55|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0]|AB|439:5|B01.650
+25598189|MMI|3.50|Cell (compartment)|C1948049|[spco]|["Cell"-ab-1-"Cell"-noun-0]|AB|349:4|
+25598189|MMI|3.50|Cell Device Component|C1704653|[medd]|["Cell"-ab-1-"Cell"-noun-0]|AB|349:4|
+25598189|MMI|3.50|Cells [Chemical/Ingredient]|C3282337|[cell]|["Cells"-ab-1-"cells"-noun-0]|AB|224:5|
+25598189|MMI|3.50|Effect|C1280500|[qlco]|["effects"-ab-1-"effects"-noun-0]|AB|207:7|
+25598189|MMI|3.50|Entire cell|C1269647|[cell]|["Cell"-ab-1-"Cell"-noun-0]|AB|349:4|
+25598189|MMI|3.50|Line Specimen|C1550648|[sbst]|["Line"-ab-1-"Line"-noun-0]|AB|354:4|
+25598189|MMI|3.50|Line Unit of Length|C1552960|[qnco]|["Line"-ab-1-"Line"-noun-0]|AB|354:4|
+25598189|MMI|3.50|Linear|C0205132|[spco]|["Line"-ab-1-"Line"-noun-0]|AB|354:4|
+25598189|MMI|3.50|Molecular|C1521991|[qlco]|["Molecular"-ab-1-"Molecular"-noun-0]|AB|405:9|
+25598189|MMI|3.50|Resistance (Psychotherapeutic)|C0237834|[menp]|["Resistance"-ab-1-"Resistance"-noun-0]|AB|373:10|
+25598189|MMI|3.50|Resistance Process|C1514892|[phsf]|["Resistance"-ab-1-"Resistance"-noun-0]|AB|373:10|
+25598189|MMI|3.50|Structure|C0678594|[spco]|["Structure"-ab-1-"Structure"-noun-0]|AB|415:9|
+25598189|MMI|3.48|CDISC SEND Tumor Findings Results Terminology|C2981607|[inpr]|["NEOPLASM"-ab-1-"Neoplasm"-noun-0]|AB|385:8|
+25598189|MMI|3.48|Specimen Source Codes - tumor|C1578706|[inpr]|["Tumor"-ab-1-"Tumor"-noun-0]|AB|360:5|
+25598189|MMI|3.48|Tumor Mass|C3273930|[fndg]|["Tumor"-ab-1-"Tumor"-noun-0]|AB|360:5|
+25598189|MMI|3.48|Agent|C0450442|[chvf]|["Agent"-ab-1-"Agents"-noun-0]|AB|328:6|
+25598189|MMI|3.48|Protocol Agent|C1521826|[inpr]|["Agent"-ab-1-"Agents"-noun-0]|AB|328:6|
+24201208|MMI|424.70|analysis aspect|C1524024|[ftcn]|["analysis"-ti-1-"analysis"-noun-0]|TI|59:8|x.x.x.x
+24201208|MMI|113.59|Analysis|C0936012|[resa]|["Analysis"-ti-1-"analysis"-noun-0]|TI|59:8|
+24201208|MMI|113.59|Analysis of substances|C0002778|[lbpr]|["Analysis"-ti-1-"analysis"-noun-0]|TI|59:8|
+24201208|MMI|112.48|Phase|C0205390|[tmco]|["Phase"-ab-1-"Phase"-noun-0,"Phase"-ti-1-"phase"-noun-0]|TI;AB|207:5;37:5|
+24201208|MMI|112.48|Solid|C0205208|[qlco]|["Solid"-ab-1-"Solid"-noun-0,"Solid"-ti-1-"solid"-noun-0]|TI;AB|201:5;31:5|
+24201208|MMI|112.48|Solid Dose Form|C1378566|[bodm]|["Solid"-ab-1-"Solid"-noun-0,"Solid"-ti-1-"solid"-noun-0]|TI;AB|201:5;31:5|
+24201208|MMI|112.48|solid substance|C0302909|[sbst]|["Solid"-ab-1-"Solid"-noun-0,"Solid"-ti-1-"solid"-noun-0]|TI;AB|201:5;31:5|
+24201208|MMI|111.50|Narcissus tazetta|C0331674|[plnt]|["Narcissus tazetta"-ti-1-"Narcissus tazetta"-noun-0]|TI|94:17|
+24201208|MMI|110.91|Assay of volatiles|C0373746|[lbpr]|["Volatile"-ab-1-"Volatile"-adj-0,"Volatile"-ti-1-"volatile"-adj-0]|TI;AB|231:8;71:8|
+24201208|MMI|110.91|Volatile (qualifier value)|C1963547|[qlco]|["Volatile"-ab-1-"Volatile"-adj-0,"Volatile"-ti-1-"volatile"-adj-0]|TI;AB|231:8;71:8|
+24201208|MMI|110.38|Component object|C0449432|[mnob]|["Components"-ti-1-"components"-noun-0]|TI|80:10|
+24201208|MMI|25.56|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0]|AB|189:9|B01.650.940.800.575.100.610.555
+24201208|MMI|12.94|Alkenes|C0002068|[orch]|["Alkenes"-ab-1-"Alkenes"-noun-0]|AB|140:7|D02.455.326.271
+24201208|MMI|9.80|Chromatography|C0008550|[lbpr]|["Chromatography"-ab-1-"Chromatography"-noun-0]|AB|154:14|E05.196.181
+24201208|MMI|9.80|Spectrometry|C0436196|[lbpr]|["Spectrometry"-ab-1-"Spectrometry"-noun-0]|AB|174:12|E05.196.867
+24201208|MMI|6.65|Gases|C0017110|[chvs]|["Gas"-ab-1-"Gas"-noun-0]|AB|150:3|D01.362
+24201208|MMI|3.50|Organic|C0747055|[qlco]|["Organic"-ab-1-"Organic"-noun-0]|AB|240:7|
+24201208|MMI|3.50|Mass of body region|C0577573|[sosy]|["Mass"-ab-1-"Mass"-noun-0]|AB|169:4|
+24201208|MMI|3.50|Mass of body structure|C0577559|[fndg]|["Mass"-ab-1-"Mass"-noun-0]|AB|169:4|
+24201208|MMI|3.50|Mass, a measure of quantity of matter|C1306372|[qnco]|["*Mass"-ab-1-"Mass"-noun-0]|AB|169:4|
+24201208|MMI|3.50|Molecular Mass|C3152252|[qnco]|["Mass"-ab-1-"Mass"-noun-0]|AB|169:4|
+24201208|MMI|3.50|gastrointestinal gas|C0596601|[sosy]|["Gas"-ab-1-"Gas"-noun-0]|AB|150:3|
+24201208|MMI|3.47|Compound|C0205198|[qlco]|["Compound"-ab-1-"Compounds"-noun-0]|AB|248:9|
+24201208|MMI|3.47|Compound (substance)|C1706082|[chem]|["Compound"-ab-1-"Compounds"-noun-0]|AB|248:9|
+23833196|MMI|527.39|Genes|C0017337|[gngm]|["Gene"-ab-1-"Gene"-noun-0,"Genes"-ti-1-"genes"-noun-0]|TI;AB|249:4;83:5|G05.360.340.024.340
+23833196|MMI|115.11|Transition (action)|C2700061|[acty]|["Transition"-ti-1-"transition"-noun-0]|TI|124:10|
+23833196|MMI|115.11|Transition Mutation|C0599156|[comd]|["Transition"-ti-1-"transition"-noun-0]|TI|124:10|
+23833196|MMI|114.42|Does turn (finding)|C0541749|[fndg]|["turned"-ti-1-"Turned"-verb-0]|TI|21:6|
+23833196|MMI|114.42|Heat (physical force)|C0018837|[npop]|["Heat"-ti-1-"heat"-noun-0]|TI|34:4|
+23833196|MMI|112.63|Expression procedure|C0185117|[topp]|["Expression"-ab-1-"Expression"-noun-0,"Expression"-ti-1-"expression"-noun-0]|TI;AB|254:10;53:10|
+23833196|MMI|110.90|Narcissus tazetta|C0331674|[plnt]|["Narcissus tazetta"-ti-1-"Narcissus tazetta"-noun-0]|TI|92:17|
+23833196|MMI|110.66|Different|C1705242|[qlco]|["Differential"-ti-1-"differential"-adj-0]|TI|40:12|
+23833196|MMI|110.66|Differential quality|C0443199|[qlco]|["Differential"-ti-1-"differential"-adj-0]|TI|40:12|
+23833196|MMI|110.66|Make - Instruction Imperative|C1881534|[ftcn]|["ft."-ti-1-"FT"-noun-0]|TI|67:2|
+23833196|MMI|110.56|Like|C0870814|[menp]|["Like"-ti-1-"like"-prep-0]|TI|78:4|
+23833196|MMI|51.42|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0]|AB|199:9^309:9|B01.650.940.800.575.100.610.555
+23833196|MMI|38.75|Temperature|C0039476|[qnco]|["*Temperature"-ab-1-"Temperature"-noun-0,"*Temperature"-ab-1-"temperature"-noun-0]|AB|366:11;151:11|G01.906.595;G16.500.275.063.725.710;G16.500.750.775.710;N06.230.150.450;N06.230.300.100.725.710
+23833196|MMI|32.40|Body Temperature|C0005903|[orga]|["temperature"-ab-1-"Temperature"-noun-0,"temperature"-ab-1-"temperature"-noun-0]|AB|366:11;151:11|E01.370.600.875.374;G07.110
+23833196|MMI|13.25|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0]|AB|277:5^321:5|B01.650
+23833196|MMI|12.96|Crossbreeding|C0020202|[genf]|["Hybridisation"-ab-1-"Hybridization"-noun-0]|AB|293:13|E05.820.150.390;G05.355.090.390
+23833196|MMI|12.96|Nucleic acid hybridization procedure|C1300517|[lbpr]|["Hybridization"-ab-1-"Hybridization"-noun-0]|AB|293:13|E05.393.661;G02.111.087.620;G02.149.115.620
+23833196|MMI|12.94|Flowers|C0330090|[plnt]|["Flowers"-ab-1-"Flowers"-noun-0]|AB|239:7|A18.024.249.500
+23833196|MMI|9.81|Regulation|C0851285|[gora]|["Regulation"-ab-1-"Regulation"-noun-0]|AB|265:10|I01.880.604;N03.706
+23833196|MMI|9.74|Plant Leaves|C0242724|[plnt]|["Leaf"-ab-1-"LEAFY"-adj-0]|AB|185:5|A18.024.812
+23833196|MMI|7.02|flowering|C1820370|[orgf]|["flowering"-ab-1-"FLOWERING"-noun-0,"flowering"-ab-1-"flowering"-verb-0]|AB|165:9;219:9|
+23833196|MMI|6.66|Proteins|C0033684|[aapp,bacs]|["Proteins"-ab-1-"Proteins"-noun-0]|AB|327:8|D12.776
+23833196|MMI|3.50|Ambient|C1879688|[qlco]|["Ambient"-ab-1-"Ambient"-noun-0]|AB|143:7|
+23833196|MMI|3.50|Chain device|C0337112|[mnob]|["Chain"-ab-1-"Chain"-noun-0]|AB|349:5|
+23833196|MMI|3.50|In situ|C0444498|[spco]|["In situ"-ab-1-"In Situ"-noun-0]|AB|285:7|
+23833196|MMI|3.50|Locus|C1708726|[gngm]|["Locus"-ab-1-"LOCUS"-noun-0]|AB|175:5|
+23833196|MMI|3.50|Polymerase|C1335439|[aapp,enzy]|["Polymerase"-ab-1-"Polymerase"-noun-0]|AB|338:10|
+23833196|MMI|3.50|Reaction|C0443286|[ftcn]|["Reaction"-ab-1-"Reaction"-noun-0]|AB|355:8|
+23833196|MMI|3.50|Reaction:Finding:Point in time:^Patient:Nominal|C1114821|[clna]|["Reaction"-ab-1-"Reaction"-noun-0]|AB|355:8|
+23833196|MMI|3.50|Regulation of biological process|C1327622|[biof]|["Regulation"-ab-1-"Regulation"-noun-0]|AB|265:10|
+23833196|MMI|3.50|chain of objects|C1524075|[idcn]|["Chain"-ab-1-"Chain"-noun-0]|AB|349:5|
+23833196|MMI|3.48|Control function|C2587213|[ftcn]|["Control"-ab-1-"control"-noun-0]|AB|229:7|
+23833196|MMI|3.48|Scientific Control|C1882979|[cnce]|["Control"-ab-1-"control"-noun-0]|AB|229:7|
+23833196|MMI|3.48|True Control Status|C3274648|[qlco]|["Control"-ab-1-"control"-noun-0]|AB|229:7|
+23833196|MMI|3.48|control aspects|C0243148|[qlco]|["control"-ab-1-"control"-noun-0]|AB|229:7|
+23833196|MMI|3.48|control substance|C1550141|[sbst]|["Control"-ab-1-"control"-noun-0]|AB|229:7|
+23833196|MMI|3.43|Concept Generality - Leaf|C1552865|[idcn]|["Leaf"-ab-1-"LEAFY"-adj-0]|AB|185:5|
+22443123|MMI|836.31|Narcissus|C0331672|[plnt]|["Daffodil"-ti-1-"daffodil"-noun-0]|TI|62:8|B01.650.940.800.575.100.610.555
+22443123|MMI|424.77|Self|C0036588|[idcn]|["Self"-ti-1-"selfing"-noun-0]|TI|106:7|F01.752.747.189;F02.739.794.206
+22443123|MMI|317.83|Biological Evolution|C0015219|[genf]|["Evolution"-ti-1-"evolution"-noun-0]|TI|142:9|G05.355.044;G16.100.178
+22443123|MMI|113.65|RoleCode <Self>|C3244295|[inpr]|["Self"-ti-1-"selfing"-noun-0]|TI|106:7|
+22443123|MMI|113.65|subscriber - self|C1551994|[inpr]|["self"-ti-1-"selfing"-noun-0]|TI|106:7|
+22443123|MMI|113.63|paradigm|C0681797|[resa]|["paradigm"-ti-1-"paradigm"-noun-0]|TI|126:8|
+22443123|MMI|113.59|Diversity|C1880371|[qlco]|["Diversity"-ti-1-"diversity"-noun-0]|TI|40:9|
+22443123|MMI|112.25|Mixed (qualifier value)|C0205430|[ftcn]|["Mixed"-ab-1-"mixed"-verb-0,"Mixed"-ti-1-"mixed"-adj-0]|TI;AB|243:5;155:5|
+22443123|MMI|112.25|Mixed Cell Morphology|C3160715|[fndg]|["Mixed"-ab-1-"mixed"-verb-0,"Mixed"-ti-1-"mixed"-adj-0]|TI;AB|243:5;155:5|
+22443123|MMI|110.96|conjugation with cellular fusion|C1748461|[celf]|["mating"-ab-1-"mating"-adj-0,"mating"-ti-1-"mating"-noun-0]|TI;AB|249:6;161:6|
+22443123|MMI|110.96|unidirectional conjugation|C1160186|[celf]|["mating"-ab-1-"mating"-adj-0,"mating"-ti-1-"mating"-noun-0]|TI;AB|249:6;161:6|
+22443123|MMI|110.76|mating|C1260875|[orgf]|["mating"-ab-1-"mating"-adj-0,"Mate"-ti-1-"mate"-noun-0,"mating"-ti-1-"mating"-noun-0]|TI;AB|249:6;35:4;161:6|
+22443123|MMI|110.66|Narcissus longispathus|C1018306|[plnt]|["Narcissus longispathus"-ti-1-"Narcissus longispathus"-noun-0]|TI|71:22|
+22443123|MMI|110.38|Narcissus pseudonarcissus|C0331673|[plnt]|["Daffodil"-ti-1-"daffodil"-noun-0]|TI|62:8|
+22443123|MMI|110.38|Partner in relationship|C0682323|[famg]|["mate"-ti-1-"mate"-noun-0]|TI|35:4|
+22443123|MMI|110.38|Wild|C0445392|[inpr]|["Wild"-ti-1-"wild"-adj-0]|TI|57:4|
+22443123|MMI|32.42|Paternity testing|C0030655|[diap]|["Paternity"-ab-1-"paternity"-noun-0]|AB|231:9^274:9|I01.198.780.937.766
+22443123|MMI|22.41|Amaryllidaceae|C0446223|[plnt]|["Amaryllidaceae"-ab-1-"Amaryllidaceae"-noun-0]|AB|176:14|B01.650.940.800.575.100.610
+22443123|MMI|12.85|Social stigmata|C0277787|[fndg]|["Stigma"-ab-1-"stigma"-noun-0]|AB|200:6|F01.145.813.840
+22443123|MMI|7.04|Role of father|C0680076|[socb]|["paternity"-ab-1-"paternity"-noun-0]|AB|231:9^274:9|
+22443123|MMI|3.50|Device Component System|C1704459|[medd]|["System"-ab-1-"system"-noun-0]|AB|256:6|
+22443123|MMI|3.50|Entity Code - System|C1553451|[mnob]|["System"-ab-1-"system"-noun-0]|AB|256:6|
+22443123|MMI|3.50|Length|C1444754|[qnco]|["Length"-ab-1-"length"-noun-0]|AB|311:6|
+22443123|MMI|3.50|Length of Trial|C1706316|[resa]|["LENGTH"-ab-1-"length"-noun-0]|AB|311:6|
+22443123|MMI|3.50|System|C0449913|[ftcn]|["System"-ab-1-"system"-noun-0]|AB|256:6|
+22443123|MMI|3.50|Diastasis|C0036679|[patf]|["Separation"-ab-1-"separation"-noun-0]|AB|207:10|
+22443123|MMI|3.50|Marital separation|C0237868|[socb]|["Separation"-ab-1-"separation"-noun-0]|AB|207:10|
+22443123|MMI|3.50|Medical Device Material Separation|C1881713|[phpr]|["SEPARATION"-ab-1-"separation"-noun-0]|AB|207:10|
+22443123|MMI|3.48|Rate|C1521828|[qnco]|["Rate"-ab-1-"rate"-noun-0]|AB|298:4|
+22443123|MMI|3.48|Rating (action)|C0871208|[acty]|["Rate"-ab-1-"rate"-noun-0]|AB|298:4|
+22443123|MMI|3.39|Correlation|C1707520|[qlco]|["Correlated"-ab-1-"correlated"-adj-0]|AB|220:10|
+22443123|MMI|3.39|Numerous|C0439064|[qnco]|["Multiple"-ab-1-"multiple"-adj-0]|AB|265:8|
+22443123|MMI|3.39|Style|C0489654|[idcn]|["Style"-ab-1-"style"-noun-0]|AB|305:5|
+22443123|MMI|3.39|Anther|C2698124|[plnt]|["Anther"-ab-1-"anther"-noun-0]|AB|193:6|
+24385160|MMI|837.53|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0,"Narcissus"-ti-1-"narcissus"-noun-0]|TI;AB|255:9;67:9^114:9|B01.650.940.800.575.100.610.555
+24385160|MMI|628.85|Seasons|C0036497|[tmco]|["Season"-ti-1-"season"-noun-0]|TI|82:6|G01.910.645.661;G16.500.275.071.590;N06.230.300.100.250.525
+24385160|MMI|425.66|analysis aspect|C1524024|[ftcn]|["analysis"-ab-1-"Analysis"-noun-0,"analysis"-ab-1-"Analysis"-noun-0,"analysis"-ti-1-"analysis"-noun-0]|TI;AB|202:8;313:8;37:8|x.x.x.x
+24385160|MMI|319.61|Genome|C0017428|[gngm]|["Genome"-ab-1-"Genome"-noun-0,"Genome"-ti-1-"genome"-noun-0]|TI;AB|213:6;30:6|G05.360.340
+24385160|MMI|115.11|Species|C1705920|[cnce]|["Species"-ti-1-"species"-noun-0]|TI|151:7|
+24385160|MMI|114.54|Analysis|C0936012|[resa]|["Analysis"-ab-1-"Analysis"-noun-0,"Analysis"-ab-1-"Analysis"-noun-0,"Analysis"-ti-1-"analysis"-noun-0]|TI;AB|202:8;313:8;37:8|
+24385160|MMI|114.54|Analysis of substances|C0002778|[lbpr]|["Analysis"-ab-1-"Analysis"-noun-0,"Analysis"-ab-1-"Analysis"-noun-0,"Analysis"-ti-1-"analysis"-noun-0]|TI;AB|202:8;313:8;37:8|
+24385160|MMI|114.42|One|C0205447|[qnco]|["One"-ti-1-"one"-noun-0]|TI|162:3|
+24385160|MMI|113.70|Two|C0205448|[qnco]|["Two"-ti-1-"two"-noun-0]|TI|107:3|
+24385160|MMI|112.29|AS virus|C0319157|[virs]|["virus"-ti-1-"virus"-noun-0]|TI|97:5^138:5|
+24385160|MMI|112.29|Virus|C0042776|[virs]|["Virus"-ti-1-"virus"-noun-0]|TI|97:5^138:5|B04
+24385160|MMI|112.29|Yellow color|C0221205|[qlco]|["Yellow"-ti-1-"yellow"-noun-0,"Yellow"-ti-1-"yellows"-verb-0]|TI|124:6;89:7|
+24385160|MMI|112.20|Genome - anatomical entity|C2338314|[cnce]|["Genome"-ab-1-"Genome"-noun-0,"Genome"-ti-1-"genome"-noun-0]|TI;AB|213:6;30:6|
+24385160|MMI|110.91|Three|C0205449|[qnco]|["Three"-ti-1-"three"-word_numeral-0]|TI|49:5^145:5|
+24385160|MMI|110.33|Compleat Liquid Nutrition|C0725685|[food]|["COMPLEAT"-ti-1-"Complete"-adj-0]|TI|21:8|
+24385160|MMI|110.33|Complete|C0205197|[qlco]|["Complete"-ti-1-"Complete"-adj-0]|TI|21:8|
+24385160|MMI|110.33|Late|C0205087|[tmco]|["Late"-ti-1-"late"-adj-0]|TI|77:4|
+24385160|MMI|110.33|isolate - substance|C0370215|[sbst]|["isolates"-ti-1-"isolates"-noun-0]|TI|55:8|
+24385160|MMI|109.30|Striped|C1532935|[qlco]|["Striped"-ti-1-"stripe"-noun-0]|TI|131:6|
+24385160|MMI|32.42|Base Sequence|C0004793|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0]|AB|239:8^304:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+24385160|MMI|32.42|DNA Sequence|C0162326|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0]|AB|239:8^304:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+24385160|MMI|32.42|RNA Sequence|C0162327|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0]|AB|239:8^304:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+24385160|MMI|12.94|Australia|C0004340|[geoa]|["Australia"-ab-1-"Australia"-noun-0]|AB|174:9|Z01.338;Z01.639.100;Z01.678.100.373
+24385160|MMI|12.94|China|C0008115|[geoa]|["China"-ab-1-"China"-noun-0]|AB|186:5|Z01.252.474.164
+24385160|MMI|12.94|Phylogeny|C0031797|[idcn]|["Phylogeny"-ab-1-"Phylogeny"-noun-0]|AB|267:9|G05.697;G16.100.178.605;L01.100.697
+24385160|MMI|12.94|Potyvirus|C0206273|[virs]|["Potyvirus"-ab-1-"Potyvirus"-noun-0]|AB|279:9|B04.715.464.600;B04.715.635.600;B04.820.464.600;B04.820.590.600
+24385160|MMI|9.79|DNA|C0012854|[bacs,nnon]|["DNA"-ab-1-"DNA"-noun-0]|AB|323:3|D13.444.308
+24385160|MMI|9.79|RNA|C0035668|[nnon]|["RNA"-ab-1-"RNA"-noun-0]|AB|291:3|D13.444.735
+24385160|MMI|7.04|Sequence|C1519249|[ftcn]|["Sequence"-ab-1-"Sequence"-noun-0]|AB|239:8^304:8|
+24385160|MMI|7.00|Viral|C0521026|[ftcn]|["Viral"-ab-1-"Viral"-adj-0]|AB|221:5^296:5|
+24385160|MMI|3.50|Cluster|C1704332|[qnco]|["Cluster"-ab-1-"Cluster"-noun-0]|AB|194:7|
+24385160|MMI|3.50|entry - cluster|C1555715|[idcn]|["Cluster"-ab-1-"Cluster"-noun-0]|AB|194:7|
+24385160|MMI|3.50|Data|C1511726|[idcn]|["Data"-ab-1-"Data"-noun-0]|AB|248:4|
+24385160|MMI|3.50|Data call receiving device|C3245479|[medd]|["data"-ab-1-"Data"-noun-0]|AB|248:4|
+24385160|MMI|3.50|Molecular|C1521991|[qlco]|["Molecular"-ab-1-"Molecular"-noun-0]|AB|229:9|
+25233595|MMI|838.80|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0,"Narcissus"-ti-1-"Narcissus"-noun-0]|TI;AB|185:9;83:9|B01.650.940.800.575.100.610.555
+25233595|MMI|322.52|biology (field)|C0005532|[bmod]|["Biological"-ti-1-"biological"-noun-0]|TI|125:10|H01.158.273
+25233595|MMI|215.99|Alkaloids|C0002062|[orch,phsu]|["Alkaloids"-ab-1-"Alkaloids"-noun-0,"Alkaloid"-ti-1-"alkaloid"-noun-0]|TI;AB|153:9;55:8|D03.132
+25233595|MMI|115.11|*Activity (kind of quantity)|C1561536|[idcn]|["*Activity"-ti-1-"activity"-noun-0]|TI|136:8|
+25233595|MMI|115.11|Active|C0205177|[ftcn]|["Activity"-ti-1-"activity"-noun-0]|TI|136:8|
+25233595|MMI|115.11|Activities|C0441655|[acty]|["Activity"-ti-1-"activity"-noun-0]|TI|136:8|
+25233595|MMI|115.11|Activity (animal life circumstance)|C3668946|[fndg]|["Activity"-ti-1-"activity"-noun-0]|TI|136:8|
+25233595|MMI|115.11|Percent Activity|C0439167|[qnco]|["% activity"-ti-1-"activity"-noun-0]|TI|136:8|
+25233595|MMI|115.11|Species|C1705920|[cnce]|["Species"-ti-1-"species"-noun-0]|TI|93:7|
+25233595|MMI|115.11|biological|C0205460|[qlco]|["biological"-ti-1-"biological"-noun-0]|TI|125:10|
+25233595|MMI|113.70|Act Class - Attestable unit|C1555710|[idcn]|["composition"-ti-1-"composition"-noun-0]|TI|30:11|
+25233595|MMI|113.70|Composition|C0486616|[clna]|["Composition"-ti-1-"composition"-noun-0]|TI|30:11|
+25233595|MMI|113.65|Assortment|C2346866|[cnce]|["Variety"-ti-1-"varieties"-noun-0]|TI|105:9|
+25233595|MMI|113.65|Variety (taxon)|C1883525|[cnce]|["Variety"-ti-1-"varieties"-noun-0]|TI|105:9|
+25233595|MMI|111.91|Extract (substance)|C2828366|[sbst]|["Extract"-ab-1-"Extracts"-noun-0,"Extract"-ti-1-"extracts"-noun-0]|TI;AB|203:8;64:8|
+25233595|MMI|110.49|Chemical or Textual Reference to Actual Test or Parameter|C3272558|[inpr]|["Chemical"-ti-1-"Chemical"-adj-0]|TI|21:8|
+25233595|MMI|110.49|Chemicals|C0220806|[chem]|["Chemical"-ti-1-"Chemical"-adj-0]|TI|21:8|
+25233595|MMI|110.49|Plant alkaloid|C0301258|[bacs,hops,orch]|["Alkaloid"-ti-1-"alkaloid"-noun-0]|TI|55:8|
+25233595|MMI|16.12|Endopeptidases|C0030946|[aapp,enzy,phsu]|["Endopeptidases"-ab-1-"Endopeptidases"-noun-0]|AB|221:14|D08.811.277.656.300
+25233595|MMI|12.85|Serine|C0036720|[aapp,bacs,phsu]|["Serine"-ab-1-"Serine"-noun-0]|AB|214:6|D12.125.154.800;D12.125.837
+25233595|MMI|6.66|Enzymes|C0014442|[enzy,orch]|["Enzyme"-ab-1-"Enzyme"-noun-0]|AB|165:6|D08.811
+25233595|MMI|6.55|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0]|AB|197:5|B01.650
+25233595|MMI|3.50|inhibitors|C0243077|[chvf]|["inhibitors"-ab-1-"Inhibitors"-noun-0]|AB|172:10|
+25002703|MMI|838.88|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0,"Daffodils"-ti-1-"daffodils"-noun-0,"Narcissus"-ti-1-"Narcissus"-noun-0]|TI;AB|329:9;63:9;74:9|B01.650.940.800.575.100.610.555
+25002703|MMI|736.64|Amaryllidaceae|C0446223|[plnt]|["Amaryllidaceae"-ti-1-"Amaryllidaceae"-noun-0]|TI|85:14|B01.650.940.800.575.100.610
+25002703|MMI|113.70|DNA Integration|C1158478|[genf]|["Integration"-ti-1-"integration"-noun-0]|TI|32:11|
+25002703|MMI|113.70|Integration (data processing)|C1705422|[mcha]|["Integration"-ti-1-"integration"-noun-0]|TI|32:11|
+25002703|MMI|111.52|Different|C1705242|[qlco]|["Different"-ti-1-"different"-adj-0]|TI|106:9|
+25002703|MMI|110.99|Style|C0489654|[idcn]|["Style"-ab-1-"style"-noun-0,"Style"-ti-1-"style"-noun-0]|TI;AB|237:5;47:5|
+25002703|MMI|110.49|Dimorphic|C0205220|[spco]|["Dimorphic"-ti-1-"dimorphic"-adj-0]|TI|53:9|
+25002703|MMI|110.49|Narcissus pseudonarcissus|C0331673|[plnt]|["Daffodils"-ti-1-"daffodils"-noun-0]|TI|63:9|
+25002703|MMI|29.87|Selection, Genetic|C0036576|[genf]|["selection"-ab-1-"Selection"-noun-0,"selection"-ab-1-"selection"-noun-0,"selection"-ab-1-"selection"-noun-0]|AB|367:9;225:9;180:9|G05.355.800
+25002703|MMI|16.12|Specificity|C0037791|[qnco]|["Specificity"-ab-1-"Specificity"-noun-0]|AB|396:11|E05.318.740.872;E05.318.780.800;G17.800;N05.715.360.750.725;N05.715.360.780.700;N06.850.520.445.800;N06.850.520.830.872
+25002703|MMI|16.10|Acclimatization|C0000934|[orgf]|["adaptation"-ab-1-"adaptation"-noun-0]|AB|136:10|G07.700.062.133;G16.100.057.500.133
+25002703|MMI|16.10|Insecta|C0021585|[euka]|["Insects"-ab-1-"Insects"-noun-0]|AB|319:7|B01.050.500.131.617
+25002703|MMI|16.10|Pollination|C1522786|[orgf]|["Pollination"-ab-1-"Pollination"-noun-0]|AB|353:11|G08.686.785.760.743;G15.744.800
+25002703|MMI|12.94|Flowers|C0330090|[plnt]|["Flowers"-ab-1-"Flowers"-noun-0]|AB|289:7|A18.024.249.500
+25002703|MMI|12.93|analysis aspect|C1524024|[ftcn]|["analysis"-ab-1-"Analysis"-noun-0]|AB|256:8|x.x.x.x
+25002703|MMI|10.53|Genetic|C0314603|[ftcn]|["Genetic"-ab-1-"Genetic"-adj-0,"Genetic"-ab-1-"genetic"-noun-0]|AB|299:7^378:7;149:7|
+25002703|MMI|10.53|gene therapy|C0017296|[topp]|["GENETIC"-ab-1-"Genetic"-adj-0,"GENETIC"-ab-1-"genetic"-noun-0]|AB|299:7^378:7;149:7|
+25002703|MMI|6.63|Animals|C0003062|[anim]|["Animals"-ab-1-"Animals"-noun-0]|AB|279:7|B01.050
+25002703|MMI|6.63|Phenotype|C0031437|[orga]|["Phenotype"-ab-1-"Phenotype"-noun-0]|AB|341:9|G05.695
+25002703|MMI|3.50|Diagnostic Specificity|C1511884|[qnco]|["Specificity"-ab-1-"Specificity"-noun-0]|AB|396:11|
+25002703|MMI|3.50|Diversity|C1880371|[qlco]|["Diversity"-ab-1-"diversity"-noun-0]|AB|157:9|
+25002703|MMI|3.50|Species|C1705920|[cnce]|["Species"-ab-1-"Species"-noun-0]|AB|388:7|
+25002703|MMI|3.50|Variant|C0205419|[qlco]|["Variation"-ab-1-"Variation"-noun-0]|AB|307:9|
+25002703|MMI|3.50|sexual dimorphism|C0598095|[ortf]|["dimorphism"-ab-1-"dimorphism"-noun-0]|AB|243:10|
+25002703|MMI|3.48|Adaptation|C0392673|[biof]|["Adaptation"-ab-1-"adaptation"-noun-0]|AB|136:10|
+25002703|MMI|3.48|Phenotype determination|C1285572|[lbpr]|["Phenotype"-ab-1-"Phenotype"-noun-0]|AB|341:9|
+25002703|MMI|3.48|Plasticity|C0678558|[npop]|["Plasticity"-ab-1-"plasticity"-noun-0]|AB|192:10|
+25002703|MMI|3.47|Analysis|C0936012|[resa]|["Analysis"-ab-1-"Analysis"-noun-0]|AB|256:8|
+25002703|MMI|3.47|Analysis of substances|C0002778|[lbpr]|["Analysis"-ab-1-"Analysis"-noun-0]|AB|256:8|
+25002703|MMI|3.39|Mediate|C0086597|[socb]|["mediated"-ab-1-"mediated"-adj-0]|AB|216:8|
+25002703|MMI|3.39|Mediator brand of benfluorex hydrochloride|C0127400|[orch,phsu]|["Mediated"-ab-1-"mediated"-adj-0]|AB|216:8|
+25002703|MMI|3.37|Sample Variance|C2348152|[qnco]|["Variance"-ab-1-"Variance"-noun-0]|AB|268:8|
+25002703|MMI|3.37|Variance|C1711260|[qlco]|["Variance"-ab-1-"Variance"-noun-0]|AB|268:8|
+23303875|MMI|528.36|Genes|C0017337|[gngm]|["Gene"-ab-1-"Gene"-noun-0,"Genes"-ab-1-"Genes"-noun-0,"Gene"-ti-1-"gene"-noun-0]|TI;AB|237:4;273:5;34:4|G05.360.340.024.340
+23303875|MMI|425.53|Play|C0032214|[dora]|["Play"-ti-1-"play"-verb-0]|TI|43:4|I03.450.642.693
+23303875|MMI|424.92|Social Role|C0035820|[socb]|["Role"-ti-1-"role"-noun-0]|TI|50:4|F01.829.316.616
+23303875|MMI|423.44|Flowers|C0330090|[plnt]|["Flowers"-ab-1-"Flowers"-noun-0,"Flower"-ti-1-"flower"-noun-0]|TI;AB|227:7;58:6|A18.024.249.500
+23303875|MMI|114.42|Does play|C0600138|[fndg]|["play"-ti-1-"play"-verb-0]|TI|43:4|
+23303875|MMI|114.42|Make - Instruction Imperative|C1881534|[ftcn]|["ft."-ti-1-"FT"-noun-0]|TI|21:2|
+23303875|MMI|113.92|Heat (physical force)|C0018837|[npop]|["Heat"-ti-1-"heat"-noun-0]|TI|87:4|
+23303875|MMI|113.92|Induce (action)|C0205263|[ftcn]|["Induced"-ti-1-"induced"-verb-0]|TI|76:7|
+23303875|MMI|113.81|Generic Role|C1705810|[cnce]|["Role"-ti-1-"role"-noun-0]|TI|50:4|
+23303875|MMI|111.52|Narcissus tazetta|C0331674|[plnt]|["Narcissus tazetta"-ti-1-"Narcissus tazetta"-noun-0]|TI|108:17|
+23303875|MMI|110.56|CACFD1 gene|C1413035|[gngm]|["FLOWER"-ti-1-"flower"-noun-0]|TI|58:6|
+23303875|MMI|110.56|Transition (action)|C2700061|[acty]|["Transition"-ti-1-"transition"-noun-0]|TI|65:10|
+23303875|MMI|110.56|Transition Mutation|C0599156|[comd]|["Transition"-ti-1-"transition"-noun-0]|TI|65:10|
+23303875|MMI|48.99|Base Sequence|C0004793|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0]|AB|160:8^436:8;360:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+23303875|MMI|48.99|DNA Sequence|C0162326|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0]|AB|160:8^436:8;360:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+23303875|MMI|48.99|RNA Sequence|C0162327|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0]|AB|160:8^436:8;360:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+23303875|MMI|27.25|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plant"-ab-1-"Plant"-noun-0,"Plants"-ab-1-"Plants"-noun-0]|AB|265:5^388:5;280:5;405:6|B01.650
+23303875|MMI|25.56|Arabidopsis|C0162741|[plnt]|["Arabidopsis"-ab-1-"Arabidopsis"-noun-0]|AB|171:11|B01.650.940.800.575.100.157.100
+23303875|MMI|25.56|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0]|AB|376:9|B01.650.940.800.575.100.610.555
+23303875|MMI|22.32|Hot Temperature|C2350229|[npop]|["Hot"-ab-1-"Hot"-adj-0]|AB|288:3|G01.906.595.543;G16.500.275.063.725.710.380;G16.500.750.775.710.380;N06.230.300.100.725.232;N06.230.300.100.725.710.380
+23303875|MMI|19.27|Temperature|C0039476|[qnco]|["*Temperature"-ab-1-"Temperature"-noun-0]|AB|292:11|G01.906.595;G16.500.275.063.725.710;G16.500.750.775.710;N06.230.150.450;N06.230.300.100.725.710
+23303875|MMI|16.12|Body Temperature|C0005903|[orga]|["temperature"-ab-1-"Temperature"-noun-0]|AB|292:11|E01.370.600.875.374;G07.110
+23303875|MMI|16.12|Specificity|C0037791|[qnco]|["Specificity"-ab-1-"Specificity"-noun-0]|AB|465:11|E05.318.740.872;E05.318.780.800;G17.800;N05.715.360.750.725;N05.715.360.780.700;N06.850.520.445.800;N06.850.520.830.872
+23303875|MMI|12.94|Electrons|C0013852|[qnco]|["Electron"-ab-1-"Electron"-noun-0]|AB|329:8|G01.249.335;G01.358.500.750
+23303875|MMI|12.94|Meristem|C0242728|[plnt]|["Meristem"-ab-1-"Meristem"-noun-0]|AB|306:8|A18.024.875.875;A18.024.937.500;A18.400.500
+23303875|MMI|12.94|Microscopy|C0026018|[lbpr]|["Microscopy"-ab-1-"Microscopy"-noun-0]|AB|317:10|E01.370.350.515;E05.595;H01.671.617.562
+23303875|MMI|12.94|Radionuclide Imaging|C0034606|[hlca]|["Scanning"-ab-1-"Scanning"-verb-0]|AB|339:8|E01.370.350.710;E01.370.384.730
+23303875|MMI|10.54|Sequence|C1519249|[ftcn]|["Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0]|AB|160:8^436:8;360:8|
+23303875|MMI|9.81|Regulation|C0851285|[gora]|["Regulation"-ab-1-"Regulation"-noun-0]|AB|253:10|I01.880.604;N03.706
+23303875|MMI|9.79|Cloning|C0009015|[resa]|["Cloning"-ab-1-"Cloning"-verb-0]|AB|185:7|E05.393.240;E05.820.180
+23303875|MMI|9.79|DNA|C0012854|[bacs,nnon]|["DNA"-ab-1-"DNA"-noun-0]|AB|206:3|D13.444.308
+23303875|MMI|7.02|Molecular|C1521991|[qlco]|["Molecular"-ab-1-"Molecular"-adj-0,"Molecular"-ab-1-"Molecular"-noun-0]|AB|194:9^350:9;194:9^350:9|
+23303875|MMI|6.66|Proteins|C0033684|[aapp,bacs]|["Proteins"-ab-1-"Proteins"-noun-0]|AB|394:8|D12.776
+23303875|MMI|6.66|Time|C0040223|[tmco]|["Time"-ab-1-"Time"-noun-0]|AB|479:4|G01.910
+23303875|MMI|6.65|Acids|C0001128|[chem]|["Acid"-ab-1-"Acid"-noun-0]|AB|155:4|D01.029
+23303875|MMI|3.50|Alignment|C1706765|[qnco]|["Alignment"-ab-1-"Alignment"-noun-0]|AB|445:9|
+23303875|MMI|3.50|Diagnostic Specificity|C1511884|[qnco]|["Specificity"-ab-1-"Specificity"-noun-0]|AB|465:11|
+23303875|MMI|3.50|Species|C1705920|[cnce]|["Species"-ab-1-"Species"-noun-0]|AB|457:7|
+23303875|MMI|3.50|Time (foundation metadata concept)|C3541383|[tmco]|["Time"-ab-1-"Time"-noun-0]|AB|479:4|
+23303875|MMI|3.50|Data|C1511726|[idcn]|["Data"-ab-1-"Data"-noun-0]|AB|369:4|
+23303875|MMI|3.50|Data call receiving device|C3245479|[medd]|["data"-ab-1-"Data"-noun-0]|AB|369:4|
+23303875|MMI|3.50|Lysergic acid diethylamide measurement|C0202406|[lbpr]|["Acid"-ab-1-"Acid"-noun-0]|AB|155:4|
+23303875|MMI|3.50|Regulation of biological process|C1327622|[biof]|["Regulation"-ab-1-"Regulation"-noun-0]|AB|253:10|
+23303875|MMI|3.48|Changing|C0392747|[ftcn]|["Modified"-ab-1-"Modified"-verb-0]|AB|425:8|
+23303875|MMI|3.48|Electron <bird>|C3463986|[bird]|["Electron"-ab-1-"Electron"-noun-0]|AB|329:8|
+23303875|MMI|3.48|Scanning|C0441633|[diap]|["Scanning"-ab-1-"Scanning"-verb-0]|AB|339:8|
+23303875|MMI|3.48|Factor|C1521761|[ftcn]|["Factor"-ab-1-"Factors"-noun-0]|AB|484:7|
+23303875|MMI|3.48|Mathematical Factor|C2827422|[cnce]|["Factor"-ab-1-"Factors"-noun-0]|AB|484:7|
+23303875|MMI|3.39|Hot sensation quality|C0444519|[qlco]|["Hot"-ab-1-"Hot"-adj-0]|AB|288:3|
+23303875|MMI|3.39|Expression procedure|C0185117|[topp]|["Expression"-ab-1-"Expression"-noun-0]|AB|242:10|
+23318143|MMI|838.17|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0,"Narcissus"-ti-1-"Narcissus"-noun-0]|TI;AB|271:9;95:9|B01.650.940.800.575.100.610.555
+23318143|MMI|216.88|Alkaloids|C0002062|[orch,phsu]|["Alkaloids"-ab-1-"Alkaloids"-noun-0,"Alkaloids"-ab-1-"Alkaloids"-noun-0,"Alkaloids"-ti-1-"alkaloids"-noun-0]|TI;AB|121:9;148:9;52:9|D03.132
+23318143|MMI|214.12|Avian crop|C0010352|[bpoc]|["Crop"-ti-1-"crop"-noun-0]|TI|90:4|A13.265
+23318143|MMI|214.12|Pharmacy (field)|C0031336|[bmod]|["Pharmaceutical"-ti-1-"pharmaceutical"-adj-0]|TI|75:14|H02.646
+23318143|MMI|113.63|Organ|C0178784|[bpoc]|["organs"-ti-1-"organs"-noun-0]|TI|65:6|
+23318143|MMI|110.56|Major|C0205164|[qlco]|["Major"-ti-1-"major"-adj-0]|TI|46:5|
+23318143|MMI|110.56|Seasonal course|C0439601|[tmco]|["Seasonal"-ti-1-"Seasonal"-adj-0]|TI|21:8|
+23318143|MMI|110.42|Present|C0150312|[qnco]|["In"-ti-1-"in"-prep-0]|TI|62:2|
+23318143|MMI|110.42|Procedures involving the use of pharmaceuticals|C1135440|[topp]|["pharmaceutical"-ti-1-"pharmaceutical"-adj-0]|TI|75:14|
+23318143|MMI|110.42|Within|C0332285|[spco]|["In"-ti-1-"in"-prep-0]|TI|62:2|
+23318143|MMI|22.32|Amaryllidaceae|C0446223|[plnt]|["Amaryllidaceae"-ab-1-"Amaryllidaceae"-noun-0]|AB|133:14|B01.650.940.800.575.100.610
+23318143|MMI|19.25|Seasons|C0036497|[tmco]|["Seasons"-ab-1-"Seasons"-noun-0]|AB|330:7|G01.910.645.661;G16.500.275.071.590;N06.230.300.100.250.525
+23318143|MMI|13.17|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0]|AB|301:5^316:5|B01.650
+23318143|MMI|12.96|analysis aspect|C1524024|[ftcn]|["analysis"-ab-1-"Analysis"-noun-0]|AB|260:8|x.x.x.x
+23318143|MMI|12.96|Vibration - physical agent|C0459800|[npop]|["resonance"-ab-1-"Resonance"-noun-0]|AB|200:9|G01.374.676.930;G01.595.540.930
+23318143|MMI|12.94|Galantamine|C0016967|[orch,phsu]|["Galantamine"-ab-1-"Galantamine"-noun-0]|AB|177:11|D03.132.052.500;D03.438.079.525
+23318143|MMI|9.81|Plant Leaves|C0242724|[plnt]|["Leaves"-ab-1-"Leaves"-noun-0]|AB|307:6|A18.024.812
+23318143|MMI|9.81|Spectrum Analysis|C0037812|[lbpr]|["spectroscopy"-ab-1-"Spectroscopy"-noun-0]|AB|210:12|E05.196.867
+23318143|MMI|9.81|Study of magnetics|C0024488|[ocdi]|["Magnetic"-ab-1-"Magnetic"-noun-0]|AB|191:8|H01.671.493
+23318143|MMI|9.79|Phenanthridines|C0031369|[orch]|["Phenanthridines"-ab-1-"Phenanthridines"-noun-0]|AB|283:15|D03.494.633
+23318143|MMI|6.66|Plant Roots|C0242726|[plnt]|["Roots"-ab-1-"Roots"-noun-0]|AB|322:5|A18.400
+23318143|MMI|6.66|Time|C0040223|[tmco]|["Time"-ab-1-"Time"-noun-0]|AB|340:4|G01.910
+23318143|MMI|3.50|Analysis|C0936012|[resa]|["Analysis"-ab-1-"Analysis"-noun-0]|AB|260:8|
+23318143|MMI|3.50|Analysis of substances|C0002778|[lbpr]|["Analysis"-ab-1-"Analysis"-noun-0]|AB|260:8|
+23318143|MMI|3.50|Discover|C1880355|[acty]|["Discovery"-ab-1-"Discovery"-noun-0]|AB|165:9|
+23318143|MMI|3.50|Molecular|C1521991|[qlco]|["Molecular"-ab-1-"Molecular"-noun-0]|AB|225:9|
+23318143|MMI|3.50|Structure|C0678594|[spco]|["Structure"-ab-1-"Structure"-noun-0]|AB|235:9|
+23318143|MMI|3.50|Time (foundation metadata concept)|C3541383|[tmco]|["Time"-ab-1-"Time"-noun-0]|AB|340:4|
+23318143|MMI|3.50|Device Spectroscopy Evaluation Method|C2984732|[ftcn]|["SPECTROSCOPY"-ab-1-"Spectroscopy"-noun-0]|AB|210:12|
+23318143|MMI|3.50|Magnetism|C0563532|[npop]|["magnetic"-ab-1-"Magnetic"-noun-0]|AB|191:8|
+23318143|MMI|3.50|Pulmonary resonance|C0231881|[fndg]|["Resonance"-ab-1-"Resonance"-noun-0]|AB|200:9|
+23318143|MMI|3.50|Resonance lesion attribute|C0684213|[qlco]|["Resonance"-ab-1-"Resonance"-noun-0]|AB|200:9|
+23318143|MMI|3.50|Spectroscopy (discipline)|C2713504|[ocdi]|["Spectroscopy"-ab-1-"Spectroscopy"-noun-0]|AB|210:12|
+23318143|MMI|3.48|Factor|C1521761|[ftcn]|["Factor"-ab-1-"Factors"-noun-0]|AB|345:7|
+23318143|MMI|3.48|Mathematical Factor|C2827422|[cnce]|["Factor"-ab-1-"Factors"-noun-0]|AB|345:7|
+23318143|MMI|3.39|Pharmaceutical Preparations|C0013227|[phsu]|["Drug"-ab-1-"Drug"-noun-0]|AB|160:4|D26
+23318143|MMI|3.39|Pharmacologic Substance|C1254351|[phsu]|["Drug"-ab-1-"Drug"-noun-0]|AB|160:4|
+24724353|MMI|840.34|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0,"Narcissus"-ti-1-"Narcissus"-noun-0]|TI;AB|139:9;22:9|B01.650.940.800.575.100.610.555
+24724353|MMI|28.71|Homo sapiens|C0086418|[humn]|["Humans"-ab-1-"Humans"-noun-0]|AB|130:6|B01.050.150.900.649.801.400.112.400.400
+24724353|MMI|22.32|Amaryllidaceae|C0446223|[plnt]|["Amaryllidaceae"-ab-1-"Amaryllidaceae"-noun-0]|AB|58:14|B01.650.940.800.575.100.610
+24724353|MMI|16.12|Pain|C0030193|[sosy]|["Pain"-ab-1-"Pain"-noun-0]|AB|51:4|C10.597.617;C23.888.592.612;C23.888.646;F02.830.816.444;G11.561.600.810.444
+24724353|MMI|12.94|Galantamine|C0016967|[orch,phsu]|["Galantamine"-ab-1-"Galantamine"-noun-0]|AB|116:11|D03.132.052.500;D03.438.079.525
+24724353|MMI|12.94|Nausea|C0027497|[sosy]|["Nausea"-ab-1-"Nausea"-noun-0]|AB|151:6|C23.888.821.712
+24724353|MMI|9.81|Abdomen|C0000726|[blor]|["Abdominal"-ab-1-"Abdominal"-noun-0]|AB|41:9|A01.923.047
+24724353|MMI|9.81|Disease|C0012634|[dsyn]|["Diseases"-ab-1-"Diseases"-noun-0]|AB|105:8|C23.550.288
+24724353|MMI|9.79|Phenanthridines|C0031369|[orch]|["Phenanthridines"-ab-1-"Phenanthridines"-noun-0]|AB|160:15|D03.494.633
+24724353|MMI|6.66|Alkaloids|C0002062|[orch,phsu]|["Alkaloids"-ab-1-"Alkaloids"-noun-0]|AB|73:9|D03.132
+24724353|MMI|6.63|Animals|C0003062|[anim]|["Animals"-ab-1-"Animals"-noun-0]|AB|85:7|B01.050
+24724353|MMI|3.50|Pain NOS Adverse Event|C1962977|[fndg]|["Pain NOS"-ab-1-"Pain"-noun-0]|AB|51:4|
+24724353|MMI|3.50|foodborne|C3242390|[inpr]|["foodborne"-ab-1-"Foodborne"-noun-0]|AB|95:9|
+24724353|MMI|3.48|Nausea Adverse Event|C1963179|[fndg]|["Nausea"-ab-1-"Nausea"-noun-0]|AB|151:6|
+26265570|MMI|839.21|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0,"Narcissus"-ab-1-"Narcissus"-noun-0,"Narcissus"-ti-1-"Narcissus"-noun-0]|TI;AB|116:9;139:9;78:9|B01.650.940.800.575.100.610.555
+26265570|MMI|732.56|Amaryllidaceae|C0446223|[plnt]|["Amaryllidaceae"-ti-1-"Amaryllidaceae"-noun-0]|TI|46:14|B01.650.940.800.575.100.610
+26265570|MMI|628.85|5-Methyltetrahydrofolate-Homocysteine S-Methyltransferase|C0039676|[aapp,enzy]|["MS"-ti-1-"MS"-noun-0]|TI|34:2|D08.811.913.555.500.645
+26265570|MMI|215.90|Alkaloids|C0002062|[orch,phsu]|["Alkaloids"-ab-1-"Alkaloids"-noun-0,"Alkaloids"-ti-1-"Alkaloids"-noun-0]|TI;AB|104:9;61:9|D03.132
+26265570|MMI|113.50|Room of building - Study|C0557651|[mnob]|["Study"-ti-1-"Study"-noun-0]|TI|37:5|
+26265570|MMI|113.50|Study|C2603343|[resa]|["Study"-ti-1-"Study"-noun-0]|TI|37:5|
+26265570|MMI|110.33|GBA wt Allele|C3537453|[gngm]|["GC"-ti-1-"GC"-noun-0]|TI|31:2|
+26265570|MMI|110.33|MTR wt Allele|C3539704|[gngm]|["MS"-ti-1-"MS"-noun-0]|TI|34:2|
+26265570|MMI|110.33|Ms. - Title|C2349943|[cnce]|["Ms."-ti-1-"MS"-noun-0]|TI|34:2|
+26265570|MMI|110.33|Species|C1705920|[cnce]|["Species"-ti-1-"Species"-noun-0]|TI|88:7|
+26265570|MMI|110.33|Two|C0205448|[qnco]|["Two"-ti-1-"Two"-noun-0]|TI|74:3|
+26265570|MMI|12.82|Growth|C0018270|[orgf]|["ontogeny"-ab-1-"Ontogenic"-adj-0]|AB|159:9|G07.700.320.249
+26265570|MMI|3.50|Variant|C0205419|[qlco]|["Variation"-ab-1-"variation"-noun-0]|AB|169:9|
+26265570|MMI|3.35|Ontogeny|C1621967|[orgf]|["Ontogeny"-ab-1-"Ontogenic"-adj-0]|AB|159:9|
+22622432|MMI|838.71|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0,"Narcissus"-ti-1-"narcissus"-noun-0]|TI;AB|199:9;49:9^103:9|B01.650.940.800.575.100.610.555
+22622432|MMI|628.94|Seasons|C0036497|[tmco]|["Season"-ti-1-"season"-noun-0]|TI|64:6|G01.910.645.661;G16.500.275.071.590;N06.230.300.100.250.525
+22622432|MMI|529.60|Base Sequence|C0004793|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ti-1-"sequence"-noun-0]|TI;AB|183:8;302:8^327:8;359:8;37:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+22622432|MMI|529.60|DNA Sequence|C0162326|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ti-1-"sequence"-noun-0]|TI;AB|183:8;302:8^327:8;359:8;37:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+22622432|MMI|529.60|RNA Sequence|C0162327|[nusq]|["Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ti-1-"sequence"-noun-0]|TI;AB|183:8;302:8^327:8;359:8;37:8|G02.111.570.080;G05.360.080;L01.453.245.667.080
+22622432|MMI|423.50|China|C0008115|[geoa]|["China"-ab-1-"China"-noun-0,"China"-ti-1-"China"-noun-0]|TI;AB|130:5;116:5|Z01.252.474.164
+22622432|MMI|321.42|Genome|C0017428|[gngm]|["Genome"-ab-1-"Genome"-noun-0,"Genome"-ti-1-"genome"-noun-0]|TI;AB|157:6;30:6|G05.360.340
+22622432|MMI|114.78|Sequence|C1519249|[ftcn]|["Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ab-1-"Sequence"-noun-0,"Sequence"-ti-1-"sequence"-noun-0]|TI;AB|183:8;302:8^327:8;359:8;37:8|
+22622432|MMI|114.42|AS virus|C0319157|[virs]|["virus"-ti-1-"virus"-noun-0]|TI|79:5|
+22622432|MMI|114.42|Infected|C0439663|[ftcn]|["infecting"-ti-1-"infecting"-verb-0]|TI|85:9|
+22622432|MMI|114.42|Virus|C0042776|[virs]|["Virus"-ti-1-"virus"-noun-0]|TI|79:5|B04
+22622432|MMI|114.42|Yellow color|C0221205|[qlco]|["Yellow"-ti-1-"yellows"-verb-0]|TI|71:7|
+22622432|MMI|114.02|Genome - anatomical entity|C2338314|[cnce]|["Genome"-ab-1-"Genome"-noun-0,"Genome"-ti-1-"genome"-noun-0]|TI;AB|157:6;30:6|
+22622432|MMI|110.66|Chinese Language|C0008120|[lang]|["chinese"-ti-1-"Chinese"-adj-0]|TI|95:7|
+22622432|MMI|110.66|Chinese People|C0152035|[popg]|["Chinese"-ti-1-"Chinese"-adj-0]|TI|95:7|
+22622432|MMI|110.42|Compleat Liquid Nutrition|C0725685|[food]|["COMPLEAT"-ti-1-"Complete"-adj-0]|TI|21:8|
+22622432|MMI|110.42|Complete|C0205197|[qlco]|["Complete"-ti-1-"Complete"-adj-0]|TI|21:8|
+22622432|MMI|110.42|Late|C0205087|[tmco]|["Late"-ti-1-"late"-adj-0]|TI|59:4|
+22622432|MMI|26.08|analysis aspect|C1524024|[ftcn]|["analysis"-ab-1-"Analysis"-noun-0]|AB|146:8^311:8|x.x.x.x
+22622432|MMI|22.43|Cell Nucleus|C0007610|[celc]|["Nucleic"-ab-1-"Nucleic"-noun-0]|AB|378:7|A11.284.430.106;A11.284.430.214.190.875.117
+22622432|MMI|16.12|Reading (activity)|C0034754|[dora]|["Reading"-ab-1-"Reading"-noun-0]|AB|216:7|L01.143.506.423.557
+22622432|MMI|13.39|Acids|C0001128|[chem]|["Acid"-ab-1-"Acid"-noun-0]|AB|352:4^386:4|D01.029
+22622432|MMI|12.94|Phylogeny|C0031797|[idcn]|["Phylogeny"-ab-1-"Phylogeny"-noun-0]|AB|233:9|G05.697;G16.100.178.605;L01.100.697
+22622432|MMI|12.94|Potyvirus|C0206273|[virs]|["Potyvirus"-ab-1-"Potyvirus"-noun-0]|AB|277:9|B04.715.464.600;B04.715.635.600;B04.820.464.600;B04.820.590.600
+22622432|MMI|10.63|Viral|C0521026|[ftcn]|["Viral"-ab-1-"Viral"-adj-0,"Viral"-ab-1-"Viral"-noun-0]|AB|165:5^294:5;393:5|
+22622432|MMI|9.81|Disease|C0012634|[dsyn]|["Diseases"-ab-1-"Diseases"-noun-0]|AB|251:8|C23.550.288
+22622432|MMI|9.79|DNA|C0012854|[bacs,nnon]|["DNA"-ab-1-"DNA"-noun-0]|AB|321:3|D13.444.308
+22622432|MMI|9.79|Polyproteins|C0032583|[aapp,bacs]|["Polyproteins"-ab-1-"Polyproteins"-noun-0]|AB|262:12|D12.776.775
+22622432|MMI|9.79|RNA|C0035668|[nnon]|["RNA"-ab-1-"RNA"-noun-0]|AB|289:3|D13.444.735
+22622432|MMI|7.04|Analysis|C0936012|[resa]|["Analysis"-ab-1-"Analysis"-noun-0]|AB|146:8^311:8|
+22622432|MMI|7.04|Analysis of substances|C0002778|[lbpr]|["Analysis"-ab-1-"Analysis"-noun-0]|AB|146:8^311:8|
+22622432|MMI|7.04|Homologous Gene|C1334043|[gngm]|["Homology"-ab-1-"Homology"-noun-0]|AB|336:8^368:8|
+22622432|MMI|7.04|Homology (attribute)|C2697616|[qlco]|["Homology"-ab-1-"Homology"-noun-0]|AB|336:8^368:8|
+22622432|MMI|7.04|Lysergic acid diethylamide measurement|C0202406|[lbpr]|["Acid"-ab-1-"Acid"-noun-0]|AB|352:4^386:4|
+22622432|MMI|6.66|Proteins|C0033684|[aapp,bacs]|["Proteins"-ab-1-"Proteins"-noun-0]|AB|399:8|D12.776
+22622432|MMI|6.55|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0]|AB|245:5|B01.650
+22622432|MMI|3.50|Cluster|C1704332|[qnco]|["Cluster"-ab-1-"Cluster"-noun-0]|AB|138:7|
+22622432|MMI|3.50|entry - cluster|C1555715|[idcn]|["Cluster"-ab-1-"Cluster"-noun-0]|AB|138:7|
+22622432|MMI|3.50|Data|C1511726|[idcn]|["Data"-ab-1-"Data"-noun-0]|AB|192:4|
+22622432|MMI|3.50|Data call receiving device|C3245479|[medd]|["data"-ab-1-"Data"-noun-0]|AB|192:4|
+22622432|MMI|3.50|Frame (physical object)|C0180979|[medd]|["frames"-ab-1-"Frames"-noun-0]|AB|224:6|
+22622432|MMI|3.50|Molecular|C1521991|[qlco]|["Molecular"-ab-1-"Molecular"-noun-0]|AB|173:9|
+22622432|MMI|3.50|Open|C0175566|[spco]|["Open"-ab-1-"Open"-noun-0]|AB|211:4|
+22622432|MMI|3.50|Reading (datum presentation)|C1705179|[fndg]|["Reading"-ab-1-"Reading"-noun-0]|AB|216:7|
+24645236|MMI|838.25|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0,"Narcissus"-ti-1-"Narcissus"-noun-0]|TI;AB|154:9;54:9|B01.650.940.800.575.100.610.555
+24645236|MMI|424.92|Ingestion|C0232478|[biof]|["Ingestion"-ti-1-"ingestion"-noun-0]|TI|41:9|G07.610.593.260;G07.700.620.260;G10.261.326.240
+24645236|MMI|322.16|Poisoning aspects|C0032344|[ftcn]|["poisoning"-ab-1-"Poisoning"-noun-0,"poisoning"-ti-1-"Poisoning"-noun-0]|TI;AB|172:9;21:9|x.x.x
+24645236|MMI|218.46|Poisoning|C0032343|[inpo]|["Poisoning"-ab-1-"Poisoning"-noun-0,"Poisoning"-ti-1-"Poisoning"-noun-0]|TI;AB|172:9;21:9|C25.723
+24645236|MMI|114.42|Following|C0332282|[tmco]|["Following"-ti-1-"following"-verb-0]|TI|31:9|
+24645236|MMI|110.56|plant bulb|C1449865|[plnt]|["Bulbs"-ti-1-"bulbs"-noun-0]|TI|72:5|
+24645236|MMI|45.00|therapeutic aspects|C0039798|[ftcn]|["therapy"-ab-1-"Therapy"-noun-0,"treatment"-ab-1-"Treatment"-noun-0]|AB|135:7;221:9|x.x.x.x.x.x.x
+24645236|MMI|28.71|Homo sapiens|C0086418|[humn]|["Humans"-ab-1-"Humans"-noun-0]|AB|145:6|B01.050.150.900.649.801.400.112.400.400
+24645236|MMI|16.12|Pain|C0030193|[sosy]|["Pain"-ab-1-"Pain"-noun-0]|AB|114:4|C10.597.617;C23.888.592.612;C23.888.646;F02.830.816.444;G11.561.600.810.444
+24645236|MMI|13.25|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0,"Plants"-ab-1-"Plants"-noun-0]|AB|166:5;184:6|B01.650
+24645236|MMI|12.94|Vomiting|C0042963|[sosy]|["Vomiting"-ab-1-"Vomiting"-verb-0]|AB|241:8|C23.888.821.937
+24645236|MMI|9.81|Abdomen|C0000726|[blor]|["Abdominal"-ab-1-"Abdominal"-noun-0]|AB|104:9|A01.923.047
+24645236|MMI|9.81|Adult|C0001675|[aggp]|["Adult"-ab-1-"Adult"-noun-0]|AB|258:5|M01.060.116
+24645236|MMI|9.79|Child|C0008059|[aggp]|["Child"-ab-1-"Child"-noun-0]|AB|121:5|M01.060.406
+24645236|MMI|6.92|Therapeutic procedure|C0087111|[topp]|["Therapy"-ab-1-"Therapy"-noun-0,"Treatment"-ab-1-"Treatment"-noun-0]|AB|135:7;221:9|
+24645236|MMI|6.55|Body Fluids|C0005889|[bdsu]|["FLUID"-ab-1-"Fluid"-noun-0]|AB|129:5|A12.207
+24645236|MMI|3.50|Assessed|C1516048|[acty]|["Assessment"-ab-1-"Assessment"-noun-0]|AB|208:10|
+24645236|MMI|3.50|Evaluation procedure|C1261322|[hlca]|["Assessment"-ab-1-"Assessment"-noun-0]|AB|208:10|
+24645236|MMI|3.50|Legal Adult|C1706450|[humn]|["Adult"-ab-1-"Adult"-noun-0]|AB|258:5|
+24645236|MMI|3.50|Pain NOS Adverse Event|C1962977|[fndg]|["Pain NOS"-ab-1-"Pain"-noun-0]|AB|114:4|
+24645236|MMI|3.50|Result|C1274040|[ftcn]|["Outcome"-ab-1-"Outcome"-noun-0]|AB|231:7|
+24645236|MMI|3.50|Therapy Object (animal model)|C1363945|[fndg]|["Therapy"-ab-1-"Therapy"-noun-0]|AB|135:7|
+24645236|MMI|3.50|Young|C0332239|[tmco]|["Young"-ab-1-"Young"-noun-0]|AB|252:5|
+24645236|MMI|3.48|Offspring|C0680063|[famg]|["CHILD"-ab-1-"Child"-noun-0]|AB|121:5|
+24645236|MMI|3.48|Toxic|C1407029|[qlco]|["Toxic"-ab-1-"Toxic"-adj-0]|AB|192:5|
+24645236|MMI|3.48|Toxic effect|C0600688|[inpo]|["toxic"-ab-1-"Toxic"-adj-0]|AB|192:5|
+24645236|MMI|3.48|Vomiting Adverse Event|C1963281|[fndg]|["Vomiting"-ab-1-"Vomiting"-verb-0]|AB|241:8|
+24645236|MMI|3.39|Administration procedure|C1533734|[topp]|["Treatment"-ab-1-"Treatment"-noun-0]|AB|221:9|
+24645236|MMI|3.39|Biomaterial Treatment|C1705169|[cnce]|["Treatment"-ab-1-"Treatment"-noun-0]|AB|221:9|
+24645236|MMI|3.39|Fluid behavior|C0444611|[qlco]|["Fluid"-ab-1-"Fluid"-noun-0]|AB|129:5|
+24645236|MMI|3.39|Liquid substance|C0302908|[sbst]|["fluid"-ab-1-"Fluid"-noun-0]|AB|129:5|
+24645236|MMI|3.39|Symptoms|C1457887|[sosy]|["Symptom, NOS"-ab-1-"Symptom"-noun-0]|AB|200:7|
+24645236|MMI|3.39|Treating|C1522326|[ftcn]|["Treatment"-ab-1-"Treatment"-noun-0]|AB|221:9|
+24645236|MMI|3.39|Treatment Epoch|C3538994|[resa]|["TREATMENT"-ab-1-"Treatment"-noun-0]|AB|221:9|
+24645236|MMI|3.39|fluid - substance|C1704353|[sbst]|["Fluid"-ab-1-"Fluid"-noun-0]|AB|129:5|
+22804878|MMI|838.25|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0,"Narcissus"-ti-1-"Narcissus"-noun-0]|TI;AB|231:9;86:9|B01.650.940.800.575.100.610.555
+22804878|MMI|527.28|Industrial fungicide|C0392419|[hops]|["FUNGICIDES"-ab-1-"Fungicides"-noun-0,"FUNGICIDES"-ti-1-"fungicides"-noun-0]|TI;AB|168:10;32:10|D27.720.031.700.288;D27.720.723.288;D27.888.723.288
+22804878|MMI|425.53|Galantamine|C0016967|[orch,phsu]|["Galantamine"-ab-1-"Galantamine"-noun-0,"Galanthamine"-ti-1-"galanthamine"-noun-0]|TI;AB|193:11;46:12|D03.132.052.500;D03.438.079.525
+22804878|MMI|114.13|Effect|C1280500|[qlco]|["effects"-ti-1-"Effects"-noun-0]|TI|21:7|
+22804878|MMI|113.07|Profile (lab procedure)|C1979963|[lbpr]|["Profile"-ti-1-"profiles"-noun-0]|TI|74:8|
+22804878|MMI|113.07|Profiling (action)|C2003903|[ftcn]|["Profile"-ti-1-"profiles"-noun-0]|TI|74:8|
+22804878|MMI|110.56|Metabolite|C0870883|[bacs]|["Metabolite"-ti-1-"metabolite"-noun-0]|TI|63:10|
+22804878|MMI|110.56|plant bulb|C1449865|[plnt]|["Bulbs"-ti-1-"bulbs"-noun-0]|TI|96:5|
+22804878|MMI|16.01|Antifungal Agents|C0003308|[phsu]|["Antifungal"-ab-1-"Antifungal"-adj-0]|AB|122:10|D27.505.954.122.136
+22804878|MMI|13.17|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0]|AB|243:5^258:5|B01.650
+22804878|MMI|12.96|analysis aspect|C1524024|[ftcn]|["analysis"-ab-1-"Analysis"-noun-0]|AB|220:8|x.x.x.x
+22804878|MMI|12.96|metabolic aspects|C0025520|[ftcn]|["metabolism"-ab-1-"Metabolism"-noun-0]|AB|155:10|x.x.x.x
+22804878|MMI|9.81|Plant Leaves|C0242724|[plnt]|["Leaves"-ab-1-"Leaves"-noun-0]|AB|249:6|A18.024.812
+22804878|MMI|6.66|Metabolism|C0025519|[orgf]|["Metabolism"-ab-1-"Metabolism"-noun-0]|AB|155:10|G03.495
+22804878|MMI|6.66|Plant Roots|C0242726|[plnt]|["Roots"-ab-1-"Roots"-noun-0]|AB|264:5|A18.400
+22804878|MMI|6.63|Alkaloids|C0002062|[orch,phsu]|["Alkaloids"-ab-1-"Alkaloids"-noun-0]|AB|110:9|D03.132
+22804878|MMI|6.63|Industry|C0021267|[ocac]|["Industrial"-ab-1-"Industrial"-adj-0]|AB|180:10|J01.576
+22804878|MMI|3.50|Analysis|C0936012|[resa]|["Analysis"-ab-1-"Analysis"-noun-0]|AB|220:8|
+22804878|MMI|3.50|Analysis of substances|C0002778|[lbpr]|["Analysis"-ab-1-"Analysis"-noun-0]|AB|220:8|
+22804878|MMI|3.48|Agent|C0450442|[chvf]|["Agent"-ab-1-"Agents"-noun-0]|AB|133:6|
+22804878|MMI|3.48|Pharmacologic Substance|C1254351|[phsu]|["Agent"-ab-1-"Agents"-noun-0]|AB|133:6|
+22804878|MMI|3.48|Protocol Agent|C1521826|[inpr]|["Agent"-ab-1-"Agents"-noun-0]|AB|133:6|
+22804878|MMI|3.39|Anti-Fungal|C0718566|[orch,phsu]|["Anti-Fungal"-ab-1-"Antifungal"-adj-0]|AB|122:10|
+22804878|MMI|3.39|Carbohydrates|C0007004|[carb]|["Carbohydrate"-ab-1-"Carbohydrate"-noun-0]|AB|142:12|D09
+22795676|MMI|630.90|Temperature|C0039476|[qnco]|["*Temperature"-ab-1-"Temperature"-noun-0,"*Temperature"-ti-1-"temperature"-adj-0]|TI;AB|208:11;39:11|G01.906.595;G16.500.275.063.725.710;G16.500.750.775.710;N06.230.150.450;N06.230.300.100.725.710
+22795676|MMI|528.36|Patient Discharge|C0030685|[hlca]|["Release"-ti-1-"release"-noun-0]|TI|68:7|E02.760.400.610;N02.421.585.400.610
+22795676|MMI|527.20|Body Temperature|C0005903|[orga]|["temperature"-ab-1-"Temperature"-noun-0,"temperature"-ti-1-"temperature"-adj-0]|TI;AB|208:11;39:11|E01.370.600.875.374;G07.110
+22795676|MMI|113.54|% release (qualifier value)|C0439180|[qnco]|["% release"-ti-1-"release"-noun-0]|TI|68:7|
+22795676|MMI|113.54|Discharge (release)|C0680255|[hlca]|["release"-ti-1-"release"-noun-0]|TI|68:7|
+22795676|MMI|113.54|Release (procedure)|C1963578|[topp]|["Release"-ti-1-"release"-noun-0]|TI|68:7|
+22795676|MMI|113.54|Release - action (qualifier value)|C1283071|[ftcn]|["Release"-ti-1-"release"-noun-0]|TI|68:7|
+22795676|MMI|113.54|Released (action)|C0391871|[ftcn]|["Release"-ti-1-"release"-noun-0]|TI|68:7|
+22795676|MMI|112.49|Dormancy|C0678686|[phsf]|["Dormancy"-ab-1-"Dormancy"-noun-0,"Dormancy"-ti-1-"dormancy"-noun-0]|TI;AB|197:8;59:8|
+22795676|MMI|110.66|Abnormally high|C1299351|[qlco]|["High"-ti-1-"high"-adj-0]|TI|34:4|
+22795676|MMI|110.66|High|C0205250|[qlco]|["High"-ti-1-"high"-adj-0]|TI|34:4|
+22795676|MMI|110.66|Value Above Reference Range|C2700149|[inpr]|["HIGH"-ti-1-"high"-adj-0]|TI|34:4|
+22795676|MMI|110.59|Narcissus tazetta|C0331674|[plnt]|["Narcissus tazetta"-ti-1-"Narcissus tazetta"-noun-0]|TI|79:17|
+22795676|MMI|110.35|Preposition For|C0521125|[qlco]|["For"-ti-1-"for"-prep-0]|TI|51:3|
+22795676|MMI|25.56|Narcissus|C0331672|[plnt]|["Narcissus"-ab-1-"Narcissus"-noun-0]|AB|179:9|B01.650.940.800.575.100.610.555
+22795676|MMI|16.10|Ethylenes|C0015096|[orch]|["Ethylenes"-ab-1-"Ethylenes"-noun-0]|AB|146:9|D02.455.326.271.367
+22795676|MMI|12.96|metabolic aspects|C0025520|[ftcn]|["metabolism"-ab-1-"Metabolism"-noun-0]|AB|133:10|x.x.x.x
+22795676|MMI|12.94|Flowers|C0330090|[plnt]|["Flowers"-ab-1-"Flowers"-noun-0]|AB|158:7|A18.024.249.500
+22795676|MMI|12.94|Meristem|C0242728|[plnt]|["Meristem"-ab-1-"Meristem"-noun-0]|AB|168:8|A18.024.875.875;A18.024.937.500;A18.400.500
+22795676|MMI|6.66|Metabolism|C0025519|[orgf]|["Metabolism"-ab-1-"Metabolism"-noun-0]|AB|133:10|G03.495
+22795676|MMI|6.55|Plants|C0032098|[plnt]|["Plant"-ab-1-"Plant"-noun-0]|AB|191:5|B01.650
+22795676|MMI|3.39|Carbohydrates|C0007004|[carb]|["Carbohydrate"-ab-1-"Carbohydrate"-noun-0]|AB|120:12|D09
 'EOT'.
