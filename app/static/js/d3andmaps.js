@@ -91,11 +91,11 @@ function placeMarkers(data) {
 
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
       return function() {
-        infowindow.setContent(marker.address + "<br><div id=\"divlink\"><button id=\"paperlink\">" + 
-          marker.pmid + "</button></div>");
+        infowindow.setContent(marker.address + "<br><button id=\"paperlink\">" + 
+          marker.pmid + "</button>");
         infowindow.open(map, marker);
         thispaper = getPaperbyPMID(marker.pmid)
-        document.getElementById("divlink").addEventListener("click", sendPaper(thispaper));
+        document.getElementById("paperlink").addEventListener("click", function (e) { sendPaper(thispaper); });
       }
     })(marker, i));
   }
@@ -148,9 +148,10 @@ function sendPaper(paper) {
   });
   map.initialZoom = true;
 
-  if (!(markerBounds.isEmpty())) {
+  if (!(markerBounds.isEmpty()) && (!initial)) {
     map.fitBounds(markerBounds);
   } else {
+    initial = false;
     map.setCenter(new google.maps.LatLng(0, 0))
     map.setZoom(1)
   }
@@ -162,13 +163,14 @@ var markers = [];
 var map;
 var papers = [];
 var paper_position = 0; 
+var initial = true;
 var text_field = document.getElementById('text_field');
 var btn_search = document.getElementById('btn_search');
 var previous_btn = document.getElementById('previous_btn');
 var next_btn = document.getElementById('next_btn');
 
 function next() {
-  if (paper_position > -1 && paper_position < 20) {
+  if (paper_position > -1 && paper_position < 19) {
     sendPaper(papers[paper_position + 1]);
     paper_position += 1;
   };

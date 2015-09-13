@@ -1,3 +1,5 @@
+import concurrent.futures
+
 import os
 import datetime
 import json
@@ -20,13 +22,19 @@ def search_for(query):
             datafile.write(str(len(citations_results['results'])) + ' documents fetched from PubMed.\n')
             datafile.close()
 
-        metamap_results = metamap.run_local(citations_results['results'])
-        combined = citations_results['docs'] + metamap_results
-        concepts = umls.run(combined)
+        executor = concurrent.futures.ThreadPoolExecutor(max_workers=3)
+        m = executor.submit(metamap.run, citations_results['results'])
+        g = executor.submit(geocode.run, citations_results['results'])
+        r = executor.submit(geocode.retrieve, citations_results['docs'])
 
-        geocode_run_results = geocode.run(citations_results['results'])
-        geocode_retrieve_results = geocode.retrieve(citations_results['docs'])
-        places = geocode_run_results['results'] + geocode_retrieve_results
+        metamap_results = m.result()
+        combined = citations_results['docs'] + metamap_results
+
+        u = executor.submit(umls.run, combined)
+
+        geocode_run_results = g.result() 
+        places = geocode_run_results['results'] + r.result()
+        concepts = u.result()
 
         if len(metamap_results) > 0 or len(geocode_run_results['for_cache']) > 0:
             cache.insert_into_db(citations_results['results'], metamap_results, geocode_run_results['for_cache'])

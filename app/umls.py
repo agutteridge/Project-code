@@ -143,3 +143,4 @@ def run(input_data):
     results = format_json(organised['PMIDs'], group_other(output))
     print('returning from umls.run')
     return results
+    

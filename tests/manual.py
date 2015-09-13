@@ -327,7 +327,22 @@ def acc_tiered():
     print(str(distance_list))
 
 if __name__ == "__main__":
-    geocode.run(fake_json('eFetch_hit.json'))
+    hitlist = fake_json('eFetch_hit.json')
+    acclist = fake_json('eFetch_acc.json')
+
+    accids = []
+
+    sortedhits = sorted(hitlist, key=lambda k: k['MedlineCitation']['PMID'])
+
+    for a in acclist:
+        accids.append(a['MedlineCitation']['PMID'])
+
+    for d in sortedhits:
+        if d['MedlineCitation']['PMID'] in accids:
+            print('\\textbf{' + d['MedlineCitation']['PMID'] + '}')
+        else:
+            print(d['MedlineCitation']['PMID'])
+    # geocode.run(fake_json('eFetch_hit.json'))
     # doublecheck()
     # geocode_hit(fake_json('eFetch_hit.json'))
     # geocode_acc(fake_json('eFetch_acc.json'))
