@@ -1,6 +1,5 @@
-# Computer Science MSc Project: Birkbeck, University of London, 2015
-## Description
-A webapp that represents biomedical literature search results in graphical and geographical formats using D3.JS and Google Maps, respectively. Here's a screenshots:
+## Computer Science MSc Project: Birkbeck, University of London, 2015
+A webapp that represents biomedical literature search results in graphical and geographical formats using D3.JS and Google Maps, respectively. Here's a screenshot:
 
 ![Browser screenshot](https://github.com/agutteridge/Project/blob/master/Project%20Report/lib/images/screen1.png)
 
